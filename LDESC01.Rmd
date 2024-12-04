@@ -1,20 +1,12 @@
 ---
-title: "LDESC01"
 author: "Jose Parra"
 date: "11NOV2024"
-
 output:
+  pdf_document: default
   word_document:
     reference_docx: doc_styles_vert.docx
-
 ---
 
----
-title: ""
-author: ""
-date: ""
-output: word_document
----
 ```{r, message=FALSE, warning=FALSE, echo=FALSE}
 library(officer)
 #library(ggplot2)

@@ -1,11 +1,8 @@
 ---
 author: "Jose Parra"
 date: "07NOV2024"
-output:
-  word_document:
-    reference_docx: doc_styles.docx
-editor_options:
-  chunk_output_type: console
+output: pdf_document
+classoption: landscape
 ---
 
 

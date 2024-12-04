@@ -1,21 +1,12 @@
 ---
-title: "TDESC04"
 author: "Jose Parra"
 date: "07NOV2024"
-
 output:
+  pdf_document: default
   word_document:
     reference_docx: doc_styles.docx
-
-
 ---
 
----
-title: ""
-author: ""
-date: ""
-output: word_document
----
 ```{r, message=FALSE, warning=FALSE, echo=FALSE}
 library(officer)
 library(readxl)
@@ -79,13 +70,4 @@ c = dcast( b , Country+Parameter~Job )
  
   
 ```
-
-____________________________________________________________
-
-```{r, echo=FALSE}
-
-
-```
-
-____________________________________________________________
 

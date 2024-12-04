@@ -1,25 +1,22 @@
 ---
 author: "Jose Parra"
-date: "11NOV2024"
-output:
-  pdf_document: default
-  word_document:
-    reference_docx: doc_styles_vert.docx
+date: "07NOV2024"
+output: pdf_document
+classoption: landscape
 ---
-
 
 ```{r, message=FALSE, warning=FALSE, echo=FALSE}
 library(officer)
-#library(ggplot2)
-library(crosstable)
 library(readxl)
 library(flextable)
 library(officer)
-library(dplyr)
 library(knitr)
-
+library(sqldf)
+library(reshape2)
+library(dplyr)
 
 use_df_printer()
+
 
 set_flextable_defaults(
   border.color = "#AAAAAA", font.family = "Arial",
@@ -35,24 +32,40 @@ set_flextable_defaults(
 ```
 
 ```{r, echo=FALSE, verbose =FALSE, warning=FALSE, message=FALSE}
-i = 11
+i = 6
 z <- read_excel("data/titles.xls")
 titlecd = toString(z[i,1])
 title = toString(z[i,2])
 docname = paste0(titlecd,'.docx')
 footnote_jose= toString(z[i,3])
 use_df_printer()
-a = read.csv("data/LDESC08.csv")
+a = read.csv('data/TDESC04.csv')
+
+# there are many reps in this dataset caused by reps in the original data i
 
 
- flextable(a)%>% 
+b=a[a$Parameter %in% c('COL1','COL2','N'),c('Country','Job', 'Parameter','aval') ]
+
+#labels
+b[b$Parameter %in% c('COL1'),c('Parameter') ] <- 'Median (IQR)'
+b[b$Parameter %in% c('COL2'),c('Parameter') ] <- 'Mean (SD)'
+
+
+c = dcast( b , Country+Parameter~Job )
+
+
+
+
+
+ flextable(c)%>% 
   add_footer_lines( paste('Note:',footnote_jose) )%>% 
      add_header_lines(paste('Complete Cases Set') )%>% 
-  add_header_lines(paste(titlecd, title) )%>% 
-   line_spacing( space = 0.7, part = "all")
+  add_header_lines(paste(titlecd, title) )
+
 
 
  
  
   
 ```
+

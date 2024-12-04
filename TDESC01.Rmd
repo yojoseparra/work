@@ -1,5 +1,4 @@
 ---
-title: "TSIDEM01"
 author: "Jose Parra"
 date: "07NOV2024"
 output: 
@@ -8,13 +7,8 @@ output:
 
 ---
 
----
-title: "Demographic Data: Number and percentage of subjects with mieloma multiple; Total analysis Set"
-author: "Jose Parra"
-date: ""
-output: word_document
----
 ```{r, message=FALSE, warning=FALSE, echo=FALSE}
+# this is a code to work with python and r toguether
 library(officer)
 #library(ggplot2)
 library(crosstable)
@@ -35,11 +29,6 @@ a = read.csv('data/Data_Jobs.csv')
 
 ```
 
-____________________________________________________________
-
-TSIDEM01:Demographic Data: Number and percentage of subjects with mieloma multiple; Total analysis Set
-
-____________________________________________________________
 
 ```{python, echo=FALSE}
 

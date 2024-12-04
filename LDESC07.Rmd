@@ -1,9 +1,8 @@
 ---
-title: "LDESC07"
 author: "Jose Parra"
 date: "11NOV2024"
-
 output:
+  pdf_document: default
   word_document:
     reference_docx: doc_styles_vert.docx
 ---
@@ -58,12 +57,5 @@ a = read.csv("data/LDESC07.csv")
   
 ```
 
-____________________________________________________________
 
-```{r, echo=FALSE}
-
-
-```
-
-____________________________________________________________
 
