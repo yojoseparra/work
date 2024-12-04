@@ -1,0 +1,78 @@
+---
+title: "LDESC03"
+author: "Jose Parra"
+date: "11NOV2024"
+
+output:
+  word_document:
+    reference_docx: doc_styles_vert.docx
+
+
+---
+
+---
+title: ""
+author: ""
+date: ""
+output: word_document
+---
+```{r, message=FALSE, warning=FALSE, echo=FALSE}
+library(officer)
+#library(ggplot2)
+library(crosstable)
+library(readxl)
+library(flextable)
+library(officer)
+library(dplyr)
+library(knitr)
+
+
+use_df_printer()
+
+set_flextable_defaults(
+  border.color = "#AAAAAA", font.family = "Arial",
+  font.size = 6, padding = 2,
+  line_spacing=0.7,
+  text.align='center',
+  table.layout = 'autofit'
+
+  
+  
+)
+
+```
+
+```{r, echo=FALSE, verbose =FALSE, warning=FALSE, message=FALSE}
+i = 4
+z <- read_excel("data/titles.xls")
+titlecd = toString(z[i,1])
+title = toString(z[i,2])
+docname = paste0(titlecd,'.docx')
+footnote_jose= toString(z[i,3])
+use_df_printer()
+a = read.csv("data/EDA1_Bargraphs_3.2.csv")
+
+b=a[a$paramtyp !='',c('param', 'job','paramcd', 'aval')]
+names(b) = c('Country', 'IT Job','Statistic', 'Value' )
+
+ flextable(b)%>% 
+  add_footer_lines( paste('Note:',footnote_jose) )%>% 
+     add_header_lines(paste('Complete Cases Set') )%>% 
+  add_header_lines(paste(titlecd, title) )%>% 
+   line_spacing( space = 0.7, part = "all")
+
+
+ 
+ 
+  
+```
+
+____________________________________________________________
+
+```{r, echo=FALSE}
+
+
+```
+
+____________________________________________________________
+

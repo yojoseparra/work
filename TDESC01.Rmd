@@ -1,0 +1,70 @@
+---
+title: "TSIDEM01"
+author: "Jose Parra"
+date: "07NOV2024"
+output: 
+  word_document:
+    reference_docx: doc_styles.docx
+
+---
+
+---
+title: "Demographic Data: Number and percentage of subjects with mieloma multiple; Total analysis Set"
+author: "Jose Parra"
+date: ""
+output: word_document
+---
+```{r, message=FALSE, warning=FALSE, echo=FALSE}
+library(officer)
+#library(ggplot2)
+library(crosstable)
+library(readxl)
+library(reticulate)
+library(knitr)
+use_python("C:/Users/USUARIO/joseconda/envs/portfolio/python.exe")
+
+z <- read_excel("data/titles.xls")
+titlecd = toString(z[1,1])
+title = toString(z[1,2])
+docname = paste0(titlecd,'.docx')
+footnote_jose= toString(z[1,3])
+
+a = read.csv('data/Data_Jobs.csv')
+
+
+
+```
+
+____________________________________________________________
+
+TSIDEM01:Demographic Data: Number and percentage of subjects with mieloma multiple; Total analysis Set
+
+____________________________________________________________
+
+```{python, echo=FALSE}
+
+a = r.a
+import pandas as pd
+import datetime
+import plotnine
+import numpy as np
+import matplotlib.pyplot as plt
+#a = pd.read_csv('data/Data_jobs.csv')
+# Bargraphs .3.1 MIN
+c=a.pivot_table(values='Salary', columns='Job', index='Country', aggfunc='min')
+
+
+
+```
+
+____________________________________________________________
+
+```{r, echo=FALSE}
+c = py$c
+kable(c)
+
+path = "C:\\Users\\USUARIO\\Documents\\project\\Mieloma\\out\\metadata.txt"
+```
+
+____________________________________________________________
+

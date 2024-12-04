@@ -1,0 +1,1451 @@
+Country,Job,param,aval,Parameter
+Belgium,Business Analyst,min,75.1,MIN
+Belgium,Data Analyst,min,56.6,MIN
+Belgium,Data Engineer,min,58.4,MIN
+Belgium,Data Scientist,min,58.4,MIN
+Belgium,Machine Learning Engineer,min,75.1,MIN
+Belgium,Senior Data Engineer,min,91.8,MIN
+Belgium,Senior Data Scientist,min,58.4,MIN
+Belgium,Software Engineer,min,45.8,MIN
+Denmark,Data Analyst,min,58.4,MIN
+Denmark,Data Engineer,min,99.7,MIN
+Denmark,Data Scientist,min,58.4,MIN
+Denmark,Machine Learning Engineer,min,108.5,MIN
+Denmark,Senior Data Engineer,min,151.9,MIN
+Finland,Data Analyst,min,74.2,MIN
+Finland,Data Engineer,min,91.8,MIN
+Finland,Data Scientist,min,83.3,MIN
+Finland,Machine Learning Engineer,min,91.8,MIN
+Finland,Senior Data Analyst,min,103.5,MIN
+Finland,Senior Data Engineer,min,99.7,MIN
+Finland,Senior Data Scientist,min,90.8,MIN
+Finland,Software Engineer,min,77.2,MIN
+France,Business Analyst,min,44.5,MIN
+France,Cloud Engineer,min,109.1,MIN
+France,Data Analyst,min,46.4,MIN
+France,Data Engineer,min,46.4,MIN
+France,Data Scientist,min,51.9,MIN
+France,Machine Learning Engineer,min,58.4,MIN
+France,Senior Data Analyst,min,51.1,MIN
+France,Senior Data Engineer,min,81.6,MIN
+France,Senior Data Scientist,min,91.8,MIN
+France,Software Engineer,min,45.8,MIN
+Germany,Business Analyst,min,30.8,MIN
+Germany,Cloud Engineer,min,83.3,MIN
+Germany,Data Analyst,min,52.5,MIN
+Germany,Data Engineer,min,58.4,MIN
+Germany,Data Scientist,min,58.4,MIN
+Germany,Machine Learning Engineer,min,45.8,MIN
+Germany,Senior Data Analyst,min,59.3,MIN
+Germany,Senior Data Engineer,min,75.1,MIN
+Germany,Senior Data Scientist,min,83.3,MIN
+Germany,Software Engineer,min,58.4,MIN
+Greece,Business Analyst,min,64.9,MIN
+Greece,Data Analyst,min,54.6,MIN
+Greece,Data Engineer,min,46.4,MIN
+Greece,Data Scientist,min,52.6,MIN
+Greece,Machine Learning Engineer,min,75.1,MIN
+Greece,Senior Data Engineer,min,46.4,MIN
+Greece,Senior Data Scientist,min,75.1,MIN
+Greece,Software Engineer,min,58.4,MIN
+Hungary,Cloud Engineer,min,91.8,MIN
+Hungary,Data Analyst,min,51.1,MIN
+Hungary,Data Engineer,min,99.7,MIN
+Hungary,Data Scientist,min,58.4,MIN
+Hungary,Machine Learning Engineer,min,58.4,MIN
+Hungary,Senior Data Analyst,min,89.0,MIN
+Hungary,Senior Data Engineer,min,151.9,MIN
+Hungary,Senior Data Scientist,min,91.8,MIN
+Hungary,Software Engineer,min,58.4,MIN
+Ireland,Data Analyst,min,44.5,MIN
+Ireland,Data Engineer,min,91.8,MIN
+Ireland,Data Scientist,min,55.0,MIN
+Ireland,Machine Learning Engineer,min,75.1,MIN
+Ireland,Senior Data Analyst,min,75.1,MIN
+Ireland,Senior Data Engineer,min,91.8,MIN
+Ireland,Senior Data Scientist,min,146.8,MIN
+Ireland,Software Engineer,min,91.8,MIN
+Italy,Business Analyst,min,44.5,MIN
+Italy,Data Analyst,min,46.4,MIN
+Italy,Data Engineer,min,91.8,MIN
+Italy,Data Scientist,min,58.4,MIN
+Italy,Machine Learning Engineer,min,75.1,MIN
+Italy,Senior Data Analyst,min,91.8,MIN
+Italy,Senior Data Scientist,min,74.2,MIN
+Italy,Software Engineer,min,85.0,MIN
+Netherlands,Business Analyst,min,64.9,MIN
+Netherlands,Data Analyst,min,54.6,MIN
+Netherlands,Data Engineer,min,91.8,MIN
+Netherlands,Data Scientist,min,91.8,MIN
+Netherlands,Machine Learning Engineer,min,71.1,MIN
+Netherlands,Senior Data Analyst,min,114.5,MIN
+Netherlands,Senior Data Engineer,min,91.8,MIN
+Netherlands,Senior Data Scientist,min,75.1,MIN
+Netherlands,Software Engineer,min,58.4,MIN
+Poland,Business Analyst,min,58.4,MIN
+Poland,Cloud Engineer,min,58.4,MIN
+Poland,Data Analyst,min,44.5,MIN
+Poland,Data Engineer,min,46.4,MIN
+Poland,Data Scientist,min,44.5,MIN
+Poland,Machine Learning Engineer,min,58.4,MIN
+Poland,Senior Data Analyst,min,89.0,MIN
+Poland,Senior Data Engineer,min,46.4,MIN
+Poland,Senior Data Scientist,min,90.8,MIN
+Poland,Software Engineer,min,67.7,MIN
+Portugal,Business Analyst,min,58.4,MIN
+Portugal,Data Analyst,min,52.5,MIN
+Portugal,Data Engineer,min,83.3,MIN
+Portugal,Data Scientist,min,72.1,MIN
+Portugal,Machine Learning Engineer,min,75.1,MIN
+Portugal,Senior Data Analyst,min,114.5,MIN
+Portugal,Senior Data Engineer,min,58.4,MIN
+Portugal,Senior Data Scientist,min,58.4,MIN
+Portugal,Software Engineer,min,91.8,MIN
+Romania,Business Analyst,min,83.3,MIN
+Romania,Cloud Engineer,min,58.4,MIN
+Romania,Data Analyst,min,44.5,MIN
+Romania,Data Engineer,min,46.4,MIN
+Romania,Data Scientist,min,58.4,MIN
+Romania,Machine Learning Engineer,min,91.8,MIN
+Romania,Senior Data Analyst,min,89.0,MIN
+Romania,Senior Data Engineer,min,91.8,MIN
+Romania,Software Engineer,min,44.5,MIN
+Spain,Business Analyst,min,64.9,MIN
+Spain,Cloud Engineer,min,58.4,MIN
+Spain,Data Analyst,min,52.5,MIN
+Spain,Data Engineer,min,58.2,MIN
+Spain,Data Scientist,min,58.4,MIN
+Spain,Machine Learning Engineer,min,44.5,MIN
+Spain,Senior Data Analyst,min,91.8,MIN
+Spain,Senior Data Engineer,min,75.1,MIN
+Spain,Senior Data Scientist,min,46.4,MIN
+Spain,Software Engineer,min,58.4,MIN
+Sweden,Business Analyst,min,44.5,MIN
+Sweden,Data Analyst,min,46.4,MIN
+Sweden,Data Engineer,min,61.8,MIN
+Sweden,Data Scientist,min,83.4,MIN
+Sweden,Machine Learning Engineer,min,83.3,MIN
+Sweden,Senior Data Analyst,min,51.1,MIN
+Sweden,Senior Data Engineer,min,151.9,MIN
+Sweden,Senior Data Scientist,min,151.9,MIN
+Sweden,Software Engineer,min,161.2,MIN
+Belgium,Business Analyst,qr1,75.1,QR1
+Belgium,Data Analyst,qr1,58.4,QR1
+Belgium,Data Engineer,qr1,96.1,QR1
+Belgium,Data Scientist,qr1,90.8,QR1
+Belgium,Machine Learning Engineer,qr1,75.1,QR1
+Belgium,Senior Data Engineer,qr1,91.8,QR1
+Belgium,Senior Data Scientist,qr1,75.1,QR1
+Belgium,Software Engineer,qr1,53.1,QR1
+Denmark,Data Analyst,qr1,75.1,QR1
+Denmark,Data Engineer,qr1,112.7,QR1
+Denmark,Data Scientist,qr1,96.0,QR1
+Denmark,Machine Learning Engineer,qr1,124.1,QR1
+Denmark,Senior Data Engineer,qr1,151.9,QR1
+Finland,Data Analyst,qr1,75.1,QR1
+Finland,Data Engineer,qr1,91.8,QR1
+Finland,Data Scientist,qr1,105.4,QR1
+Finland,Machine Learning Engineer,qr1,131.9,QR1
+Finland,Senior Data Analyst,qr1,109.0,QR1
+Finland,Senior Data Engineer,qr1,101.8,QR1
+Finland,Senior Data Scientist,qr1,108.6,QR1
+Finland,Software Engineer,qr1,77.2,QR1
+France,Business Analyst,qr1,68.1,QR1
+France,Cloud Engineer,qr1,109.1,QR1
+France,Data Analyst,qr1,54.6,QR1
+France,Data Engineer,qr1,99.7,QR1
+France,Data Scientist,qr1,72.1,QR1
+France,Machine Learning Engineer,qr1,58.4,QR1
+France,Senior Data Analyst,qr1,91.8,QR1
+France,Senior Data Engineer,qr1,151.9,QR1
+France,Senior Data Scientist,qr1,162.2,QR1
+France,Software Engineer,qr1,81.6,QR1
+Germany,Business Analyst,qr1,61.6,QR1
+Germany,Cloud Engineer,qr1,91.8,QR1
+Germany,Data Analyst,qr1,76.5,QR1
+Germany,Data Engineer,qr1,100.8,QR1
+Germany,Data Scientist,qr1,72.1,QR1
+Germany,Machine Learning Engineer,qr1,89.7,QR1
+Germany,Senior Data Analyst,qr1,87.5,QR1
+Germany,Senior Data Engineer,qr1,91.8,QR1
+Germany,Senior Data Scientist,qr1,151.9,QR1
+Germany,Software Engineer,qr1,58.4,QR1
+Greece,Business Analyst,qr1,64.9,QR1
+Greece,Data Analyst,qr1,91.8,QR1
+Greece,Data Engineer,qr1,75.1,QR1
+Greece,Data Scientist,qr1,90.8,QR1
+Greece,Machine Learning Engineer,qr1,91.8,QR1
+Greece,Senior Data Engineer,qr1,46.4,QR1
+Greece,Senior Data Scientist,qr1,78.9,QR1
+Greece,Software Engineer,qr1,62.6,QR1
+Hungary,Cloud Engineer,qr1,91.8,QR1
+Hungary,Data Analyst,qr1,62.6,QR1
+Hungary,Data Engineer,qr1,137.5,QR1
+Hungary,Data Scientist,qr1,72.1,QR1
+Hungary,Machine Learning Engineer,qr1,58.4,QR1
+Hungary,Senior Data Analyst,qr1,89.7,QR1
+Hungary,Senior Data Engineer,qr1,151.9,QR1
+Hungary,Senior Data Scientist,qr1,91.8,QR1
+Hungary,Software Engineer,qr1,58.4,QR1
+Ireland,Data Analyst,qr1,83.3,QR1
+Ireland,Data Engineer,qr1,100.4,QR1
+Ireland,Data Scientist,qr1,91.0,QR1
+Ireland,Machine Learning Engineer,qr1,109.2,QR1
+Ireland,Senior Data Analyst,qr1,98.4,QR1
+Ireland,Senior Data Engineer,qr1,151.9,QR1
+Ireland,Senior Data Scientist,qr1,158.4,QR1
+Ireland,Software Engineer,qr1,91.8,QR1
+Italy,Business Analyst,qr1,44.5,QR1
+Italy,Data Analyst,qr1,53.6,QR1
+Italy,Data Engineer,qr1,99.2,QR1
+Italy,Data Scientist,qr1,70.8,QR1
+Italy,Machine Learning Engineer,qr1,83.4,QR1
+Italy,Senior Data Analyst,qr1,103.1,QR1
+Italy,Senior Data Scientist,qr1,74.6,QR1
+Italy,Software Engineer,qr1,90.9,QR1
+Netherlands,Business Analyst,qr1,78.3,QR1
+Netherlands,Data Analyst,qr1,75.6,QR1
+Netherlands,Data Engineer,qr1,91.8,QR1
+Netherlands,Data Scientist,qr1,108.5,QR1
+Netherlands,Machine Learning Engineer,qr1,81.2,QR1
+Netherlands,Senior Data Analyst,qr1,114.5,QR1
+Netherlands,Senior Data Engineer,qr1,151.9,QR1
+Netherlands,Senior Data Scientist,qr1,113.5,QR1
+Netherlands,Software Engineer,qr1,75.1,QR1
+Poland,Business Analyst,qr1,77.1,QR1
+Poland,Cloud Engineer,qr1,76.7,QR1
+Poland,Data Analyst,qr1,59.2,QR1
+Poland,Data Engineer,qr1,93.7,QR1
+Poland,Data Scientist,qr1,91.8,QR1
+Poland,Machine Learning Engineer,qr1,91.8,QR1
+Poland,Senior Data Analyst,qr1,114.5,QR1
+Poland,Senior Data Engineer,qr1,89.0,QR1
+Poland,Senior Data Scientist,qr1,93.8,QR1
+Poland,Software Engineer,qr1,91.8,QR1
+Portugal,Business Analyst,qr1,66.7,QR1
+Portugal,Data Analyst,qr1,75.1,QR1
+Portugal,Data Engineer,qr1,99.7,QR1
+Portugal,Data Scientist,qr1,112.8,QR1
+Portugal,Machine Learning Engineer,qr1,93.1,QR1
+Portugal,Senior Data Analyst,qr1,114.5,QR1
+Portugal,Senior Data Engineer,qr1,91.8,QR1
+Portugal,Senior Data Scientist,qr1,99.6,QR1
+Portugal,Software Engineer,qr1,91.8,QR1
+Romania,Business Analyst,qr1,83.3,QR1
+Romania,Cloud Engineer,qr1,58.4,QR1
+Romania,Data Analyst,qr1,54.6,QR1
+Romania,Data Engineer,qr1,99.8,QR1
+Romania,Data Scientist,qr1,83.3,QR1
+Romania,Machine Learning Engineer,qr1,131.4,QR1
+Romania,Senior Data Analyst,qr1,108.1,QR1
+Romania,Senior Data Engineer,qr1,106.8,QR1
+Romania,Software Engineer,qr1,77.9,QR1
+Spain,Business Analyst,qr1,64.9,QR1
+Spain,Cloud Engineer,qr1,75.1,QR1
+Spain,Data Analyst,qr1,83.3,QR1
+Spain,Data Engineer,qr1,91.8,QR1
+Spain,Data Scientist,qr1,74.3,QR1
+Spain,Machine Learning Engineer,qr1,91.8,QR1
+Spain,Senior Data Analyst,qr1,114.5,QR1
+Spain,Senior Data Engineer,qr1,91.8,QR1
+Spain,Senior Data Scientist,qr1,118.5,QR1
+Spain,Software Engineer,qr1,59.1,QR1
+Sweden,Business Analyst,qr1,76.9,QR1
+Sweden,Data Analyst,qr1,92.7,QR1
+Sweden,Data Engineer,qr1,98.9,QR1
+Sweden,Data Scientist,qr1,114.9,QR1
+Sweden,Machine Learning Engineer,qr1,114.3,QR1
+Sweden,Senior Data Analyst,qr1,82.8,QR1
+Sweden,Senior Data Engineer,qr1,151.9,QR1
+Sweden,Senior Data Scientist,qr1,163.8,QR1
+Sweden,Software Engineer,qr1,161.2,QR1
+Belgium,Business Analyst,med,91.8,MED
+Belgium,Data Analyst,med,80.3,MED
+Belgium,Data Engineer,med,101.3,MED
+Belgium,Data Scientist,med,127.0,MED
+Belgium,Machine Learning Engineer,med,91.8,MED
+Belgium,Senior Data Engineer,med,91.8,MED
+Belgium,Senior Data Scientist,med,91.8,MED
+Belgium,Software Engineer,med,60.4,MED
+Denmark,Data Analyst,med,91.8,MED
+Denmark,Data Engineer,med,125.8,MED
+Denmark,Data Scientist,med,112.8,MED
+Denmark,Machine Learning Engineer,med,139.7,MED
+Denmark,Senior Data Engineer,med,151.9,MED
+Finland,Data Analyst,med,108.8,MED
+Finland,Data Engineer,med,99.7,MED
+Finland,Data Scientist,med,118.7,MED
+Finland,Machine Learning Engineer,med,158.1,MED
+Finland,Senior Data Analyst,med,114.5,MED
+Finland,Senior Data Engineer,med,103.9,MED
+Finland,Senior Data Scientist,med,126.5,MED
+Finland,Software Engineer,med,77.2,MED
+France,Business Analyst,med,91.8,MED
+France,Cloud Engineer,med,109.1,MED
+France,Data Analyst,med,71.3,MED
+France,Data Engineer,med,101.3,MED
+France,Data Scientist,med,90.8,MED
+France,Machine Learning Engineer,med,83.3,MED
+France,Senior Data Analyst,med,114.5,MED
+France,Senior Data Engineer,med,151.9,MED
+France,Senior Data Scientist,med,162.2,MED
+France,Software Engineer,med,146.8,MED
+Germany,Business Analyst,med,91.8,MED
+Germany,Cloud Engineer,med,91.8,MED
+Germany,Data Analyst,med,106.9,MED
+Germany,Data Engineer,med,151.9,MED
+Germany,Data Scientist,med,135.5,MED
+Germany,Machine Learning Engineer,med,91.8,MED
+Germany,Senior Data Analyst,med,114.5,MED
+Germany,Senior Data Engineer,med,151.9,MED
+Germany,Senior Data Scientist,med,162.2,MED
+Germany,Software Engineer,med,87.5,MED
+Greece,Business Analyst,med,64.9,MED
+Greece,Data Analyst,med,102.5,MED
+Greece,Data Engineer,med,99.7,MED
+Greece,Data Scientist,med,92.6,MED
+Greece,Machine Learning Engineer,med,104.1,MED
+Greece,Senior Data Engineer,med,46.4,MED
+Greece,Senior Data Scientist,med,91.9,MED
+Greece,Software Engineer,med,83.4,MED
+Hungary,Cloud Engineer,med,91.8,MED
+Hungary,Data Analyst,med,83.3,MED
+Hungary,Data Engineer,med,151.9,MED
+Hungary,Data Scientist,med,91.8,MED
+Hungary,Machine Learning Engineer,med,83.3,MED
+Hungary,Senior Data Analyst,med,90.4,MED
+Hungary,Senior Data Engineer,med,151.9,MED
+Hungary,Senior Data Scientist,med,91.8,MED
+Hungary,Software Engineer,med,70.8,MED
+Ireland,Data Analyst,med,101.5,MED
+Ireland,Data Engineer,med,151.9,MED
+Ireland,Data Scientist,med,105.1,MED
+Ireland,Machine Learning Engineer,med,171.0,MED
+Ireland,Senior Data Analyst,med,121.7,MED
+Ireland,Senior Data Engineer,med,151.9,MED
+Ireland,Senior Data Scientist,med,166.6,MED
+Ireland,Software Engineer,med,91.8,MED
+Italy,Business Analyst,med,44.5,MED
+Italy,Data Analyst,med,54.6,MED
+Italy,Data Engineer,med,100.4,MED
+Italy,Data Scientist,med,91.3,MED
+Italy,Machine Learning Engineer,med,91.8,MED
+Italy,Senior Data Analyst,med,114.5,MED
+Italy,Senior Data Scientist,med,75.1,MED
+Italy,Software Engineer,med,96.9,MED
+Netherlands,Business Analyst,med,91.8,MED
+Netherlands,Data Analyst,med,96.7,MED
+Netherlands,Data Engineer,med,100.4,MED
+Netherlands,Data Scientist,med,162.2,MED
+Netherlands,Machine Learning Engineer,med,126.5,MED
+Netherlands,Senior Data Analyst,med,114.5,MED
+Netherlands,Senior Data Engineer,med,151.9,MED
+Netherlands,Senior Data Scientist,med,151.9,MED
+Netherlands,Software Engineer,med,91.8,MED
+Poland,Business Analyst,med,89.7,MED
+Poland,Cloud Engineer,med,86.7,MED
+Poland,Data Analyst,med,91.8,MED
+Poland,Data Engineer,med,137.5,MED
+Poland,Data Scientist,med,135.8,MED
+Poland,Machine Learning Engineer,med,91.8,MED
+Poland,Senior Data Analyst,med,114.5,MED
+Poland,Senior Data Engineer,med,91.8,MED
+Poland,Senior Data Scientist,med,162.2,MED
+Poland,Software Engineer,med,91.8,MED
+Portugal,Business Analyst,med,75.1,MED
+Portugal,Data Analyst,med,91.8,MED
+Portugal,Data Engineer,med,129.6,MED
+Portugal,Data Scientist,med,157.1,MED
+Portugal,Machine Learning Engineer,med,171.0,MED
+Portugal,Senior Data Analyst,med,114.5,MED
+Portugal,Senior Data Engineer,med,151.9,MED
+Portugal,Senior Data Scientist,med,151.9,MED
+Portugal,Software Engineer,med,97.8,MED
+Romania,Business Analyst,med,83.3,MED
+Romania,Cloud Engineer,med,58.4,MED
+Romania,Data Analyst,med,75.1,MED
+Romania,Data Engineer,med,100.8,MED
+Romania,Data Scientist,med,124.6,MED
+Romania,Machine Learning Engineer,med,171.0,MED
+Romania,Senior Data Analyst,med,114.5,MED
+Romania,Senior Data Engineer,med,121.8,MED
+Romania,Software Engineer,med,144.7,MED
+Spain,Business Analyst,med,89.0,MED
+Spain,Cloud Engineer,med,91.8,MED
+Spain,Data Analyst,med,94.7,MED
+Spain,Data Engineer,med,137.0,MED
+Spain,Data Scientist,med,90.8,MED
+Spain,Machine Learning Engineer,med,104.1,MED
+Spain,Senior Data Analyst,med,114.5,MED
+Spain,Senior Data Engineer,med,151.9,MED
+Spain,Senior Data Scientist,med,162.2,MED
+Spain,Software Engineer,med,79.4,MED
+Sweden,Business Analyst,med,91.8,MED
+Sweden,Data Analyst,med,108.8,MED
+Sweden,Data Engineer,med,137.9,MED
+Sweden,Data Scientist,med,162.2,MED
+Sweden,Machine Learning Engineer,med,145.2,MED
+Sweden,Senior Data Analyst,med,114.5,MED
+Sweden,Senior Data Engineer,med,151.9,MED
+Sweden,Senior Data Scientist,med,175.6,MED
+Sweden,Software Engineer,med,161.2,MED
+Belgium,Business Analyst,qr3,91.8,QR3
+Belgium,Data Analyst,qr3,128.1,QR3
+Belgium,Data Engineer,qr3,130.9,QR3
+Belgium,Data Scientist,qr3,162.2,QR3
+Belgium,Machine Learning Engineer,qr3,91.8,QR3
+Belgium,Senior Data Engineer,qr3,91.8,QR3
+Belgium,Senior Data Scientist,qr3,91.8,QR3
+Belgium,Software Engineer,qr3,67.8,QR3
+Denmark,Data Analyst,qr3,91.8,QR3
+Denmark,Data Engineer,qr3,138.9,QR3
+Denmark,Data Scientist,qr3,139.9,QR3
+Denmark,Machine Learning Engineer,qr3,155.3,QR3
+Denmark,Senior Data Engineer,qr3,151.9,QR3
+Finland,Data Analyst,qr3,128.8,QR3
+Finland,Data Engineer,qr3,99.7,QR3
+Finland,Data Scientist,qr3,134.1,QR3
+Finland,Machine Learning Engineer,qr3,176.0,QR3
+Finland,Senior Data Analyst,qr3,114.5,QR3
+Finland,Senior Data Engineer,qr3,106.0,QR3
+Finland,Senior Data Scientist,qr3,144.4,QR3
+Finland,Software Engineer,qr3,77.2,QR3
+France,Business Analyst,qr3,103.1,QR3
+France,Cloud Engineer,qr3,109.1,QR3
+France,Data Analyst,qr3,114.5,QR3
+France,Data Engineer,qr3,151.9,QR3
+France,Data Scientist,qr3,144.7,QR3
+France,Machine Learning Engineer,qr3,108.2,QR3
+France,Senior Data Analyst,qr3,114.5,QR3
+France,Senior Data Engineer,qr3,151.9,QR3
+France,Senior Data Scientist,qr3,162.2,QR3
+France,Software Engineer,qr3,186.7,QR3
+Germany,Business Analyst,qr3,91.8,QR3
+Germany,Cloud Engineer,qr3,148.9,QR3
+Germany,Data Analyst,qr3,114.5,QR3
+Germany,Data Engineer,qr3,151.9,QR3
+Germany,Data Scientist,qr3,162.2,QR3
+Germany,Machine Learning Engineer,qr3,171.0,QR3
+Germany,Senior Data Analyst,qr3,114.5,QR3
+Germany,Senior Data Engineer,qr3,151.9,QR3
+Germany,Senior Data Scientist,qr3,162.2,QR3
+Germany,Software Engineer,qr3,91.8,QR3
+Greece,Business Analyst,qr3,70.0,QR3
+Greece,Data Analyst,qr3,143.3,QR3
+Greece,Data Engineer,qr3,106.8,QR3
+Greece,Data Scientist,qr3,110.4,QR3
+Greece,Machine Learning Engineer,qr3,155.2,QR3
+Greece,Senior Data Engineer,qr3,46.4,QR3
+Greece,Senior Data Scientist,qr3,145.0,QR3
+Greece,Software Engineer,qr3,111.2,QR3
+Hungary,Cloud Engineer,qr3,91.8,QR3
+Hungary,Data Analyst,qr3,107.5,QR3
+Hungary,Data Engineer,qr3,151.9,QR3
+Hungary,Data Scientist,qr3,108.5,QR3
+Hungary,Machine Learning Engineer,qr3,171.0,QR3
+Hungary,Senior Data Analyst,qr3,91.1,QR3
+Hungary,Senior Data Engineer,qr3,151.9,QR3
+Hungary,Senior Data Scientist,qr3,127.0,QR3
+Hungary,Software Engineer,qr3,85.4,QR3
+Ireland,Data Analyst,qr3,114.5,QR3
+Ireland,Data Engineer,qr3,151.9,QR3
+Ireland,Data Scientist,qr3,151.3,QR3
+Ireland,Machine Learning Engineer,qr3,171.0,QR3
+Ireland,Senior Data Analyst,qr3,161.0,QR3
+Ireland,Senior Data Engineer,qr3,151.9,QR3
+Ireland,Senior Data Scientist,qr3,171.1,QR3
+Ireland,Software Engineer,qr3,91.8,QR3
+Italy,Business Analyst,qr3,44.5,QR3
+Italy,Data Analyst,qr3,104.5,QR3
+Italy,Data Engineer,qr3,139.6,QR3
+Italy,Data Scientist,qr3,127.1,QR3
+Italy,Machine Learning Engineer,qr3,99.8,QR3
+Italy,Senior Data Analyst,qr3,114.5,QR3
+Italy,Senior Data Scientist,qr3,91.8,QR3
+Italy,Software Engineer,qr3,102.9,QR3
+Netherlands,Business Analyst,qr3,100.1,QR3
+Netherlands,Data Analyst,qr3,114.5,QR3
+Netherlands,Data Engineer,qr3,110.6,QR3
+Netherlands,Data Scientist,qr3,162.2,QR3
+Netherlands,Machine Learning Engineer,qr3,171.0,QR3
+Netherlands,Senior Data Analyst,qr3,114.5,QR3
+Netherlands,Senior Data Engineer,qr3,151.9,QR3
+Netherlands,Senior Data Scientist,qr3,157.1,QR3
+Netherlands,Software Engineer,qr3,141.4,QR3
+Poland,Business Analyst,qr3,91.8,QR3
+Poland,Cloud Engineer,qr3,91.8,QR3
+Poland,Data Analyst,qr3,114.5,QR3
+Poland,Data Engineer,qr3,151.9,QR3
+Poland,Data Scientist,qr3,162.2,QR3
+Poland,Machine Learning Engineer,qr3,145.2,QR3
+Poland,Senior Data Analyst,qr3,114.5,QR3
+Poland,Senior Data Engineer,qr3,151.9,QR3
+Poland,Senior Data Scientist,qr3,162.2,QR3
+Poland,Software Engineer,qr3,91.8,QR3
+Portugal,Business Analyst,qr3,79.2,QR3
+Portugal,Data Analyst,qr3,114.5,QR3
+Portugal,Data Engineer,qr3,151.9,QR3
+Portugal,Data Scientist,qr3,162.2,QR3
+Portugal,Machine Learning Engineer,qr3,176.0,QR3
+Portugal,Senior Data Analyst,qr3,114.5,QR3
+Portugal,Senior Data Engineer,qr3,151.9,QR3
+Portugal,Senior Data Scientist,qr3,158.2,QR3
+Portugal,Software Engineer,qr3,161.2,QR3
+Romania,Business Analyst,qr3,83.3,QR3
+Romania,Cloud Engineer,qr3,58.4,QR3
+Romania,Data Analyst,qr3,94.7,QR3
+Romania,Data Engineer,qr3,129.0,QR3
+Romania,Data Scientist,qr3,144.2,QR3
+Romania,Machine Learning Engineer,qr3,171.0,QR3
+Romania,Senior Data Analyst,qr3,136.0,QR3
+Romania,Senior Data Engineer,qr3,136.9,QR3
+Romania,Software Engineer,qr3,200.3,QR3
+Spain,Business Analyst,qr3,161.2,QR3
+Spain,Cloud Engineer,qr3,110.4,QR3
+Spain,Data Analyst,qr3,114.5,QR3
+Spain,Data Engineer,qr3,151.9,QR3
+Spain,Data Scientist,qr3,98.2,QR3
+Spain,Machine Learning Engineer,qr3,164.0,QR3
+Spain,Senior Data Analyst,qr3,114.5,QR3
+Spain,Senior Data Engineer,qr3,151.9,QR3
+Spain,Senior Data Scientist,qr3,169.0,QR3
+Spain,Software Engineer,qr3,149.2,QR3
+Sweden,Business Analyst,qr3,91.8,QR3
+Sweden,Data Analyst,qr3,114.5,QR3
+Sweden,Data Engineer,qr3,151.9,QR3
+Sweden,Data Scientist,qr3,162.2,QR3
+Sweden,Machine Learning Engineer,qr3,158.1,QR3
+Sweden,Senior Data Analyst,qr3,114.5,QR3
+Sweden,Senior Data Engineer,qr3,151.9,QR3
+Sweden,Senior Data Scientist,qr3,186.7,QR3
+Sweden,Software Engineer,qr3,161.2,QR3
+Belgium,Business Analyst,max,91.8,MAX
+Belgium,Data Analyst,max,170.0,MAX
+Belgium,Data Engineer,max,151.9,MAX
+Belgium,Data Scientist,max,162.2,MAX
+Belgium,Machine Learning Engineer,max,104.1,MAX
+Belgium,Senior Data Engineer,max,91.8,MAX
+Belgium,Senior Data Scientist,max,91.8,MAX
+Belgium,Software Engineer,max,75.1,MAX
+Denmark,Data Analyst,max,91.8,MAX
+Denmark,Data Engineer,max,151.9,MAX
+Denmark,Data Scientist,max,171.4,MAX
+Denmark,Machine Learning Engineer,max,171.0,MAX
+Denmark,Senior Data Engineer,max,151.9,MAX
+Finland,Data Analyst,max,170.0,MAX
+Finland,Data Engineer,max,101.3,MAX
+Finland,Data Scientist,max,162.2,MAX
+Finland,Machine Learning Engineer,max,191.1,MAX
+Finland,Senior Data Analyst,max,114.5,MAX
+Finland,Senior Data Engineer,max,108.2,MAX
+Finland,Senior Data Scientist,max,162.2,MAX
+Finland,Software Engineer,max,77.2,MAX
+France,Business Analyst,max,114.5,MAX
+France,Cloud Engineer,max,109.1,MAX
+France,Data Analyst,max,206.0,MAX
+France,Data Engineer,max,256.5,MAX
+France,Data Scientist,max,171.4,MAX
+France,Machine Learning Engineer,max,171.0,MAX
+France,Senior Data Analyst,max,161.2,MAX
+France,Senior Data Engineer,max,151.9,MAX
+France,Senior Data Scientist,max,162.2,MAX
+France,Software Engineer,max,202.4,MAX
+Germany,Business Analyst,max,129.8,MAX
+Germany,Cloud Engineer,max,206.0,MAX
+Germany,Data Analyst,max,206.0,MAX
+Germany,Data Engineer,max,206.0,MAX
+Germany,Data Scientist,max,197.8,MAX
+Germany,Machine Learning Engineer,max,231.2,MAX
+Germany,Senior Data Analyst,max,123.0,MAX
+Germany,Senior Data Engineer,max,160.2,MAX
+Germany,Senior Data Scientist,max,231.2,MAX
+Germany,Software Engineer,max,182.6,MAX
+Greece,Business Analyst,max,75.1,MAX
+Greece,Data Analyst,max,206.0,MAX
+Greece,Data Engineer,max,151.9,MAX
+Greece,Data Scientist,max,176.3,MAX
+Greece,Machine Learning Engineer,max,182.6,MAX
+Greece,Senior Data Engineer,max,46.4,MAX
+Greece,Senior Data Scientist,max,206.0,MAX
+Greece,Software Engineer,max,161.2,MAX
+Hungary,Cloud Engineer,max,91.8,MAX
+Hungary,Data Analyst,max,159.6,MAX
+Hungary,Data Engineer,max,151.9,MAX
+Hungary,Data Scientist,max,162.2,MAX
+Hungary,Machine Learning Engineer,max,191.1,MAX
+Hungary,Senior Data Analyst,max,91.8,MAX
+Hungary,Senior Data Engineer,max,151.9,MAX
+Hungary,Senior Data Scientist,max,162.2,MAX
+Hungary,Software Engineer,max,91.8,MAX
+Ireland,Data Analyst,max,200.3,MAX
+Ireland,Data Engineer,max,151.9,MAX
+Ireland,Data Scientist,max,171.4,MAX
+Ireland,Machine Learning Engineer,max,171.0,MAX
+Ireland,Senior Data Analyst,max,200.3,MAX
+Ireland,Senior Data Engineer,max,160.7,MAX
+Ireland,Senior Data Scientist,max,171.4,MAX
+Ireland,Software Engineer,max,91.8,MAX
+Italy,Business Analyst,max,44.5,MAX
+Italy,Data Analyst,max,114.5,MAX
+Italy,Data Engineer,max,158.6,MAX
+Italy,Data Scientist,max,162.2,MAX
+Italy,Machine Learning Engineer,max,107.8,MAX
+Italy,Senior Data Analyst,max,114.5,MAX
+Italy,Senior Data Scientist,max,108.5,MAX
+Italy,Software Engineer,max,108.8,MAX
+Netherlands,Business Analyst,max,108.5,MAX
+Netherlands,Data Analyst,max,182.6,MAX
+Netherlands,Data Engineer,max,180.2,MAX
+Netherlands,Data Scientist,max,175.7,MAX
+Netherlands,Machine Learning Engineer,max,231.8,MAX
+Netherlands,Senior Data Analyst,max,114.5,MAX
+Netherlands,Senior Data Engineer,max,160.2,MAX
+Netherlands,Senior Data Scientist,max,162.2,MAX
+Netherlands,Software Engineer,max,191.1,MAX
+Poland,Business Analyst,max,158.1,MAX
+Poland,Cloud Engineer,max,227.6,MAX
+Poland,Data Analyst,max,170.0,MAX
+Poland,Data Engineer,max,169.4,MAX
+Poland,Data Scientist,max,192.5,MAX
+Poland,Machine Learning Engineer,max,191.6,MAX
+Poland,Senior Data Analyst,max,123.0,MAX
+Poland,Senior Data Engineer,max,151.9,MAX
+Poland,Senior Data Scientist,max,162.2,MAX
+Poland,Software Engineer,max,161.2,MAX
+Portugal,Business Analyst,max,83.3,MAX
+Portugal,Data Analyst,max,170.0,MAX
+Portugal,Data Engineer,max,158.1,MAX
+Portugal,Data Scientist,max,171.4,MAX
+Portugal,Machine Learning Engineer,max,195.2,MAX
+Portugal,Senior Data Analyst,max,114.5,MAX
+Portugal,Senior Data Engineer,max,159.6,MAX
+Portugal,Senior Data Scientist,max,162.2,MAX
+Portugal,Software Engineer,max,164.8,MAX
+Romania,Business Analyst,max,83.3,MAX
+Romania,Cloud Engineer,max,58.4,MAX
+Romania,Data Analyst,max,112.4,MAX
+Romania,Data Engineer,max,151.9,MAX
+Romania,Data Scientist,max,151.9,MAX
+Romania,Machine Learning Engineer,max,171.0,MAX
+Romania,Senior Data Analyst,max,200.3,MAX
+Romania,Senior Data Engineer,max,151.9,MAX
+Romania,Software Engineer,max,200.3,MAX
+Spain,Business Analyst,max,190.6,MAX
+Spain,Cloud Engineer,max,129.0,MAX
+Spain,Data Analyst,max,159.6,MAX
+Spain,Data Engineer,max,170.0,MAX
+Spain,Data Scientist,max,170.0,MAX
+Spain,Machine Learning Engineer,max,231.8,MAX
+Spain,Senior Data Analyst,max,114.5,MAX
+Spain,Senior Data Engineer,max,181.8,MAX
+Spain,Senior Data Scientist,max,217.8,MAX
+Spain,Software Engineer,max,211.2,MAX
+Sweden,Business Analyst,max,127.2,MAX
+Sweden,Data Analyst,max,121.7,MAX
+Sweden,Data Engineer,max,256.5,MAX
+Sweden,Data Scientist,max,162.2,MAX
+Sweden,Machine Learning Engineer,max,171.0,MAX
+Sweden,Senior Data Analyst,max,114.5,MAX
+Sweden,Senior Data Engineer,max,151.9,MAX
+Sweden,Senior Data Scientist,max,197.8,MAX
+Sweden,Software Engineer,max,161.2,MAX
+Belgium,Business Analyst,mean,85.1,MEAN
+Belgium,Data Analyst,mean,99.3,MEAN
+Belgium,Data Engineer,mean,110.7,MEAN
+Belgium,Data Scientist,mean,122.6,MEAN
+Belgium,Machine Learning Engineer,mean,86.4,MEAN
+Belgium,Senior Data Engineer,mean,91.8,MEAN
+Belgium,Senior Data Scientist,mean,80.6,MEAN
+Belgium,Software Engineer,mean,60.4,MEAN
+Denmark,Data Analyst,mean,81.8,MEAN
+Denmark,Data Engineer,mean,125.8,MEAN
+Denmark,Data Scientist,mean,116.3,MEAN
+Denmark,Machine Learning Engineer,mean,139.7,MEAN
+Denmark,Senior Data Engineer,mean,151.9,MEAN
+Finland,Data Analyst,mean,111.4,MEAN
+Finland,Data Engineer,mean,96.8,MEAN
+Finland,Data Scientist,mean,120.7,MEAN
+Finland,Machine Learning Engineer,mean,149.8,MEAN
+Finland,Senior Data Analyst,mean,110.9,MEAN
+Finland,Senior Data Engineer,mean,103.9,MEAN
+Finland,Senior Data Scientist,mean,126.5,MEAN
+Finland,Software Engineer,mean,77.2,MEAN
+France,Business Analyst,mean,83.6,MEAN
+France,Cloud Engineer,mean,109.1,MEAN
+France,Data Analyst,mean,84.0,MEAN
+France,Data Engineer,mean,119.2,MEAN
+France,Data Scientist,mean,102.1,MEAN
+France,Machine Learning Engineer,mean,93.9,MEAN
+France,Senior Data Analyst,mean,107.4,MEAN
+France,Senior Data Engineer,mean,139.7,MEAN
+France,Senior Data Scientist,mean,146.6,MEAN
+France,Software Engineer,mean,131.1,MEAN
+Germany,Business Analyst,mean,81.9,MEAN
+Germany,Cloud Engineer,mean,123.2,MEAN
+Germany,Data Analyst,mean,104.6,MEAN
+Germany,Data Engineer,mean,134.2,MEAN
+Germany,Data Scientist,mean,120.8,MEAN
+Germany,Machine Learning Engineer,mean,117.3,MEAN
+Germany,Senior Data Analyst,mean,102.5,MEAN
+Germany,Senior Data Engineer,mean,131.4,MEAN
+Germany,Senior Data Scientist,mean,153.2,MEAN
+Germany,Software Engineer,mean,93.8,MEAN
+Greece,Business Analyst,mean,68.3,MEAN
+Greece,Data Analyst,mean,115.0,MEAN
+Greece,Data Engineer,mean,100.2,MEAN
+Greece,Data Scientist,mean,100.5,MEAN
+Greece,Machine Learning Engineer,mean,119.0,MEAN
+Greece,Senior Data Engineer,mean,46.4,MEAN
+Greece,Senior Data Scientist,mean,117.0,MEAN
+Greece,Software Engineer,mean,93.8,MEAN
+Hungary,Cloud Engineer,mean,91.8,MEAN
+Hungary,Data Analyst,mean,90.4,MEAN
+Hungary,Data Engineer,mean,136.8,MEAN
+Hungary,Data Scientist,mean,100.7,MEAN
+Hungary,Machine Learning Engineer,mean,112.4,MEAN
+Hungary,Senior Data Analyst,mean,90.4,MEAN
+Hungary,Senior Data Engineer,mean,151.9,MEAN
+Hungary,Senior Data Scientist,mean,115.3,MEAN
+Hungary,Software Engineer,mean,73.0,MEAN
+Ireland,Data Analyst,mean,106.4,MEAN
+Ireland,Data Engineer,mean,133.7,MEAN
+Ireland,Data Scientist,mean,114.9,MEAN
+Ireland,Machine Learning Engineer,mean,139.4,MEAN
+Ireland,Senior Data Analyst,mean,132.4,MEAN
+Ireland,Senior Data Engineer,mean,143.4,MEAN
+Ireland,Senior Data Scientist,mean,162.8,MEAN
+Ireland,Software Engineer,mean,91.8,MEAN
+Italy,Business Analyst,mean,44.5,MEAN
+Italy,Data Analyst,mean,76.0,MEAN
+Italy,Data Engineer,mean,115.0,MEAN
+Italy,Data Scientist,mean,99.8,MEAN
+Italy,Machine Learning Engineer,mean,91.6,MEAN
+Italy,Senior Data Analyst,mean,106.9,MEAN
+Italy,Senior Data Scientist,mean,85.9,MEAN
+Italy,Software Engineer,mean,96.9,MEAN
+Netherlands,Business Analyst,mean,88.4,MEAN
+Netherlands,Data Analyst,mean,101.2,MEAN
+Netherlands,Data Engineer,mean,110.8,MEAN
+Netherlands,Data Scientist,mean,139.4,MEAN
+Netherlands,Machine Learning Engineer,mean,130.3,MEAN
+Netherlands,Senior Data Analyst,mean,114.5,MEAN
+Netherlands,Senior Data Engineer,mean,141.5,MEAN
+Netherlands,Senior Data Scientist,mean,129.7,MEAN
+Netherlands,Software Engineer,mean,113.7,MEAN
+Poland,Business Analyst,mean,90.1,MEAN
+Poland,Cloud Engineer,mean,104.4,MEAN
+Poland,Data Analyst,mean,90.1,MEAN
+Poland,Data Engineer,mean,121.3,MEAN
+Poland,Data Scientist,mean,124.1,MEAN
+Poland,Machine Learning Engineer,mean,115.1,MEAN
+Poland,Senior Data Analyst,mean,110.9,MEAN
+Poland,Senior Data Engineer,mean,102.3,MEAN
+Poland,Senior Data Scientist,mean,136.5,MEAN
+Poland,Software Engineer,mean,95.0,MEAN
+Portugal,Business Analyst,mean,72.3,MEAN
+Portugal,Data Analyst,mean,96.8,MEAN
+Portugal,Data Engineer,mean,125.3,MEAN
+Portugal,Data Scientist,mean,136.8,MEAN
+Portugal,Machine Learning Engineer,mean,145.2,MEAN
+Portugal,Senior Data Analyst,mean,114.5,MEAN
+Portugal,Senior Data Engineer,mean,122.7,MEAN
+Portugal,Senior Data Scientist,mean,129.9,MEAN
+Portugal,Software Engineer,mean,121.5,MEAN
+Romania,Business Analyst,mean,83.3,MEAN
+Romania,Cloud Engineer,mean,58.4,MEAN
+Romania,Data Analyst,mean,76.6,MEAN
+Romania,Data Engineer,mean,106.3,MEAN
+Romania,Data Scientist,mean,112.8,MEAN
+Romania,Machine Learning Engineer,mean,144.6,MEAN
+Romania,Senior Data Analyst,mean,129.6,MEAN
+Romania,Senior Data Engineer,mean,121.8,MEAN
+Romania,Software Engineer,mean,133.5,MEAN
+Spain,Business Analyst,mean,114.1,MEAN
+Spain,Cloud Engineer,mean,93.1,MEAN
+Spain,Data Analyst,mean,94.4,MEAN
+Spain,Data Engineer,mean,120.3,MEAN
+Spain,Data Scientist,mean,96.0,MEAN
+Spain,Machine Learning Engineer,mean,116.3,MEAN
+Spain,Senior Data Analyst,mean,110.8,MEAN
+Spain,Senior Data Engineer,mean,127.3,MEAN
+Spain,Senior Data Scientist,mean,143.0,MEAN
+Spain,Software Engineer,mean,106.6,MEAN
+Sweden,Business Analyst,mean,85.8,MEAN
+Sweden,Data Analyst,mean,100.9,MEAN
+Sweden,Data Engineer,mean,136.4,MEAN
+Sweden,Data Scientist,mean,137.5,MEAN
+Sweden,Machine Learning Engineer,mean,133.2,MEAN
+Sweden,Senior Data Analyst,mean,93.4,MEAN
+Sweden,Senior Data Engineer,mean,151.9,MEAN
+Sweden,Senior Data Scientist,mean,175.1,MEAN
+Sweden,Software Engineer,mean,161.2,MEAN
+Belgium,Business Analyst,std,9.1,STD
+Belgium,Data Analyst,std,46.1,STD
+Belgium,Data Engineer,std,30.2,STD
+Belgium,Data Scientist,std,43.7,STD
+Belgium,Machine Learning Engineer,std,11.4,STD
+Belgium,Senior Data Engineer,std,0.0,STD
+Belgium,Senior Data Scientist,std,19.3,STD
+Belgium,Software Engineer,std,20.7,STD
+Denmark,Data Analyst,std,14.9,STD
+Denmark,Data Engineer,std,36.9,STD
+Denmark,Data Scientist,std,38.1,STD
+Denmark,Machine Learning Engineer,std,44.2,STD
+Denmark,Senior Data Engineer,std,0.0,STD
+Finland,Data Analyst,std,40.1,STD
+Finland,Data Engineer,std,4.7,STD
+Finland,Data Scientist,std,32.7,STD
+Finland,Machine Learning Engineer,std,43.0,STD
+Finland,Senior Data Analyst,std,6.4,STD
+Finland,Senior Data Engineer,std,6.0,STD
+Finland,Senior Data Scientist,std,50.5,STD
+Finland,Software Engineer,std,0.0,STD
+France,Business Analyst,std,35.7,STD
+France,Cloud Engineer,std,0.0,STD
+France,Data Analyst,std,34.2,STD
+France,Data Engineer,std,34.7,STD
+France,Data Scientist,std,41.0,STD
+France,Machine Learning Engineer,std,37.7,STD
+France,Senior Data Analyst,std,25.5,STD
+France,Senior Data Engineer,std,25.5,STD
+France,Senior Data Scientist,std,31.1,STD
+France,Software Engineer,std,62.9,STD
+Germany,Business Analyst,std,27.2,STD
+Germany,Cloud Engineer,std,56.7,STD
+Germany,Data Analyst,std,41.5,STD
+Germany,Data Engineer,std,40.0,STD
+Germany,Data Scientist,std,47.8,STD
+Germany,Machine Learning Engineer,std,53.4,STD
+Germany,Senior Data Analyst,std,19.9,STD
+Germany,Senior Data Engineer,std,30.4,STD
+Germany,Senior Data Scientist,std,34.6,STD
+Germany,Software Engineer,std,44.5,STD
+Greece,Business Analyst,std,5.9,STD
+Greece,Data Analyst,std,41.5,STD
+Greece,Data Engineer,std,33.2,STD
+Greece,Data Scientist,std,31.7,STD
+Greece,Machine Learning Engineer,std,37.2,STD
+Greece,Senior Data Engineer,std,0.0,STD
+Greece,Senior Data Scientist,std,54.3,STD
+Greece,Software Engineer,std,39.9,STD
+Hungary,Cloud Engineer,std,0.0,STD
+Hungary,Data Analyst,std,32.7,STD
+Hungary,Data Engineer,std,21.6,STD
+Hungary,Data Scientist,std,38.0,STD
+Hungary,Machine Learning Engineer,std,63.8,STD
+Hungary,Senior Data Analyst,std,2.0,STD
+Hungary,Senior Data Engineer,std,0.0,STD
+Hungary,Senior Data Scientist,std,40.7,STD
+Hungary,Software Engineer,std,17.2,STD
+Ireland,Data Analyst,std,40.4,STD
+Ireland,Data Engineer,std,27.4,STD
+Ireland,Data Scientist,std,45.1,STD
+Ireland,Machine Learning Engineer,std,44.8,STD
+Ireland,Senior Data Analyst,std,63.3,STD
+Ireland,Senior Data Engineer,std,25.5,STD
+Ireland,Senior Data Scientist,std,11.5,STD
+Ireland,Software Engineer,std,0.0,STD
+Italy,Business Analyst,std,0.0,STD
+Italy,Data Analyst,std,27.6,STD
+Italy,Data Engineer,std,26.2,STD
+Italy,Data Scientist,std,38.5,STD
+Italy,Machine Learning Engineer,std,16.4,STD
+Italy,Senior Data Analyst,std,13.1,STD
+Italy,Senior Data Scientist,std,19.5,STD
+Italy,Software Engineer,std,16.9,STD
+Netherlands,Business Analyst,std,22.0,STD
+Netherlands,Data Analyst,std,34.3,STD
+Netherlands,Data Engineer,std,25.8,STD
+Netherlands,Data Scientist,std,32.1,STD
+Netherlands,Machine Learning Engineer,std,54.6,STD
+Netherlands,Senior Data Analyst,std,0.0,STD
+Netherlands,Senior Data Engineer,std,28.0,STD
+Netherlands,Senior Data Scientist,std,47.6,STD
+Netherlands,Software Engineer,std,69.0,STD
+Poland,Business Analyst,std,30.9,STD
+Poland,Cloud Engineer,std,61.6,STD
+Poland,Data Analyst,std,30.8,STD
+Poland,Data Engineer,std,41.0,STD
+Poland,Data Scientist,std,40.3,STD
+Poland,Machine Learning Engineer,std,39.0,STD
+Poland,Senior Data Analyst,std,12.2,STD
+Poland,Senior Data Engineer,std,41.9,STD
+Poland,Senior Data Scientist,std,33.7,STD
+Poland,Software Engineer,std,22.5,STD
+Portugal,Business Analyst,std,12.7,STD
+Portugal,Data Analyst,std,31.4,STD
+Portugal,Data Engineer,std,27.5,STD
+Portugal,Data Scientist,std,34.2,STD
+Portugal,Machine Learning Engineer,std,46.6,STD
+Portugal,Senior Data Analyst,std,0.0,STD
+Portugal,Senior Data Engineer,std,45.2,STD
+Portugal,Senior Data Scientist,std,39.1,STD
+Portugal,Software Engineer,std,38.0,STD
+Romania,Business Analyst,std,0.0,STD
+Romania,Cloud Engineer,std,0.0,STD
+Romania,Data Analyst,std,25.4,STD
+Romania,Data Engineer,std,36.9,STD
+Romania,Data Scientist,std,37.6,STD
+Romania,Machine Learning Engineer,std,45.7,STD
+Romania,Senior Data Analyst,std,48.7,STD
+Romania,Senior Data Engineer,std,42.5,STD
+Romania,Software Engineer,std,79.2,STD
+Spain,Business Analyst,std,58.2,STD
+Spain,Cloud Engineer,std,35.3,STD
+Spain,Data Analyst,std,24.4,STD
+Spain,Data Engineer,std,35.2,STD
+Spain,Data Scientist,std,33.0,STD
+Spain,Machine Learning Engineer,std,51.6,STD
+Spain,Senior Data Analyst,std,8.0,STD
+Spain,Senior Data Engineer,std,36.8,STD
+Spain,Senior Data Scientist,std,60.3,STD
+Spain,Software Engineer,std,58.6,STD
+Sweden,Business Analyst,std,25.7,STD
+Sweden,Data Analyst,std,22.9,STD
+Sweden,Data Engineer,std,58.2,STD
+Sweden,Data Scientist,std,34.9,STD
+Sweden,Machine Learning Engineer,std,45.1,STD
+Sweden,Senior Data Analyst,std,36.6,STD
+Sweden,Senior Data Engineer,std,0.0,STD
+Sweden,Senior Data Scientist,std,22.9,STD
+Sweden,Software Engineer,std,0.0,STD
+Belgium,Business Analyst,iqr,16.7,IQR
+Belgium,Data Analyst,iqr,69.7,IQR
+Belgium,Data Engineer,iqr,34.9,IQR
+Belgium,Data Scientist,iqr,71.5,IQR
+Belgium,Machine Learning Engineer,iqr,16.7,IQR
+Belgium,Senior Data Engineer,iqr,0.0,IQR
+Belgium,Senior Data Scientist,iqr,16.7,IQR
+Belgium,Software Engineer,iqr,14.7,IQR
+Denmark,Data Analyst,iqr,16.7,IQR
+Denmark,Data Engineer,iqr,26.1,IQR
+Denmark,Data Scientist,iqr,43.8,IQR
+Denmark,Machine Learning Engineer,iqr,31.3,IQR
+Denmark,Senior Data Engineer,iqr,0.0,IQR
+Finland,Data Analyst,iqr,53.7,IQR
+Finland,Data Engineer,iqr,7.9,IQR
+Finland,Data Scientist,iqr,28.7,IQR
+Finland,Machine Learning Engineer,iqr,44.1,IQR
+Finland,Senior Data Analyst,iqr,5.5,IQR
+Finland,Senior Data Engineer,iqr,4.2,IQR
+Finland,Senior Data Scientist,iqr,35.7,IQR
+Finland,Software Engineer,iqr,0.0,IQR
+France,Business Analyst,iqr,35.0,IQR
+France,Cloud Engineer,iqr,0.0,IQR
+France,Data Analyst,iqr,59.9,IQR
+France,Data Engineer,iqr,52.2,IQR
+France,Data Scientist,iqr,72.7,IQR
+France,Machine Learning Engineer,iqr,49.7,IQR
+France,Senior Data Analyst,iqr,22.7,IQR
+France,Senior Data Engineer,iqr,0.0,IQR
+France,Senior Data Scientist,iqr,0.0,IQR
+France,Software Engineer,iqr,105.1,IQR
+Germany,Business Analyst,iqr,30.1,IQR
+Germany,Cloud Engineer,iqr,57.1,IQR
+Germany,Data Analyst,iqr,38.0,IQR
+Germany,Data Engineer,iqr,51.1,IQR
+Germany,Data Scientist,iqr,90.2,IQR
+Germany,Machine Learning Engineer,iqr,81.3,IQR
+Germany,Senior Data Analyst,iqr,27.0,IQR
+Germany,Senior Data Engineer,iqr,60.2,IQR
+Germany,Senior Data Scientist,iqr,10.3,IQR
+Germany,Software Engineer,iqr,33.4,IQR
+Greece,Business Analyst,iqr,5.1,IQR
+Greece,Data Analyst,iqr,51.5,IQR
+Greece,Data Engineer,iqr,31.7,IQR
+Greece,Data Scientist,iqr,19.6,IQR
+Greece,Machine Learning Engineer,iqr,63.4,IQR
+Greece,Senior Data Engineer,iqr,0.0,IQR
+Greece,Senior Data Scientist,iqr,66.1,IQR
+Greece,Software Engineer,iqr,48.6,IQR
+Hungary,Cloud Engineer,iqr,0.0,IQR
+Hungary,Data Analyst,iqr,44.9,IQR
+Hungary,Data Engineer,iqr,14.4,IQR
+Hungary,Data Scientist,iqr,36.4,IQR
+Hungary,Machine Learning Engineer,iqr,112.6,IQR
+Hungary,Senior Data Analyst,iqr,1.4,IQR
+Hungary,Senior Data Engineer,iqr,0.0,IQR
+Hungary,Senior Data Scientist,iqr,35.2,IQR
+Hungary,Software Engineer,iqr,27.0,IQR
+Ireland,Data Analyst,iqr,31.2,IQR
+Ireland,Data Engineer,iqr,51.6,IQR
+Ireland,Data Scientist,iqr,60.3,IQR
+Ireland,Machine Learning Engineer,iqr,61.8,IQR
+Ireland,Senior Data Analyst,iqr,62.6,IQR
+Ireland,Senior Data Engineer,iqr,0.0,IQR
+Ireland,Senior Data Scientist,iqr,12.7,IQR
+Ireland,Software Engineer,iqr,0.0,IQR
+Italy,Business Analyst,iqr,0.0,IQR
+Italy,Data Analyst,iqr,51.0,IQR
+Italy,Data Engineer,iqr,40.4,IQR
+Italy,Data Scientist,iqr,56.3,IQR
+Italy,Machine Learning Engineer,iqr,16.4,IQR
+Italy,Senior Data Analyst,iqr,11.4,IQR
+Italy,Senior Data Scientist,iqr,17.1,IQR
+Italy,Software Engineer,iqr,11.9,IQR
+Netherlands,Business Analyst,iqr,21.8,IQR
+Netherlands,Data Analyst,iqr,38.9,IQR
+Netherlands,Data Engineer,iqr,18.8,IQR
+Netherlands,Data Scientist,iqr,53.8,IQR
+Netherlands,Machine Learning Engineer,iqr,89.8,IQR
+Netherlands,Senior Data Analyst,iqr,0.0,IQR
+Netherlands,Senior Data Engineer,iqr,0.0,IQR
+Netherlands,Senior Data Scientist,iqr,43.6,IQR
+Netherlands,Software Engineer,iqr,66.3,IQR
+Poland,Business Analyst,iqr,14.7,IQR
+Poland,Cloud Engineer,iqr,15.1,IQR
+Poland,Data Analyst,iqr,55.3,IQR
+Poland,Data Engineer,iqr,58.2,IQR
+Poland,Data Scientist,iqr,70.5,IQR
+Poland,Machine Learning Engineer,iqr,53.4,IQR
+Poland,Senior Data Analyst,iqr,0.0,IQR
+Poland,Senior Data Engineer,iqr,62.9,IQR
+Poland,Senior Data Scientist,iqr,68.4,IQR
+Poland,Software Engineer,iqr,0.0,IQR
+Portugal,Business Analyst,iqr,12.4,IQR
+Portugal,Data Analyst,iqr,39.4,IQR
+Portugal,Data Engineer,iqr,52.2,IQR
+Portugal,Data Scientist,iqr,49.4,IQR
+Portugal,Machine Learning Engineer,iqr,82.9,IQR
+Portugal,Senior Data Analyst,iqr,0.0,IQR
+Portugal,Senior Data Engineer,iqr,60.2,IQR
+Portugal,Senior Data Scientist,iqr,58.6,IQR
+Portugal,Software Engineer,iqr,69.4,IQR
+Romania,Business Analyst,iqr,0.0,IQR
+Romania,Cloud Engineer,iqr,0.0,IQR
+Romania,Data Analyst,iqr,40.1,IQR
+Romania,Data Engineer,iqr,29.2,IQR
+Romania,Data Scientist,iqr,60.9,IQR
+Romania,Machine Learning Engineer,iqr,39.6,IQR
+Romania,Senior Data Analyst,iqr,27.8,IQR
+Romania,Senior Data Engineer,iqr,30.1,IQR
+Romania,Software Engineer,iqr,122.5,IQR
+Spain,Business Analyst,iqr,96.3,IQR
+Spain,Cloud Engineer,iqr,35.3,IQR
+Spain,Data Analyst,iqr,31.2,IQR
+Spain,Data Engineer,iqr,60.2,IQR
+Spain,Data Scientist,iqr,23.9,IQR
+Spain,Machine Learning Engineer,iqr,72.3,IQR
+Spain,Senior Data Analyst,iqr,0.0,IQR
+Spain,Senior Data Engineer,iqr,60.2,IQR
+Spain,Senior Data Scientist,iqr,50.5,IQR
+Spain,Software Engineer,iqr,90.1,IQR
+Sweden,Business Analyst,iqr,14.8,IQR
+Sweden,Data Analyst,iqr,21.8,IQR
+Sweden,Data Engineer,iqr,53.0,IQR
+Sweden,Data Scientist,iqr,47.3,IQR
+Sweden,Machine Learning Engineer,iqr,43.9,IQR
+Sweden,Senior Data Analyst,iqr,31.7,IQR
+Sweden,Senior Data Engineer,iqr,0.0,IQR
+Sweden,Senior Data Scientist,iqr,22.9,IQR
+Sweden,Software Engineer,iqr,0.0,IQR
+Belgium,Business Analyst,col1,91 (16),COL1
+Belgium,Data Analyst,col1,80 (69),COL1
+Belgium,Data Engineer,col1,101 (34),COL1
+Belgium,Data Scientist,col1,127 (71),COL1
+Belgium,Machine Learning Engineer,col1,91 (16),COL1
+Belgium,Senior Data Engineer,col1,91 (0),COL1
+Belgium,Senior Data Scientist,col1,91 (16),COL1
+Belgium,Software Engineer,col1,60 (14),COL1
+Denmark,Data Analyst,col1,91 (16),COL1
+Denmark,Data Engineer,col1,125 (26),COL1
+Denmark,Data Scientist,col1,112 (43),COL1
+Denmark,Machine Learning Engineer,col1,139 (31),COL1
+Denmark,Senior Data Engineer,col1,151 (0),COL1
+Finland,Data Analyst,col1,108 (53),COL1
+Finland,Data Engineer,col1,99 (7),COL1
+Finland,Data Scientist,col1,118 (28),COL1
+Finland,Machine Learning Engineer,col1,158 (44),COL1
+Finland,Senior Data Analyst,col1,114 (5),COL1
+Finland,Senior Data Engineer,col1,103 (4),COL1
+Finland,Senior Data Scientist,col1,126 (35),COL1
+Finland,Software Engineer,col1,77 (0),COL1
+France,Business Analyst,col1,91 (35),COL1
+France,Cloud Engineer,col1,109 (0),COL1
+France,Data Analyst,col1,71 (59),COL1
+France,Data Engineer,col1,101 (52),COL1
+France,Data Scientist,col1,90 (72),COL1
+France,Machine Learning Engineer,col1,83 (49),COL1
+France,Senior Data Analyst,col1,114 (22),COL1
+France,Senior Data Engineer,col1,151 (0),COL1
+France,Senior Data Scientist,col1,162 (0),COL1
+France,Software Engineer,col1,146 (105),COL1
+Germany,Business Analyst,col1,91 (30),COL1
+Germany,Cloud Engineer,col1,91 (57),COL1
+Germany,Data Analyst,col1,106 (38),COL1
+Germany,Data Engineer,col1,151 (51),COL1
+Germany,Data Scientist,col1,135 (90),COL1
+Germany,Machine Learning Engineer,col1,91 (81),COL1
+Germany,Senior Data Analyst,col1,114 (27),COL1
+Germany,Senior Data Engineer,col1,151 (60),COL1
+Germany,Senior Data Scientist,col1,162 (10),COL1
+Germany,Software Engineer,col1,87 (33),COL1
+Greece,Business Analyst,col1,64 (5),COL1
+Greece,Data Analyst,col1,102 (51),COL1
+Greece,Data Engineer,col1,99 (31),COL1
+Greece,Data Scientist,col1,92 (19),COL1
+Greece,Machine Learning Engineer,col1,104 (63),COL1
+Greece,Senior Data Engineer,col1,46 (0),COL1
+Greece,Senior Data Scientist,col1,91 (66),COL1
+Greece,Software Engineer,col1,83 (48),COL1
+Hungary,Cloud Engineer,col1,91 (0),COL1
+Hungary,Data Analyst,col1,83 (44),COL1
+Hungary,Data Engineer,col1,151 (14),COL1
+Hungary,Data Scientist,col1,91 (36),COL1
+Hungary,Machine Learning Engineer,col1,83 (112),COL1
+Hungary,Senior Data Analyst,col1,90 (1),COL1
+Hungary,Senior Data Engineer,col1,151 (0),COL1
+Hungary,Senior Data Scientist,col1,91 (35),COL1
+Hungary,Software Engineer,col1,70 (27),COL1
+Ireland,Data Analyst,col1,101 (31),COL1
+Ireland,Data Engineer,col1,151 (51),COL1
+Ireland,Data Scientist,col1,105 (60),COL1
+Ireland,Machine Learning Engineer,col1,171 (61),COL1
+Ireland,Senior Data Analyst,col1,121 (62),COL1
+Ireland,Senior Data Engineer,col1,151 (0),COL1
+Ireland,Senior Data Scientist,col1,166 (12),COL1
+Ireland,Software Engineer,col1,91 (0),COL1
+Italy,Business Analyst,col1,44 (0),COL1
+Italy,Data Analyst,col1,54 (51),COL1
+Italy,Data Engineer,col1,100 (40),COL1
+Italy,Data Scientist,col1,91 (56),COL1
+Italy,Machine Learning Engineer,col1,91 (16),COL1
+Italy,Senior Data Analyst,col1,114 (11),COL1
+Italy,Senior Data Scientist,col1,75 (17),COL1
+Italy,Software Engineer,col1,96 (11),COL1
+Netherlands,Business Analyst,col1,91 (21),COL1
+Netherlands,Data Analyst,col1,96 (38),COL1
+Netherlands,Data Engineer,col1,100 (18),COL1
+Netherlands,Data Scientist,col1,162 (53),COL1
+Netherlands,Machine Learning Engineer,col1,126 (89),COL1
+Netherlands,Senior Data Analyst,col1,114 (0),COL1
+Netherlands,Senior Data Engineer,col1,151 (0),COL1
+Netherlands,Senior Data Scientist,col1,151 (43),COL1
+Netherlands,Software Engineer,col1,91 (66),COL1
+Poland,Business Analyst,col1,89 (14),COL1
+Poland,Cloud Engineer,col1,86 (15),COL1
+Poland,Data Analyst,col1,91 (55),COL1
+Poland,Data Engineer,col1,137 (58),COL1
+Poland,Data Scientist,col1,135 (70),COL1
+Poland,Machine Learning Engineer,col1,91 (53),COL1
+Poland,Senior Data Analyst,col1,114 (0),COL1
+Poland,Senior Data Engineer,col1,91 (62),COL1
+Poland,Senior Data Scientist,col1,162 (68),COL1
+Poland,Software Engineer,col1,91 (0),COL1
+Portugal,Business Analyst,col1,75 (12),COL1
+Portugal,Data Analyst,col1,91 (39),COL1
+Portugal,Data Engineer,col1,129 (52),COL1
+Portugal,Data Scientist,col1,157 (49),COL1
+Portugal,Machine Learning Engineer,col1,171 (82),COL1
+Portugal,Senior Data Analyst,col1,114 (0),COL1
+Portugal,Senior Data Engineer,col1,151 (60),COL1
+Portugal,Senior Data Scientist,col1,151 (58),COL1
+Portugal,Software Engineer,col1,97 (69),COL1
+Romania,Business Analyst,col1,83 (0),COL1
+Romania,Cloud Engineer,col1,58 (0),COL1
+Romania,Data Analyst,col1,75 (40),COL1
+Romania,Data Engineer,col1,100 (29),COL1
+Romania,Data Scientist,col1,124 (60),COL1
+Romania,Machine Learning Engineer,col1,171 (39),COL1
+Romania,Senior Data Analyst,col1,114 (27),COL1
+Romania,Senior Data Engineer,col1,121 (30),COL1
+Romania,Software Engineer,col1,144 (122),COL1
+Spain,Business Analyst,col1,89 (96),COL1
+Spain,Cloud Engineer,col1,91 (35),COL1
+Spain,Data Analyst,col1,94 (31),COL1
+Spain,Data Engineer,col1,137 (60),COL1
+Spain,Data Scientist,col1,90 (23),COL1
+Spain,Machine Learning Engineer,col1,104 (72),COL1
+Spain,Senior Data Analyst,col1,114 (0),COL1
+Spain,Senior Data Engineer,col1,151 (60),COL1
+Spain,Senior Data Scientist,col1,162 (50),COL1
+Spain,Software Engineer,col1,79 (90),COL1
+Sweden,Business Analyst,col1,91 (14),COL1
+Sweden,Data Analyst,col1,108 (21),COL1
+Sweden,Data Engineer,col1,137 (53),COL1
+Sweden,Data Scientist,col1,162 (47),COL1
+Sweden,Machine Learning Engineer,col1,145 (43),COL1
+Sweden,Senior Data Analyst,col1,114 (31),COL1
+Sweden,Senior Data Engineer,col1,151 (0),COL1
+Sweden,Senior Data Scientist,col1,175 (22),COL1
+Sweden,Software Engineer,col1,161 (0),COL1
+Belgium,Business Analyst,col2,85 (9),COL2
+Belgium,Data Analyst,col2,99 (46),COL2
+Belgium,Data Engineer,col2,110 (30),COL2
+Belgium,Data Scientist,col2,122 (43),COL2
+Belgium,Machine Learning Engineer,col2,86 (11),COL2
+Belgium,Senior Data Engineer,col2,91 (0),COL2
+Belgium,Senior Data Scientist,col2,80 (19),COL2
+Belgium,Software Engineer,col2,60 (20),COL2
+Denmark,Data Analyst,col2,81 (14),COL2
+Denmark,Data Engineer,col2,125 (36),COL2
+Denmark,Data Scientist,col2,116 (38),COL2
+Denmark,Machine Learning Engineer,col2,139 (44),COL2
+Denmark,Senior Data Engineer,col2,151 (0),COL2
+Finland,Data Analyst,col2,111 (40),COL2
+Finland,Data Engineer,col2,96 (4),COL2
+Finland,Data Scientist,col2,120 (32),COL2
+Finland,Machine Learning Engineer,col2,149 (43),COL2
+Finland,Senior Data Analyst,col2,110 (6),COL2
+Finland,Senior Data Engineer,col2,103 (6),COL2
+Finland,Senior Data Scientist,col2,126 (50),COL2
+Finland,Software Engineer,col2,77 (0),COL2
+France,Business Analyst,col2,83 (35),COL2
+France,Cloud Engineer,col2,109 (0),COL2
+France,Data Analyst,col2,84 (34),COL2
+France,Data Engineer,col2,119 (34),COL2
+France,Data Scientist,col2,102 (41),COL2
+France,Machine Learning Engineer,col2,93 (37),COL2
+France,Senior Data Analyst,col2,107 (25),COL2
+France,Senior Data Engineer,col2,139 (25),COL2
+France,Senior Data Scientist,col2,146 (31),COL2
+France,Software Engineer,col2,131 (62),COL2
+Germany,Business Analyst,col2,81 (27),COL2
+Germany,Cloud Engineer,col2,123 (56),COL2
+Germany,Data Analyst,col2,104 (41),COL2
+Germany,Data Engineer,col2,134 (40),COL2
+Germany,Data Scientist,col2,120 (47),COL2
+Germany,Machine Learning Engineer,col2,117 (53),COL2
+Germany,Senior Data Analyst,col2,102 (19),COL2
+Germany,Senior Data Engineer,col2,131 (30),COL2
+Germany,Senior Data Scientist,col2,153 (34),COL2
+Germany,Software Engineer,col2,93 (44),COL2
+Greece,Business Analyst,col2,68 (5),COL2
+Greece,Data Analyst,col2,115 (41),COL2
+Greece,Data Engineer,col2,100 (33),COL2
+Greece,Data Scientist,col2,100 (31),COL2
+Greece,Machine Learning Engineer,col2,119 (37),COL2
+Greece,Senior Data Engineer,col2,46 (0),COL2
+Greece,Senior Data Scientist,col2,117 (54),COL2
+Greece,Software Engineer,col2,93 (39),COL2
+Hungary,Cloud Engineer,col2,91 (0),COL2
+Hungary,Data Analyst,col2,90 (32),COL2
+Hungary,Data Engineer,col2,136 (21),COL2
+Hungary,Data Scientist,col2,100 (38),COL2
+Hungary,Machine Learning Engineer,col2,112 (63),COL2
+Hungary,Senior Data Analyst,col2,90 (2),COL2
+Hungary,Senior Data Engineer,col2,151 (0),COL2
+Hungary,Senior Data Scientist,col2,115 (40),COL2
+Hungary,Software Engineer,col2,73 (17),COL2
+Ireland,Data Analyst,col2,106 (40),COL2
+Ireland,Data Engineer,col2,133 (27),COL2
+Ireland,Data Scientist,col2,114 (45),COL2
+Ireland,Machine Learning Engineer,col2,139 (44),COL2
+Ireland,Senior Data Analyst,col2,132 (63),COL2
+Ireland,Senior Data Engineer,col2,143 (25),COL2
+Ireland,Senior Data Scientist,col2,162 (11),COL2
+Ireland,Software Engineer,col2,91 (0),COL2
+Italy,Business Analyst,col2,44 (0),COL2
+Italy,Data Analyst,col2,76 (27),COL2
+Italy,Data Engineer,col2,115 (26),COL2
+Italy,Data Scientist,col2,99 (38),COL2
+Italy,Machine Learning Engineer,col2,91 (16),COL2
+Italy,Senior Data Analyst,col2,106 (13),COL2
+Italy,Senior Data Scientist,col2,85 (19),COL2
+Italy,Software Engineer,col2,96 (16),COL2
+Netherlands,Business Analyst,col2,88 (22),COL2
+Netherlands,Data Analyst,col2,101 (34),COL2
+Netherlands,Data Engineer,col2,110 (25),COL2
+Netherlands,Data Scientist,col2,139 (32),COL2
+Netherlands,Machine Learning Engineer,col2,130 (54),COL2
+Netherlands,Senior Data Analyst,col2,114 (0),COL2
+Netherlands,Senior Data Engineer,col2,141 (28),COL2
+Netherlands,Senior Data Scientist,col2,129 (47),COL2
+Netherlands,Software Engineer,col2,113 (69),COL2
+Poland,Business Analyst,col2,90 (30),COL2
+Poland,Cloud Engineer,col2,104 (61),COL2
+Poland,Data Analyst,col2,90 (30),COL2
+Poland,Data Engineer,col2,121 (41),COL2
+Poland,Data Scientist,col2,124 (40),COL2
+Poland,Machine Learning Engineer,col2,115 (39),COL2
+Poland,Senior Data Analyst,col2,110 (12),COL2
+Poland,Senior Data Engineer,col2,102 (41),COL2
+Poland,Senior Data Scientist,col2,136 (33),COL2
+Poland,Software Engineer,col2,95 (22),COL2
+Portugal,Business Analyst,col2,72 (12),COL2
+Portugal,Data Analyst,col2,96 (31),COL2
+Portugal,Data Engineer,col2,125 (27),COL2
+Portugal,Data Scientist,col2,136 (34),COL2
+Portugal,Machine Learning Engineer,col2,145 (46),COL2
+Portugal,Senior Data Analyst,col2,114 (0),COL2
+Portugal,Senior Data Engineer,col2,122 (45),COL2
+Portugal,Senior Data Scientist,col2,129 (39),COL2
+Portugal,Software Engineer,col2,121 (38),COL2
+Romania,Business Analyst,col2,83 (0),COL2
+Romania,Cloud Engineer,col2,58 (0),COL2
+Romania,Data Analyst,col2,76 (25),COL2
+Romania,Data Engineer,col2,106 (36),COL2
+Romania,Data Scientist,col2,112 (37),COL2
+Romania,Machine Learning Engineer,col2,144 (45),COL2
+Romania,Senior Data Analyst,col2,129 (48),COL2
+Romania,Senior Data Engineer,col2,121 (42),COL2
+Romania,Software Engineer,col2,133 (79),COL2
+Spain,Business Analyst,col2,114 (58),COL2
+Spain,Cloud Engineer,col2,93 (35),COL2
+Spain,Data Analyst,col2,94 (24),COL2
+Spain,Data Engineer,col2,120 (35),COL2
+Spain,Data Scientist,col2,96 (33),COL2
+Spain,Machine Learning Engineer,col2,116 (51),COL2
+Spain,Senior Data Analyst,col2,110 (8),COL2
+Spain,Senior Data Engineer,col2,127 (36),COL2
+Spain,Senior Data Scientist,col2,143 (60),COL2
+Spain,Software Engineer,col2,106 (58),COL2
+Sweden,Business Analyst,col2,85 (25),COL2
+Sweden,Data Analyst,col2,100 (22),COL2
+Sweden,Data Engineer,col2,136 (58),COL2
+Sweden,Data Scientist,col2,137 (34),COL2
+Sweden,Machine Learning Engineer,col2,133 (45),COL2
+Sweden,Senior Data Analyst,col2,93 (36),COL2
+Sweden,Senior Data Engineer,col2,151 (0),COL2
+Sweden,Senior Data Scientist,col2,175 (22),COL2
+Sweden,Software Engineer,col2,161 (0),COL2
+Belgium,Business Analyst,n,5.0,N
+Denmark,Business Analyst,n,,N
+Finland,Business Analyst,n,,N
+France,Business Analyst,n,3.0,N
+Germany,Business Analyst,n,11.0,N
+Greece,Business Analyst,n,3.0,N
+Hungary,Business Analyst,n,,N
+Ireland,Business Analyst,n,,N
+Italy,Business Analyst,n,1.0,N
+Netherlands,Business Analyst,n,3.0,N
+Poland,Business Analyst,n,8.0,N
+Portugal,Business Analyst,n,3.0,N
+Romania,Business Analyst,n,1.0,N
+Spain,Business Analyst,n,5.0,N
+Sweden,Business Analyst,n,7.0,N
+Belgium,Cloud Engineer,n,,N
+Denmark,Cloud Engineer,n,,N
+Finland,Cloud Engineer,n,,N
+France,Cloud Engineer,n,1.0,N
+Germany,Cloud Engineer,n,7.0,N
+Greece,Cloud Engineer,n,,N
+Hungary,Cloud Engineer,n,1.0,N
+Ireland,Cloud Engineer,n,,N
+Italy,Cloud Engineer,n,,N
+Netherlands,Cloud Engineer,n,,N
+Poland,Cloud Engineer,n,6.0,N
+Portugal,Cloud Engineer,n,,N
+Romania,Cloud Engineer,n,1.0,N
+Spain,Cloud Engineer,n,3.0,N
+Sweden,Cloud Engineer,n,,N
+Belgium,Data Analyst,n,20.0,N
+Denmark,Data Analyst,n,5.0,N
+Finland,Data Analyst,n,5.0,N
+France,Data Analyst,n,50.0,N
+Germany,Data Analyst,n,48.0,N
+Greece,Data Analyst,n,16.0,N
+Hungary,Data Analyst,n,18.0,N
+Ireland,Data Analyst,n,19.0,N
+Italy,Data Analyst,n,11.0,N
+Netherlands,Data Analyst,n,20.0,N
+Poland,Data Analyst,n,43.0,N
+Portugal,Data Analyst,n,37.0,N
+Romania,Data Analyst,n,12.0,N
+Spain,Data Analyst,n,30.0,N
+Sweden,Data Analyst,n,9.0,N
+Belgium,Data Engineer,n,11.0,N
+Denmark,Data Engineer,n,2.0,N
+Finland,Data Engineer,n,5.0,N
+France,Data Engineer,n,62.0,N
+Germany,Data Engineer,n,39.0,N
+Greece,Data Engineer,n,24.0,N
+Hungary,Data Engineer,n,13.0,N
+Ireland,Data Engineer,n,9.0,N
+Italy,Data Engineer,n,12.0,N
+Netherlands,Data Engineer,n,23.0,N
+Poland,Data Engineer,n,46.0,N
+Portugal,Data Engineer,n,30.0,N
+Romania,Data Engineer,n,6.0,N
+Spain,Data Engineer,n,35.0,N
+Sweden,Data Engineer,n,8.0,N
+Belgium,Data Scientist,n,8.0,N
+Denmark,Data Scientist,n,7.0,N
+Finland,Data Scientist,n,4.0,N
+France,Data Scientist,n,57.0,N
+Germany,Data Scientist,n,41.0,N
+Greece,Data Scientist,n,12.0,N
+Hungary,Data Scientist,n,13.0,N
+Ireland,Data Scientist,n,6.0,N
+Italy,Data Scientist,n,12.0,N
+Netherlands,Data Scientist,n,17.0,N
+Poland,Data Scientist,n,29.0,N
+Portugal,Data Scientist,n,22.0,N
+Romania,Data Scientist,n,7.0,N
+Spain,Data Scientist,n,20.0,N
+Sweden,Data Scientist,n,7.0,N
+Belgium,Machine Learning Engineer,n,7.0,N
+Denmark,Machine Learning Engineer,n,2.0,N
+Finland,Machine Learning Engineer,n,4.0,N
+France,Machine Learning Engineer,n,17.0,N
+Germany,Machine Learning Engineer,n,39.0,N
+Greece,Machine Learning Engineer,n,14.0,N
+Hungary,Machine Learning Engineer,n,5.0,N
+Ireland,Machine Learning Engineer,n,5.0,N
+Italy,Machine Learning Engineer,n,3.0,N
+Netherlands,Machine Learning Engineer,n,12.0,N
+Poland,Machine Learning Engineer,n,23.0,N
+Portugal,Machine Learning Engineer,n,14.0,N
+Romania,Machine Learning Engineer,n,3.0,N
+Spain,Machine Learning Engineer,n,16.0,N
+Sweden,Machine Learning Engineer,n,3.0,N
+Belgium,Senior Data Analyst,n,,N
+Denmark,Senior Data Analyst,n,,N
+Finland,Senior Data Analyst,n,3.0,N
+France,Senior Data Analyst,n,12.0,N
+Germany,Senior Data Analyst,n,15.0,N
+Greece,Senior Data Analyst,n,,N
+Hungary,Senior Data Analyst,n,2.0,N
+Ireland,Senior Data Analyst,n,3.0,N
+Italy,Senior Data Analyst,n,3.0,N
+Netherlands,Senior Data Analyst,n,1.0,N
+Poland,Senior Data Analyst,n,9.0,N
+Portugal,Senior Data Analyst,n,4.0,N
+Romania,Senior Data Analyst,n,4.0,N
+Spain,Senior Data Analyst,n,9.0,N
+Sweden,Senior Data Analyst,n,3.0,N
+Belgium,Senior Data Engineer,n,1.0,N
+Denmark,Senior Data Engineer,n,2.0,N
+Finland,Senior Data Engineer,n,2.0,N
+France,Senior Data Engineer,n,15.0,N
+Germany,Senior Data Engineer,n,26.0,N
+Greece,Senior Data Engineer,n,1.0,N
+Hungary,Senior Data Engineer,n,3.0,N
+Ireland,Senior Data Engineer,n,6.0,N
+Italy,Senior Data Engineer,n,,N
+Netherlands,Senior Data Engineer,n,5.0,N
+Poland,Senior Data Engineer,n,9.0,N
+Portugal,Senior Data Engineer,n,5.0,N
+Romania,Senior Data Engineer,n,2.0,N
+Spain,Senior Data Engineer,n,11.0,N
+Sweden,Senior Data Engineer,n,6.0,N
+Belgium,Senior Data Scientist,n,3.0,N
+Denmark,Senior Data Scientist,n,,N
+Finland,Senior Data Scientist,n,2.0,N
+France,Senior Data Scientist,n,9.0,N
+Germany,Senior Data Scientist,n,21.0,N
+Greece,Senior Data Scientist,n,6.0,N
+Hungary,Senior Data Scientist,n,3.0,N
+Ireland,Senior Data Scientist,n,4.0,N
+Italy,Senior Data Scientist,n,3.0,N
+Netherlands,Senior Data Scientist,n,3.0,N
+Poland,Senior Data Scientist,n,12.0,N
+Portugal,Senior Data Scientist,n,11.0,N
+Romania,Senior Data Scientist,n,,N
+Spain,Senior Data Scientist,n,7.0,N
+Sweden,Senior Data Scientist,n,3.0,N
+Belgium,Software Engineer,n,2.0,N
+Denmark,Software Engineer,n,,N
+Finland,Software Engineer,n,1.0,N
+France,Software Engineer,n,11.0,N
+Germany,Software Engineer,n,10.0,N
+Greece,Software Engineer,n,6.0,N
+Hungary,Software Engineer,n,4.0,N
+Ireland,Software Engineer,n,1.0,N
+Italy,Software Engineer,n,2.0,N
+Netherlands,Software Engineer,n,3.0,N
+Poland,Software Engineer,n,15.0,N
+Portugal,Software Engineer,n,5.0,N
+Romania,Software Engineer,n,4.0,N
+Spain,Software Engineer,n,8.0,N
+Sweden,Software Engineer,n,1.0,N

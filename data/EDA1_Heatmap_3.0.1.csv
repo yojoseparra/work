@@ -1,0 +1,3124 @@
+Skills,Job,Country,n,mean
+python,Data Engineer,France,39.0,113622.05987179487
+python,Data Scientist,France,34.0,109193.43544117648
+sql,Data Engineer,France,33.0,113838.86166666666
+spark,Data Engineer,Poland,32.0,116475.48999999999
+python,Data Scientist,Germany,31.0,130754.1806451613
+sql,Data Engineer,Poland,30.0,130507.83233333334
+spark,Data Engineer,France,29.0,126948.28137931033
+sql,Data Analyst,France,28.0,86175.48339285713
+python,Machine Learning Engineer,Germany,28.0,122549.28964285714
+python,Data Engineer,Poland,27.0,119536.80259259259
+sql,Data Analyst,Poland,26.0,94164.24403846153
+sql,Data Analyst,Germany,24.0,96498.8975
+aws,Data Engineer,France,24.0,121785.80520833335
+sql,Data Scientist,France,23.0,102273.64847826087
+sql,Data Engineer,Portugal,21.0,123127.03380952378
+sql,Data Scientist,Poland,21.0,127102.85833333332
+azure,Data Engineer,France,21.0,104416.4461904762
+sql,Data Engineer,Spain,20.0,123388.46375
+python,Data Engineer,Germany,20.0,124519.76425000001
+python,Data Analyst,France,20.0,97565.514
+sql,Data Engineer,Germany,19.0,125852.66421052632
+spark,Data Engineer,Germany,19.0,138888.12736842106
+scala,Data Engineer,France,19.0,119790.19263157893
+tableau,Data Analyst,France,18.0,75616.27694444444
+python,Data Engineer,Spain,18.0,113891.4775
+python,Data Engineer,Portugal,18.0,127962.39333333334
+python,Data Scientist,Poland,18.0,128201.21027777779
+python,Data Engineer,Netherlands,18.0,113555.86916666669
+python,Data Engineer,Greece,18.0,95887.0775
+python,Data Analyst,Germany,18.0,107370.20416666666
+sql,Data Analyst,Spain,17.0,91585.29764705883
+sql,Data Engineer,Greece,17.0,105502.80911764705
+sql,Senior Data Scientist,Germany,17.0,154315.20588235295
+python,Senior Data Scientist,Germany,17.0,163018.70588235295
+nosql,Data Engineer,France,17.0,125953.00470588235
+hadoop,Data Engineer,France,17.0,125943.52264705881
+gcp,Data Engineer,France,17.0,112670.155
+sql,Data Engineer,Netherlands,16.0,106070.65531249999
+spark,Data Engineer,Spain,16.0,113486.623125
+mongodb,Data Engineer,France,16.0,112096.05875
+java,Data Engineer,France,16.0,114575.26874999999
+excel,Data Analyst,Poland,16.0,76013.7103125
+docker,Data Engineer,France,16.0,122931.465625
+aws,Data Engineer,Poland,16.0,121926.63625
+sql,Data Analyst,Portugal,15.0,105078.40266666668
+python,Data Analyst,Poland,15.0,97046.94333333333
+kafka,Data Engineer,France,15.0,126320.47033333335
+jenkins,Data Engineer,France,15.0,117782.38833333335
+git,Data Engineer,France,15.0,111054.11933333335
+sql,Senior Data Engineer,Germany,14.0,135251.72785714286
+python,Data Analyst,Spain,14.0,98962.76785714286
+java,Data Engineer,Portugal,14.0,131719.63714285716
+gcp,Data Engineer,Poland,14.0,103414.42785714286
+aws,Data Engineer,Portugal,14.0,129493.07142857143
+tableau,Data Analyst,Poland,13.0,108570.08153846154
+tableau,Data Analyst,Germany,13.0,100127.48846153845
+sql,Data Scientist,Germany,13.0,135295.05576923076
+python,Machine Learning Engineer,Spain,13.0,128215.58846153846
+python,Machine Learning Engineer,Portugal,13.0,142285.98269230768
+python,Data Scientist,Portugal,13.0,128183.69807692307
+python,Data Analyst,Portugal,13.0,94724.98
+python,Machine Learning Engineer,Poland,13.0,127907.18269230769
+bigquery,Data Engineer,Poland,13.0,125722.0376923077
+azure,Data Engineer,Poland,13.0,116633.39692307691
+aws,Data Engineer,Spain,13.0,109376.29423076923
+aws,Senior Data Engineer,Germany,13.0,124162.53846153847
+tableau,Data Scientist,France,12.0,125708.75333333334
+spark,Data Engineer,Greece,12.0,98750.39166666666
+spark,Data Scientist,Germany,12.0,136013.68875
+r,Data Scientist,France,12.0,111071.42333333334
+python,Machine Learning Engineer,Greece,12.0,121137.35583333333
+hadoop,Data Engineer,Poland,12.0,109295.875
+airflow,Data Engineer,France,12.0,144173.34875
+sql,Data Analyst,Netherlands,11.0,98886.55454545455
+sql,Data Analyst,Ireland,11.0,111521.56454545454
+python,Data Scientist,Spain,11.0,101729.40136363637
+python,Data Analyst,Netherlands,11.0,90471.92272727273
+python,Data Engineer,Hungary,11.0,135396.49636363637
+python,Senior Data Engineer,France,11.0,151925.0
+python,Machine Learning Engineer,France,11.0,100538.20636363636
+aws,Machine Learning Engineer,Germany,11.0,139779.98909090908
+sql,Data Scientist,Portugal,10.0,141724.0345
+spark,Data Scientist,Portugal,10.0,127308.206
+spark,Data Engineer,Portugal,10.0,127454.054
+pytorch,Machine Learning Engineer,Germany,10.0,99656.311
+python,Data Scientist,Netherlands,10.0,149978.815
+python,Data Scientist,Greece,10.0,100085.718
+java,Data Engineer,Poland,10.0,90645.768
+gcp,Data Analyst,Poland,10.0,92387.9615
+azure,Data Engineer,Greece,10.0,91103.5
+azure,Senior Data Engineer,Germany,10.0,141457.419
+aws,Data Engineer,Germany,10.0,129842.83
+ansible,Data Engineer,France,10.0,118725.78250000002
+airflow,Data Engineer,Portugal,10.0,129202.89100000002
+tableau,Data Analyst,Spain,9.0,92957.5
+tableau,Data Analyst,Ireland,9.0,89604.27777777778
+sql,Data Scientist,Netherlands,9.0,156416.37222222224
+sql,Data Engineer,Italy,9.0,114411.71333333333
+sql,Senior Data Analyst,France,9.0,110120.33277777777
+spark,Data Engineer,Netherlands,9.0,111159.83166666667
+spark,Machine Learning Engineer,Germany,9.0,82880.66666666667
+snowflake,Data Engineer,Poland,9.0,144861.83222222223
+scala,Data Engineer,Poland,9.0,119319.77777777778
+python,Senior Data Engineer,Spain,9.0,128450.49888888889
+python,Senior Data Scientist,Poland,9.0,135785.81555555554
+python,Senior Data Engineer,Germany,9.0,141209.91
+kubernetes,Data Engineer,Netherlands,9.0,118989.49111111113
+kubernetes,Data Engineer,France,9.0,129084.80722222221
+kafka,Data Engineer,Spain,9.0,105280.42
+kafka,Data Engineer,Netherlands,9.0,111159.83166666667
+kafka,Data Engineer,Greece,9.0,95706.79888888888
+java,Data Engineer,Spain,9.0,112434.45666666667
+docker,Data Engineer,Netherlands,9.0,115842.26888888888
+databricks,Data Engineer,Netherlands,9.0,118132.70277777777
+c++,Machine Learning Engineer,Germany,9.0,104215.22833333333
+azure,Data Analyst,France,9.0,85804.60777777777
+aws,Machine Learning Engineer,Spain,9.0,129439.64222222223
+aws,Data Engineer,Greece,9.0,101389.65222222223
+airflow,Data Engineer,Poland,9.0,117832.0
+tableau,Data Analyst,Portugal,8.0,98823.02812500001
+tableau,Data Scientist,Poland,8.0,147473.21125
+sql,Data Scientist,Spain,8.0,78579.08625
+sql,Senior Data Scientist,Poland,8.0,132480.91749999998
+sql,Data Analyst,Greece,8.0,97077.5
+sql,Senior Data Engineer,France,8.0,151925.0
+sql,Data Engineer,Belgium,8.0,114796.783125
+spark,Machine Learning Engineer,Spain,8.0,138650.875
+spark,Machine Learning Engineer,Poland,8.0,127569.23375
+spark,Data Analyst,Poland,8.0,110467.5
+spark,Senior Data Scientist,Germany,8.0,164091.875
+spark,Senior Data Engineer,Germany,8.0,145371.625
+snowflake,Senior Data Engineer,Germany,8.0,129368.0
+snowflake,Data Engineer,France,8.0,141298.61875000002
+r,Data Analyst,Ireland,8.0,102678.125
+python,Machine Learning Engineer,Netherlands,8.0,141998.375
+python,Data Scientist,Italy,8.0,107914.38750000001
+python,Data Engineer,Italy,8.0,115330.3875
+python,Data Engineer,Ireland,8.0,138949.18875
+python,Data Analyst,Greece,8.0,124010.261875
+pyspark,Data Engineer,Poland,8.0,139020.77375
+power bi,Data Analyst,Poland,8.0,87002.8125
+power bi,Data Analyst,France,8.0,86077.61499999999
+mongodb,Machine Learning Engineer,Belgium,8.0,86501.7175
+kubernetes,Machine Learning Engineer,Germany,8.0,147959.5
+excel,Data Analyst,Portugal,8.0,82698.31375
+excel,Data Analyst,France,8.0,88171.926875
+azure,Data Engineer,Spain,8.0,125496.4875
+azure,Data Engineer,Netherlands,8.0,119060.66125
+azure,Data Engineer,Germany,8.0,112527.88625
+azure,Data Analyst,Belgium,8.0,135078.96375
+aws,Senior Data Engineer,Spain,8.0,135120.93625
+aws,Machine Learning Engineer,Poland,8.0,110110.73375
+aws,Data Engineer,Netherlands,8.0,103829.214375
+aws,Data Engineer,Italy,8.0,116253.65375
+airflow,Data Engineer,Germany,8.0,125287.9125
+tensorflow,Machine Learning Engineer,France,7.0,98232.57142857143
+sql,Data Analyst,Sweden,7.0,110039.60857142857
+sql,Senior Data Analyst,Spain,7.0,109691.32142857143
+sql,Senior Data Analyst,Germany,7.0,114514.22285714287
+sql,Data Analyst,Belgium,7.0,124740.35714285714
+spark,Data Analyst,Germany,7.0,142408.5357142857
+spark,Senior Data Engineer,France,7.0,151925.0
+snowflake,Senior Data Scientist,Germany,7.0,159282.14285714287
+scala,Data Engineer,Spain,7.0,107767.28142857143
+scala,Data Engineer,Portugal,7.0,126551.39142857143
+scala,Data Engineer,Greece,7.0,90621.31285714285
+r,Data Analyst,Netherlands,7.0,102955.12142857142
+r,Data Analyst,Germany,7.0,84317.78642857143
+pytorch,Machine Learning Engineer,Greece,7.0,115435.33714285714
+python,Data Engineer,Sweden,7.0,136201.68214285714
+python,Data Analyst,Italy,7.0,81464.46571428572
+python,Data Scientist,Hungary,7.0,110713.96428571429
+python,Data Scientist,Belgium,7.0,126977.81142857143
+postgresql,Data Engineer,France,7.0,129952.30428571429
+nosql,Data Engineer,Greece,7.0,107206.74071428573
+looker,Data Analyst,Portugal,7.0,108679.56714285714
+linux,Data Engineer,Netherlands,7.0,105400.6357142857
+kafka,Data Engineer,Portugal,7.0,134653.81285714285
+java,Data Engineer,Greece,7.0,94726.59857142856
+go,Data Analyst,Belgium,7.0,66534.32142857143
+github,Data Engineer,Poland,7.0,120465.85714285714
+git,Data Engineer,Portugal,7.0,113198.17714285714
+git,Data Scientist,France,7.0,109106.42857142857
+gcp,Data Engineer,Portugal,7.0,117750.63
+excel,Data Analyst,Netherlands,7.0,87931.83571428571
+excel,Data Analyst,Germany,7.0,90252.13142857142
+databricks,Senior Data Engineer,Germany,7.0,144435.42857142858
+azure,Data Engineer,Belgium,7.0,107271.11571428573
+aws,Data Engineer,Ireland,7.0,135867.74142857143
+aws,Senior Data Scientist,Germany,7.0,169140.7142857143
+airflow,Data Engineer,Spain,7.0,112327.31214285715
+airflow,Senior Data Engineer,France,7.0,151925.0
+tensorflow,Machine Learning Engineer,Spain,6.0,124514.29666666665
+tensorflow,Machine Learning Engineer,Poland,6.0,128318.00083333334
+tensorflow,Machine Learning Engineer,Greece,6.0,124207.87166666666
+tensorflow,Data Scientist,France,6.0,106860.86916666666
+tableau,Data Engineer,Portugal,6.0,111884.77999999998
+sql,Data Engineer,Sweden,6.0,123778.96250000001
+sql,Senior Data Engineer,Spain,6.0,119068.0
+sql,Data Analyst,Italy,6.0,89387.34833333333
+sql,Data Analyst,Hungary,6.0,93359.80083333333
+sql,Business Analyst,Germany,6.0,83095.25
+spark,Machine Learning Engineer,Greece,6.0,120114.65166666667
+scikit-learn,Data Scientist,France,6.0,129155.5625
+sas,Data Scientist,Belgium,6.0,114589.56
+redshift,Data Engineer,Portugal,6.0,140483.41666666666
+r,Data Scientist,Belgium,6.0,121103.27999999998
+pytorch,Machine Learning Engineer,Poland,6.0,111571.9175
+pytorch,Machine Learning Engineer,France,6.0,93443.31666666667
+python,Senior Data Scientist,Portugal,6.0,145535.7383333333
+python,Software Engineer,Poland,6.0,96176.25
+python,Data Analyst,Ireland,6.0,105429.08333333333
+python,Software Engineer,France,6.0,123036.67583333333
+python,Senior Data Scientist,France,6.0,138741.0
+python,Senior Data Analyst,France,6.0,107925.37416666666
+pandas,Data Scientist,France,6.0,141499.16833333333
+nosql,Data Engineer,Netherlands,6.0,100802.58083333333
+mysql,Data Engineer,Poland,6.0,146002.5
+mongodb,Software Engineer,Greece,6.0,63963.0
+mongodb,Data Scientist,Belgium,6.0,114589.56
+looker,Data Analyst,Poland,6.0,106822.58750000001
+kubernetes,Data Engineer,Portugal,6.0,122333.61499999999
+java,Data Engineer,Germany,6.0,110057.90333333332
+java,Data Scientist,France,6.0,97468.38500000001
+hadoop,Data Engineer,Greece,6.0,85193.53166666666
+hadoop,Data Scientist,Belgium,6.0,121103.27999999998
+git,Data Engineer,Germany,6.0,120466.05333333334
+gcp,Machine Learning Engineer,Portugal,6.0,147925.16666666666
+gcp,Data Engineer,Germany,6.0,125001.83
+excel,Data Analyst,Belgium,6.0,83100.48583333334
+docker,Machine Learning Engineer,Portugal,6.0,128595.5
+cassandra,Data Engineer,France,6.0,115096.0625
+azure,Data Engineer,Sweden,6.0,135857.2575
+azure,Data Scientist,France,6.0,118158.16666666667
+aws,Data Scientist,Spain,6.0,103268.22916666667
+aws,Machine Learning Engineer,Portugal,6.0,129711.33333333333
+aws,Data Scientist,France,6.0,140520.66833333333
+airflow,Senior Data Scientist,Germany,6.0,158791.66666666666
+windows,Data Analyst,Poland,5.0,112723.2
+terraform,Data Engineer,Spain,5.0,101034.863
+terraform,Machine Learning Engineer,Portugal,5.0,120118.6
+terraform,Data Engineer,Portugal,5.0,138195.1
+terraform,Data Engineer,Germany,5.0,138349.6
+terraform,Data Engineer,France,5.0,131301.928
+tensorflow,Data Scientist,Poland,5.0,138136.18399999998
+tensorflow,Machine Learning Engineer,Germany,5.0,132622.8
+tableau,Data Engineer,Spain,5.0,114699.87299999999
+tableau,Senior Data Analyst,Germany,5.0,116210.16200000001
+tableau,Data Engineer,France,5.0,122461.438
+ssis,Data Engineer,Greece,5.0,103624.901
+sql,Data Scientist,Sweden,5.0,132699.02
+sql,Data Engineer,Romania,5.0,107490.182
+sql,Senior Data Scientist,Portugal,5.0,156045.0
+sql,Senior Data Analyst,Poland,5.0,109962.8
+sql,Machine Learning Engineer,Poland,5.0,151451.2
+sql,Senior Data Engineer,Ireland,5.0,153676.0
+sql,Data Engineer,Ireland,5.0,129583.06400000001
+sql,Data Engineer,Hungary,5.0,141786.298
+sql,Senior Data Scientist,France,5.0,148134.6
+spark,Data Engineer,Sweden,5.0,142778.6
+spark,Senior Data Engineer,Spain,5.0,131094.898
+spark,Machine Learning Engineer,Portugal,5.0,157981.4
+spark,Software Engineer,Poland,5.0,91773.0
+spark,Senior Data Engineer,Poland,5.0,85078.0
+spark,Data Scientist,Poland,5.0,105348.4
+spark,Data Scientist,France,5.0,89936.304
+spark,Data Analyst,France,5.0,96821.442
+snowflake,Data Engineer,Spain,5.0,127296.773
+snowflake,Senior Data Scientist,Poland,5.0,133843.968
+snowflake,Data Scientist,Poland,5.0,162666.664
+snowflake,Data Analyst,France,5.0,91734.684
+scikit-learn,Machine Learning Engineer,Spain,5.0,125398.174
+scala,Software Engineer,Poland,5.0,82160.628
+sap,Data Analyst,Romania,5.0,78159.284
+r,Data Scientist,Spain,5.0,92232.89499999999
+r,Data Analyst,Portugal,5.0,96941.54000000001
+r,Data Scientist,Poland,5.0,106864.354
+pytorch,Data Scientist,France,5.0,97250.643
+python,Senior Data Engineer,Sweden,5.0,151925.0
+python,Software Engineer,Spain,5.0,133735.2
+python,Senior Data Scientist,Spain,5.0,124234.274
+python,Senior Data Engineer,Netherlands,5.0,141542.6
+python,Senior Data Engineer,Ireland,5.0,141645.6
+python,Data Analyst,Hungary,5.0,99472.662
+python,Software Engineer,Germany,5.0,70050.3
+python,Cloud Engineer,Germany,5.0,114618.4
+python,Machine Learning Engineer,Belgium,5.0,87555.974
+python,Data Engineer,Belgium,5.0,102635.071
+pyspark,Data Engineer,Netherlands,5.0,135609.903
+power bi,Data Analyst,Portugal,5.0,89684.984
+power bi,Data Analyst,Ireland,5.0,67434.1
+power bi,Data Scientist,Germany,5.0,75399.296
+postgresql,Data Engineer,Netherlands,5.0,100712.988
+pandas,Data Scientist,Portugal,5.0,116271.035
+oracle,Data Engineer,Spain,5.0,89442.11
+nosql,Data Engineer,Portugal,5.0,117295.576
+nosql,Data Engineer,Poland,5.0,97922.1
+mysql,Data Engineer,Greece,5.0,88792.901
+looker,Senior Data Scientist,Germany,5.0,160165.0
+looker,Data Analyst,Germany,5.0,89535.11899999999
+kubernetes,Senior Data Engineer,France,5.0,151925.0
+kotlin,Data Engineer,Poland,5.0,99312.6
+kafka,Senior Data Engineer,France,5.0,151925.0
+java,Data Engineer,Italy,5.0,120990.39199999999
+java,Data Engineer,Ireland,5.0,141475.23799999998
+go,Data Engineer,Poland,5.0,122319.298
+go,Senior Data Analyst,Germany,5.0,116204.6
+go,Data Engineer,France,5.0,149365.347
+git,Machine Learning Engineer,Spain,5.0,118723.774
+git,Data Engineer,Netherlands,5.0,95560.207
+git,Machine Learning Engineer,France,5.0,111946.58
+excel,Data Analyst,Spain,5.0,81900.45
+excel,Data Analyst,Romania,5.0,73943.28799999999
+elasticsearch,Data Engineer,France,5.0,138729.464
+docker,Data Engineer,Spain,5.0,83739.0
+docker,Data Engineer,Portugal,5.0,116415.33799999999
+docker,Data Engineer,Poland,5.0,87163.338
+docker,Machine Learning Engineer,Greece,5.0,131444.48
+docker,Data Engineer,Greece,5.0,81549.838
+docker,Machine Learning Engineer,Germany,5.0,149988.6
+docker,Senior Data Engineer,France,5.0,151925.0
+databricks,Data Engineer,Spain,5.0,104297.8
+databricks,Data Engineer,Portugal,5.0,137163.24599999998
+c++,Machine Learning Engineer,Poland,5.0,104902.101
+azure,Data Scientist,Portugal,5.0,139050.0
+azure,Data Engineer,Italy,5.0,115612.144
+azure,Data Analyst,Ireland,5.0,118466.89199999999
+azure,Machine Learning Engineer,Greece,5.0,123455.8
+azure,Machine Learning Engineer,Belgium,5.0,87555.974
+aws,Data Engineer,Sweden,5.0,118985.6
+aws,Data Analyst,France,5.0,98783.59199999999
+aws,Data Analyst,Belgium,5.0,136717.05
+airflow,Data Analyst,Poland,5.0,112723.2
+airflow,Senior Data Engineer,Germany,5.0,155118.0
+airflow,Data Analyst,France,5.0,89915.90999999999
+vba,Data Analyst,Poland,4.0,71685.1675
+unreal,Machine Learning Engineer,Poland,4.0,94844.7175
+terraform,Data Engineer,Italy,4.0,104687.39749999999
+terraform,Machine Learning Engineer,Germany,4.0,144740.75
+tensorflow,Machine Learning Engineer,Portugal,4.0,137618.68625
+tensorflow,Data Scientist,Portugal,4.0,133014.2
+tableau,Data Scientist,Portugal,4.0,132735.97125
+tableau,Senior Data Analyst,Poland,4.0,116628.1875
+tableau,Business Analyst,Poland,4.0,106231.625
+tableau,Data Analyst,Italy,4.0,79574.70999999999
+tableau,Data Analyst,Hungary,4.0,102813.3125
+tableau,Data Analyst,Greece,4.0,82400.0
+tableau,Data Scientist,Germany,4.0,92700.0
+tableau,Business Analyst,Germany,4.0,93820.125
+tableau,Senior Data Analyst,France,4.0,92961.74875
+tableau,Data Scientist,Belgium,4.0,126498.41999999998
+sql server,Data Engineer,Poland,4.0,139251.6225
+sql server,Data Engineer,Belgium,4.0,120799.43
+sql,Senior Data Engineer,Sweden,4.0,151925.0
+sql,Senior Data Scientist,Spain,4.0,143705.3425
+sql,Data Scientist,Romania,4.0,107519.125
+sql,Data Analyst,Romania,4.0,73597.105
+sql,Software Engineer,Poland,4.0,98377.875
+sql,Senior Data Engineer,Poland,4.0,121153.75
+sql,Machine Learning Engineer,Netherlands,4.0,119351.25
+sql,Data Scientist,Ireland,4.0,135965.02125
+sql,Data Scientist,Greece,4.0,117512.31375
+sql,Machine Learning Engineer,Germany,4.0,144740.75
+sql,Machine Learning Engineer,Belgium,4.0,86501.7175
+sql,Data Scientist,Belgium,4.0,126498.41999999998
+sql,Business Analyst,Belgium,4.0,83430.0
+spark,Data Analyst,Romania,4.0,86575.105
+spark,Data Analyst,Portugal,4.0,108864.5625
+spark,Data Scientist,Netherlands,4.0,147959.5
+spark,Data Engineer,Italy,4.0,125671.33
+spark,Senior Data Engineer,Ireland,4.0,139075.75
+spark,Cloud Engineer,Germany,4.0,148886.5
+spark,Data Engineer,Belgium,4.0,104242.9525
+snowflake,Senior Data Engineer,France,4.0,151925.0
+scikit-learn,Data Scientist,Portugal,4.0,127323.45000000001
+scikit-learn,Data Scientist,Poland,4.0,121427.73
+scikit-learn,Machine Learning Engineer,Greece,4.0,114646.4675
+scikit-learn,Machine Learning Engineer,Belgium,4.0,86501.7175
+scala,Data Engineer,Sweden,4.0,114355.75
+scala,Senior Data Engineer,Poland,4.0,83404.25
+scala,Data Scientist,Poland,4.0,115362.06
+scala,Data Engineer,Italy,4.0,123824.7975
+scala,Machine Learning Engineer,Greece,4.0,157155.34
+sas,Business Analyst,Sweden,4.0,91773.0
+sas,Data Engineer,Spain,4.0,119317.77500000001
+sas,Data Analyst,Ireland,4.0,89301.0
+sas,Senior Data Scientist,France,4.0,91773.0
+sas,Data Scientist,France,4.0,75087.0
+sas,Data Analyst,France,4.0,84557.33499999999
+sas,Machine Learning Engineer,Belgium,4.0,83430.0
+sap,Data Analyst,Poland,4.0,74183.81875
+ruby,Software Engineer,Poland,4.0,79757.535
+ruby,Data Engineer,Greece,4.0,121849.0
+redshift,Senior Data Engineer,Germany,4.0,151925.0
+react,Data Engineer,Poland,4.0,125531.25
+r,Data Analyst,Poland,4.0,86668.5775
+r,Data Scientist,Italy,4.0,111962.2875
+r,Data Scientist,Germany,4.0,122163.4075
+r,Data Analyst,France,4.0,84998.4325
+r,Machine Learning Engineer,Belgium,4.0,86501.7175
+pytorch,Machine Learning Engineer,Portugal,4.0,137618.68625
+pytorch,Data Scientist,Poland,4.0,132113.97999999998
+python,Data Scientist,Sweden,4.0,145016.275
+python,Data Analyst,Sweden,4.0,108102.3625
+python,Senior Data Engineer,Poland,4.0,86075.2975
+python,Cloud Engineer,Poland,4.0,85052.25
+python,Machine Learning Engineer,Ireland,4.0,131556.75
+python,Data Scientist,Ireland,4.0,89003.45874999999
+python,Machine Learning Engineer,Hungary,4.0,119711.75
+python,Software Engineer,Greece,4.0,103090.125
+python,Senior Data Scientist,Greece,4.0,105259.5625
+powerpoint,Data Analyst,Poland,4.0,72671.00625
+power bi,Data Engineer,Spain,4.0,139442.43
+power bi,Data Analyst,Spain,4.0,81210.0925
+power bi,Data Analyst,Greece,4.0,95378.0
+power bi,Data Analyst,Germany,4.0,100681.08374999999
+power bi,Data Scientist,France,4.0,84434.25
+power bi,Data Analyst,Belgium,4.0,86220.785
+postgresql,Data Engineer,Poland,4.0,146646.25
+postgresql,Data Engineer,Greece,4.0,99137.5
+perl,Machine Learning Engineer,Belgium,4.0,86501.7175
+pandas,Data Analyst,Spain,4.0,109656.375
+pandas,Data Scientist,Netherlands,4.0,165572.5
+pandas,Data Analyst,Germany,4.0,111664.875
+numpy,Data Scientist,France,4.0,154723.2525
+nosql,Data Engineer,Italy,4.0,98045.9575
+nosql,Machine Learning Engineer,Belgium,4.0,86501.7175
+nosql,Data Analyst,Belgium,4.0,169636.365
+nltk,Machine Learning Engineer,Belgium,4.0,86501.7175
+mongodb,Data Engineer,Spain,4.0,119317.77500000001
+mongodb,Data Engineer,Greece,4.0,151925.0
+mongodb,Data Engineer,Germany,4.0,151925.0
+mongodb,Senior Data Scientist,France,4.0,162225.0
+mongodb,Data Scientist,France,4.0,73574.1875
+matplotlib,Data Scientist,France,4.0,144472.95
+matlab,Machine Learning Engineer,Belgium,4.0,86501.7175
+looker,Data Analyst,Spain,4.0,100489.89
+looker,Data Scientist,Poland,4.0,155199.37
+looker,Senior Data Analyst,Germany,4.0,114510.25
+linux,Machine Learning Engineer,Germany,4.0,131376.5
+linux,Machine Learning Engineer,Belgium,4.0,90673.2175
+kubernetes,Software Engineer,Poland,4.0,85765.2675
+kubernetes,Data Scientist,Poland,4.0,115150.91
+kubernetes,Machine Learning Engineer,Greece,4.0,114317.38249999999
+kubernetes,Data Engineer,Greece,4.0,71037.2975
+keras,Machine Learning Engineer,Greece,4.0,116452.0575
+keras,Data Scientist,France,4.0,116903.7125
+kafka,Senior Data Engineer,Poland,4.0,96735.7975
+kafka,Data Engineer,Poland,4.0,72743.75
+kafka,Senior Data Scientist,Germany,4.0,162225.0
+kafka,Senior Data Engineer,Germany,4.0,151925.0
+kafka,Data Engineer,Germany,4.0,149993.75
+jira,Data Engineer,Spain,4.0,84048.0
+java,Data Engineer,Netherlands,4.0,121849.0
+java,Software Engineer,Greece,4.0,103090.125
+java,Senior Data Engineer,France,4.0,134337.75
+hadoop,Data Engineer,Spain,4.0,94585.6725
+hadoop,Data Scientist,Portugal,4.0,137932.45
+hadoop,Data Engineer,Portugal,4.0,125973.3775
+hadoop,Data Engineer,Italy,4.0,112781.91
+hadoop,Data Scientist,Germany,4.0,162225.0
+go,Senior Data Engineer,Germany,4.0,121849.0
+go,Data Analyst,Germany,4.0,68550.87749999999
+github,Data Analyst,France,4.0,101196.47
+git,Data Engineer,Poland,4.0,112257.125
+git,Data Analyst,Poland,4.0,100882.0625
+git,Data Scientist,Netherlands,4.0,162259.7625
+git,Machine Learning Engineer,Germany,4.0,119871.01375
+gcp,Data Engineer,Sweden,4.0,110750.75
+gcp,Data Scientist,Poland,4.0,133885.58000000002
+gcp,Senior Data Engineer,Netherlands,4.0,138947.0
+flow,Data Analyst,Greece,4.0,109767.61499999999
+flow,Data Analyst,Belgium,4.0,155776.4275
+excel,Data Engineer,Netherlands,4.0,100583.3625
+excel,Data Analyst,Ireland,4.0,73142.875
+excel,Data Scientist,Hungary,4.0,87601.5
+excel,Data Analyst,Hungary,4.0,85526.43625
+excel,Business Analyst,Germany,4.0,74584.875
+excel,Data Scientist,France,4.0,60001.104999999996
+docker,Data Engineer,Italy,4.0,95897.3775
+docker,Senior Data Scientist,Germany,4.0,162225.0
+docker,Machine Learning Engineer,France,4.0,108602.9425
+docker,Data Scientist,France,4.0,107137.2525
+databricks,Data Engineer,Greece,4.0,97603.83
+databricks,Data Engineer,France,4.0,109205.36375
+databricks,Data Engineer,Belgium,4.0,104242.9525
+cassandra,Machine Learning Engineer,Belgium,4.0,86501.7175
+c++,Software Engineer,Poland,4.0,85765.2675
+c++,Data Scientist,France,4.0,111631.6575
+bigquery,Data Engineer,Portugal,4.0,140407.7975
+bigquery,Data Scientist,Poland,4.0,133039.95
+bigquery,Senior Data Engineer,France,4.0,151925.0
+bigquery,Data Engineer,France,4.0,122589.18375
+azure,Senior Data Engineer,Spain,4.0,148392.8725
+azure,Machine Learning Engineer,Spain,4.0,133847.72749999998
+azure,Data Scientist,Spain,4.0,102217.84375
+azure,Data Engineer,Romania,4.0,109054.85500000001
+azure,Senior Data Scientist,Poland,4.0,126748.70999999999
+azure,Senior Data Engineer,Poland,4.0,97431.0475
+azure,Machine Learning Engineer,Poland,4.0,143144.25
+azure,Senior Data Engineer,Netherlands,4.0,138947.0
+azure,Data Engineer,Hungary,4.0,144905.8075
+azure,Data Scientist,Germany,4.0,146563.97875
+azure,Cloud Engineer,Germany,4.0,91773.0
+azure,Senior Data Engineer,France,4.0,151925.0
+aws,Software Engineer,Poland,4.0,79757.535
+aws,Senior Data Engineer,Poland,4.0,97431.0475
+aws,Senior Data Engineer,Netherlands,4.0,138947.0
+aws,Data Engineer,Hungary,4.0,141491.615
+aws,Machine Learning Engineer,Greece,4.0,110474.9675
+aws,Data Scientist,Germany,4.0,144631.82749999998
+aws,Senior Data Engineer,France,4.0,151925.0
+aws,Machine Learning Engineer,Belgium,4.0,86501.7175
+aws,Data Engineer,Belgium,4.0,100616.58
+airflow,Data Engineer,Sweden,4.0,122374.5575
+airflow,Senior Data Engineer,Spain,4.0,138560.75
+airflow,Data Engineer,Romania,4.0,122775.22750000001
+airflow,Data Engineer,Ireland,4.0,138862.7975
+airflow,Data Scientist,Germany,4.0,135100.97999999998
+word,Data Analyst,Spain,3.0,82940.75
+windows,Machine Learning Engineer,Poland,3.0,91773.0
+windows,Data Engineer,Poland,3.0,84288.33333333333
+windows,Machine Learning Engineer,Germany,3.0,118175.33333333333
+vba,Data Analyst,Romania,3.0,75133.00666666667
+vba,Data Analyst,France,3.0,114510.25
+unreal,Data Analyst,Ireland,3.0,86108.0
+unix,Data Engineer,Poland,3.0,93850.16666666667
+unix,Machine Learning Engineer,Belgium,3.0,90306.62333333334
+terraform,Senior Data Engineer,Poland,3.0,99317.06333333334
+terraform,Data Engineer,Poland,3.0,134363.5
+terraform,Data Engineer,Greece,3.0,96682.66666666667
+tensorflow,Machine Learning Engineer,Ireland,3.0,150380.0
+tensorflow,Machine Learning Engineer,Hungary,3.0,140148.66666666666
+tensorflow,Data Scientist,Hungary,3.0,102128.79166666667
+tensorflow,Software Engineer,Greece,3.0,75087.0
+tensorflow,Data Scientist,Greece,3.0,97931.54166666667
+tableau,Data Analyst,Sweden,3.0,107249.43666666666
+tableau,Data Scientist,Spain,3.0,109437.5
+tableau,Senior Data Scientist,Portugal,3.0,126312.33333333333
+tableau,Senior Data Scientist,Poland,3.0,162225.0
+tableau,Data Analyst,Netherlands,3.0,110167.77
+tableau,Business Analyst,Netherlands,3.0,88374.0
+tableau,Data Engineer,Greece,3.0,108896.06333333334
+ssrs,Data Engineer,Greece,3.0,114453.77166666667
+ssis,Data Analyst,Belgium,3.0,96081.83333333333
+sql server,Data Engineer,Greece,3.0,88845.39666666667
+sql server,Senior Data Engineer,Germany,3.0,137083.73
+sql server,Data Analyst,Belgium,3.0,96081.83333333333
+sql,Business Analyst,Sweden,3.0,91773.0
+sql,Senior Data Engineer,Portugal,3.0,134449.33333333334
+sql,Senior Data Analyst,Portugal,3.0,114519.52
+sql,Business Analyst,Netherlands,3.0,88374.0
+sql,Senior Data Scientist,Ireland,3.0,159993.33333333334
+sql,Data Scientist,Hungary,3.0,115257.0
+sql,Software Engineer,Greece,3.0,63963.0
+sql,Machine Learning Engineer,Greece,3.0,144577.66666666666
+sql,Data Engineer,Finland,3.0,100200.97499999999
+sql,Data Analyst,Denmark,3.0,80649.0
+spring,Data Engineer,Poland,3.0,84288.33333333333
+spark,Data Scientist,Spain,3.0,152955.0
+spark,Data Scientist,Romania,3.0,97867.16666666667
+spark,Data Engineer,Romania,3.0,130186.85000000002
+spark,Senior Data Scientist,Poland,3.0,162225.0
+spark,Senior Data Engineer,Netherlands,3.0,131874.33333333334
+spark,Data Engineer,Ireland,3.0,134508.73
+spark,Data Engineer,Hungary,3.0,147372.74333333332
+spark,Software Engineer,Germany,3.0,99801.16333333333
+spark,Business Analyst,Germany,3.0,62486.666666666664
+spark,Senior Data Scientist,France,3.0,162225.0
+snowflake,Senior Data Engineer,Spain,3.0,131874.33333333334
+snowflake,Data Analyst,Spain,3.0,95000.33333333333
+snowflake,Senior Data Engineer,Poland,3.0,114458.06333333334
+snowflake,Data Analyst,Ireland,3.0,131902.48666666666
+snowflake,Senior Data Analyst,France,3.0,114510.25
+snowflake,Data Scientist,France,3.0,98296.33333333333
+shell,Data Engineer,Spain,3.0,107303.68333333335
+sharepoint,Data Analyst,Belgium,3.0,96519.58333333333
+scikit-learn,Data Scientist,Netherlands,3.0,166688.33333333334
+scala,Senior Data Engineer,Spain,3.0,134106.0
+scala,Machine Learning Engineer,Poland,3.0,118175.33333333333
+scala,Data Engineer,Ireland,3.0,134508.73
+scala,Data Engineer,Germany,3.0,131874.33333333334
+sap,Data Analyst,Netherlands,3.0,127436.75
+sap,Data Scientist,Hungary,3.0,115257.0
+sap,Data Analyst,Hungary,3.0,72254.5
+sap,Data Engineer,Germany,3.0,157933.33333333334
+sap,Data Scientist,Belgium,3.0,114589.56
+sap,Data Analyst,Belgium,3.0,94578.03333333333
+sap,Business Analyst,Belgium,3.0,80649.0
+redshift,Senior Data Engineer,Spain,3.0,151925.0
+redshift,Senior Data Scientist,Germany,3.0,155358.33333333334
+redshift,Data Scientist,Germany,3.0,145044.94333333333
+redshift,Data Engineer,Germany,3.0,117553.21333333333
+redshift,Data Engineer,France,3.0,124723.73
+redis,Data Engineer,Netherlands,3.0,118135.67833333333
+r,Data Analyst,Sweden,3.0,107734.56666666667
+r,Data Analyst,Spain,3.0,99746.91666666667
+r,Data Scientist,Netherlands,3.0,121358.03333333333
+r,Data Analyst,Italy,3.0,100287.66666666667
+r,Machine Learning Engineer,Greece,3.0,86211.0
+r,Data Scientist,Greece,3.0,135050.51
+r,Senior Data Scientist,Germany,3.0,158791.66666666666
+pytorch,Machine Learning Engineer,Spain,3.0,95868.62333333334
+pytorch,Machine Learning Engineer,Netherlands,3.0,144577.66666666666
+pytorch,Data Scientist,Netherlands,3.0,157782.2666666667
+pytorch,Machine Learning Engineer,Hungary,3.0,140148.66666666666
+python,Machine Learning Engineer,Sweden,3.0,133161.83333333334
+python,Machine Learning Engineer,Romania,3.0,144577.66666666666
+python,Data Engineer,Romania,3.0,82419.22666666667
+python,Senior Data Analyst,Poland,3.0,106004.16666666667
+python,Senior Data Scientist,Ireland,3.0,159993.33333333334
+python,Business Analyst,Germany,3.0,75087.0
+python,Machine Learning Engineer,Finland,3.0,169091.66666666666
+python,Data Engineer,Finland,3.0,94407.39666666667
+python,Data Analyst,Denmark,3.0,80649.0
+python,Data Analyst,Belgium,3.0,96081.83333333333
+pyspark,Data Engineer,Portugal,3.0,115625.39666666667
+pyspark,Data Engineer,Italy,3.0,117322.83666666667
+pyspark,Machine Learning Engineer,Greece,3.0,148673.29
+pyspark,Senior Data Engineer,Germany,3.0,151925.0
+powerpoint,Data Analyst,Belgium,3.0,84122.675
+power bi,Data Analyst,Sweden,3.0,109631.48333333334
+power bi,Data Analyst,Netherlands,3.0,88614.33333333333
+power bi,Data Scientist,Greece,3.0,90980.415
+power bi,Data Engineer,Greece,3.0,91705.87833333334
+power bi,Senior Data Engineer,Germany,3.0,151925.0
+power bi,Business Analyst,Germany,3.0,94502.5
+postgresql,Machine Learning Engineer,Germany,3.0,182481.66666666666
+perl,Data Scientist,Belgium,3.0,114589.56
+pandas,Machine Learning Engineer,Spain,3.0,143719.33333333334
+pandas,Senior Data Scientist,Poland,3.0,138407.28
+pandas,Data Scientist,Poland,3.0,119651.66666666667
+pandas,Machine Learning Engineer,Germany,3.0,162396.66666666666
+pandas,Data Engineer,France,3.0,94740.77333333333
+oracle,Data Engineer,Greece,3.0,64125.39666666667
+numpy,Data Scientist,Portugal,3.0,144735.6
+nosql,Data Engineer,Spain,3.0,100699.66666666667
+nosql,Software Engineer,Greece,3.0,63963.0
+nosql,Data Scientist,Belgium,3.0,114589.56
+mysql,Data Engineer,France,3.0,117553.21333333333
+matplotlib,Machine Learning Engineer,Spain,3.0,147814.95666666667
+matplotlib,Data Scientist,Poland,3.0,132183.33333333334
+matplotlib,Data Analyst,Germany,3.0,110716.41666666667
+looker,Senior Data Analyst,Spain,3.0,110845.16666666667
+looker,Data Engineer,Portugal,3.0,117610.89333333333
+looker,Data Scientist,Netherlands,3.0,112362.7
+looker,Data Analyst,Netherlands,3.0,106940.43666666666
+linux,Data Engineer,Spain,3.0,88940.5
+linux,Software Engineer,Poland,3.0,91773.0
+linux,Machine Learning Engineer,Greece,3.0,94402.24666666666
+kubernetes,Machine Learning Engineer,Portugal,3.0,149315.66666666666
+kubernetes,Machine Learning Engineer,Poland,3.0,129625.5
+kubernetes,Machine Learning Engineer,Netherlands,3.0,105403.33333333333
+kubernetes,Data Engineer,Italy,3.0,97272.17
+kubernetes,Senior Data Engineer,Germany,3.0,91773.0
+kubernetes,Data Scientist,Germany,3.0,162225.0
+kubernetes,Data Analyst,France,3.0,88940.5
+keras,Machine Learning Engineer,Spain,3.0,147814.95666666667
+kafka,Machine Learning Engineer,Poland,3.0,120863.29
+kafka,Data Engineer,Italy,3.0,116920.10666666667
+kafka,Data Engineer,Hungary,3.0,134739.10666666666
+kafka,Data Analyst,France,3.0,122160.40333333332
+jupyter,Data Analyst,Spain,3.0,108038.41666666667
+jenkins,Data Engineer,Spain,3.0,58332.333333333336
+jenkins,Data Engineer,Germany,3.0,134739.10666666666
+jenkins,Senior Data Engineer,France,3.0,151925.0
+jenkins,Data Analyst,France,3.0,117413.81999999999
+java,Machine Learning Engineer,Spain,3.0,164834.33333333334
+java,Software Engineer,Poland,3.0,80930.19
+java,Machine Learning Engineer,Poland,3.0,127378.21166666667
+java,Machine Learning Engineer,Netherlands,3.0,158963.33333333334
+java,Data Engineer,Hungary,3.0,147372.74333333332
+java,Machine Learning Engineer,Greece,3.0,116487.16333333333
+java,Data Analyst,Greece,3.0,142072.87833333333
+java,Software Engineer,Germany,3.0,88940.5
+java,Senior Data Engineer,Germany,3.0,134508.73
+java,Data Analyst,France,3.0,99352.08333333333
+hadoop,Senior Data Engineer,Ireland,3.0,134792.66666666666
+hadoop,Data Analyst,France,3.0,78091.16666666667
+groovy,Data Engineer,Poland,3.0,84288.33333333333
+go,Business Analyst,Sweden,3.0,103583.66666666667
+go,Senior Data Engineer,Spain,3.0,111823.66666666667
+go,Data Analyst,Portugal,3.0,60745.28
+go,Machine Learning Engineer,Poland,3.0,112247.16833333333
+go,Data Analyst,Netherlands,3.0,107013.22333333333
+go,Machine Learning Engineer,Germany,3.0,144577.66666666666
+go,Data Scientist,Germany,3.0,114935.64
+go,Senior Data Engineer,France,3.0,151925.0
+go,Data Scientist,France,3.0,86211.0
+gitlab,Data Scientist,France,3.0,74984.0
+gitlab,Data Engineer,France,3.0,114688.44
+github,Data Engineer,Spain,3.0,92597.0
+github,Software Engineer,Poland,3.0,88940.5
+github,Data Analyst,Germany,3.0,155423.22333333333
+github,Data Scientist,France,3.0,94996.38500000001
+git,Data Engineer,Spain,3.0,95165.13333333335
+git,Data Scientist,Hungary,3.0,85215.33333333333
+git,Machine Learning Engineer,Greece,3.0,99964.24666666666
+git,Data Engineer,Greece,3.0,97560.22666666667
+git,Senior Data Scientist,Germany,3.0,158791.66666666666
+git,Senior Data Engineer,Germany,3.0,134621.0
+git,Data Engineer,Belgium,3.0,114976.49666666666
+gcp,Data Engineer,Spain,3.0,83283.39666666667
+gcp,Senior Data Engineer,Poland,3.0,61491.0
+gcp,Senior Data Engineer,Germany,3.0,134621.0
+gcp,Data Analyst,Germany,3.0,131302.16833333333
+gcp,Senior Data Engineer,France,3.0,151925.0
+gcp,Data Scientist,France,3.0,129848.66666666667
+gcp,Data Analyst,France,3.0,84130.05666666666
+gcp,Data Analyst,Belgium,3.0,169950.0
+flow,Data Engineer,Greece,3.0,91475.50166666666
+flow,Data Scientist,France,3.0,127209.29166666667
+excel,Senior Data Analyst,Spain,3.0,110845.16666666667
+excel,Data Engineer,Portugal,3.0,106158.66666666667
+excel,Data Scientist,Poland,3.0,50562.700000000004
+excel,Business Analyst,Poland,3.0,69525.0
+elasticsearch,Data Engineer,Spain,3.0,129956.47333333334
+elasticsearch,Data Engineer,Netherlands,3.0,118135.67833333333
+elasticsearch,Senior Data Engineer,France,3.0,151925.0
+docker,Software Engineer,Spain,3.0,138569.33333333334
+docker,Machine Learning Engineer,Spain,3.0,97118.01333333332
+docker,Machine Learning Engineer,Romania,3.0,144577.66666666666
+docker,Machine Learning Engineer,Poland,3.0,88589.95666666667
+docker,Data Scientist,Poland,3.0,129501.21333333333
+docker,Senior Data Engineer,Germany,3.0,91773.0
+docker,Software Engineer,France,3.0,113506.0
+docker,Data Analyst,France,3.0,117413.81999999999
+databricks,Machine Learning Engineer,Spain,3.0,95868.62333333334
+databricks,Data Scientist,Spain,3.0,121334.0
+databricks,Machine Learning Engineer,Portugal,3.0,147084.0
+databricks,Data Engineer,Germany,3.0,134739.10666666666
+databricks,Data Analyst,Belgium,3.0,114561.75
+chef,Data Scientist,France,3.0,96071.36166666665
+c#,Data Engineer,Portugal,3.0,113289.01333333335
+c#,Data Engineer,Poland,3.0,99317.06333333334
+bigquery,Data Analyst,Portugal,3.0,119608.40666666668
+bigquery,Senior Data Engineer,Netherlands,3.0,154671.66666666666
+bigquery,Senior Data Scientist,Germany,3.0,155358.33333333334
+bigquery,Data Analyst,France,3.0,93854.97333333333
+bash,Machine Learning Engineer,Belgium,3.0,90306.62333333334
+azure,Data Engineer,Portugal,3.0,100425.0
+azure,Software Engineer,Poland,3.0,114913.66666666667
+azure,Data Scientist,Poland,3.0,147973.92
+azure,Data Analyst,Poland,3.0,111961.0
+azure,Cloud Engineer,Poland,3.0,125934.66666666667
+azure,Machine Learning Engineer,Netherlands,3.0,102450.66666666667
+azure,Data Scientist,Hungary,3.0,115257.0
+azure,Data Analyst,Greece,3.0,123868.48666666665
+azure,Machine Learning Engineer,Germany,3.0,104715.29333333333
+azure,Data Analyst,Germany,3.0,86275.89
+aws,Senior Data Scientist,Spain,3.0,94418.04
+aws,Cloud Engineer,Spain,3.0,93061.52999999998
+aws,Data Scientist,Portugal,3.0,162225.0
+aws,Senior Data Scientist,Poland,3.0,114923.27999999998
+aws,Data Scientist,Poland,3.0,142286.94666666666
+aws,Cloud Engineer,Poland,3.0,120372.66666666667
+aws,Senior Data Engineer,Ireland,3.0,154843.33333333334
+aws,Senior Data Engineer,Hungary,3.0,151925.0
+aws,Machine Learning Engineer,Hungary,3.0,110913.83333333333
+aws,Data Analyst,Germany,3.0,86524.80666666666
+aws,Software Engineer,France,3.0,131840.0
+aws,Machine Learning Engineer,France,3.0,101489.33333333333
+aws,Data Scientist,Belgium,3.0,162225.0
+atlassian,Data Engineer,Netherlands,3.0,91773.0
+ansible,Data Engineer,Portugal,3.0,133041.66666666666
+airflow,Machine Learning Engineer,Spain,3.0,138432.0
+airflow,Data Analyst,Spain,3.0,99746.91666666667
+airflow,Senior Data Scientist,Portugal,3.0,151925.0
+airflow,Machine Learning Engineer,Poland,3.0,94460.95666666667
+airflow,Senior Data Engineer,Netherlands,3.0,154671.66666666666
+airflow,Machine Learning Engineer,Netherlands,3.0,106742.33333333333
+airflow,Senior Data Scientist,France,3.0,162225.0
+airflow,Data Scientist,France,3.0,134402.125
+word,Data Engineer,Poland,2.0,79038.595
+word,Data Analyst,Belgium,2.0,87524.25
+windows,Software Engineer,Poland,2.0,91773.0
+windows,Data Scientist,Germany,2.0,117582.74
+vue,Software Engineer,Greece,2.0,66744.0
+visio,Data Scientist,France,2.0,117143.1875
+unix,Data Engineer,Italy,2.0,96070.16
+unix,Data Engineer,Hungary,2.0,151925.0
+unix,Senior Data Engineer,France,2.0,151925.0
+unify,Data Engineer,Spain,2.0,95718.1575
+unify,Senior Data Engineer,Germany,2.0,121849.0
+typescript,Data Engineer,Poland,2.0,99137.5
+typescript,Senior Data Engineer,Germany,2.0,121849.0
+terraform,Senior Data Engineer,Spain,2.0,121849.0
+terraform,Senior Data Engineer,Romania,2.0,121849.0
+terraform,Machine Learning Engineer,Netherlands,2.0,121025.0
+terraform,Data Engineer,Netherlands,2.0,101241.0175
+terraform,Machine Learning Engineer,Hungary,2.0,70838.25
+terraform,Data Engineer,Hungary,2.0,119317.77500000001
+terraform,Data Scientist,Germany,2.0,171680.91499999998
+terraform,Cloud Engineer,Germany,2.0,91773.0
+terraform,Senior Data Engineer,Finland,2.0,103913.095
+tensorflow,Machine Learning Engineer,Sweden,2.0,127127.75
+tensorflow,Senior Data Scientist,Netherlands,2.0,118656.0
+tensorflow,Machine Learning Engineer,Netherlands,2.0,122570.0
+tensorflow,Data Scientist,Netherlands,2.0,168920.0
+tensorflow,Senior Data Scientist,Germany,2.0,196730.0
+tensorflow,Data Scientist,Germany,2.0,162225.0
+tensorflow,Data Engineer,France,2.0,100021.755
+tensorflow,Machine Learning Engineer,Belgium,2.0,97916.435
+tableau,Business Analyst,Sweden,2.0,90382.5
+tableau,Senior Data Analyst,Spain,2.0,109012.625
+tableau,Machine Learning Engineer,Spain,2.0,137519.935
+tableau,Data Engineer,Romania,2.0,145096.615
+tableau,Senior Data Engineer,Portugal,2.0,121849.0
+tableau,Senior Data Analyst,Portugal,2.0,114524.155
+tableau,Senior Data Analyst,Italy,2.0,103141.625
+tableau,Data Scientist,Italy,2.0,79269.57250000001
+tableau,Data Engineer,Italy,2.0,147073.7
+tableau,Senior Data Scientist,Ireland,2.0,154500.0
+tableau,Senior Data Engineer,Ireland,2.0,151925.0
+tableau,Data Scientist,Ireland,2.0,126999.0
+tableau,Data Engineer,Ireland,2.0,125800.595
+tableau,Business Analyst,Greece,2.0,69988.5
+tableau,Senior Data Scientist,Germany,2.0,157075.0
+tableau,Data Analyst,Denmark,2.0,75087.0
+t-sql,Data Engineer,Greece,2.0,96070.16
+ssis,Data Engineer,Romania,2.0,145096.615
+ssis,Senior Data Engineer,Poland,2.0,151925.0
+ssis,Data Engineer,Poland,2.0,151925.0
+ssis,Software Engineer,Hungary,2.0,58401.0
+ssis,Data Scientist,Hungary,2.0,91773.0
+ssis,Software Engineer,Greece,2.0,139436.25
+sql server,Data Analyst,Portugal,2.0,145842.85
+sql server,Data Engineer,Ireland,2.0,121849.0
+sql server,Data Analyst,Ireland,2.0,122518.5
+sql server,Data Engineer,Hungary,2.0,151925.0
+sql server,Senior Data Scientist,Greece,2.0,84238.55
+sql server,Business Analyst,Belgium,2.0,83430.0
+sql,Software Engineer,Spain,2.0,126484.0
+sql,Machine Learning Engineer,Spain,2.0,201365.0
+sql,Business Analyst,Spain,2.0,139771.0
+sql,Software Engineer,Romania,2.0,200335.0
+sql,Senior Data Engineer,Romania,2.0,121849.0
+sql,Senior Data Analyst,Romania,2.0,114510.25
+sql,Software Engineer,Portugal,2.0,126484.0
+sql,Machine Learning Engineer,Portugal,2.0,184370.0
+sql,Business Analyst,Poland,2.0,120690.25
+sql,Senior Data Engineer,Netherlands,2.0,156045.0
+sql,Senior Data Analyst,Italy,2.0,114510.25
+sql,Data Scientist,Italy,2.0,126999.0
+sql,Machine Learning Engineer,Ireland,2.0,170980.0
+sql,Software Engineer,Hungary,2.0,58401.0
+sql,Senior Data Analyst,Hungary,2.0,90382.5
+sql,Machine Learning Engineer,Hungary,2.0,124733.0
+sql,Senior Data Scientist,Greece,2.0,84238.55
+sql,Business Analyst,Greece,2.0,69988.5
+sql,Software Engineer,France,2.0,186172.5
+sql,Senior Data Analyst,Finland,2.0,109012.625
+sql,Data Engineer,Denmark,2.0,125800.595
+spring,Data Engineer,Spain,2.0,58401.0
+spring,Senior Data Engineer,France,2.0,86674.5
+spreadsheet,Data Analyst,Spain,2.0,104802.5
+splunk,Data Engineer,Poland,2.0,151925.0
+spark,Senior Data Engineer,Sweden,2.0,151925.0
+spark,Data Analyst,Netherlands,2.0,125805.745
+spark,Senior Data Scientist,Hungary,2.0,126999.0
+spark,Machine Learning Engineer,Hungary,2.0,137170.25
+spark,Data Scientist,Greece,2.0,59683.0925
+spark,Software Engineer,France,2.0,141985.5
+spark,Senior Data Analyst,France,2.0,126484.0
+spark,Data Engineer,Finland,2.0,91773.0
+spark,Data Scientist,Belgium,2.0,110313.0
+spark,Data Analyst,Belgium,2.0,169950.0
+snowflake,Senior Data Engineer,Romania,2.0,121849.0
+snowflake,Data Engineer,Portugal,2.0,137762.5
+snowflake,Machine Learning Engineer,Poland,2.0,152262.0675
+snowflake,Senior Data Engineer,Netherlands,2.0,156045.0
+snowflake,Senior Data Engineer,Ireland,2.0,151925.0
+snowflake,Data Engineer,Greece,2.0,125800.595
+snowflake,Business Analyst,Greece,2.0,69988.5
+snowflake,Data Scientist,Germany,2.0,83430.0
+snowflake,Data Engineer,Germany,2.0,151925.0
+snowflake,Data Engineer,Finland,2.0,91773.0
+shell,Data Engineer,Ireland,2.0,151925.0
+shell,Data Engineer,Hungary,2.0,151925.0
+sheets,Data Analyst,Hungary,2.0,78029.70999999999
+sheets,Data Analyst,Belgium,2.0,85573.945
+scikit-learn,Machine Learning Engineer,Portugal,2.0,193125.0
+scikit-learn,Senior Data Scientist,Poland,2.0,162225.0
+scikit-learn,Machine Learning Engineer,Poland,2.0,108948.25
+scikit-learn,Machine Learning Engineer,Ireland,2.0,140080.0
+scikit-learn,Data Scientist,Greece,2.0,100202.2625
+scikit-learn,Senior Data Scientist,Germany,2.0,162225.0
+scikit-learn,Senior Data Engineer,Germany,2.0,151925.0
+scala,Machine Learning Engineer,Sweden,2.0,127127.75
+scala,Machine Learning Engineer,Spain,2.0,161761.5
+scala,Data Scientist,Spain,2.0,148320.0
+scala,Senior Data Engineer,Netherlands,2.0,121849.0
+scala,Data Engineer,Netherlands,2.0,91773.0
+scala,Data Analyst,Netherlands,2.0,110467.5
+scala,Data Scientist,Italy,2.0,79269.57250000001
+scala,Data Analyst,Ireland,2.0,98892.875
+scala,Senior Data Engineer,Germany,2.0,121849.0
+scala,Cloud Engineer,Germany,2.0,91773.0
+scala,Senior Data Engineer,France,2.0,151925.0
+scala,Data Scientist,France,2.0,117143.1875
+scala,Data Analyst,France,2.0,70838.25
+sas,Data Scientist,Sweden,2.0,162225.0
+sas,Senior Data Analyst,Spain,2.0,103515.0
+sas,Data Scientist,Spain,2.0,59328.0
+sas,Business Analyst,Spain,2.0,88992.0
+sas,Data Analyst,Portugal,2.0,75087.0
+sas,Senior Data Scientist,Poland,2.0,94502.5
+sas,Data Scientist,Poland,2.0,44496.0
+sas,Data Analyst,Poland,2.0,114510.25
+sas,Business Analyst,Poland,2.0,83275.5
+sas,Data Analyst,Netherlands,2.0,91880.12
+sas,Software Engineer,Italy,2.0,108819.5
+sas,Data Scientist,Italy,2.0,91773.0
+sas,Data Scientist,Hungary,2.0,162225.0
+sas,Data Analyst,Greece,2.0,101455.0
+sas,Data Analyst,Germany,2.0,108819.5
+sas,Machine Learning Engineer,France,2.0,58401.0
+sas,Data Engineer,Belgium,2.0,138268.23
+sas,Business Analyst,Belgium,2.0,75087.0
+sap,Data Scientist,Portugal,2.0,138245.57
+sap,Data Analyst,Portugal,2.0,130861.5
+sap,Software Engineer,Poland,2.0,91773.0
+sap,Senior Data Engineer,Poland,2.0,121849.0
+sap,Data Engineer,Poland,2.0,105163.0
+sap,Data Engineer,Italy,2.0,129493.66
+sap,Senior Data Engineer,Germany,2.0,151925.0
+sap,Data Analyst,Germany,2.0,80347.20999999999
+sap,Data Analyst,France,2.0,100296.25
+sap,Data Scientist,Denmark,2.0,110802.25
+ruby,Software Engineer,Spain,2.0,161195.0
+ruby,Senior Data Engineer,Poland,2.0,99676.19
+ruby,Data Engineer,Poland,2.0,83275.5
+ruby,Data Engineer,Italy,2.0,91773.0
+ruby,Senior Data Engineer,Ireland,2.0,151925.0
+ruby,Machine Learning Engineer,Hungary,2.0,58401.0
+ruby,Software Engineer,Germany,2.0,91773.0
+rshiny,Data Scientist,France,2.0,162225.0
+redshift,Data Engineer,Spain,2.0,125794.1575
+redshift,Senior Data Engineer,Romania,2.0,121849.0
+redshift,Senior Data Scientist,Poland,2.0,162225.0
+redshift,Senior Data Engineer,Netherlands,2.0,156045.0
+redshift,Data Engineer,Netherlands,2.0,100453.84
+redshift,Data Engineer,Ireland,2.0,125800.595
+redshift,Data Engineer,Greece,2.0,121849.0
+redis,Data Engineer,France,2.0,151925.0
+react,Senior Data Analyst,Spain,2.0,114510.25
+react,Software Engineer,Greece,2.0,66744.0
+r,Data Scientist,Sweden,2.0,162225.0
+r,Senior Data Engineer,Spain,2.0,121849.0
+r,Machine Learning Engineer,Spain,2.0,131376.5
+r,Business Analyst,Spain,2.0,76941.0
+r,Senior Data Scientist,Portugal,2.0,162225.0
+r,Data Scientist,Portugal,2.0,148865.90000000002
+r,Senior Data Analyst,Poland,2.0,105987.0
+r,Data Engineer,Poland,2.0,126578.245
+r,Senior Data Scientist,Ireland,2.0,154500.0
+r,Data Scientist,Ireland,2.0,86734.4975
+r,Data Scientist,Hungary,2.0,162225.0
+r,Data Analyst,Greece,2.0,136105.22999999998
+r,Business Analyst,Greece,2.0,69988.5
+r,Senior Data Analyst,Germany,2.0,114510.25
+r,Machine Learning Engineer,Germany,2.0,89661.5
+r,Senior Data Scientist,France,2.0,91773.0
+r,Senior Data Analyst,France,2.0,103141.625
+r,Data Engineer,France,2.0,125028.095
+r,Senior Data Analyst,Finland,2.0,114524.155
+r,Data Analyst,Denmark,2.0,75087.0
+qlik,Senior Data Analyst,Spain,2.0,114510.25
+qlik,Data Engineer,Spain,2.0,130781.16
+qlik,Data Analyst,Spain,2.0,103209.09
+qlik,Senior Data Analyst,France,2.0,103141.625
+qlik,Data Scientist,France,2.0,98030.25
+qlik,Data Engineer,France,2.0,126146.16
+qlik,Data Analyst,France,2.0,84557.33499999999
+qlik,Business Analyst,Belgium,2.0,83430.0
+pytorch,Machine Learning Engineer,Sweden,2.0,127127.75
+pytorch,Data Engineer,Poland,2.0,151925.0
+pytorch,Machine Learning Engineer,Ireland,2.0,170980.0
+pytorch,Data Scientist,Hungary,2.0,117162.5
+pytorch,Software Engineer,Greece,2.0,66744.0
+pytorch,Data Scientist,Greece,2.0,92080.97
+pytorch,Senior Data Scientist,Germany,2.0,196730.0
+pytorch,Software Engineer,France,2.0,124073.0275
+pytorch,Machine Learning Engineer,Finland,2.0,141419.0
+pytorch,Data Scientist,Belgium,2.0,162225.0
+python,Senior Data Scientist,Sweden,2.0,163770.0
+python,Senior Data Analyst,Sweden,2.0,114510.25
+python,Business Analyst,Spain,2.0,127720.0
+python,Software Engineer,Romania,2.0,122415.5
+python,Senior Data Engineer,Romania,2.0,121849.0
+python,Data Scientist,Romania,2.0,97438.0
+python,Data Analyst,Romania,2.0,49550.21
+python,Software Engineer,Portugal,2.0,94811.5
+python,Senior Data Analyst,Portugal,2.0,114524.155
+python,Business Analyst,Poland,2.0,124939.0
+python,Senior Data Scientist,Netherlands,2.0,118656.0
+python,Senior Data Analyst,Italy,2.0,103141.625
+python,Machine Learning Engineer,Italy,2.0,99790.51999999999
+python,Software Engineer,Hungary,2.0,87524.25
+python,Senior Data Engineer,Hungary,2.0,151925.0
+python,Business Analyst,Greece,2.0,69988.5
+python,Senior Data Analyst,Germany,2.0,114510.25
+python,Business Analyst,France,2.0,103141.625
+python,Senior Data Scientist,Finland,2.0,126498.42
+python,Senior Data Engineer,Finland,2.0,103913.095
+python,Senior Data Analyst,Finland,2.0,114524.155
+python,Data Scientist,Denmark,2.0,139853.40000000002
+python,Business Analyst,Belgium,2.0,83430.0
+pyspark,Senior Data Engineer,Spain,2.0,126578.245
+pyspark,Data Engineer,Spain,2.0,143726.2
+pyspark,Data Analyst,Poland,2.0,80089.70999999999
+pyspark,Data Analyst,Netherlands,2.0,114524.155
+pyspark,Senior Data Scientist,Germany,2.0,121849.0
+pyspark,Data Engineer,Germany,2.0,126146.16
+pyspark,Data Scientist,France,2.0,162225.0
+pyspark,Data Engineer,France,2.0,126146.16
+pyspark,Data Analyst,France,2.0,58813.0
+powershell,Senior Data Engineer,Portugal,2.0,155787.5
+powershell,Data Engineer,Netherlands,2.0,91773.0
+powerpoint,Data Scientist,Poland,2.0,53596.05
+powerpoint,Business Analyst,Poland,2.0,58401.0
+powerpoint,Data Analyst,Germany,2.0,86455.625
+power bi,Senior Data Engineer,Sweden,2.0,151925.0
+power bi,Business Analyst,Sweden,2.0,108098.5
+power bi,Business Analyst,Spain,2.0,76941.0
+power bi,Data Engineer,Romania,2.0,145096.615
+power bi,Data Engineer,Portugal,2.0,83275.5
+power bi,Senior Data Engineer,Poland,2.0,121849.0
+power bi,Data Scientist,Poland,2.0,127013.42
+power bi,Business Analyst,Netherlands,2.0,100116.0
+power bi,Data Scientist,Italy,2.0,79269.57250000001
+power bi,Software Engineer,Hungary,2.0,58401.0
+power bi,Software Engineer,Greece,2.0,139436.25
+power bi,Senior Data Analyst,Germany,2.0,94798.625
+power bi,Data Engineer,France,2.0,151152.5
+power bi,Data Analyst,Denmark,2.0,75087.0
+power bi,Data Engineer,Belgium,2.0,112415.745
+postgresql,Senior Data Engineer,Poland,2.0,125800.595
+postgresql,Data Engineer,Germany,2.0,96070.16
+phoenix,Data Engineer,Poland,2.0,151925.0
+pandas,Data Scientist,Romania,2.0,97438.0
+pandas,Machine Learning Engineer,Portugal,2.0,193125.0
+pandas,Data Analyst,Poland,2.0,79928.0
+pandas,Machine Learning Engineer,Hungary,2.0,124733.0
+pandas,Data Scientist,Hungary,2.0,72061.375
+pandas,Machine Learning Engineer,Greece,2.0,97916.435
+pandas,Senior Data Scientist,Germany,2.0,162225.0
+pandas,Senior Data Engineer,Germany,2.0,151925.0
+outlook,Data Analyst,Netherlands,2.0,111330.125
+oracle,Data Engineer,Romania,2.0,145096.615
+oracle,Data Scientist,Portugal,2.0,117143.1875
+oracle,Data Engineer,Portugal,2.0,123600.0
+oracle,Data Engineer,Italy,2.0,100367.32
+oracle,Data Analyst,Italy,2.0,83527.33499999999
+oracle,Data Scientist,Ireland,2.0,131592.54249999998
+oracle,Data Engineer,Ireland,2.0,121849.0
+oracle,Data Scientist,Hungary,2.0,91773.0
+oracle,Data Engineer,Hungary,2.0,151925.0
+oracle,Data Engineer,Germany,2.0,148062.5
+oracle,Data Scientist,France,2.0,118244.0
+oracle,Data Scientist,Belgium,2.0,126498.42
+oracle,Business Analyst,Belgium,2.0,83430.0
+opencv,Cloud Engineer,Poland,2.0,86674.5
+opencv,Data Scientist,Greece,2.0,100202.2625
+numpy,Machine Learning Engineer,Spain,2.0,169692.5
+numpy,Data Analyst,Spain,2.0,114510.25
+numpy,Machine Learning Engineer,Portugal,2.0,193125.0
+numpy,Senior Data Scientist,Poland,2.0,126498.42
+numpy,Data Scientist,Poland,2.0,117162.5
+numpy,Data Analyst,Poland,2.0,79928.0
+numpy,Data Scientist,Netherlands,2.0,168920.0
+numpy,Machine Learning Engineer,Hungary,2.0,114690.5
+numpy,Data Scientist,Hungary,2.0,72061.375
+numpy,Machine Learning Engineer,Greece,2.0,97916.435
+numpy,Data Analyst,Germany,2.0,108819.5
+npm,Senior Data Analyst,Spain,2.0,114510.25
+nosql,Machine Learning Engineer,Spain,2.0,201365.0
+nosql,Data Scientist,Spain,2.0,91272.42
+nosql,Data Scientist,Portugal,2.0,148865.90000000002
+nosql,Machine Learning Engineer,Poland,2.0,139307.5
+nosql,Data Analyst,Poland,2.0,135702.5
+nosql,Machine Learning Engineer,Netherlands,2.0,72615.0
+nosql,Senior Data Engineer,Ireland,2.0,151925.0
+nosql,Machine Learning Engineer,Greece,2.0,91773.0
+nosql,Data Scientist,France,2.0,81917.1875
+nosql,Data Engineer,Belgium,2.0,79816.245
+node.js,Senior Data Analyst,Spain,2.0,114510.25
+node.js,Machine Learning Engineer,France,2.0,92560.95
+neo4j,Data Engineer,France,2.0,100463.3675
+mysql,Data Engineer,Portugal,2.0,125800.595
+mongodb,Data Engineer,Romania,2.0,99676.19
+mongodb,Data Scientist,Portugal,2.0,162225.0
+mongodb,Data Engineer,Portugal,2.0,99676.19
+mongodb,Senior Data Engineer,Poland,2.0,46350.0
+mongodb,Data Engineer,Poland,2.0,46350.0
+mongodb,Machine Learning Engineer,Netherlands,2.0,71070.0
+mongodb,Data Scientist,Italy,2.0,91773.0
+mongodb,Data Engineer,Italy,2.0,100367.32
+mongodb,Data Engineer,Hungary,2.0,137505.0
+mongodb,Machine Learning Engineer,Greece,2.0,91773.0
+mongodb,Data Scientist,Greece,2.0,109632.685
+mongodb,Machine Learning Engineer,Germany,2.0,231235.0
+mongodb,Software Engineer,France,2.0,202395.0
+mongodb,Senior Data Engineer,France,2.0,151925.0
+mongodb,Machine Learning Engineer,France,2.0,75087.0
+mongodb,Data Scientist,Denmark,2.0,144200.0
+mongo,Data Engineer,Portugal,2.0,125800.595
+matplotlib,Data Scientist,Portugal,2.0,105296.90000000001
+matplotlib,Senior Data Scientist,Poland,2.0,126498.42
+matplotlib,Data Scientist,Netherlands,2.0,168920.0
+matlab,Data Scientist,Portugal,2.0,111409.95
+matlab,Data Analyst,Netherlands,2.0,93562.625
+looker,Data Scientist,Spain,2.0,88332.8
+looker,Data Engineer,Spain,2.0,100015.3175
+looker,Senior Data Scientist,Portugal,2.0,151925.0
+looker,Senior Data Engineer,Portugal,2.0,121849.0
+looker,Senior Data Analyst,Portugal,2.0,114510.25
+looker,Data Scientist,Germany,2.0,147658.74
+looker,Data Engineer,Germany,2.0,151925.0
+looker,Software Engineer,France,2.0,202395.0
+looker,Senior Data Engineer,France,2.0,151925.0
+looker,Senior Data Analyst,France,2.0,114510.25
+looker,Data Analyst,France,2.0,86867.625
+looker,Data Analyst,Finland,2.0,118784.75
+linux,Software Engineer,Spain,2.0,135239.0
+linux,Software Engineer,Romania,2.0,66744.0
+linux,Senior Data Engineer,Poland,2.0,67671.0
+linux,Machine Learning Engineer,Netherlands,2.0,117677.5
+linux,Data Engineer,Hungary,2.0,151925.0
+linux,Software Engineer,Greece,2.0,75087.0
+linux,Data Scientist,Germany,2.0,157402.2825
+linux,Data Engineer,Germany,2.0,101231.49
+kubernetes,Software Engineer,Spain,2.0,135239.0
+kubernetes,Machine Learning Engineer,Spain,2.0,99790.51999999999
+kubernetes,Data Engineer,Spain,2.0,105163.0
+kubernetes,Senior Data Scientist,Poland,2.0,91272.42
+kubernetes,Senior Data Engineer,Poland,2.0,125800.595
+kubernetes,Software Engineer,Germany,2.0,87524.25
+kubernetes,Data Engineer,Germany,2.0,121849.0
+kubernetes,Machine Learning Engineer,France,2.0,92560.95
+kubernetes,Data Scientist,France,2.0,113660.5
+kubernetes,Senior Data Engineer,Finland,2.0,103913.095
+kubernetes,Machine Learning Engineer,Finland,2.0,158105.0
+kubernetes,Data Engineer,Finland,2.0,91773.0
+kotlin,Data Engineer,Portugal,2.0,95724.595
+keras,Data Scientist,Portugal,2.0,148865.90000000002
+keras,Data Scientist,Poland,2.0,117162.5
+keras,Data Scientist,Hungary,2.0,117143.1875
+keras,Software Engineer,Greece,2.0,66744.0
+keras,Senior Data Scientist,Germany,2.0,196730.0
+keras,Machine Learning Engineer,France,2.0,101815.5
+kafka,Senior Data Engineer,Spain,2.0,121849.0
+kafka,Software Engineer,Poland,2.0,79757.535
+kafka,Data Scientist,Poland,2.0,117162.5
+kafka,Senior Data Engineer,Netherlands,2.0,156045.0
+kafka,Senior Data Engineer,Ireland,2.0,151925.0
+kafka,Machine Learning Engineer,Germany,2.0,118501.5
+kafka,Business Analyst,France,2.0,103141.625
+kafka,Data Engineer,Finland,2.0,91773.0
+jupyter,Senior Data Scientist,Poland,2.0,126498.42
+jupyter,Machine Learning Engineer,France,2.0,124644.935
+jira,Data Engineer,Romania,2.0,145096.615
+jira,Data Engineer,Netherlands,2.0,101241.0175
+jira,Software Engineer,Greece,2.0,139436.25
+jira,Data Scientist,Greece,2.0,134013.815
+jira,Senior Data Engineer,Germany,2.0,156045.0
+jira,Senior Data Analyst,France,2.0,103141.625
+jira,Data Engineer,France,2.0,144715.0
+jira,Business Analyst,Belgium,2.0,83430.0
+jenkins,Software Engineer,Poland,2.0,87524.25
+jenkins,Senior Data Engineer,Poland,2.0,67671.0
+jenkins,Data Engineer,Poland,2.0,70838.25
+jenkins,Data Engineer,Italy,2.0,95724.595
+jenkins,Data Engineer,Hungary,2.0,144715.0
+jenkins,Machine Learning Engineer,Greece,2.0,143330.68
+jenkins,Senior Data Scientist,Germany,2.0,162225.0
+jenkins,Data Scientist,Germany,2.0,171680.91499999998
+jenkins,Cloud Engineer,Germany,2.0,91773.0
+javascript,Data Scientist,Spain,2.0,105626.5
+javascript,Senior Data Engineer,Poland,2.0,73013.095
+javascript,Software Engineer,Greece,2.0,66744.0
+java,Senior Data Engineer,Sweden,2.0,151925.0
+java,Machine Learning Engineer,Sweden,2.0,114252.75
+java,Senior Data Engineer,Spain,2.0,91773.0
+java,Data Scientist,Poland,2.0,118421.16
+java,Data Analyst,Netherlands,2.0,85232.5
+java,Data Analyst,Italy,2.0,72158.70999999999
+java,Senior Data Engineer,Ireland,2.0,126226.5
+java,Data Scientist,Hungary,2.0,117143.1875
+java,Machine Learning Engineer,Germany,2.0,91773.0
+java,Senior Data Scientist,France,2.0,162225.0
+java,Machine Learning Engineer,France,2.0,140507.45
+ibm cloud,Data Engineer,Spain,2.0,119317.77500000001
+html,Data Engineer,Spain,2.0,96070.16
+html,Software Engineer,Greece,2.0,66744.0
+hadoop,Data Engineer,Romania,2.0,145096.615
+hadoop,Data Analyst,Portugal,2.0,67156.0
+hadoop,Software Engineer,Poland,2.0,91773.0
+hadoop,Senior Data Engineer,Poland,2.0,67671.0
+hadoop,Machine Learning Engineer,Poland,2.0,191322.5
+hadoop,Data Analyst,Poland,2.0,137762.5
+hadoop,Data Analyst,Netherlands,2.0,148569.775
+hadoop,Data Engineer,Ireland,2.0,151925.0
+hadoop,Data Engineer,Hungary,2.0,126146.16
+hadoop,Machine Learning Engineer,Greece,2.0,97916.435
+hadoop,Senior Data Scientist,Germany,2.0,179992.5
+hadoop,Senior Data Engineer,Germany,2.0,151925.0
+go,Machine Learning Engineer,Spain,2.0,81230.435
+go,Data Engineer,Spain,2.0,115020.615
+go,Data Analyst,Spain,2.0,103141.625
+go,Software Engineer,Romania,2.0,200335.0
+go,Data Analyst,Romania,2.0,53574.42
+go,Software Engineer,Portugal,2.0,126484.0
+go,Data Scientist,Poland,2.0,147658.74
+go,Data Scientist,Netherlands,2.0,162225.0
+go,Machine Learning Engineer,Hungary,2.0,58401.0
+go,Senior Data Analyst,France,2.0,82781.8725
+go,Data Analyst,Finland,2.0,149350.0
+gitlab,Software Engineer,Spain,2.0,135239.0
+gitlab,Data Engineer,Spain,2.0,58298.0
+gitlab,Data Engineer,Netherlands,2.0,125800.595
+gitlab,Data Engineer,Hungary,2.0,100799.405
+github,Software Engineer,Spain,2.0,102279.0
+github,Machine Learning Engineer,Spain,2.0,169692.5
+github,Data Analyst,Portugal,2.0,83483.56
+github,Machine Learning Engineer,Poland,2.0,97916.435
+github,Machine Learning Engineer,Germany,2.0,58401.0
+github,Data Scientist,Germany,2.0,134656.2775
+github,Data Engineer,Germany,2.0,206000.0
+github,Data Engineer,France,2.0,93524.0
+git,Software Engineer,Spain,2.0,135239.0
+git,Data Scientist,Romania,2.0,105163.0
+git,Senior Data Scientist,Poland,2.0,162225.0
+git,Senior Data Engineer,Poland,2.0,120458.5
+git,Data Scientist,Poland,2.0,126999.0
+git,Data Engineer,Italy,2.0,96070.16
+git,Data Analyst,Hungary,2.0,83430.0
+git,Cloud Engineer,Germany,2.0,91773.0
+git,Software Engineer,France,2.0,124372.5
+git,Senior Data Engineer,France,2.0,151925.0
+git,Data Analyst,France,2.0,91773.0
+gdpr,Data Scientist,Sweden,2.0,149350.0
+gdpr,Data Analyst,Sweden,2.0,97644.0
+gdpr,Data Engineer,Romania,2.0,145096.615
+gdpr,Data Analyst,Poland,2.0,79503.125
+gdpr,Data Engineer,Italy,2.0,121849.0
+gdpr,Senior Data Engineer,Germany,2.0,151925.0
+gdpr,Data Engineer,Germany,2.0,121849.0
+gcp,Senior Data Engineer,Spain,2.0,155272.5
+gcp,Senior Data Engineer,Romania,2.0,121849.0
+gcp,Senior Data Scientist,Portugal,2.0,151925.0
+gcp,Software Engineer,Poland,2.0,91773.0
+gcp,Machine Learning Engineer,Poland,2.0,111059.75
+gcp,Machine Learning Engineer,Netherlands,2.0,72615.0
+gcp,Data Engineer,Netherlands,2.0,121849.0
+gcp,Data Engineer,Italy,2.0,113650.2
+gcp,Senior Data Engineer,Ireland,2.0,156302.5
+gcp,Data Engineer,Belgium,2.0,105163.0
+flow,Data Analyst,Spain,2.0,98643.1
+flow,Senior Data Scientist,Portugal,2.0,162225.0
+flow,Senior Data Engineer,Poland,2.0,125800.595
+flow,Data Engineer,Poland,2.0,151152.5
+flow,Data Analyst,Poland,2.0,110042.625
+flow,Data Engineer,Netherlands,2.0,101241.0175
+flow,Machine Learning Engineer,France,2.0,124644.935
+flow,Data Engineer,France,2.0,99676.19
+firebase,Software Engineer,Germany,2.0,163255.0
+fastapi,Data Scientist,Germany,2.0,171680.91499999998
+express,Data Engineer,Netherlands,2.0,101241.0175
+excel,Data Engineer,Spain,2.0,121849.0
+excel,Software Engineer,Portugal,2.0,126484.0
+excel,Senior Data Analyst,Portugal,2.0,114524.155
+excel,Data Scientist,Portugal,2.0,127739.57
+excel,Data Scientist,Italy,2.0,110313.0
+excel,Data Analyst,Italy,2.0,50477.21
+excel,Data Engineer,Ireland,2.0,151925.0
+excel,Senior Data Scientist,Greece,2.0,148168.075
+excel,Data Analyst,Greece,2.0,79059.70999999999
+excel,Senior Data Scientist,Germany,2.0,122750.25
+excel,Senior Data Engineer,Germany,2.0,83430.0
+excel,Senior Data Analyst,Germany,2.0,114524.155
+excel,Data Scientist,Germany,2.0,100896.74
+excel,Data Scientist,Denmark,2.0,110802.25
+excel,Data Analyst,Denmark,2.0,83430.0
+elasticsearch,Data Engineer,Portugal,2.0,117600.25
+elasticsearch,Data Engineer,Greece,2.0,151925.0
+elasticsearch,Senior Data Scientist,France,2.0,162225.0
+elasticsearch,Data Scientist,France,2.0,72080.6875
+dynamodb,Data Engineer,France,2.0,151925.0
+docker,Data Scientist,Portugal,2.0,149350.0
+docker,Software Engineer,Poland,2.0,91773.0
+docker,Senior Data Scientist,Poland,2.0,126498.42
+docker,Senior Data Engineer,Poland,2.0,73013.095
+docker,Machine Learning Engineer,Netherlands,2.0,72615.0
+docker,Machine Learning Engineer,Hungary,2.0,58401.0
+docker,Data Scientist,Hungary,2.0,117143.1875
+docker,Data Scientist,Greece,2.0,81116.3625
+docker,Data Engineer,Germany,2.0,121849.0
+databricks,Data Engineer,Sweden,2.0,121849.0
+databricks,Senior Data Engineer,Spain,2.0,129925.745
+databricks,Data Analyst,Spain,2.0,107982.625
+databricks,Data Scientist,Portugal,2.0,117162.5
+databricks,Data Analyst,Portugal,2.0,142230.125
+databricks,Senior Data Engineer,Poland,2.0,121849.0
+databricks,Data Scientist,Poland,2.0,158582.91999999998
+databricks,Data Engineer,Poland,2.0,95724.595
+databricks,Cloud Engineer,Poland,2.0,159701.5
+databricks,Senior Data Engineer,Netherlands,2.0,125969.0
+databricks,Data Analyst,Hungary,2.0,117368.5
+databricks,Machine Learning Engineer,Greece,2.0,170980.0
+databricks,Data Scientist,France,2.0,91773.0
+databricks,Data Engineer,Finland,2.0,100463.3675
+css,Software Engineer,Greece,2.0,66744.0
+chef,Data Analyst,France,2.0,75087.0
+cassandra,Senior Data Engineer,France,2.0,151925.0
+c++,Software Engineer,Romania,2.0,122415.5
+c++,Machine Learning Engineer,Netherlands,2.0,201365.0
+c++,Machine Learning Engineer,Greece,2.0,143330.68
+c++,Software Engineer,Germany,2.0,70838.25
+c#,Data Scientist,Hungary,2.0,72061.375
+c#,Data Analyst,Germany,2.0,84546.26250000001
+c#,Data Analyst,Belgium,2.0,142230.125
+c,Machine Learning Engineer,Germany,2.0,131170.5
+bitbucket,Data Engineer,Poland,2.0,125969.0
+bitbucket,Cloud Engineer,Germany,2.0,91773.0
+bigquery,Data Engineer,Sweden,2.0,144715.0
+bigquery,Senior Data Engineer,Spain,2.0,151925.0
+bigquery,Data Engineer,Spain,2.0,130429.1575
+bigquery,Senior Data Engineer,Romania,2.0,121849.0
+bigquery,Software Engineer,Poland,2.0,91773.0
+bigquery,Senior Data Scientist,Poland,2.0,162225.0
+bigquery,Data Engineer,Netherlands,2.0,101241.0175
+bigquery,Data Analyst,Italy,2.0,78029.70999999999
+bigquery,Senior Data Engineer,Germany,2.0,156045.0
+bigquery,Senior Data Analyst,Germany,2.0,118746.125
+bigquery,Data Engineer,Germany,2.0,151925.0
+bash,Machine Learning Engineer,Netherlands,2.0,74623.5
+bash,Data Engineer,Germany,2.0,75087.0
+bash,Data Scientist,France,2.0,66744.0
+azure,Senior Data Engineer,Sweden,2.0,151925.0
+azure,Senior Data Analyst,Sweden,2.0,82781.8725
+azure,Data Analyst,Sweden,2.0,111664.875
+azure,Software Engineer,Spain,2.0,101815.5
+azure,Cloud Engineer,Spain,2.0,93705.795
+azure,Data Scientist,Romania,2.0,105163.0
+azure,Senior Data Scientist,Portugal,2.0,151925.0
+azure,Senior Data Engineer,Portugal,2.0,155787.5
+azure,Machine Learning Engineer,Portugal,2.0,123033.5
+azure,Software Engineer,Netherlands,2.0,75087.0
+azure,Senior Data Scientist,Ireland,2.0,158877.5
+azure,Senior Data Engineer,Ireland,2.0,121849.0
+azure,Data Engineer,Ireland,2.0,121849.0
+azure,Software Engineer,Hungary,2.0,70838.25
+azure,Senior Data Scientist,Greece,2.0,118656.0
+azure,Data Scientist,Greece,2.0,89775.57250000001
+azure,Software Engineer,Germany,2.0,70838.25
+azure,Senior Data Analyst,France,2.0,137852.625
+azure,Machine Learning Engineer,France,2.0,66744.0
+azure,Data Scientist,Belgium,2.0,162225.0
+aws,Senior Data Engineer,Sweden,2.0,151925.0
+aws,Senior Data Engineer,Romania,2.0,121849.0
+aws,Machine Learning Engineer,Romania,2.0,170980.0
+aws,Data Engineer,Romania,2.0,100453.84
+aws,Senior Data Engineer,Portugal,2.0,151925.0
+aws,Machine Learning Engineer,Netherlands,2.0,121025.0
+aws,Data Scientist,Netherlands,2.0,168920.0
+aws,Machine Learning Engineer,Ireland,2.0,170980.0
+aws,Data Scientist,Hungary,2.0,117162.5
+aws,Data Analyst,Hungary,2.0,117368.5
+aws,Senior Data Scientist,France,2.0,162225.0
+aws,Senior Data Analyst,France,2.0,137852.625
+aws,Senior Data Engineer,Finland,2.0,103913.095
+aws,Data Engineer,Finland,2.0,100463.3675
+atlassian,Business Analyst,Belgium,2.0,83430.0
+assembly,Cloud Engineer,Poland,2.0,86674.5
+ansible,Data Engineer,Greece,2.0,121849.0
+angular,Senior Data Analyst,Spain,2.0,114510.25
+angular,Software Engineer,Greece,2.0,66744.0
+airflow,Senior Data Scientist,Poland,2.0,126498.42
+airflow,Senior Data Engineer,Poland,2.0,73013.095
+airflow,Data Scientist,Poland,2.0,162740.0
+airflow,Data Engineer,Italy,2.0,99676.19
+airflow,Data Engineer,Hungary,2.0,151925.0
+airflow,Data Engineer,Greece,2.0,46350.0
+airflow,Business Analyst,Greece,2.0,69988.5
+airflow,Senior Data Engineer,Finland,2.0,103913.095
+airflow,Machine Learning Engineer,Belgium,2.0,97916.435
+zoom,Software Engineer,Netherlands,1.0,91773.0
+zoom,Senior Data Engineer,Germany,1.0,151925.0
+zoom,Machine Learning Engineer,Germany,1.0,91773.0
+zoom,Data Scientist,France,1.0,58401.0
+yarn,Senior Data Engineer,Poland,1.0,88992.0
+yarn,Data Engineer,Poland,1.0,46350.0
+yarn,Senior Data Engineer,Ireland,1.0,91773.0
+yarn,Data Engineer,Greece,1.0,99676.19
+yarn,Data Engineer,Germany,1.0,91773.0
+word,Data Analyst,Sweden,1.0,121684.2
+word,Business Analyst,Spain,1.0,88992.0
+word,Data Scientist,Portugal,1.0,162225.0
+word,Data Analyst,Portugal,1.0,83275.5
+word,Data Analyst,Poland,1.0,75087.0
+word,Data Engineer,Netherlands,1.0,91773.0
+word,Data Analyst,Netherlands,1.0,114510.25
+word,Software Engineer,Italy,1.0,108819.5
+word,Machine Learning Engineer,Ireland,1.0,109180.0
+word,Data Analyst,Hungary,1.0,75087.0
+word,Senior Data Scientist,Greece,1.0,206000.0
+word,Machine Learning Engineer,Greece,1.0,91773.0
+word,Data Scientist,Greece,1.0,91773.0
+word,Data Analyst,France,1.0,54604.42
+word,Data Analyst,Finland,1.0,75087.0
+windows,Cloud Engineer,Spain,1.0,58401.0
+windows,Senior Data Engineer,Poland,1.0,46350.0
+windows,Senior Data Analyst,Poland,1.0,114510.25
+windows,Data Scientist,Poland,1.0,136475.0
+windows,Data Engineer,Italy,1.0,100367.32
+windows,Data Scientist,Greece,1.0,109632.685
+windows,Data Engineer,Greece,1.0,151925.0
+windows,Software Engineer,Germany,1.0,91773.0
+windows,Data Scientist,France,1.0,72061.375
+windows,Data Engineer,France,1.0,151925.0
+windows,Data Analyst,France,1.0,108459.0
+windows,Machine Learning Engineer,Belgium,1.0,91773.0
+vue.js,Data Engineer,Spain,1.0,91773.0
+vue.js,Machine Learning Engineer,France,1.0,75087.0
+vue,Software Engineer,Netherlands,1.0,191065.0
+vue,Senior Data Analyst,France,1.0,91773.0
+vue,Data Engineer,France,1.0,151925.0
+visio,Data Engineer,Spain,1.0,151925.0
+visio,Data Analyst,Spain,1.0,75087.0
+visio,Data Analyst,Ireland,1.0,59225.0
+visio,Senior Data Engineer,France,1.0,151925.0
+visio,Data Engineer,France,1.0,151925.0
+visio,Data Analyst,Finland,1.0,75087.0
+vba,Data Analyst,Sweden,1.0,121684.2
+vba,Data Analyst,Spain,1.0,59225.0
+vba,Senior Data Analyst,Portugal,1.0,114538.06
+vba,Data Analyst,Portugal,1.0,114510.25
+vba,Software Engineer,Poland,1.0,126690.0
+vba,Senior Data Analyst,Poland,1.0,88992.0
+vba,Data Analyst,Netherlands,1.0,114538.06
+vba,Data Analyst,Italy,1.0,54604.42
+vba,Data Scientist,Ireland,1.0,162225.0
+vba,Data Analyst,Ireland,1.0,59225.0
+vba,Data Scientist,Germany,1.0,58401.0
+unreal,Senior Data Engineer,Ireland,1.0,151925.0
+unix,Machine Learning Engineer,Spain,1.0,170980.0
+unix,Senior Data Engineer,Poland,1.0,46350.0
+unix,Data Analyst,Poland,1.0,101455.0
+unix,Data Engineer,Netherlands,1.0,91773.0
+unix,Senior Data Engineer,Ireland,1.0,160680.0
+unix,Software Engineer,Germany,1.0,91773.0
+unix,Data Engineer,France,1.0,137505.0
+unity,Software Engineer,Spain,1.0,66950.0
+unify,Data Engineer,Sweden,1.0,91773.0
+unify,Software Engineer,Poland,1.0,83275.5
+unify,Senior Data Engineer,Netherlands,1.0,91773.0
+unify,Data Engineer,Netherlands,1.0,119908.995
+unify,Data Analyst,Ireland,1.0,168695.46
+ubuntu,Software Engineer,Poland,1.0,91773.0
+typescript,Software Engineer,Spain,1.0,66950.0
+typescript,Senior Data Scientist,Spain,1.0,46350.0
+typescript,Software Engineer,Italy,1.0,84975.0
+typescript,Data Engineer,Germany,1.0,144200.0
+typescript,Senior Data Engineer,France,1.0,91773.0
+typescript,Software Engineer,Finland,1.0,77250.0
+typescript,Machine Learning Engineer,Finland,1.0,145230.0
+twilio,Data Engineer,Germany,1.0,144200.0
+trello,Data Scientist,Greece,1.0,91773.0
+tidyverse,Data Analyst,Poland,1.0,58401.0
+theano,Data Scientist,Portugal,1.0,162225.0
+theano,Data Scientist,Poland,1.0,126755.92
+terraform,Data Engineer,Sweden,1.0,61800.0
+terraform,Machine Learning Engineer,Romania,1.0,91773.0
+terraform,Senior Data Engineer,Portugal,1.0,151925.0
+terraform,Software Engineer,Poland,1.0,91773.0
+terraform,Senior Data Scientist,Poland,1.0,90771.84
+terraform,Senior Data Engineer,Netherlands,1.0,151925.0
+terraform,Machine Learning Engineer,Italy,1.0,91773.0
+terraform,Software Engineer,Ireland,1.0,91773.0
+terraform,Senior Data Engineer,Ireland,1.0,91773.0
+terraform,Data Engineer,Ireland,1.0,151925.0
+terraform,Machine Learning Engineer,Greece,1.0,75087.0
+terraform,Senior Data Scientist,Germany,1.0,162225.0
+terraform,Data Analyst,Germany,1.0,171412.085
+terraform,Software Engineer,France,1.0,146775.0
+terraform,Data Scientist,France,1.0,58401.0
+terraform,Data Analyst,France,1.0,168695.46
+terraform,Senior Data Analyst,Finland,1.0,103515.0
+terraform,Data Engineer,Finland,1.0,99676.19
+terraform,Senior Data Engineer,Denmark,1.0,151925.0
+terraform,Senior Data Engineer,Belgium,1.0,91773.0
+terminal,Data Analyst,Germany,1.0,114510.25
+tensorflow,Data Scientist,Sweden,1.0,93390.1
+tensorflow,Data Engineer,Sweden,1.0,61800.0
+tensorflow,Software Engineer,Spain,1.0,211150.0
+tensorflow,Senior Data Engineer,Spain,1.0,181795.0
+tensorflow,Software Engineer,Romania,1.0,44496.0
+tensorflow,Senior Data Analyst,Romania,1.0,200335.0
+tensorflow,Machine Learning Engineer,Romania,1.0,91773.0
+tensorflow,Senior Data Scientist,Poland,1.0,162225.0
+tensorflow,Data Engineer,Poland,1.0,46350.0
+tensorflow,Cloud Engineer,Poland,1.0,75087.0
+tensorflow,Data Scientist,Italy,1.0,162225.0
+tensorflow,Data Scientist,Ireland,1.0,90771.84
+tensorflow,Software Engineer,France,1.0,45751.055
+tensorflow,Machine Learning Engineer,Finland,1.0,191065.0
+tensorflow,Machine Learning Engineer,Denmark,1.0,170980.0
+tensorflow,Data Scientist,Belgium,1.0,162225.0
+tableau,Senior Data Scientist,Sweden,1.0,151925.0
+tableau,Senior Data Engineer,Sweden,1.0,151925.0
+tableau,Data Scientist,Sweden,1.0,162225.0
+tableau,Data Engineer,Sweden,1.0,138268.23
+tableau,Senior Data Engineer,Romania,1.0,151925.0
+tableau,Senior Data Analyst,Romania,1.0,114510.25
+tableau,Data Analyst,Romania,1.0,112393.6
+tableau,Senior Data Engineer,Poland,1.0,91773.0
+tableau,Data Engineer,Poland,1.0,160165.0
+tableau,Senior Data Engineer,Netherlands,1.0,160165.0
+tableau,Data Scientist,Netherlands,1.0,162225.0
+tableau,Senior Data Scientist,Italy,1.0,108459.0
+tableau,Senior Data Analyst,Ireland,1.0,121684.2
+tableau,Machine Learning Engineer,Ireland,1.0,109180.0
+tableau,Software Engineer,Hungary,1.0,58401.0
+tableau,Data Scientist,Hungary,1.0,72061.375
+tableau,Data Scientist,Greece,1.0,176254.63
+tableau,Data Engineer,Germany,1.0,151925.0
+tableau,Software Engineer,France,1.0,202395.0
+tableau,Senior Data Scientist,France,1.0,162225.0
+tableau,Senior Data Engineer,France,1.0,151925.0
+tableau,Senior Data Analyst,Finland,1.0,114510.25
+tableau,Data Analyst,Finland,1.0,108819.5
+tableau,Data Engineer,Belgium,1.0,101231.49
+t-sql,Data Engineer,Spain,1.0,151925.0
+t-sql,Software Engineer,Portugal,1.0,91773.0
+t-sql,Data Engineer,Ireland,1.0,151925.0
+t-sql,Data Engineer,Hungary,1.0,151925.0
+t-sql,Data Engineer,Belgium,1.0,151925.0
+symphony,Data Analyst,Poland,1.0,91773.0
+swift,Senior Data Engineer,Sweden,1.0,151925.0
+swift,Data Scientist,Spain,1.0,83275.5
+swift,Software Engineer,Portugal,1.0,97850.0
+swift,Senior Data Scientist,Germany,1.0,83275.5
+swift,Data Scientist,Germany,1.0,162225.0
+svn,Senior Data Scientist,Italy,1.0,75087.0
+ssrs,Data Engineer,Spain,1.0,151925.0
+ssrs,Data Analyst,Poland,1.0,91773.0
+ssrs,Senior Data Scientist,Greece,1.0,75087.0
+ssrs,Data Scientist,France,1.0,83275.5
+ssrs,Data Analyst,Belgium,1.0,114510.25
+ssis,Data Engineer,Spain,1.0,151925.0
+ssis,Software Engineer,Portugal,1.0,91773.0
+ssis,Data Engineer,Portugal,1.0,101231.49
+ssis,Software Engineer,Poland,1.0,126690.0
+ssis,Data Engineer,Netherlands,1.0,100367.32
+ssis,Data Engineer,Ireland,1.0,151925.0
+ssis,Data Engineer,Hungary,1.0,151925.0
+ssis,Senior Data Engineer,Germany,1.0,99676.19
+ssis,Data Analyst,France,1.0,58401.0
+ssis,Data Analyst,Denmark,1.0,91773.0
+sql server,Software Engineer,Spain,1.0,161195.0
+sql server,Data Engineer,Spain,1.0,151925.0
+sql server,Software Engineer,Portugal,1.0,91773.0
+sql server,Software Engineer,Poland,1.0,91773.0
+sql server,Senior Data Engineer,Poland,1.0,151925.0
+sql server,Data Analyst,Poland,1.0,91773.0
+sql server,Data Engineer,Netherlands,1.0,91773.0
+sql server,Senior Data Engineer,Ireland,1.0,151925.0
+sql server,Data Scientist,Ireland,1.0,171412.085
+sql server,Software Engineer,Hungary,1.0,58401.0
+sql server,Data Analyst,Hungary,1.0,51053.495
+sql server,Data Engineer,Germany,1.0,91773.0
+sql server,Data Analyst,Germany,1.0,91773.0
+sql server,Software Engineer,France,1.0,169950.0
+sql server,Data Scientist,France,1.0,91773.0
+sql server,Data Engineer,France,1.0,100367.32
+sql server,Data Analyst,France,1.0,58401.0
+sql server,Data Analyst,Denmark,1.0,91773.0
+sql,Senior Data Scientist,Sweden,1.0,151925.0
+sql,Senior Data Analyst,Sweden,1.0,114510.25
+sql,Business Analyst,Portugal,1.0,75087.0
+sql,Machine Learning Engineer,Italy,1.0,107808.04
+sql,Business Analyst,Italy,1.0,44496.0
+sql,Senior Data Analyst,Ireland,1.0,121684.2
+sql,Senior Data Scientist,Hungary,1.0,162225.0
+sql,Senior Data Engineer,Hungary,1.0,151925.0
+sql,Software Engineer,Germany,1.0,163255.0
+sql,Cloud Engineer,Germany,1.0,91773.0
+sql,Machine Learning Engineer,France,1.0,104059.87
+sql,Business Analyst,France,1.0,91773.0
+sql,Senior Data Scientist,Finland,1.0,162225.0
+sql,Senior Data Engineer,Finland,1.0,99676.19
+sql,Machine Learning Engineer,Finland,1.0,145230.0
+sql,Data Analyst,Finland,1.0,108819.5
+sql,Senior Data Engineer,Denmark,1.0,151925.0
+sql,Machine Learning Engineer,Denmark,1.0,170980.0
+sql,Software Engineer,Belgium,1.0,75087.0
+spss,Senior Data Analyst,Spain,1.0,103515.0
+spss,Data Analyst,Portugal,1.0,75087.0
+spss,Data Engineer,Hungary,1.0,99676.19
+spss,Data Scientist,Germany,1.0,58401.0
+spring,Data Engineer,Romania,1.0,100367.32
+spring,Data Analyst,Greece,1.0,145131.635
+spreadsheet,Data Scientist,Romania,1.0,83275.5
+spreadsheet,Data Analyst,Greece,1.0,54604.42
+splunk,Data Engineer,Belgium,1.0,151925.0
+spark,Senior Data Scientist,Sweden,1.0,197760.0
+spark,Software Engineer,Spain,1.0,145230.0
+spark,Data Analyst,Spain,1.0,83275.5
+spark,Machine Learning Engineer,Romania,1.0,91773.0
+spark,Senior Data Scientist,Portugal,1.0,90771.84
+spark,Business Analyst,Portugal,1.0,58401.0
+spark,Cloud Engineer,Poland,1.0,91773.0
+spark,Senior Data Analyst,Netherlands,1.0,114510.25
+spark,Machine Learning Engineer,Netherlands,1.0,75087.0
+spark,Senior Data Analyst,Italy,1.0,114510.25
+spark,Machine Learning Engineer,Italy,1.0,91773.0
+spark,Data Scientist,Italy,1.0,162225.0
+spark,Data Analyst,Italy,1.0,54604.42
+spark,Senior Data Scientist,Ireland,1.0,170980.0
+spark,Senior Data Engineer,Hungary,1.0,151925.0
+spark,Data Analyst,Hungary,1.0,75087.0
+spark,Senior Data Scientist,Greece,1.0,162225.0
+spark,Senior Data Engineer,Greece,1.0,46350.0
+spark,Data Analyst,Greece,1.0,91773.0
+spark,Senior Data Analyst,Germany,1.0,91773.0
+spark,Business Analyst,France,1.0,91773.0
+spark,Software Engineer,Finland,1.0,77250.0
+spark,Senior Data Scientist,Finland,1.0,162225.0
+spark,Senior Data Engineer,Finland,1.0,108150.0
+spark,Machine Learning Engineer,Finland,1.0,191065.0
+spark,Data Engineer,Denmark,1.0,151925.0
+spark,Senior Data Engineer,Belgium,1.0,91773.0
+solidity,Software Engineer,Spain,1.0,66950.0
+solidity,Data Engineer,Germany,1.0,144200.0
+snowflake,Senior Data Scientist,Sweden,1.0,151925.0
+snowflake,Senior Data Engineer,Sweden,1.0,151925.0
+snowflake,Data Scientist,Sweden,1.0,83430.0
+snowflake,Data Engineer,Sweden,1.0,151925.0
+snowflake,Business Analyst,Sweden,1.0,88992.0
+snowflake,Machine Learning Engineer,Spain,1.0,104059.87
+snowflake,Data Scientist,Spain,1.0,75087.0
+snowflake,Data Scientist,Romania,1.0,124630.0
+snowflake,Data Engineer,Romania,1.0,101231.49
+snowflake,Senior Data Analyst,Poland,1.0,114510.25
+snowflake,Data Analyst,Poland,1.0,114510.25
+snowflake,Cloud Engineer,Poland,1.0,227630.0
+snowflake,Data Scientist,Netherlands,1.0,151925.0
+snowflake,Data Engineer,Netherlands,1.0,119908.995
+snowflake,Senior Data Analyst,Ireland,1.0,121684.2
+snowflake,Data Scientist,Ireland,1.0,162225.0
+snowflake,Data Engineer,Ireland,1.0,151925.0
+snowflake,Data Analyst,Hungary,1.0,159650.0
+snowflake,Senior Data Analyst,Germany,1.0,114510.25
+snowflake,Senior Data Scientist,Finland,1.0,162225.0
+snowflake,Senior Data Engineer,Finland,1.0,108150.0
+snowflake,Senior Data Analyst,Finland,1.0,103515.0
+snowflake,Machine Learning Engineer,Finland,1.0,191065.0
+snowflake,Data Analyst,Denmark,1.0,91773.0
+snowflake,Data Engineer,Belgium,1.0,101250.545
+snowflake,Data Analyst,Belgium,1.0,169950.0
+smartsheet,Data Analyst,Spain,1.0,159650.0
+slack,Senior Data Scientist,Spain,1.0,46350.0
+slack,Senior Data Engineer,Spain,1.0,91773.0
+slack,Data Engineer,Spain,1.0,58195.0
+slack,Machine Learning Engineer,Portugal,1.0,183029.97
+slack,Software Engineer,Netherlands,1.0,91773.0
+slack,Data Engineer,Ireland,1.0,151925.0
+slack,Data Analyst,Ireland,1.0,151925.0
+slack,Data Engineer,Greece,1.0,123600.0
+slack,Senior Data Engineer,Germany,1.0,151925.0
+slack,Cloud Engineer,Germany,1.0,83275.5
+slack,Business Analyst,Germany,1.0,129780.0
+slack,Data Scientist,Denmark,1.0,144200.0
+shell,Machine Learning Engineer,Spain,1.0,58401.0
+shell,Machine Learning Engineer,Romania,1.0,91773.0
+shell,Software Engineer,Portugal,1.0,164800.0
+shell,Data Engineer,Portugal,1.0,99676.19
+shell,Senior Data Scientist,Poland,1.0,90771.84
+shell,Senior Data Engineer,Poland,1.0,88992.0
+shell,Senior Data Engineer,Ireland,1.0,91773.0
+shell,Machine Learning Engineer,Greece,1.0,75087.0
+shell,Data Engineer,Greece,1.0,151925.0
+shell,Software Engineer,Germany,1.0,91773.0
+shell,Machine Learning Engineer,France,1.0,110034.9
+shell,Data Scientist,France,1.0,58401.0
+sheets,Senior Data Analyst,Poland,1.0,114510.25
+sheets,Business Analyst,Poland,1.0,91773.0
+sheets,Data Scientist,Hungary,1.0,75087.0
+sheets,Data Analyst,Greece,1.0,54604.42
+sheets,Data Analyst,Germany,1.0,59225.0
+sheets,Data Analyst,France,1.0,59225.0
+sharepoint,Data Analyst,Sweden,1.0,121684.2
+sharepoint,Data Analyst,Poland,1.0,91773.0
+sharepoint,Data Analyst,Ireland,1.0,44496.0
+sharepoint,Data Analyst,France,1.0,114510.25
+selenium,Data Scientist,Spain,1.0,90771.84
+selenium,Data Engineer,Romania,1.0,99676.19
+seaborn,Data Scientist,Sweden,1.0,93390.1
+seaborn,Machine Learning Engineer,Spain,1.0,104059.87
+seaborn,Data Scientist,Romania,1.0,58401.0
+seaborn,Data Scientist,Portugal,1.0,75087.0
+seaborn,Senior Data Scientist,Poland,1.0,90771.84
+seaborn,Data Scientist,Netherlands,1.0,162225.0
+scikit-learn,Data Scientist,Sweden,1.0,93390.1
+scikit-learn,Data Scientist,Spain,1.0,162225.0
+scikit-learn,Data Analyst,Spain,1.0,114510.25
+scikit-learn,Data Analyst,Portugal,1.0,75087.0
+scikit-learn,Data Analyst,Poland,1.0,105575.0
+scikit-learn,Machine Learning Engineer,Italy,1.0,107808.04
+scikit-learn,Data Scientist,Italy,1.0,90771.84
+scikit-learn,Data Scientist,Ireland,1.0,90771.84
+scikit-learn,Senior Data Scientist,Hungary,1.0,162225.0
+scikit-learn,Machine Learning Engineer,Hungary,1.0,58401.0
+scikit-learn,Data Scientist,Hungary,1.0,72061.375
+scikit-learn,Data Analyst,Hungary,1.0,75087.0
+scikit-learn,Data Scientist,Germany,1.0,162225.0
+scikit-learn,Machine Learning Engineer,France,1.0,58401.0
+scala,Senior Data Engineer,Sweden,1.0,151925.0
+scala,Software Engineer,Spain,1.0,145230.0
+scala,Machine Learning Engineer,Portugal,1.0,170980.0
+scala,Machine Learning Engineer,Netherlands,1.0,74160.0
+scala,Senior Data Analyst,Italy,1.0,91773.0
+scala,Senior Data Engineer,Ireland,1.0,151925.0
+scala,Senior Data Scientist,Hungary,1.0,162225.0
+scala,Senior Data Engineer,Hungary,1.0,151925.0
+scala,Data Scientist,Hungary,1.0,72061.375
+scala,Data Engineer,Hungary,1.0,138268.23
+scala,Data Analyst,Hungary,1.0,75087.0
+scala,Senior Data Engineer,Greece,1.0,46350.0
+scala,Senior Data Scientist,Germany,1.0,151925.0
+scala,Machine Learning Engineer,Germany,1.0,203940.0
+scala,Data Scientist,Germany,1.0,162225.0
+scala,Software Engineer,France,1.0,91773.0
+scala,Senior Data Scientist,France,1.0,162225.0
+scala,Business Analyst,France,1.0,91773.0
+scala,Data Scientist,Belgium,1.0,58401.0
+scala,Data Engineer,Belgium,1.0,100367.32
+scala,Data Analyst,Belgium,1.0,169950.0
+sass,Senior Data Engineer,Ireland,1.0,151925.0
+sap,Business Analyst,Sweden,1.0,127205.0
+sap,Senior Data Scientist,Spain,1.0,46350.0
+sap,Machine Learning Engineer,Spain,1.0,231750.0
+sap,Data Scientist,Spain,1.0,59328.0
+sap,Data Engineer,Spain,1.0,151925.0
+sap,Data Analyst,Spain,1.0,122199.2
+sap,Data Scientist,Romania,1.0,151925.0
+sap,Data Engineer,Romania,1.0,100367.32
+sap,Data Engineer,Portugal,1.0,83275.5
+sap,Business Analyst,Portugal,1.0,58401.0
+sap,Machine Learning Engineer,Poland,1.0,130346.5
+sap,Data Scientist,Italy,1.0,162225.0
+sap,Data Analyst,Italy,1.0,114510.25
+sap,Data Engineer,Greece,1.0,75087.0
+sap,Software Engineer,Germany,1.0,91773.0
+sap,Senior Data Analyst,Germany,1.0,91773.0
+sap,Business Analyst,Germany,1.0,91773.0
+sap,Data Scientist,Finland,1.0,83275.5
+sap,Data Engineer,Denmark,1.0,151925.0
+sap,Data Analyst,Denmark,1.0,91773.0
+sap,Software Engineer,Belgium,1.0,75087.0
+rust,Data Engineer,Sweden,1.0,61800.0
+rust,Data Analyst,Poland,1.0,101455.0
+rust,Senior Data Scientist,Ireland,1.0,170980.0
+rust,Machine Learning Engineer,Germany,1.0,231235.0
+ruby on rails,Senior Data Engineer,Poland,1.0,99676.19
+redshift,Data Scientist,Sweden,1.0,162225.0
+redshift,Data Scientist,Spain,1.0,75087.0
+redshift,Data Analyst,Spain,1.0,59225.0
+redshift,Data Scientist,Poland,1.0,162225.0
+redshift,Business Analyst,Poland,1.0,158105.0
+redshift,Business Analyst,Netherlands,1.0,91773.0
+redshift,Data Engineer,Italy,1.0,151925.0
+redshift,Senior Data Engineer,Ireland,1.0,151925.0
+redshift,Senior Data Analyst,Hungary,1.0,91773.0
+redshift,Machine Learning Engineer,Hungary,1.0,191065.0
+redshift,Data Analyst,Hungary,1.0,114538.06
+redshift,Senior Data Analyst,Germany,1.0,122982.0
+redshift,Data Analyst,Germany,1.0,171412.085
+redshift,Business Analyst,Germany,1.0,91773.0
+redshift,Software Engineer,France,1.0,202395.0
+redshift,Senior Data Analyst,France,1.0,114510.25
+redshift,Data Analyst,France,1.0,83275.5
+redshift,Software Engineer,Finland,1.0,77250.0
+redshift,Senior Data Engineer,Denmark,1.0,151925.0
+redshift,Machine Learning Engineer,Denmark,1.0,170980.0
+redshift,Data Engineer,Denmark,1.0,99676.19
+redshift,Data Engineer,Belgium,1.0,101250.545
+redis,Data Engineer,Sweden,1.0,61800.0
+redis,Senior Data Engineer,Poland,1.0,99676.19
+redis,Senior Data Engineer,Netherlands,1.0,160165.0
+redis,Data Engineer,Greece,1.0,91773.0
+redis,Machine Learning Engineer,France,1.0,104059.87
+redis,Software Engineer,Finland,1.0,77250.0
+redhat,Data Engineer,Belgium,1.0,151925.0
+react,Senior Data Scientist,Spain,1.0,46350.0
+react,Data Scientist,Spain,1.0,151925.0
+react,Data Analyst,Spain,1.0,114538.06
+react,Senior Data Analyst,Romania,1.0,114510.25
+react,Software Engineer,Portugal,1.0,97850.0
+react,Senior Data Engineer,Poland,1.0,99676.19
+react,Software Engineer,Netherlands,1.0,191065.0
+react,Software Engineer,Italy,1.0,84975.0
+react,Data Engineer,Ireland,1.0,151925.0
+react,Data Engineer,Hungary,1.0,100367.32
+react,Data Engineer,Germany,1.0,151925.0
+react,Data Analyst,Germany,1.0,114510.25
+react,Senior Data Engineer,France,1.0,91773.0
+react,Machine Learning Engineer,France,1.0,75087.0
+react,Machine Learning Engineer,Finland,1.0,145230.0
+react,Data Analyst,Denmark,1.0,75087.0
+r,Senior Data Analyst,Sweden,1.0,114510.25
+r,Senior Data Scientist,Spain,1.0,175692.25
+r,Senior Data Analyst,Spain,1.0,91773.0
+r,Senior Data Engineer,Romania,1.0,91773.0
+r,Software Engineer,Poland,1.0,126690.0
+r,Senior Data Engineer,Poland,1.0,151925.0
+r,Machine Learning Engineer,Poland,1.0,104059.87
+r,Senior Data Scientist,Italy,1.0,108459.0
+r,Senior Data Analyst,Italy,1.0,114510.25
+r,Senior Data Engineer,Ireland,1.0,151925.0
+r,Senior Data Analyst,Ireland,1.0,121684.2
+r,Data Engineer,Ireland,1.0,151925.0
+r,Software Engineer,Hungary,1.0,91773.0
+r,Data Engineer,Hungary,1.0,99676.19
+r,Data Analyst,Hungary,1.0,101455.0
+r,Senior Data Scientist,Greece,1.0,93390.1
+r,Data Engineer,Greece,1.0,75087.0
+r,Business Analyst,Germany,1.0,58401.0
+r,Senior Data Engineer,France,1.0,151925.0
+r,Machine Learning Engineer,France,1.0,58401.0
+r,Data Scientist,Finland,1.0,124695.92
+r,Data Analyst,Belgium,1.0,114510.25
+qlik,Data Analyst,Sweden,1.0,108819.5
+qlik,Business Analyst,Sweden,1.0,44496.0
+qlik,Software Engineer,Spain,1.0,145230.0
+qlik,Data Scientist,Spain,1.0,169950.0
+qlik,Senior Data Analyst,Romania,1.0,114510.25
+qlik,Data Analyst,Portugal,1.0,91880.12
+qlik,Senior Data Analyst,Poland,1.0,91773.0
+qlik,Data Analyst,Poland,1.0,114510.25
+qlik,Data Analyst,Netherlands,1.0,101455.0
+qlik,Business Analyst,Netherlands,1.0,91773.0
+qlik,Data Scientist,Italy,1.0,91773.0
+qlik,Data Engineer,Italy,1.0,158620.0
+qlik,Data Analyst,Italy,1.0,103515.0
+qlik,Business Analyst,Italy,1.0,44496.0
+qlik,Data Analyst,Ireland,1.0,75087.0
+qlik,Senior Data Scientist,Greece,1.0,75087.0
+qlik,Data Scientist,Greece,1.0,176254.63
+qlik,Data Engineer,Greece,1.0,75087.0
+qlik,Senior Data Analyst,Germany,1.0,114510.25
+qlik,Data Analyst,Denmark,1.0,58401.0
+qlik,Software Engineer,Belgium,1.0,75087.0
+pytorch,Data Scientist,Sweden,1.0,93390.1
+pytorch,Software Engineer,Spain,1.0,211150.0
+pytorch,Senior Data Engineer,Spain,1.0,181795.0
+pytorch,Data Scientist,Spain,1.0,162225.0
+pytorch,Software Engineer,Romania,1.0,44496.0
+pytorch,Senior Data Analyst,Romania,1.0,200335.0
+pytorch,Machine Learning Engineer,Romania,1.0,91773.0
+pytorch,Data Scientist,Portugal,1.0,72100.0
+pytorch,Software Engineer,Poland,1.0,91773.0
+pytorch,Cloud Engineer,Poland,1.0,75087.0
+pytorch,Senior Data Scientist,Netherlands,1.0,75087.0
+pytorch,Machine Learning Engineer,Italy,1.0,107808.04
+pytorch,Data Scientist,Italy,1.0,162225.0
+pytorch,Data Scientist,Ireland,1.0,90771.84
+pytorch,Senior Data Scientist,Greece,1.0,90336.15
+pytorch,Data Scientist,Germany,1.0,75087.0
+pytorch,Data Engineer,France,1.0,99676.19
+pytorch,Machine Learning Engineer,Denmark,1.0,170980.0
+pytorch,Data Scientist,Denmark,1.0,144200.0
+python,Business Analyst,Sweden,1.0,88992.0
+python,Senior Data Analyst,Spain,1.0,91773.0
+python,Senior Data Analyst,Romania,1.0,200335.0
+python,Senior Data Engineer,Portugal,1.0,151925.0
+python,Business Analyst,Netherlands,1.0,108459.0
+python,Senior Data Scientist,Italy,1.0,74160.0
+python,Senior Data Analyst,Ireland,1.0,121684.2
+python,Senior Data Scientist,Hungary,1.0,162225.0
+python,Senior Data Engineer,Greece,1.0,46350.0
+python,Cloud Engineer,France,1.0,109147.04
+python,Data Scientist,Finland,1.0,124695.92
+python,Senior Data Engineer,Denmark,1.0,151925.0
+python,Machine Learning Engineer,Denmark,1.0,170980.0
+python,Data Engineer,Denmark,1.0,99676.19
+python,Software Engineer,Belgium,1.0,45751.055
+python,Senior Data Engineer,Belgium,1.0,91773.0
+pyspark,Senior Data Scientist,Spain,1.0,162225.0
+pyspark,Data Scientist,Spain,1.0,91773.0
+pyspark,Data Engineer,Romania,1.0,46350.0
+pyspark,Data Scientist,Portugal,1.0,72100.0
+pyspark,Senior Data Scientist,Poland,1.0,162225.0
+pyspark,Machine Learning Engineer,Poland,1.0,191580.0
+pyspark,Data Scientist,Poland,1.0,91773.0
+pyspark,Data Scientist,Netherlands,1.0,175692.25
+pyspark,Data Scientist,Italy,1.0,91773.0
+pyspark,Senior Data Scientist,Ireland,1.0,146775.0
+pyspark,Data Scientist,Ireland,1.0,90771.84
+pyspark,Senior Data Scientist,Greece,1.0,162225.0
+pyspark,Data Scientist,Germany,1.0,197760.0
+pyspark,Data Analyst,Germany,1.0,114510.25
+pyspark,Business Analyst,Germany,1.0,108459.0
+pyspark,Senior Data Scientist,France,1.0,91773.0
+puppet,Cloud Engineer,Spain,1.0,129010.59
+puppet,Senior Data Engineer,Ireland,1.0,91773.0
+puppet,Machine Learning Engineer,Hungary,1.0,58401.0
+puppet,Data Engineer,Greece,1.0,91773.0
+pulumi,Software Engineer,Poland,1.0,91773.0
+pulumi,Senior Data Engineer,Hungary,1.0,151925.0
+pulumi,Machine Learning Engineer,Hungary,1.0,58401.0
+pulumi,Cloud Engineer,Germany,1.0,91773.0
+powershell,Software Engineer,Portugal,1.0,91773.0
+powershell,Data Engineer,Greece,1.0,91773.0
+powershell,Data Scientist,France,1.0,58401.0
+powerpoint,Data Analyst,Sweden,1.0,121684.2
+powerpoint,Data Analyst,Spain,1.0,75087.0
+powerpoint,Business Analyst,Spain,1.0,88992.0
+powerpoint,Data Analyst,Romania,1.0,58401.0
+powerpoint,Software Engineer,Portugal,1.0,91773.0
+powerpoint,Data Analyst,Portugal,1.0,52544.42
+powerpoint,Business Analyst,Portugal,1.0,83275.5
+powerpoint,Data Analyst,Netherlands,1.0,108150.0
+powerpoint,Data Scientist,Ireland,1.0,162225.0
+powerpoint,Data Analyst,Ireland,1.0,44496.0
+powerpoint,Data Analyst,Hungary,1.0,75087.0
+powerpoint,Senior Data Scientist,Greece,1.0,206000.0
+powerpoint,Data Scientist,France,1.0,58401.0
+powerpoint,Data Analyst,Finland,1.0,75087.0
+power bi,Senior Data Scientist,Sweden,1.0,151925.0
+power bi,Senior Data Analyst,Sweden,1.0,114510.25
+power bi,Data Scientist,Sweden,1.0,162225.0
+power bi,Senior Data Analyst,Spain,1.0,114510.25
+power bi,Machine Learning Engineer,Spain,1.0,104059.87
+power bi,Data Scientist,Spain,1.0,83275.5
+power bi,Data Scientist,Romania,1.0,151925.0
+power bi,Software Engineer,Portugal,1.0,91773.0
+power bi,Senior Data Scientist,Portugal,1.0,75087.0
+power bi,Senior Data Analyst,Portugal,1.0,114538.06
+power bi,Data Scientist,Portugal,1.0,72061.375
+power bi,Business Analyst,Portugal,1.0,75087.0
+power bi,Software Engineer,Poland,1.0,126690.0
+power bi,Senior Data Analyst,Poland,1.0,122982.0
+power bi,Data Engineer,Poland,1.0,101231.49
+power bi,Business Analyst,Poland,1.0,91773.0
+power bi,Senior Data Scientist,Netherlands,1.0,151925.0
+power bi,Data Scientist,Netherlands,1.0,162225.0
+power bi,Senior Data Analyst,Italy,1.0,91773.0
+power bi,Data Engineer,Italy,1.0,158620.0
+power bi,Senior Data Engineer,Ireland,1.0,151925.0
+power bi,Senior Data Analyst,Ireland,1.0,121684.2
+power bi,Data Engineer,Ireland,1.0,151925.0
+power bi,Data Scientist,Hungary,1.0,108459.0
+power bi,Data Engineer,Hungary,1.0,137505.0
+power bi,Senior Data Scientist,Greece,1.0,75087.0
+power bi,Senior Data Scientist,France,1.0,162225.0
+power bi,Senior Data Analyst,France,1.0,91773.0
+power bi,Data Engineer,Finland,1.0,99676.19
+power bi,Business Analyst,Belgium,1.0,91773.0
+postgresql,Machine Learning Engineer,Spain,1.0,231750.0
+postgresql,Data Engineer,Spain,1.0,58401.0
+postgresql,Data Scientist,Romania,1.0,136475.0
+postgresql,Data Scientist,Portugal,1.0,162225.0
+postgresql,Data Engineer,Portugal,1.0,99676.19
+postgresql,Machine Learning Engineer,Poland,1.0,87550.0
+postgresql,Business Analyst,Poland,1.0,91773.0
+postgresql,Machine Learning Engineer,Netherlands,1.0,71070.0
+postgresql,Software Engineer,Hungary,1.0,58401.0
+postgresql,Data Scientist,Hungary,1.0,162225.0
+postgresql,Senior Data Scientist,Greece,1.0,93390.1
+postgresql,Data Scientist,Greece,1.0,109632.685
+postgresql,Senior Data Scientist,Germany,1.0,162225.0
+postgresql,Senior Data Engineer,Germany,1.0,159650.0
+postgresql,Software Engineer,France,1.0,202395.0
+postgresql,Senior Data Engineer,France,1.0,151925.0
+postgresql,Data Scientist,France,1.0,91773.0
+postgresql,Software Engineer,Finland,1.0,77250.0
+postgresql,Data Engineer,Belgium,1.0,58401.0
+plotly,Senior Data Scientist,Spain,1.0,175692.25
+plotly,Data Scientist,Portugal,1.0,75087.0
+plotly,Senior Data Scientist,Poland,1.0,162225.0
+plotly,Data Scientist,Poland,1.0,162225.0
+plotly,Data Scientist,Netherlands,1.0,162225.0
+plotly,Senior Data Scientist,Hungary,1.0,162225.0
+plotly,Data Analyst,Hungary,1.0,75087.0
+php,Machine Learning Engineer,Hungary,1.0,58401.0
+php,Software Engineer,France,1.0,46350.0
+php,Data Engineer,France,1.0,100367.32
+php,Data Analyst,France,1.0,114510.25
+php,Data Engineer,Belgium,1.0,151925.0
+phoenix,Data Engineer,Portugal,1.0,83275.5
+phoenix,Data Engineer,Denmark,1.0,99676.19
+perl,Software Engineer,Poland,1.0,91773.0
+perl,Data Engineer,Netherlands,1.0,151925.0
+perl,Senior Data Engineer,Ireland,1.0,160680.0
+perl,Machine Learning Engineer,Greece,1.0,91773.0
+perl,Data Scientist,France,1.0,58401.0
+perl,Data Analyst,France,1.0,58401.0
+pascal,Data Analyst,Germany,1.0,94760.0
+pandas,Data Scientist,Sweden,1.0,93390.1
+pandas,Software Engineer,Spain,1.0,211150.0
+pandas,Senior Data Engineer,Spain,1.0,181795.0
+pandas,Data Engineer,Spain,1.0,135527.4
+pandas,Software Engineer,Romania,1.0,200335.0
+pandas,Data Analyst,Portugal,1.0,75087.0
+pandas,Machine Learning Engineer,Poland,1.0,104059.87
+pandas,Data Engineer,Poland,1.0,101231.49
+pandas,Cloud Engineer,Poland,1.0,75087.0
+pandas,Senior Data Scientist,Ireland,1.0,170980.0
+pandas,Machine Learning Engineer,Ireland,1.0,109180.0
+pandas,Software Engineer,Hungary,1.0,83275.5
+pandas,Senior Data Scientist,Hungary,1.0,162225.0
+pandas,Data Analyst,Hungary,1.0,75087.0
+pandas,Data Engineer,Greece,1.0,123600.0
+pandas,Data Scientist,Germany,1.0,162225.0
+pandas,Senior Data Scientist,France,1.0,162225.0
+pandas,Senior Data Engineer,France,1.0,151925.0
+pandas,Machine Learning Engineer,France,1.0,71070.0
+pandas,Business Analyst,France,1.0,114510.25
+pandas,Machine Learning Engineer,Finland,1.0,145230.0
+pandas,Data Scientist,Denmark,1.0,144200.0
+pandas,Machine Learning Engineer,Belgium,1.0,75087.0
+pandas,Data Scientist,Belgium,1.0,162225.0
+outlook,Software Engineer,Spain,1.0,145230.0
+outlook,Data Analyst,Spain,1.0,59225.0
+outlook,Data Analyst,Poland,1.0,91773.0
+outlook,Machine Learning Engineer,Italy,1.0,91773.0
+outlook,Data Engineer,Italy,1.0,99676.19
+oracle,Business Analyst,Spain,1.0,64890.0
+oracle,Software Engineer,Romania,1.0,200335.0
+oracle,Data Scientist,Romania,1.0,151925.0
+oracle,Data Analyst,Romania,1.0,103515.0
+oracle,Software Engineer,Portugal,1.0,161195.0
+oracle,Software Engineer,Poland,1.0,161195.0
+oracle,Senior Data Engineer,Poland,1.0,88992.0
+oracle,Machine Learning Engineer,Poland,1.0,159392.5
+oracle,Data Scientist,Poland,1.0,91773.0
+oracle,Data Engineer,Poland,1.0,46350.0
+oracle,Data Analyst,Poland,1.0,91773.0
+oracle,Business Analyst,Poland,1.0,91773.0
+oracle,Data Engineer,Netherlands,1.0,101231.49
+oracle,Business Analyst,Italy,1.0,44496.0
+oracle,Senior Data Analyst,Ireland,1.0,121684.2
+oracle,Data Analyst,Ireland,1.0,169950.0
+oracle,Software Engineer,Hungary,1.0,58401.0
+oracle,Senior Data Analyst,Hungary,1.0,91773.0
+oracle,Machine Learning Engineer,Hungary,1.0,58401.0
+oracle,Data Analyst,Hungary,1.0,58401.0
+oracle,Senior Data Scientist,Greece,1.0,93390.1
+oracle,Senior Data Scientist,Germany,1.0,162225.0
+oracle,Senior Data Engineer,Germany,1.0,151925.0
+oracle,Machine Learning Engineer,Germany,1.0,170980.0
+oracle,Data Scientist,Germany,1.0,58401.0
+oracle,Data Analyst,Germany,1.0,58401.0
+oracle,Data Analyst,France,1.0,58401.0
+oracle,Data Scientist,Finland,1.0,83275.5
+oracle,Data Engineer,Denmark,1.0,151925.0
+oracle,Machine Learning Engineer,Belgium,1.0,75087.0
+oracle,Data Engineer,Belgium,1.0,101231.49
+openstack,Senior Data Scientist,Hungary,1.0,91773.0
+opencv,Software Engineer,Spain,1.0,211150.0
+opencv,Business Analyst,Poland,1.0,91773.0
+opencv,Data Scientist,Italy,1.0,90771.84
+opencv,Machine Learning Engineer,Hungary,1.0,170980.0
+opencv,Senior Data Scientist,Germany,1.0,231235.0
+opencv,Software Engineer,France,1.0,45751.055
+opencv,Machine Learning Engineer,France,1.0,75087.0
+numpy,Machine Learning Engineer,Sweden,1.0,170980.0
+numpy,Data Scientist,Sweden,1.0,93390.1
+numpy,Software Engineer,Romania,1.0,200335.0
+numpy,Data Scientist,Romania,1.0,58401.0
+numpy,Machine Learning Engineer,Poland,1.0,104059.87
+numpy,Cloud Engineer,Poland,1.0,75087.0
+numpy,Senior Data Scientist,Ireland,1.0,170980.0
+numpy,Machine Learning Engineer,Ireland,1.0,109180.0
+numpy,Data Scientist,Ireland,1.0,90771.84
+numpy,Software Engineer,Hungary,1.0,83275.5
+numpy,Senior Data Scientist,Hungary,1.0,162225.0
+numpy,Data Analyst,Hungary,1.0,75087.0
+numpy,Senior Data Scientist,Germany,1.0,162225.0
+numpy,Machine Learning Engineer,Germany,1.0,170980.0
+numpy,Senior Data Scientist,France,1.0,162225.0
+numpy,Data Engineer,France,1.0,137505.0
+numpy,Machine Learning Engineer,Finland,1.0,145230.0
+numpy,Data Scientist,Denmark,1.0,144200.0
+numpy,Data Scientist,Belgium,1.0,162225.0
+npm,Data Scientist,Spain,1.0,151925.0
+npm,Data Analyst,Spain,1.0,114538.06
+npm,Senior Data Analyst,Romania,1.0,114510.25
+notion,Data Scientist,Denmark,1.0,144200.0
+nosql,Data Engineer,Sweden,1.0,61800.0
+nosql,Business Analyst,Sweden,1.0,91773.0
+nosql,Senior Data Engineer,Spain,1.0,151925.0
+nosql,Senior Data Scientist,Poland,1.0,133900.0
+nosql,Senior Data Engineer,Poland,1.0,46350.0
+nosql,Data Scientist,Poland,1.0,162225.0
+nosql,Data Analyst,Netherlands,1.0,182601.49
+nosql,Machine Learning Engineer,Italy,1.0,107808.04
+nosql,Senior Data Scientist,Ireland,1.0,170980.0
+nosql,Data Scientist,Ireland,1.0,162225.0
+nosql,Data Engineer,Ireland,1.0,100367.32
+nosql,Data Analyst,Ireland,1.0,168695.46
+nosql,Senior Data Scientist,Hungary,1.0,162225.0
+nosql,Machine Learning Engineer,Hungary,1.0,58401.0
+nosql,Data Analyst,Hungary,1.0,75087.0
+nosql,Senior Data Scientist,Germany,1.0,162225.0
+nosql,Data Engineer,Germany,1.0,151925.0
+nosql,Data Analyst,Germany,1.0,171412.085
+nosql,Senior Data Scientist,France,1.0,91773.0
+nosql,Senior Data Engineer,France,1.0,151925.0
+nosql,Senior Data Analyst,France,1.0,161195.0
+nosql,Machine Learning Engineer,France,1.0,104059.87
+nosql,Data Analyst,France,1.0,114510.25
+nosql,Data Engineer,Denmark,1.0,99676.19
+node.js,Data Engineer,Sweden,1.0,61800.0
+node.js,Senior Data Scientist,Spain,1.0,46350.0
+node.js,Data Scientist,Spain,1.0,151925.0
+node.js,Data Analyst,Spain,1.0,114538.06
+node.js,Senior Data Analyst,Romania,1.0,114510.25
+node.js,Software Engineer,Portugal,1.0,97850.0
+node.js,Software Engineer,Netherlands,1.0,91773.0
+node.js,Software Engineer,Italy,1.0,84975.0
+node.js,Software Engineer,Finland,1.0,77250.0
+node,Data Analyst,Spain,1.0,59225.0
+node,Data Engineer,Germany,1.0,144200.0
+no-sql,Data Scientist,Italy,1.0,74160.0
+no-sql,Data Analyst,Germany,1.0,114510.25
+nltk,Machine Learning Engineer,Portugal,1.0,75087.0
+nltk,Data Scientist,Portugal,1.0,162225.0
+nltk,Senior Data Scientist,Germany,1.0,162225.0
+neo4j,Data Scientist,Italy,1.0,91773.0
+neo4j,Machine Learning Engineer,Ireland,1.0,170980.0
+neo4j,Data Analyst,Germany,1.0,91773.0
+neo4j,Data Analyst,France,1.0,114510.25
+neo4j,Machine Learning Engineer,Belgium,1.0,75087.0
+mysql,Machine Learning Engineer,Spain,1.0,231750.0
+mysql,Data Engineer,Spain,1.0,58401.0
+mysql,Data Analyst,Spain,1.0,103515.0
+mysql,Data Scientist,Romania,1.0,83275.5
+mysql,Data Engineer,Romania,1.0,99676.19
+mysql,Senior Data Engineer,Poland,1.0,151925.0
+mysql,Business Analyst,Poland,1.0,91773.0
+mysql,Data Engineer,Netherlands,1.0,151925.0
+mysql,Senior Data Engineer,Ireland,1.0,151925.0
+mysql,Senior Data Analyst,Ireland,1.0,121684.2
+mysql,Software Engineer,Hungary,1.0,91773.0
+mysql,Senior Data Engineer,Hungary,1.0,151925.0
+mysql,Senior Data Scientist,Greece,1.0,93390.1
+mysql,Machine Learning Engineer,Greece,1.0,104059.87
+mysql,Data Engineer,Germany,1.0,151925.0
+mysql,Software Engineer,France,1.0,202395.0
+mysql,Machine Learning Engineer,France,1.0,75087.0
+mxnet,Data Engineer,Sweden,1.0,61800.0
+mxnet,Data Scientist,Poland,1.0,126755.92
+ms access,Data Analyst,Netherlands,1.0,108150.0
+mongo,Data Scientist,Romania,1.0,58401.0
+mongo,Data Analyst,Poland,1.0,169950.0
+mongo,Data Engineer,Greece,1.0,99676.19
+microstrategy,Business Analyst,Spain,1.0,64890.0
+microstrategy,Data Scientist,France,1.0,83275.5
+matplotlib,Data Scientist,Sweden,1.0,93390.1
+matplotlib,Senior Data Scientist,Spain,1.0,175692.25
+matplotlib,Data Analyst,Spain,1.0,114510.25
+matplotlib,Software Engineer,Romania,1.0,200335.0
+matplotlib,Machine Learning Engineer,Portugal,1.0,191065.0
+matplotlib,Machine Learning Engineer,Poland,1.0,104059.87
+matplotlib,Data Analyst,Poland,1.0,101455.0
+matplotlib,Cloud Engineer,Poland,1.0,75087.0
+matplotlib,Machine Learning Engineer,Ireland,1.0,170980.0
+matplotlib,Senior Data Scientist,Hungary,1.0,162225.0
+matplotlib,Data Analyst,Hungary,1.0,75087.0
+matplotlib,Data Scientist,Greece,1.0,93390.1
+matplotlib,Senior Data Engineer,Germany,1.0,151925.0
+matplotlib,Senior Data Scientist,France,1.0,162225.0
+matlab,Senior Data Analyst,Spain,1.0,91773.0
+matlab,Data Scientist,Spain,1.0,58401.0
+matlab,Data Analyst,Spain,1.0,83275.5
+matlab,Senior Data Scientist,Portugal,1.0,154142.59
+matlab,Data Scientist,Italy,1.0,72100.0
+matlab,Data Analyst,Italy,1.0,54604.42
+matlab,Data Analyst,Ireland,1.0,83275.5
+matlab,Data Scientist,Hungary,1.0,72061.375
+matlab,Machine Learning Engineer,Greece,1.0,91773.0
+matlab,Data Scientist,Greece,1.0,90771.84
+matlab,Senior Data Scientist,Germany,1.0,162225.0
+matlab,Senior Data Analyst,Germany,1.0,114510.25
+matlab,Machine Learning Engineer,Germany,1.0,91773.0
+matlab,Data Scientist,Germany,1.0,91773.0
+matlab,Data Engineer,Germany,1.0,206000.0
+matlab,Data Analyst,Germany,1.0,114510.25
+matlab,Data Engineer,France,1.0,99676.19
+matlab,Senior Data Analyst,Finland,1.0,114510.25
+matlab,Software Engineer,Belgium,1.0,45751.055
+mariadb,Data Scientist,Romania,1.0,83275.5
+macos,Data Scientist,Poland,1.0,162225.0
+looker,Senior Data Scientist,Sweden,1.0,151925.0
+looker,Senior Data Engineer,Sweden,1.0,151925.0
+looker,Senior Data Analyst,Sweden,1.0,114510.25
+looker,Data Scientist,Sweden,1.0,83430.0
+looker,Senior Data Engineer,Spain,1.0,151925.0
+looker,Machine Learning Engineer,Spain,1.0,170980.0
+looker,Senior Data Analyst,Romania,1.0,114510.25
+looker,Data Engineer,Romania,1.0,101231.49
+looker,Data Scientist,Portugal,1.0,151925.0
+looker,Senior Data Engineer,Poland,1.0,99676.19
+looker,Senior Data Analyst,Poland,1.0,114510.25
+looker,Data Engineer,Poland,1.0,101231.49
+looker,Cloud Engineer,Poland,1.0,227630.0
+looker,Senior Data Engineer,Netherlands,1.0,160165.0
+looker,Data Engineer,Netherlands,1.0,119908.995
+looker,Senior Data Analyst,Italy,1.0,114510.25
+looker,Data Engineer,Italy,1.0,151925.0
+looker,Data Analyst,Italy,1.0,105575.0
+looker,Senior Data Scientist,Ireland,1.0,162225.0
+looker,Senior Data Engineer,Germany,1.0,151925.0
+looker,Cloud Engineer,Germany,1.0,83275.5
+looker,Data Scientist,France,1.0,91773.0
+looker,Data Engineer,France,1.0,135527.4
+looker,Senior Data Scientist,Finland,1.0,162225.0
+looker,Senior Data Analyst,Finland,1.0,114510.25
+looker,Data Analyst,Denmark,1.0,91773.0
+linux,Senior Data Engineer,Sweden,1.0,151925.0
+linux,Data Scientist,Sweden,1.0,83430.0
+linux,Machine Learning Engineer,Spain,1.0,91773.0
+linux,Cloud Engineer,Spain,1.0,91773.0
+linux,Data Scientist,Portugal,1.0,162225.0
+linux,Senior Data Scientist,Poland,1.0,90771.84
+linux,Data Engineer,Poland,1.0,46350.0
+linux,Data Analyst,Poland,1.0,169950.0
+linux,Data Engineer,Italy,1.0,100367.32
+linux,Senior Data Scientist,Ireland,1.0,170980.0
+linux,Senior Data Engineer,Ireland,1.0,160680.0
+linux,Data Engineer,Ireland,1.0,100367.32
+linux,Data Analyst,Ireland,1.0,200335.0
+linux,Senior Data Scientist,Greece,1.0,93390.1
+linux,Data Engineer,Greece,1.0,151925.0
+linux,Data Analyst,Greece,1.0,145131.635
+linux,Software Engineer,Germany,1.0,58401.0
+linux,Data Analyst,Germany,1.0,91773.0
+linux,Senior Data Analyst,France,1.0,114510.25
+linux,Machine Learning Engineer,France,1.0,110034.9
+linux,Data Scientist,France,1.0,72061.375
+linux,Data Engineer,France,1.0,101250.545
+linux,Data Engineer,Denmark,1.0,99676.19
+kubernetes,Senior Data Engineer,Sweden,1.0,151925.0
+kubernetes,Data Engineer,Sweden,1.0,151925.0
+kubernetes,Senior Data Engineer,Spain,1.0,91773.0
+kubernetes,Cloud Engineer,Spain,1.0,129010.59
+kubernetes,Software Engineer,Romania,1.0,88992.0
+kubernetes,Senior Data Engineer,Romania,1.0,91773.0
+kubernetes,Machine Learning Engineer,Romania,1.0,91773.0
+kubernetes,Senior Data Scientist,Portugal,1.0,90771.84
+kubernetes,Data Scientist,Portugal,1.0,136475.0
+kubernetes,Data Engineer,Poland,1.0,46350.0
+kubernetes,Cloud Engineer,Poland,1.0,75087.0
+kubernetes,Machine Learning Engineer,Italy,1.0,91773.0
+kubernetes,Machine Learning Engineer,Hungary,1.0,83275.5
+kubernetes,Data Scientist,Hungary,1.0,162225.0
+kubernetes,Data Engineer,Hungary,1.0,137505.0
+kubernetes,Data Scientist,Greece,1.0,52600.04
+kubernetes,Data Analyst,Greece,1.0,145131.635
+kubernetes,Senior Data Scientist,Germany,1.0,162225.0
+kubernetes,Cloud Engineer,Germany,1.0,91773.0
+kubernetes,Software Engineer,France,1.0,91773.0
+kubernetes,Software Engineer,Finland,1.0,77250.0
+kubernetes,Senior Data Engineer,Denmark,1.0,151925.0
+kubernetes,Data Engineer,Belgium,1.0,58401.0
+kotlin,Software Engineer,Portugal,1.0,97850.0
+kotlin,Data Scientist,Germany,1.0,162225.0
+keras,Machine Learning Engineer,Sweden,1.0,83275.5
+keras,Software Engineer,Spain,1.0,211150.0
+keras,Senior Data Engineer,Spain,1.0,181795.0
+keras,Software Engineer,Romania,1.0,44496.0
+keras,Machine Learning Engineer,Romania,1.0,91773.0
+keras,Machine Learning Engineer,Portugal,1.0,183029.97
+keras,Machine Learning Engineer,Poland,1.0,87550.0
+keras,Senior Data Scientist,Netherlands,1.0,75087.0
+keras,Machine Learning Engineer,Italy,1.0,107808.04
+keras,Data Engineer,Ireland,1.0,100367.32
+keras,Senior Data Scientist,Greece,1.0,90336.15
+keras,Data Scientist,Germany,1.0,162225.0
+keras,Software Engineer,France,1.0,45751.055
+keras,Senior Data Scientist,France,1.0,162225.0
+keras,Data Engineer,France,1.0,99676.19
+keras,Data Scientist,Belgium,1.0,162225.0
+kafka,Senior Data Scientist,Sweden,1.0,151925.0
+kafka,Data Engineer,Sweden,1.0,61800.0
+kafka,Machine Learning Engineer,Spain,1.0,170980.0
+kafka,Data Analyst,Spain,1.0,83275.5
+kafka,Software Engineer,Romania,1.0,88992.0
+kafka,Senior Data Engineer,Romania,1.0,91773.0
+kafka,Senior Data Scientist,Portugal,1.0,90771.84
+kafka,Senior Data Engineer,Portugal,1.0,159650.0
+kafka,Data Scientist,Portugal,1.0,171412.085
+kafka,Machine Learning Engineer,Netherlands,1.0,170980.0
+kafka,Senior Data Scientist,Hungary,1.0,91773.0
+kafka,Senior Data Engineer,Hungary,1.0,151925.0
+kafka,Machine Learning Engineer,Hungary,1.0,191065.0
+kafka,Machine Learning Engineer,Greece,1.0,91773.0
+kafka,Data Scientist,Greece,1.0,52600.04
+kafka,Data Scientist,Germany,1.0,162225.0
+kafka,Data Analyst,Germany,1.0,171412.085
+kafka,Software Engineer,France,1.0,202395.0
+kafka,Senior Data Scientist,France,1.0,162225.0
+kafka,Data Scientist,France,1.0,151925.0
+kafka,Software Engineer,Finland,1.0,77250.0
+kafka,Senior Data Scientist,Finland,1.0,162225.0
+kafka,Senior Data Engineer,Finland,1.0,108150.0
+kafka,Machine Learning Engineer,Finland,1.0,191065.0
+kafka,Senior Data Engineer,Belgium,1.0,91773.0
+kafka,Data Engineer,Belgium,1.0,100367.32
+jupyter,Data Scientist,Spain,1.0,91773.0
+jupyter,Data Scientist,Portugal,1.0,72061.375
+jupyter,Data Analyst,Portugal,1.0,75087.0
+jupyter,Data Scientist,Poland,1.0,44496.0
+jupyter,Data Engineer,Poland,1.0,46350.0
+jupyter,Senior Data Scientist,Netherlands,1.0,162225.0
+jupyter,Data Scientist,Italy,1.0,90771.84
+jupyter,Machine Learning Engineer,Ireland,1.0,109180.0
+jupyter,Machine Learning Engineer,Hungary,1.0,58401.0
+jupyter,Data Engineer,Hungary,1.0,137505.0
+jupyter,Data Engineer,Greece,1.0,123600.0
+jupyter,Senior Data Engineer,Germany,1.0,151925.0
+jupyter,Machine Learning Engineer,Germany,1.0,91773.0
+jupyter,Senior Data Scientist,France,1.0,162225.0
+jupyter,Senior Data Engineer,France,1.0,151925.0
+jupyter,Data Scientist,France,1.0,144715.0
+jupyter,Data Analyst,France,1.0,59225.0
+jupyter,Data Scientist,Belgium,1.0,162225.0
+julia,Data Scientist,Sweden,1.0,162225.0
+julia,Data Engineer,Sweden,1.0,61800.0
+julia,Senior Data Scientist,Portugal,1.0,154142.59
+julia,Data Scientist,Portugal,1.0,110034.9
+julia,Data Analyst,Ireland,1.0,83275.5
+julia,Data Scientist,Greece,1.0,91773.0
+julia,Senior Data Engineer,Germany,1.0,151925.0
+julia,Machine Learning Engineer,Germany,1.0,91773.0
+julia,Data Scientist,Germany,1.0,162225.0
+julia,Data Analyst,Germany,1.0,91773.0
+julia,Cloud Engineer,Germany,1.0,91773.0
+jquery,Data Scientist,Spain,1.0,151925.0
+jquery,Data Scientist,Romania,1.0,151925.0
+jquery,Software Engineer,Portugal,1.0,97850.0
+jquery,Senior Data Analyst,France,1.0,91773.0
+jira,Data Analyst,Sweden,1.0,108819.5
+jira,Software Engineer,Spain,1.0,161195.0
+jira,Senior Data Engineer,Spain,1.0,151925.0
+jira,Machine Learning Engineer,Romania,1.0,91773.0
+jira,Data Scientist,Romania,1.0,83275.5
+jira,Machine Learning Engineer,Portugal,1.0,170980.0
+jira,Senior Data Scientist,Poland,1.0,162225.0
+jira,Data Analyst,Poland,1.0,114510.25
+jira,Software Engineer,Netherlands,1.0,91773.0
+jira,Data Analyst,Netherlands,1.0,101455.0
+jira,Data Engineer,Ireland,1.0,99676.19
+jira,Data Analyst,Ireland,1.0,151925.0
+jira,Data Scientist,Hungary,1.0,72100.0
+jira,Data Analyst,Hungary,1.0,91773.0
+jira,Senior Data Engineer,Greece,1.0,46350.0
+jira,Data Engineer,Greece,1.0,123600.0
+jira,Data Analyst,Greece,1.0,114510.25
+jira,Machine Learning Engineer,Germany,1.0,91773.0
+jira,Data Engineer,Germany,1.0,151925.0
+jira,Software Engineer,France,1.0,202395.0
+jira,Data Analyst,France,1.0,108150.0
+jira,Data Analyst,Denmark,1.0,75087.0
+jira,Data Engineer,Belgium,1.0,101231.49
+jenkins,Data Engineer,Sweden,1.0,61800.0
+jenkins,Data Scientist,Spain,1.0,59328.0
+jenkins,Machine Learning Engineer,Portugal,1.0,170980.0
+jenkins,Data Scientist,Portugal,1.0,136475.0
+jenkins,Senior Data Scientist,Poland,1.0,90771.84
+jenkins,Machine Learning Engineer,Poland,1.0,74160.0
+jenkins,Data Analyst,Poland,1.0,77868.0
+jenkins,Data Engineer,Netherlands,1.0,99676.19
+jenkins,Machine Learning Engineer,Hungary,1.0,58401.0
+jenkins,Data Scientist,Hungary,1.0,72061.375
+jenkins,Data Engineer,Greece,1.0,91773.0
+jenkins,Machine Learning Engineer,Germany,1.0,170980.0
+jenkins,Software Engineer,France,1.0,202395.0
+jenkins,Data Scientist,France,1.0,58401.0
+jenkins,Business Analyst,France,1.0,91773.0
+jenkins,Senior Data Scientist,Finland,1.0,162225.0
+jenkins,Machine Learning Engineer,Denmark,1.0,170980.0
+jenkins,Data Engineer,Denmark,1.0,151925.0
+jenkins,Machine Learning Engineer,Belgium,1.0,91773.0
+jenkins,Data Engineer,Belgium,1.0,91773.0
+javascript,Data Engineer,Spain,1.0,91773.0
+javascript,Data Scientist,Romania,1.0,151925.0
+javascript,Data Analyst,Romania,1.0,112393.6
+javascript,Software Engineer,Portugal,1.0,97850.0
+javascript,Data Analyst,Portugal,1.0,83275.5
+javascript,Data Engineer,Poland,1.0,151925.0
+javascript,Software Engineer,Netherlands,1.0,91773.0
+javascript,Data Analyst,Netherlands,1.0,76599.55500000001
+javascript,Software Engineer,Italy,1.0,84975.0
+javascript,Data Engineer,Italy,1.0,151925.0
+javascript,Data Analyst,Italy,1.0,54604.42
+javascript,Software Engineer,Germany,1.0,163255.0
+javascript,Senior Data Analyst,Germany,1.0,114510.25
+javascript,Data Analyst,Germany,1.0,114510.25
+javascript,Business Analyst,Germany,1.0,58401.0
+javascript,Software Engineer,France,1.0,81576.0
+javascript,Senior Data Engineer,France,1.0,91773.0
+javascript,Machine Learning Engineer,France,1.0,75087.0
+javascript,Cloud Engineer,France,1.0,109147.04
+javascript,Software Engineer,Finland,1.0,77250.0
+javascript,Data Analyst,Denmark,1.0,75087.0
+javascript,Data Scientist,Belgium,1.0,162225.0
+java,Data Engineer,Sweden,1.0,151925.0
+java,Data Analyst,Spain,1.0,83275.5
+java,Software Engineer,Romania,1.0,200335.0
+java,Senior Data Engineer,Romania,1.0,91773.0
+java,Data Scientist,Romania,1.0,83275.5
+java,Data Engineer,Romania,1.0,101231.49
+java,Software Engineer,Portugal,1.0,97850.0
+java,Senior Data Engineer,Portugal,1.0,151925.0
+java,Data Scientist,Portugal,1.0,162225.0
+java,Senior Data Scientist,Poland,1.0,91773.0
+java,Senior Data Engineer,Poland,1.0,88992.0
+java,Software Engineer,Netherlands,1.0,91773.0
+java,Data Scientist,Netherlands,1.0,175615.0
+java,Machine Learning Engineer,Ireland,1.0,75087.0
+java,Senior Data Engineer,Hungary,1.0,151925.0
+java,Machine Learning Engineer,Hungary,1.0,58401.0
+java,Senior Data Engineer,Greece,1.0,46350.0
+java,Data Scientist,Greece,1.0,176254.63
+java,Senior Data Scientist,Germany,1.0,151925.0
+java,Data Scientist,Germany,1.0,162225.0
+java,Data Analyst,Germany,1.0,77319.52500000001
+java,Business Analyst,Germany,1.0,58401.0
+java,Software Engineer,France,1.0,81576.0
+java,Senior Data Analyst,France,1.0,161195.0
+java,Senior Data Engineer,Finland,1.0,108150.0
+java,Data Engineer,Finland,1.0,99676.19
+java,Machine Learning Engineer,Denmark,1.0,170980.0
+java,Senior Data Engineer,Belgium,1.0,91773.0
+java,Data Scientist,Belgium,1.0,58401.0
+java,Data Analyst,Belgium,1.0,169950.0
+hugging face,Senior Data Scientist,Hungary,1.0,162225.0
+hugging face,Machine Learning Engineer,Hungary,1.0,191065.0
+hugging face,Data Analyst,Hungary,1.0,75087.0
+html,Data Scientist,Spain,1.0,151925.0
+html,Data Scientist,Romania,1.0,151925.0
+html,Data Analyst,Portugal,1.0,83275.5
+html,Data Analyst,Netherlands,1.0,76599.55500000001
+html,Software Engineer,Italy,1.0,84975.0
+html,Senior Data Analyst,Germany,1.0,114510.25
+html,Machine Learning Engineer,France,1.0,108150.0
+html,Data Analyst,Denmark,1.0,75087.0
+html,Data Scientist,Belgium,1.0,162225.0
+hadoop,Data Engineer,Sweden,1.0,151925.0
+hadoop,Data Analyst,Sweden,1.0,121684.2
+hadoop,Senior Data Engineer,Spain,1.0,101231.49
+hadoop,Machine Learning Engineer,Romania,1.0,91773.0
+hadoop,Data Scientist,Romania,1.0,58401.0
+hadoop,Data Scientist,Poland,1.0,135823.01
+hadoop,Data Scientist,Netherlands,1.0,175615.0
+hadoop,Data Analyst,Italy,1.0,54604.42
+hadoop,Senior Data Scientist,Ireland,1.0,146775.0
+hadoop,Data Scientist,Ireland,1.0,162225.0
+hadoop,Software Engineer,Hungary,1.0,83275.5
+hadoop,Machine Learning Engineer,Hungary,1.0,83275.5
+hadoop,Data Scientist,Hungary,1.0,72061.375
+hadoop,Data Analyst,Hungary,1.0,91773.0
+hadoop,Software Engineer,France,1.0,202395.0
+hadoop,Senior Data Analyst,France,1.0,161195.0
+hadoop,Data Scientist,France,1.0,162225.0
+hadoop,Business Analyst,France,1.0,91773.0
+groovy,Machine Learning Engineer,Hungary,1.0,58401.0
+groovy,Data Scientist,Hungary,1.0,72061.375
+graphql,Data Engineer,Spain,1.0,58401.0
+graphql,Software Engineer,Italy,1.0,84975.0
+graphql,Software Engineer,France,1.0,46350.0
+graphql,Senior Data Engineer,France,1.0,151925.0
+graphql,Data Engineer,France,1.0,151925.0
+graphql,Data Analyst,France,1.0,54604.42
+golang,Senior Data Engineer,Poland,1.0,46350.0
+golang,Data Scientist,Poland,1.0,136475.0
+golang,Machine Learning Engineer,Netherlands,1.0,170980.0
+golang,Data Engineer,Germany,1.0,144200.0
+golang,Software Engineer,Finland,1.0,77250.0
+golang,Senior Data Engineer,Belgium,1.0,91773.0
+go,Senior Data Engineer,Sweden,1.0,151925.0
+go,Machine Learning Engineer,Sweden,1.0,145230.0
+go,Data Engineer,Sweden,1.0,61800.0
+go,Senior Data Engineer,Romania,1.0,151925.0
+go,Senior Data Analyst,Romania,1.0,114510.25
+go,Senior Data Scientist,Portugal,1.0,154142.59
+go,Senior Data Analyst,Portugal,1.0,114510.25
+go,Data Scientist,Portugal,1.0,110034.9
+go,Data Engineer,Portugal,1.0,151925.0
+go,Software Engineer,Poland,1.0,91773.0
+go,Senior Data Scientist,Poland,1.0,94502.5
+go,Software Engineer,Netherlands,1.0,191065.0
+go,Machine Learning Engineer,Netherlands,1.0,74160.0
+go,Data Engineer,Italy,1.0,135527.4
+go,Senior Data Scientist,Ireland,1.0,170980.0
+go,Senior Data Engineer,Ireland,1.0,151925.0
+go,Senior Data Analyst,Ireland,1.0,121684.2
+go,Data Scientist,Ireland,1.0,55018.995
+go,Data Engineer,Ireland,1.0,151925.0
+go,Senior Data Scientist,Hungary,1.0,91773.0
+go,Data Scientist,Hungary,1.0,108459.0
+go,Data Engineer,Hungary,1.0,138268.23
+go,Software Engineer,Greece,1.0,91773.0
+go,Software Engineer,Germany,1.0,91773.0
+go,Data Engineer,Germany,1.0,168405.0
+go,Senior Data Scientist,France,1.0,162225.0
+go,Machine Learning Engineer,France,1.0,170980.0
+go,Cloud Engineer,France,1.0,109147.04
+go,Business Analyst,France,1.0,114510.25
+go,Senior Data Engineer,Finland,1.0,108150.0
+go,Senior Data Analyst,Finland,1.0,114510.25
+go,Data Scientist,Finland,1.0,83275.5
+go,Data Engineer,Finland,1.0,99676.19
+go,Senior Data Engineer,Denmark,1.0,151925.0
+go,Machine Learning Engineer,Denmark,1.0,170980.0
+go,Data Scientist,Denmark,1.0,171412.085
+go,Data Analyst,Denmark,1.0,91773.0
+go,Senior Data Engineer,Belgium,1.0,91773.0
+go,Data Engineer,Belgium,1.0,101231.49
+gitlab,Data Scientist,Spain,1.0,90771.84
+gitlab,Data Analyst,Spain,1.0,91773.0
+gitlab,Senior Data Engineer,Romania,1.0,91773.0
+gitlab,Machine Learning Engineer,Poland,1.0,74160.0
+gitlab,Machine Learning Engineer,Italy,1.0,91773.0
+gitlab,Machine Learning Engineer,Hungary,1.0,58401.0
+gitlab,Machine Learning Engineer,Greece,1.0,182601.49
+gitlab,Data Scientist,Greece,1.0,176254.63
+gitlab,Software Engineer,Germany,1.0,91773.0
+gitlab,Senior Data Engineer,Germany,1.0,151925.0
+gitlab,Cloud Engineer,Germany,1.0,91773.0
+gitlab,Data Analyst,France,1.0,168695.46
+gitlab,Business Analyst,Belgium,1.0,91773.0
+github,Senior Data Engineer,Sweden,1.0,151925.0
+github,Data Scientist,Spain,1.0,72061.375
+github,Machine Learning Engineer,Romania,1.0,91773.0
+github,Software Engineer,Portugal,1.0,91773.0
+github,Senior Data Engineer,Portugal,1.0,151925.0
+github,Machine Learning Engineer,Portugal,1.0,170980.0
+github,Senior Data Engineer,Poland,1.0,99676.19
+github,Data Engineer,Netherlands,1.0,180250.0
+github,Senior Data Scientist,Italy,1.0,75087.0
+github,Data Engineer,Ireland,1.0,151925.0
+github,Machine Learning Engineer,Hungary,1.0,58401.0
+github,Data Scientist,Greece,1.0,176254.63
+github,Cloud Engineer,Germany,1.0,206000.0
+github,Senior Data Scientist,France,1.0,162225.0
+github,Senior Data Engineer,France,1.0,151925.0
+github,Senior Data Analyst,Finland,1.0,103515.0
+github,Machine Learning Engineer,Denmark,1.0,170980.0
+github,Data Scientist,Denmark,1.0,144200.0
+git,Data Scientist,Sweden,1.0,83430.0
+git,Data Scientist,Spain,1.0,162225.0
+git,Data Analyst,Spain,1.0,91773.0
+git,Machine Learning Engineer,Romania,1.0,91773.0
+git,Senior Data Engineer,Portugal,1.0,151925.0
+git,Data Scientist,Portugal,1.0,162225.0
+git,Data Analyst,Portugal,1.0,169950.0
+git,Senior Data Analyst,Poland,1.0,114510.25
+git,Machine Learning Engineer,Poland,1.0,104059.87
+git,Cloud Engineer,Poland,1.0,91773.0
+git,Software Engineer,Netherlands,1.0,191065.0
+git,Senior Data Engineer,Netherlands,1.0,151925.0
+git,Senior Data Scientist,Ireland,1.0,170980.0
+git,Senior Data Engineer,Ireland,1.0,151925.0
+git,Data Analyst,Ireland,1.0,200335.0
+git,Software Engineer,Hungary,1.0,91773.0
+git,Senior Data Scientist,Hungary,1.0,162225.0
+git,Data Analyst,Greece,1.0,59225.0
+git,Senior Data Analyst,Germany,1.0,114510.25
+git,Data Scientist,Germany,1.0,124180.92
+git,Data Analyst,Germany,1.0,108150.0
+git,Senior Data Scientist,France,1.0,162225.0
+git,Senior Data Analyst,France,1.0,114510.25
+git,Business Analyst,France,1.0,91773.0
+ggplot2,Senior Data Scientist,Poland,1.0,162225.0
+ggplot2,Data Scientist,Poland,1.0,162225.0
+gdpr,Machine Learning Engineer,Sweden,1.0,145230.0
+gdpr,Data Engineer,Sweden,1.0,138268.23
+gdpr,Business Analyst,Sweden,1.0,91773.0
+gdpr,Senior Data Engineer,Spain,1.0,91773.0
+gdpr,Cloud Engineer,Romania,1.0,58401.0
+gdpr,Data Engineer,Portugal,1.0,151925.0
+gdpr,Data Analyst,Portugal,1.0,169950.0
+gdpr,Cloud Engineer,Poland,1.0,227630.0
+gdpr,Data Analyst,Netherlands,1.0,91773.0
+gdpr,Data Scientist,Italy,1.0,74160.0
+gdpr,Senior Data Scientist,Ireland,1.0,171412.085
+gdpr,Senior Data Engineer,Ireland,1.0,151925.0
+gdpr,Data Analyst,Ireland,1.0,44496.0
+gdpr,Data Scientist,Greece,1.0,90771.84
+gdpr,Data Engineer,Greece,1.0,151925.0
+gdpr,Senior Data Scientist,Germany,1.0,151925.0
+gdpr,Senior Data Engineer,France,1.0,151925.0
+gdpr,Machine Learning Engineer,France,1.0,58401.0
+gdpr,Data Engineer,France,1.0,91773.0
+gdpr,Senior Data Engineer,Finland,1.0,108150.0
+gdpr,Senior Data Scientist,Belgium,1.0,91773.0
+gdpr,Data Analyst,Belgium,1.0,83275.5
+gcp,Senior Data Engineer,Sweden,1.0,151925.0
+gcp,Machine Learning Engineer,Sweden,1.0,145230.0
+gcp,Data Scientist,Sweden,1.0,136475.0
+gcp,Senior Data Scientist,Spain,1.0,74679.12
+gcp,Data Scientist,Spain,1.0,72061.375
+gcp,Software Engineer,Portugal,1.0,91773.0
+gcp,Data Scientist,Portugal,1.0,162225.0
+gcp,Senior Data Scientist,Poland,1.0,162225.0
+gcp,Senior Data Analyst,Poland,1.0,114510.25
+gcp,Cloud Engineer,Poland,1.0,58401.0
+gcp,Data Scientist,Netherlands,1.0,175692.25
+gcp,Software Engineer,Ireland,1.0,91773.0
+gcp,Senior Data Scientist,Ireland,1.0,170980.0
+gcp,Senior Data Analyst,Ireland,1.0,200335.0
+gcp,Machine Learning Engineer,Ireland,1.0,170980.0
+gcp,Data Analyst,Ireland,1.0,103515.0
+gcp,Senior Data Analyst,Hungary,1.0,91773.0
+gcp,Machine Learning Engineer,Hungary,1.0,58401.0
+gcp,Data Engineer,Hungary,1.0,138268.23
+gcp,Data Analyst,Hungary,1.0,159650.0
+gcp,Machine Learning Engineer,Greece,1.0,104059.87
+gcp,Data Engineer,Greece,1.0,151925.0
+gcp,Senior Data Scientist,Germany,1.0,231235.0
+gcp,Senior Data Scientist,France,1.0,91773.0
+gcp,Machine Learning Engineer,France,1.0,58401.0
+gcp,Data Scientist,Finland,1.0,124695.92
+gcp,Data Scientist,Belgium,1.0,58401.0
+flutter,Business Analyst,Italy,1.0,44496.0
+flow,Software Engineer,Spain,1.0,145230.0
+flow,Senior Data Engineer,Spain,1.0,91773.0
+flow,Data Engineer,Spain,1.0,99676.19
+flow,Business Analyst,Spain,1.0,64890.0
+flow,Data Engineer,Portugal,1.0,99676.19
+flow,Senior Data Scientist,Poland,1.0,94502.5
+flow,Business Analyst,Poland,1.0,158105.0
+flow,Machine Learning Engineer,Netherlands,1.0,75087.0
+flow,Data Scientist,Netherlands,1.0,151925.0
+flow,Data Engineer,Italy,1.0,99676.19
+flow,Data Analyst,Italy,1.0,91773.0
+flow,Data Scientist,Greece,1.0,93390.1
+flow,Senior Data Engineer,Germany,1.0,91773.0
+flow,Data Scientist,Germany,1.0,162225.0
+flow,Business Analyst,Germany,1.0,83275.5
+flow,Software Engineer,France,1.0,91773.0
+flow,Senior Data Engineer,France,1.0,151925.0
+flow,Data Engineer,Finland,1.0,99676.19
+flow,Data Analyst,Finland,1.0,75087.0
+flow,Data Scientist,Denmark,1.0,171412.085
+flask,Machine Learning Engineer,Spain,1.0,170980.0
+flask,Data Engineer,Spain,1.0,100367.32
+flask,Machine Learning Engineer,Portugal,1.0,195185.0
+flask,Data Engineer,Italy,1.0,151925.0
+flask,Senior Data Engineer,Ireland,1.0,151925.0
+flask,Senior Data Scientist,Greece,1.0,90336.15
+flask,Machine Learning Engineer,Greece,1.0,104059.87
+flask,Data Analyst,Greece,1.0,145131.635
+flask,Machine Learning Engineer,Germany,1.0,91773.0
+flask,Data Analyst,Germany,1.0,114510.25
+firestore,Senior Data Engineer,Poland,1.0,46350.0
+fastapi,Machine Learning Engineer,Spain,1.0,170980.0
+fastapi,Data Scientist,Portugal,1.0,75087.0
+fastapi,Machine Learning Engineer,Netherlands,1.0,170980.0
+fastapi,Data Engineer,Hungary,1.0,137505.0
+fastapi,Machine Learning Engineer,Greece,1.0,104059.87
+fastapi,Data Scientist,Greece,1.0,109632.685
+fastapi,Machine Learning Engineer,France,1.0,145230.0
+express,Senior Data Scientist,Spain,1.0,46350.0
+express,Data Scientist,Poland,1.0,58401.0
+express,Business Analyst,Netherlands,1.0,108459.0
+express,Data Analyst,Ireland,1.0,114510.25
+express,Senior Data Scientist,Hungary,1.0,162225.0
+express,Data Analyst,Hungary,1.0,75087.0
+express,Senior Data Scientist,Greece,1.0,75087.0
+express,Machine Learning Engineer,Greece,1.0,75087.0
+express,Data Scientist,Greece,1.0,91773.0
+express,Data Engineer,Greece,1.0,99676.19
+express,Data Analyst,Greece,1.0,168695.46
+express,Data Scientist,Germany,1.0,58401.0
+express,Machine Learning Engineer,France,1.0,58401.0
+express,Data Analyst,France,1.0,59225.0
+express,Data Analyst,Belgium,1.0,56637.64
+excel,Senior Data Scientist,Sweden,1.0,175615.0
+excel,Data Engineer,Sweden,1.0,91773.0
+excel,Data Analyst,Sweden,1.0,121684.2
+excel,Senior Data Engineer,Spain,1.0,75087.0
+excel,Machine Learning Engineer,Spain,1.0,104059.87
+excel,Business Analyst,Spain,1.0,88992.0
+excel,Data Scientist,Romania,1.0,83275.5
+excel,Business Analyst,Portugal,1.0,83275.5
+excel,Senior Data Scientist,Poland,1.0,162225.0
+excel,Senior Data Analyst,Poland,1.0,114510.25
+excel,Senior Data Engineer,Netherlands,1.0,91773.0
+excel,Software Engineer,Italy,1.0,108819.5
+excel,Business Analyst,Italy,1.0,44496.0
+excel,Data Scientist,Ireland,1.0,162225.0
+excel,Senior Data Analyst,Hungary,1.0,88992.0
+excel,Data Engineer,Hungary,1.0,99676.19
+excel,Data Engineer,Greece,1.0,46350.0
+excel,Senior Data Engineer,France,1.0,151925.0
+excel,Senior Data Analyst,France,1.0,114510.25
+excel,Data Engineer,France,1.0,151925.0
+excel,Senior Data Engineer,Finland,1.0,99676.19
+excel,Data Analyst,Finland,1.0,75087.0
+excel,Senior Data Engineer,Denmark,1.0,151925.0
+excel,Machine Learning Engineer,Denmark,1.0,170980.0
+elixir,Software Engineer,Greece,1.0,58401.0
+elasticsearch,Machine Learning Engineer,Spain,1.0,170980.0
+elasticsearch,Cloud Engineer,Spain,1.0,91773.0
+elasticsearch,Data Analyst,Portugal,1.0,75087.0
+elasticsearch,Software Engineer,Poland,1.0,91773.0
+elasticsearch,Machine Learning Engineer,Poland,1.0,104059.87
+elasticsearch,Data Engineer,Poland,1.0,46350.0
+elasticsearch,Software Engineer,Greece,1.0,58401.0
+elasticsearch,Data Analyst,Germany,1.0,114510.25
+elasticsearch,Machine Learning Engineer,France,1.0,104059.87
+elasticsearch,Software Engineer,Finland,1.0,77250.0
+elasticsearch,Data Scientist,Belgium,1.0,58401.0
+dynamodb,Machine Learning Engineer,Spain,1.0,91773.0
+dynamodb,Data Scientist,Spain,1.0,126690.0
+dynamodb,Machine Learning Engineer,Poland,1.0,87550.0
+dynamodb,Data Engineer,Germany,1.0,151925.0
+dplyr,Data Scientist,Italy,1.0,162225.0
+docker,Senior Data Scientist,Spain,1.0,46350.0
+docker,Data Scientist,Spain,1.0,162225.0
+docker,Data Analyst,Spain,1.0,83275.5
+docker,Cloud Engineer,Spain,1.0,129010.59
+docker,Software Engineer,Romania,1.0,88992.0
+docker,Senior Data Engineer,Romania,1.0,91773.0
+docker,Data Scientist,Romania,1.0,58401.0
+docker,Senior Data Scientist,Portugal,1.0,90771.84
+docker,Senior Data Engineer,Portugal,1.0,151925.0
+docker,Senior Data Analyst,Portugal,1.0,114510.25
+docker,Cloud Engineer,Poland,1.0,75087.0
+docker,Senior Data Engineer,Netherlands,1.0,151925.0
+docker,Data Scientist,Netherlands,1.0,162225.0
+docker,Data Engineer,Ireland,1.0,100367.32
+docker,Data Engineer,Hungary,1.0,137505.0
+docker,Data Analyst,Greece,1.0,145131.635
+docker,Software Engineer,Germany,1.0,91773.0
+docker,Cloud Engineer,Germany,1.0,91773.0
+docker,Business Analyst,France,1.0,91773.0
+docker,Software Engineer,Finland,1.0,77250.0
+docker,Senior Data Scientist,Finland,1.0,162225.0
+docker,Senior Data Engineer,Finland,1.0,99676.19
+docker,Machine Learning Engineer,Finland,1.0,170980.0
+docker,Senior Data Engineer,Denmark,1.0,151925.0
+docker,Machine Learning Engineer,Denmark,1.0,170980.0
+docker,Data Scientist,Belgium,1.0,162225.0
+docker,Data Engineer,Belgium,1.0,58401.0
+django,Data Engineer,Spain,1.0,135527.4
+django,Data Scientist,Hungary,1.0,162225.0
+debian,Software Engineer,France,1.0,202395.0
+dax,Senior Data Analyst,Sweden,1.0,114510.25
+dax,Data Engineer,Spain,1.0,135527.4
+dax,Software Engineer,Portugal,1.0,91773.0
+dax,Senior Data Engineer,Portugal,1.0,159650.0
+dax,Data Analyst,Portugal,1.0,114510.25
+dax,Software Engineer,Poland,1.0,126690.0
+dax,Senior Data Engineer,Poland,1.0,151925.0
+dax,Data Analyst,Poland,1.0,74160.0
+dax,Software Engineer,Netherlands,1.0,58401.0
+dax,Data Engineer,Ireland,1.0,151925.0
+dax,Data Analyst,Ireland,1.0,103515.0
+dax,Data Analyst,Greece,1.0,75087.0
+dax,Data Engineer,France,1.0,151925.0
+dax,Business Analyst,Belgium,1.0,91773.0
+datarobot,Machine Learning Engineer,Poland,1.0,87550.0
+databricks,Senior Data Analyst,Sweden,1.0,114510.25
+databricks,Data Scientist,Sweden,1.0,162225.0
+databricks,Data Analyst,Sweden,1.0,114510.25
+databricks,Senior Data Analyst,Spain,1.0,114510.25
+databricks,Data Scientist,Romania,1.0,124630.0
+databricks,Data Engineer,Romania,1.0,46350.0
+databricks,Senior Data Engineer,Portugal,1.0,159650.0
+databricks,Senior Data Scientist,Poland,1.0,162225.0
+databricks,Senior Data Analyst,Poland,1.0,91773.0
+databricks,Machine Learning Engineer,Poland,1.0,191580.0
+databricks,Machine Learning Engineer,Netherlands,1.0,75087.0
+databricks,Data Analyst,Netherlands,1.0,69010.0
+databricks,Data Engineer,Italy,1.0,99676.19
+databricks,Senior Data Engineer,Ireland,1.0,151925.0
+databricks,Data Engineer,Ireland,1.0,99676.19
+databricks,Data Analyst,Ireland,1.0,151925.0
+databricks,Senior Data Scientist,Hungary,1.0,162225.0
+databricks,Senior Data Scientist,Greece,1.0,162225.0
+databricks,Senior Data Engineer,Greece,1.0,46350.0
+databricks,Data Scientist,Greece,1.0,66766.145
+databricks,Data Analyst,Greece,1.0,91773.0
+databricks,Senior Data Scientist,Germany,1.0,151925.0
+databricks,Data Analyst,Germany,1.0,114510.25
+databricks,Cloud Engineer,Germany,1.0,91773.0
+databricks,Software Engineer,France,1.0,45751.055
+databricks,Machine Learning Engineer,France,1.0,58401.0
+databricks,Machine Learning Engineer,Finland,1.0,191065.0
+databricks,Data Analyst,Denmark,1.0,91773.0
+css,Data Scientist,Spain,1.0,151925.0
+css,Data Engineer,Spain,1.0,91773.0
+css,Data Scientist,Romania,1.0,151925.0
+css,Software Engineer,Portugal,1.0,97850.0
+css,Data Analyst,Netherlands,1.0,76599.55500000001
+css,Software Engineer,Italy,1.0,84975.0
+css,Senior Data Analyst,Germany,1.0,114510.25
+css,Machine Learning Engineer,France,1.0,108150.0
+css,Data Analyst,Denmark,1.0,75087.0
+css,Data Scientist,Belgium,1.0,162225.0
+crystal,Data Engineer,Italy,1.0,99676.19
+crystal,Data Analyst,Italy,1.0,103515.0
+couchdb,Data Engineer,Greece,1.0,99676.19
+couchdb,Data Engineer,France,1.0,151925.0
+confluence,Software Engineer,Spain,1.0,161195.0
+confluence,Senior Data Engineer,Spain,1.0,151925.0
+confluence,Data Engineer,Spain,1.0,58401.0
+confluence,Senior Data Engineer,Portugal,1.0,151925.0
+confluence,Data Analyst,Ireland,1.0,151925.0
+confluence,Data Scientist,Hungary,1.0,72100.0
+confluence,Senior Data Engineer,Greece,1.0,46350.0
+confluence,Data Engineer,Greece,1.0,123600.0
+confluence,Data Analyst,Greece,1.0,114510.25
+confluence,Business Analyst,Germany,1.0,129780.0
+confluence,Senior Data Analyst,France,1.0,91773.0
+confluence,Data Engineer,France,1.0,151925.0
+confluence,Data Analyst,Denmark,1.0,75087.0
+cognos,Data Engineer,Portugal,1.0,83275.5
+cognos,Data Analyst,Portugal,1.0,52544.42
+cognos,Data Analyst,Netherlands,1.0,91880.12
+cognos,Software Engineer,Hungary,1.0,58401.0
+cognos,Business Analyst,Germany,1.0,64890.0
+chef,Cloud Engineer,Spain,1.0,129010.59
+chef,Data Engineer,Netherlands,1.0,101231.49
+chef,Senior Data Analyst,France,1.0,91773.0
+chef,Data Engineer,France,1.0,151925.0
+centos,Senior Data Engineer,Ireland,1.0,91773.0
+cassandra,Data Scientist,Portugal,1.0,162225.0
+cassandra,Data Engineer,Netherlands,1.0,91773.0
+cassandra,Machine Learning Engineer,Greece,1.0,91773.0
+cassandra,Senior Data Engineer,Germany,1.0,151925.0
+cassandra,Business Analyst,France,1.0,114510.25
+c++,Software Engineer,Spain,1.0,211150.0
+c++,Senior Data Analyst,Romania,1.0,200335.0
+c++,Software Engineer,Portugal,1.0,164800.0
+c++,Machine Learning Engineer,Portugal,1.0,97172.775
+c++,Data Scientist,Poland,1.0,136475.0
+c++,Data Engineer,Poland,1.0,99676.19
+c++,Data Analyst,Poland,1.0,101455.0
+c++,Senior Data Scientist,Ireland,1.0,170980.0
+c++,Senior Data Engineer,Ireland,1.0,160680.0
+c++,Machine Learning Engineer,Ireland,1.0,75087.0
+c++,Data Scientist,Hungary,1.0,72061.375
+c++,Data Engineer,Hungary,1.0,137505.0
+c++,Data Engineer,Greece,1.0,151925.0
+c++,Data Engineer,Germany,1.0,99676.19
+c++,Cloud Engineer,Germany,1.0,206000.0
+c++,Software Engineer,France,1.0,45751.055
+c++,Senior Data Analyst,France,1.0,161195.0
+c++,Machine Learning Engineer,France,1.0,75087.0
+c++,Data Engineer,France,1.0,99676.19
+c++,Data Analyst,France,1.0,114510.25
+c++,Software Engineer,Belgium,1.0,45751.055
+c++,Machine Learning Engineer,Belgium,1.0,91773.0
+c#,Data Engineer,Sweden,1.0,151925.0
+c#,Senior Data Engineer,Romania,1.0,91773.0
+c#,Data Engineer,Romania,1.0,101231.49
+c#,Data Analyst,Portugal,1.0,59225.0
+c#,Software Engineer,Poland,1.0,91773.0
+c#,Senior Data Engineer,Poland,1.0,99676.19
+c#,Software Engineer,Netherlands,1.0,191065.0
+c#,Data Engineer,Netherlands,1.0,151925.0
+c#,Data Analyst,Netherlands,1.0,101455.0
+c#,Data Analyst,Italy,1.0,52544.42
+c#,Data Engineer,Ireland,1.0,100367.32
+c#,Data Engineer,Hungary,1.0,151925.0
+c#,Software Engineer,Greece,1.0,58401.0
+c#,Data Scientist,Greece,1.0,176254.63
+c#,Data Engineer,Greece,1.0,99676.19
+c#,Software Engineer,Germany,1.0,83275.5
+c#,Senior Data Engineer,Germany,1.0,99676.19
+c#,Data Engineer,Germany,1.0,99676.19
+c#,Software Engineer,France,1.0,169950.0
+c#,Data Scientist,France,1.0,72100.0
+c#,Data Engineer,France,1.0,99676.19
+c#,Data Engineer,Belgium,1.0,91773.0
+c,Business Analyst,Spain,1.0,88992.0
+c,Software Engineer,Romania,1.0,44496.0
+c,Software Engineer,Portugal,1.0,164800.0
+c,Software Engineer,Poland,1.0,91773.0
+c,Machine Learning Engineer,Poland,1.0,145131.635
+c,Data Scientist,Hungary,1.0,162225.0
+c,Data Scientist,Greece,1.0,176254.63
+c,Data Engineer,Greece,1.0,75087.0
+c,Software Engineer,Germany,1.0,83275.5
+c,Cloud Engineer,Germany,1.0,91773.0
+c,Data Analyst,France,1.0,206000.0
+c,Data Scientist,Belgium,1.0,162225.0
+blazor,Software Engineer,Greece,1.0,58401.0
+bitbucket,Data Engineer,Spain,1.0,161195.0
+bitbucket,Machine Learning Engineer,Romania,1.0,91773.0
+bitbucket,Senior Data Engineer,Portugal,1.0,151925.0
+bitbucket,Data Engineer,Portugal,1.0,123600.0
+bitbucket,Data Scientist,Greece,1.0,176254.63
+bitbucket,Data Engineer,Germany,1.0,58401.0
+bitbucket,Data Engineer,Belgium,1.0,91773.0
+bigquery,Data Scientist,Sweden,1.0,83430.0
+bigquery,Data Scientist,Spain,1.0,75087.0
+bigquery,Data Analyst,Spain,1.0,91773.0
+bigquery,Senior Data Analyst,Portugal,1.0,114510.25
+bigquery,Senior Data Engineer,Poland,1.0,46350.0
+bigquery,Senior Data Analyst,Poland,1.0,114510.25
+bigquery,Data Analyst,Poland,1.0,114510.25
+bigquery,Data Scientist,Netherlands,1.0,175692.25
+bigquery,Senior Data Analyst,Italy,1.0,114510.25
+bigquery,Senior Data Analyst,Hungary,1.0,91773.0
+bigquery,Data Engineer,Hungary,1.0,138268.23
+bigquery,Data Engineer,Greece,1.0,99676.19
+bigquery,Data Analyst,Germany,1.0,171412.085
+bigquery,Software Engineer,France,1.0,202395.0
+bigquery,Senior Data Analyst,France,1.0,114510.25
+bigquery,Data Scientist,France,1.0,162225.0
+bigquery,Machine Learning Engineer,Finland,1.0,191065.0
+bigquery,Data Analyst,Belgium,1.0,169950.0
+bash,Data Engineer,Sweden,1.0,256470.0
+bash,Data Engineer,Spain,1.0,91773.0
+bash,Senior Data Engineer,Portugal,1.0,151925.0
+bash,Data Engineer,Poland,1.0,91773.0
+bash,Cloud Engineer,Poland,1.0,91773.0
+bash,Data Engineer,Netherlands,1.0,91773.0
+bash,Senior Data Scientist,Ireland,1.0,146775.0
+bash,Data Analyst,Ireland,1.0,114510.25
+bash,Machine Learning Engineer,Hungary,1.0,58401.0
+bash,Cloud Engineer,Germany,1.0,91773.0
+bash,Data Engineer,France,1.0,151925.0
+azure,Software Engineer,Sweden,1.0,161195.0
+azure,Business Analyst,Sweden,1.0,64890.0
+azure,Senior Data Scientist,Spain,1.0,74679.12
+azure,Senior Data Analyst,Spain,1.0,114510.25
+azure,Data Analyst,Spain,1.0,97592.5
+azure,Software Engineer,Romania,1.0,88992.0
+azure,Senior Data Engineer,Romania,1.0,151925.0
+azure,Machine Learning Engineer,Romania,1.0,91773.0
+azure,Data Analyst,Romania,1.0,91773.0
+azure,Data Analyst,Portugal,1.0,169950.0
+azure,Senior Data Analyst,Poland,1.0,91773.0
+azure,Data Analyst,Netherlands,1.0,182601.49
+azure,Data Scientist,Italy,1.0,74160.0
+azure,Data Analyst,Italy,1.0,105575.0
+azure,Senior Data Analyst,Ireland,1.0,200335.0
+azure,Data Scientist,Ireland,1.0,171412.085
+azure,Senior Data Engineer,Hungary,1.0,151925.0
+azure,Machine Learning Engineer,Hungary,1.0,58401.0
+azure,Data Analyst,Hungary,1.0,159650.0
+azure,Senior Data Engineer,Greece,1.0,46350.0
+azure,Senior Data Scientist,Germany,1.0,231235.0
+azure,Business Analyst,Germany,1.0,91773.0
+azure,Software Engineer,France,1.0,45751.055
+azure,Data Scientist,Finland,1.0,124695.92
+azure,Data Engineer,Finland,1.0,99676.19
+azure,Data Analyst,Finland,1.0,169950.0
+azure,Machine Learning Engineer,Denmark,1.0,170980.0
+azure,Data Scientist,Denmark,1.0,135506.80000000002
+azure,Data Analyst,Denmark,1.0,91773.0
+aws,Senior Data Scientist,Sweden,1.0,151925.0
+aws,Data Analyst,Spain,1.0,83275.5
+aws,Business Analyst,Spain,1.0,190550.0
+aws,Software Engineer,Romania,1.0,88992.0
+aws,Data Scientist,Romania,1.0,124630.0
+aws,Software Engineer,Portugal,1.0,164800.0
+aws,Data Analyst,Poland,1.0,169950.0
+aws,Business Analyst,Poland,1.0,158105.0
+aws,Senior Data Scientist,Netherlands,1.0,75087.0
+aws,Data Analyst,Netherlands,1.0,182601.49
+aws,Business Analyst,Netherlands,1.0,91773.0
+aws,Machine Learning Engineer,Italy,1.0,91773.0
+aws,Data Scientist,Italy,1.0,162225.0
+aws,Data Analyst,Italy,1.0,105575.0
+aws,Senior Data Scientist,Ireland,1.0,170980.0
+aws,Senior Data Analyst,Ireland,1.0,200335.0
+aws,Data Scientist,Ireland,1.0,171412.085
+aws,Data Analyst,Ireland,1.0,103515.0
+aws,Software Engineer,Hungary,1.0,83275.5
+aws,Senior Data Scientist,Hungary,1.0,162225.0
+aws,Senior Data Analyst,Hungary,1.0,91773.0
+aws,Cloud Engineer,Hungary,1.0,91773.0
+aws,Data Analyst,Greece,1.0,168695.46
+aws,Business Analyst,Greece,1.0,75087.0
+aws,Cloud Engineer,Germany,1.0,91773.0
+aws,Business Analyst,Germany,1.0,91773.0
+aws,Business Analyst,France,1.0,114510.25
+aws,Software Engineer,Finland,1.0,77250.0
+aws,Senior Data Scientist,Finland,1.0,162225.0
+aws,Data Scientist,Finland,1.0,124695.92
+aws,Senior Data Engineer,Denmark,1.0,151925.0
+aws,Machine Learning Engineer,Denmark,1.0,170980.0
+aws,Data Scientist,Denmark,1.0,135506.80000000002
+aws,Data Engineer,Denmark,1.0,99676.19
+aurora,Senior Data Engineer,Ireland,1.0,151925.0
+atlassian,Software Engineer,Spain,1.0,161195.0
+atlassian,Senior Data Scientist,Ireland,1.0,162225.0
+atlassian,Machine Learning Engineer,Ireland,1.0,170980.0
+atlassian,Data Engineer,Ireland,1.0,151925.0
+atlassian,Data Analyst,Hungary,1.0,103515.0
+atlassian,Data Analyst,Germany,1.0,105575.0
+assembly,Data Engineer,Sweden,1.0,138268.23
+assembly,Data Engineer,Portugal,1.0,91773.0
+assembly,Data Engineer,Poland,1.0,91773.0
+assembly,Business Analyst,Poland,1.0,91773.0
+assembly,Data Engineer,Germany,1.0,91773.0
+assembly,Data Analyst,France,1.0,59225.0
+asp.net,Senior Data Engineer,Hungary,1.0,151925.0
+asana,Software Engineer,Netherlands,1.0,91773.0
+asana,Data Analyst,Ireland,1.0,151925.0
+ansible,Cloud Engineer,Spain,1.0,129010.59
+ansible,Software Engineer,Romania,1.0,88992.0
+ansible,Software Engineer,Poland,1.0,91773.0
+ansible,Senior Data Engineer,Poland,1.0,88992.0
+ansible,Machine Learning Engineer,Netherlands,1.0,71070.0
+ansible,Senior Data Engineer,Ireland,1.0,91773.0
+ansible,Machine Learning Engineer,Hungary,1.0,58401.0
+ansible,Data Scientist,France,1.0,58401.0
+ansible,Data Analyst,France,1.0,91773.0
+ansible,Business Analyst,France,1.0,91773.0
+ansible,Data Engineer,Belgium,1.0,151925.0
+angular,Data Scientist,Spain,1.0,151925.0
+angular,Data Engineer,Spain,1.0,58401.0
+angular,Data Analyst,Spain,1.0,114538.06
+angular,Senior Data Analyst,Romania,1.0,114510.25
+angular,Machine Learning Engineer,Poland,1.0,91773.0
+angular,Software Engineer,Netherlands,1.0,191065.0
+angular,Senior Data Engineer,Germany,1.0,91773.0
+angular,Machine Learning Engineer,France,1.0,75087.0
+alteryx,Data Scientist,Portugal,1.0,91773.0
+alteryx,Data Engineer,Netherlands,1.0,100367.32
+alteryx,Senior Data Scientist,Greece,1.0,75087.0
+alteryx,Data Scientist,France,1.0,58401.0
+alteryx,Data Analyst,France,1.0,108150.0
+alteryx,Data Analyst,Finland,1.0,128750.0
+alteryx,Data Engineer,Belgium,1.0,138268.23
+airflow,Senior Data Scientist,Sweden,1.0,151925.0
+airflow,Senior Data Engineer,Sweden,1.0,151925.0
+airflow,Data Scientist,Sweden,1.0,83430.0
+airflow,Senior Data Scientist,Spain,1.0,74679.12
+airflow,Senior Data Analyst,Spain,1.0,114510.25
+airflow,Data Scientist,Spain,1.0,126690.0
+airflow,Senior Data Engineer,Romania,1.0,151925.0
+airflow,Senior Data Engineer,Portugal,1.0,151925.0
+airflow,Senior Data Analyst,Poland,1.0,114510.25
+airflow,Business Analyst,Poland,1.0,91773.0
+airflow,Data Scientist,Netherlands,1.0,162225.0
+airflow,Data Engineer,Netherlands,1.0,180250.0
+airflow,Data Analyst,Netherlands,1.0,114538.06
+airflow,Senior Data Engineer,Ireland,1.0,151925.0
+airflow,Machine Learning Engineer,Ireland,1.0,170980.0
+airflow,Data Analyst,Ireland,1.0,151925.0
+airflow,Senior Data Scientist,Hungary,1.0,91773.0
+airflow,Senior Data Engineer,Hungary,1.0,151925.0
+airflow,Senior Data Analyst,Hungary,1.0,91773.0
+airflow,Machine Learning Engineer,Hungary,1.0,191065.0
+airflow,Senior Data Engineer,Greece,1.0,46350.0
+airflow,Machine Learning Engineer,Greece,1.0,104059.87
+airflow,Machine Learning Engineer,Germany,1.0,170980.0
+airflow,Senior Data Scientist,Finland,1.0,162225.0
+airflow,Machine Learning Engineer,Finland,1.0,191065.0
+airflow,Senior Data Engineer,Denmark,1.0,151925.0
+airflow,Machine Learning Engineer,Denmark,1.0,170980.0
+,Data Analyst,Sweden,,
+,Software Engineer,Spain,,
+,Senior Data Scientist,Spain,,
+,Senior Data Engineer,Spain,,
+,Machine Learning Engineer,Spain,,
+,Data Scientist,Spain,,
+,Data Engineer,Spain,,
+,Data Analyst,Spain,,
+,Business Analyst,Spain,,
+,Senior Data Analyst,Romania,,
+,Business Analyst,Romania,,
+,Senior Data Scientist,Portugal,,
+,Senior Data Engineer,Portugal,,
+,Data Scientist,Portugal,,
+,Data Engineer,Portugal,,
+,Data Analyst,Portugal,,
+,Software Engineer,Poland,,
+,Senior Data Analyst,Poland,,
+,Machine Learning Engineer,Poland,,
+,Data Scientist,Poland,,
+,Data Engineer,Poland,,
+,Data Analyst,Poland,,
+,Business Analyst,Poland,,
+,Machine Learning Engineer,Netherlands,,
+,Data Scientist,Netherlands,,
+,Data Analyst,Netherlands,,
+,Machine Learning Engineer,Italy,,
+,Data Scientist,Italy,,
+,Data Engineer,Italy,,
+,Senior Data Analyst,Ireland,,
+,Data Analyst,Ireland,,
+,Data Engineer,Hungary,,
+,Data Analyst,Hungary,,
+,Data Analyst,Greece,,
+,Business Analyst,Greece,,
+,Senior Data Scientist,Germany,,
+,Senior Data Engineer,Germany,,
+,Senior Data Analyst,Germany,,
+,Machine Learning Engineer,Germany,,
+,Data Scientist,Germany,,
+,Data Engineer,Germany,,
+,Data Analyst,Germany,,
+,Software Engineer,France,,
+,Senior Data Engineer,France,,
+,Machine Learning Engineer,France,,
+,Data Scientist,France,,
+,Data Engineer,France,,
+,Data Analyst,France,,
+,Business Analyst,France,,
+,Data Scientist,Finland,,
+,Data Analyst,Finland,,
+,Senior Data Engineer,Denmark,,
+,Machine Learning Engineer,Denmark,,
+,Data Scientist,Denmark,,
+,Senior Data Scientist,Belgium,,
+,Machine Learning Engineer,Belgium,,
+,Data Scientist,Belgium,,
+,Data Engineer,Belgium,,
+,Business Analyst,Belgium,,

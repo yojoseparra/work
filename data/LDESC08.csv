@@ -1,0 +1,282 @@
+Skills,T6_9,T9_12,T12_15,T15_18,T18_21,T21_24,T24_27,Job
+sql,9.0,78.0,27.0,71.0,1.0,,,Data Engineer
+python,7.0,88.0,21.0,68.0,1.0,1.0,1.0,Data Engineer
+aws,3.0,55.0,21.0,39.0,,,1.0,Data Engineer
+python,26.0,34.0,21.0,58.0,7.0,,,Data Scientist
+spark,6.0,50.0,19.0,57.0,,3.0,2.0,Data Engineer
+airflow,1.0,19.0,14.0,24.0,1.0,,1.0,Data Engineer
+sql,17.0,27.0,12.0,40.0,6.0,,,Data Scientist
+azure,5.0,46.0,11.0,26.0,1.0,,1.0,Data Engineer
+git,2.0,25.0,9.0,8.0,,,,Data Engineer
+snowflake,,9.0,9.0,15.0,,,1.0,Data Engineer
+bigquery,,8.0,9.0,12.0,,,,Data Engineer
+scala,1.0,27.0,8.0,24.0,,,,Data Engineer
+gcp,3.0,23.0,8.0,17.0,,,,Data Engineer
+docker,2.0,23.0,8.0,12.0,,,,Data Engineer
+kubernetes,1.0,18.0,7.0,7.0,1.0,,1.0,Data Engineer
+pyspark,,8.0,7.0,9.0,1.0,,,Data Engineer
+azure,6.0,5.0,7.0,14.0,1.0,,,Data Scientist
+aws,4.0,3.0,6.0,17.0,3.0,,,Data Scientist
+sql,28.0,98.0,5.0,12.0,,,,Data Analyst
+java,3.0,35.0,5.0,31.0,,,,Data Engineer
+hadoop,3.0,19.0,5.0,19.0,,,1.0,Data Engineer
+tableau,6.0,8.0,5.0,18.0,2.0,,,Data Scientist
+spark,6.0,6.0,5.0,20.0,2.0,,,Data Scientist
+pandas,6.0,1.0,5.0,12.0,1.0,,,Data Scientist
+databricks,,24.0,4.0,10.0,1.0,,,Data Engineer
+tableau,4.0,8.0,4.0,12.0,,,,Data Engineer
+oracle,,8.0,4.0,7.0,,,,Data Engineer
+go,1.0,6.0,4.0,7.0,,,1.0,Data Engineer
+scikit-learn,5.0,5.0,4.0,10.0,1.0,,,Data Scientist
+gcp,1.0,1.0,4.0,4.0,1.0,,,Data Scientist
+python,20.0,70.0,3.0,11.0,,2.0,,Data Analyst
+kafka,3.0,25.0,3.0,27.0,,,,Data Engineer
+looker,2.0,20.0,3.0,1.0,,,,Data Analyst
+tableau,,18.0,3.0,,,,,Senior Data Analyst
+terraform,3.0,12.0,3.0,16.0,,,,Data Engineer
+mysql,,6.0,3.0,8.0,,,,Data Engineer
+jira,,4.0,3.0,4.0,,,,Data Engineer
+numpy,3.0,2.0,3.0,8.0,1.0,,,Data Scientist
+databricks,3.0,2.0,3.0,3.0,1.0,,,Data Scientist
+docker,2.0,2.0,3.0,7.0,,,,Data Scientist
+pandas,,2.0,3.0,,,,,Data Engineer
+postgresql,,11.0,2.0,8.0,,,,Data Engineer
+python,6.0,10.0,2.0,5.0,,3.0,,Software Engineer
+redshift,1.0,10.0,2.0,10.0,,,,Data Engineer
+go,,8.0,2.0,,,,,Senior Data Analyst
+tensorflow,7.0,6.0,2.0,13.0,1.0,,,Data Scientist
+looker,,6.0,2.0,4.0,,,,Data Engineer
+bigquery,,6.0,2.0,2.0,,,,Data Analyst
+pytorch,7.0,5.0,2.0,10.0,1.0,,,Data Scientist
+looker,2.0,4.0,2.0,6.0,,,,Data Scientist
+go,1.0,4.0,2.0,5.0,,,,Data Scientist
+git,5.0,3.0,2.0,8.0,2.0,,,Data Scientist
+hadoop,1.0,3.0,2.0,11.0,1.0,,,Data Scientist
+java,4.0,2.0,2.0,4.0,2.0,,,Data Scientist
+snowflake,3.0,2.0,2.0,6.0,1.0,,,Data Scientist
+scala,4.0,2.0,2.0,4.0,,,,Data Scientist
+bigquery,2.0,1.0,2.0,2.0,1.0,,,Data Scientist
+airflow,2.0,1.0,2.0,7.0,,,,Data Scientist
+kubernetes,1.0,1.0,2.0,6.0,,,,Data Scientist
+tableau,15.0,55.0,1.0,3.0,,,,Data Analyst
+python,14.0,42.0,1.0,41.0,10.0,1.0,3.0,Machine Learning Engineer
+sql,,38.0,1.0,1.0,,,,Senior Data Analyst
+aws,8.0,20.0,1.0,18.0,2.0,1.0,2.0,Machine Learning Engineer
+python,,18.0,1.0,1.0,,1.0,,Senior Data Analyst
+tensorflow,7.0,16.0,1.0,16.0,6.0,,,Machine Learning Engineer
+azure,6.0,12.0,1.0,7.0,1.0,,1.0,Machine Learning Engineer
+scikit-learn,2.0,11.0,1.0,3.0,3.0,,,Machine Learning Engineer
+python,4.0,10.0,1.0,38.0,3.0,,1.0,Senior Data Scientist
+kubernetes,6.0,10.0,1.0,10.0,3.0,,,Machine Learning Engineer
+sql,3.0,6.0,1.0,35.0,2.0,,,Senior Data Scientist
+go,2.0,6.0,1.0,2.0,,,,Data Analyst
+snowflake,,6.0,1.0,,,,,Senior Data Analyst
+bigquery,,6.0,1.0,,,,,Senior Data Analyst
+java,5.0,5.0,1.0,1.0,,1.0,,Software Engineer
+azure,,5.0,1.0,,,1.0,,Cloud Engineer
+sql,3.0,4.0,1.0,4.0,,3.0,,Software Engineer
+hadoop,4.0,4.0,1.0,1.0,1.0,,,Data Analyst
+gcp,2.0,4.0,1.0,5.0,1.0,,,Machine Learning Engineer
+aws,1.0,3.0,1.0,,,1.0,,Cloud Engineer
+go,,3.0,1.0,,,,,Business Analyst
+postgresql,,2.0,1.0,2.0,,,,Data Scientist
+redshift,,2.0,1.0,,,,,Senior Data Analyst
+jira,,1.0,1.0,2.0,,1.0,,Software Engineer
+oracle,,1.0,1.0,,,,,Senior Data Analyst
+kubernetes,1.0,1.0,1.0,,,,,Cloud Engineer
+docker,1.0,1.0,1.0,,,,,Cloud Engineer
+numpy,,,1.0,,,,,Data Engineer
+mysql,,,1.0,,,,,Senior Data Analyst
+pytorch,7.0,19.0,,14.0,5.0,,,Machine Learning Engineer
+spark,4.0,18.0,,8.0,7.0,,1.0,Machine Learning Engineer
+spark,6.0,16.0,,5.0,1.0,3.0,,Data Analyst
+azure,5.0,16.0,,13.0,1.0,,,Data Analyst
+looker,,16.0,,,,,,Senior Data Analyst
+aws,,15.0,,31.0,1.0,,,Senior Data Engineer
+docker,5.0,14.0,,13.0,1.0,,,Machine Learning Engineer
+sql,9.0,12.0,,1.0,1.0,,,Business Analyst
+python,1.0,12.0,,41.0,1.0,,,Senior Data Engineer
+sql,2.0,10.0,,39.0,,,,Senior Data Engineer
+git,1.0,9.0,,5.0,1.0,,,Machine Learning Engineer
+spark,,9.0,,26.0,,,,Senior Data Engineer
+airflow,2.0,9.0,,2.0,,,,Data Analyst
+tableau,5.0,9.0,,1.0,,,,Business Analyst
+pandas,2.0,9.0,,,,,,Data Analyst
+airflow,2.0,8.0,,4.0,2.0,,1.0,Machine Learning Engineer
+git,3.0,8.0,,1.0,,1.0,,Data Analyst
+snowflake,,8.0,,18.0,,,,Senior Data Engineer
+java,1.0,8.0,,10.0,,,,Senior Data Engineer
+kubernetes,,8.0,,8.0,,,,Senior Data Engineer
+gcp,3.0,8.0,,6.0,,,,Data Analyst
+snowflake,2.0,8.0,,4.0,,,,Data Analyst
+databricks,3.0,8.0,,4.0,,,,Data Analyst
+python,2.0,7.0,,,,1.0,,Cloud Engineer
+python,4.0,7.0,,1.0,1.0,,,Business Analyst
+azure,,7.0,,25.0,1.0,,,Senior Data Engineer
+aws,4.0,7.0,,7.0,1.0,,,Data Analyst
+terraform,,7.0,,6.0,,,,Senior Data Engineer
+java,4.0,6.0,,7.0,1.0,,2.0,Machine Learning Engineer
+sql,4.0,6.0,,14.0,5.0,,1.0,Machine Learning Engineer
+kubernetes,4.0,6.0,,,,1.0,,Software Engineer
+kafka,,6.0,,17.0,,,,Senior Data Engineer
+go,,6.0,,10.0,,,,Senior Data Engineer
+docker,,6.0,,8.0,,,,Senior Data Engineer
+oracle,2.0,6.0,,5.0,,,,Data Scientist
+jira,1.0,6.0,,1.0,,,,Data Analyst
+docker,2.0,5.0,,1.0,,2.0,,Software Engineer
+spark,2.0,5.0,,1.0,1.0,1.0,,Software Engineer
+java,4.0,5.0,,2.0,,1.0,,Data Analyst
+pandas,2.0,5.0,,5.0,4.0,,,Machine Learning Engineer
+terraform,4.0,5.0,,6.0,,,,Machine Learning Engineer
+numpy,1.0,5.0,,,,,,Data Analyst
+scala,2.0,4.0,,5.0,1.0,1.0,1.0,Machine Learning Engineer
+go,,4.0,,1.0,1.0,2.0,,Software Engineer
+azure,,4.0,,1.0,,1.0,,Senior Data Analyst
+numpy,,4.0,,5.0,3.0,,,Machine Learning Engineer
+pyspark,1.0,4.0,,2.0,2.0,,,Data Scientist
+kafka,,4.0,,4.0,2.0,,,Machine Learning Engineer
+airflow,,4.0,,24.0,,,,Senior Data Engineer
+gcp,,4.0,,14.0,,,,Senior Data Engineer
+databricks,,4.0,,11.0,,,,Senior Data Engineer
+scala,,4.0,,10.0,,,,Senior Data Engineer
+go,1.0,4.0,,6.0,,,,Machine Learning Engineer
+azure,2.0,4.0,,3.0,,,,Software Engineer
+spark,,4.0,,1.0,,,,Senior Data Analyst
+scala,2.0,4.0,,1.0,,,,Software Engineer
+pyspark,1.0,4.0,,,,,,Data Analyst
+gcp,,4.0,,,,,,Software Engineer
+spark,,3.0,,,,2.0,,Cloud Engineer
+aws,4.0,3.0,,2.0,,1.0,,Software Engineer
+databricks,2.0,3.0,,3.0,3.0,,,Machine Learning Engineer
+hadoop,1.0,3.0,,,2.0,,,Machine Learning Engineer
+aws,1.0,3.0,,1.0,1.0,,,Business Analyst
+hadoop,,3.0,,4.0,,,,Senior Data Engineer
+oracle,,3.0,,1.0,,,,Data Analyst
+kubernetes,,3.0,,1.0,,,,Senior Data Scientist
+git,,3.0,,,,,,Senior Data Analyst
+git,,3.0,,,,,,Cloud Engineer
+databricks,,3.0,,,,,,Senior Data Analyst
+airflow,,3.0,,,,,,Senior Data Analyst
+azure,2.0,2.0,,7.0,,,1.0,Senior Data Scientist
+aws,2.0,2.0,,14.0,,,1.0,Senior Data Scientist
+kafka,2.0,2.0,,,,1.0,,Software Engineer
+hadoop,1.0,2.0,,,,1.0,,Software Engineer
+gcp,,2.0,,,,1.0,,Senior Data Analyst
+databricks,,2.0,,,,1.0,,Cloud Engineer
+bigquery,,2.0,,,,1.0,,Software Engineer
+aws,,2.0,,1.0,,1.0,,Senior Data Analyst
+spark,,2.0,,17.0,2.0,,,Senior Data Scientist
+airflow,1.0,2.0,,15.0,,,,Senior Data Scientist
+snowflake,,2.0,,12.0,,,,Senior Data Scientist
+git,,2.0,,8.0,,,,Senior Data Engineer
+tableau,,2.0,,7.0,,,,Senior Data Engineer
+looker,,2.0,,7.0,,,,Senior Data Engineer
+kafka,,2.0,,7.0,,,,Senior Data Scientist
+docker,,2.0,,6.0,,,,Senior Data Scientist
+pyspark,,2.0,,5.0,,,,Senior Data Scientist
+go,,2.0,,3.0,,,,Senior Data Scientist
+docker,1.0,2.0,,2.0,,,,Data Analyst
+terraform,,2.0,,1.0,,,,Software Engineer
+tableau,,2.0,,1.0,,,,Machine Learning Engineer
+redshift,,2.0,,1.0,,,,Business Analyst
+kubernetes,1.0,2.0,,1.0,,,,Data Analyst
+jira,,2.0,,1.0,,,,Machine Learning Engineer
+terraform,,2.0,,,,,,Cloud Engineer
+tensorflow,1.0,2.0,,,,,,Data Engineer
+spark,1.0,2.0,,,,,,Business Analyst
+scikit-learn,2.0,2.0,,,,,,Data Analyst
+scala,,2.0,,,,,,Cloud Engineer
+oracle,2.0,2.0,,,,,,Business Analyst
+kafka,,2.0,,,,,,Business Analyst
+jira,,2.0,,,,,,Senior Data Analyst
+postgresql,1.0,1.0,,2.0,,,2.0,Machine Learning Engineer
+pytorch,1.0,1.0,,1.0,,,1.0,Senior Data Scientist
+mysql,1.0,1.0,,,,,1.0,Machine Learning Engineer
+gcp,1.0,1.0,,4.0,,,1.0,Senior Data Scientist
+pytorch,1.0,1.0,,,,2.0,,Software Engineer
+git,1.0,1.0,,,1.0,2.0,,Software Engineer
+tensorflow,1.0,1.0,,,,1.0,,Software Engineer
+mysql,,1.0,,,,1.0,,Software Engineer
+snowflake,,1.0,,2.0,1.0,,,Machine Learning Engineer
+redshift,1.0,1.0,,3.0,1.0,,,Data Scientist
+pyspark,,1.0,,2.0,1.0,,,Machine Learning Engineer
+jira,2.0,1.0,,,1.0,,,Data Scientist
+redshift,,1.0,,12.0,,,,Senior Data Engineer
+bigquery,,1.0,,12.0,,,,Senior Data Engineer
+tableau,1.0,1.0,,11.0,,,,Senior Data Scientist
+pandas,,1.0,,7.0,,,,Senior Data Scientist
+numpy,,1.0,,5.0,,,,Senior Data Scientist
+pyspark,,1.0,,4.0,,,,Senior Data Engineer
+postgresql,,1.0,,3.0,,,,Senior Data Engineer
+java,,1.0,,3.0,,,,Senior Data Scientist
+scala,4.0,1.0,,2.0,,,,Data Analyst
+pytorch,,1.0,,2.0,,,,Data Engineer
+kafka,2.0,1.0,,2.0,,,,Data Analyst
+terraform,,1.0,,1.0,,,,Senior Data Scientist
+redshift,2.0,1.0,,1.0,,,,Data Analyst
+postgresql,,1.0,,1.0,,,,Senior Data Scientist
+oracle,,1.0,,1.0,,,,Senior Data Scientist
+oracle,,1.0,,1.0,,,,Senior Data Engineer
+terraform,,1.0,,,,,,Senior Data Analyst
+sql,,1.0,,,,,,Cloud Engineer
+snowflake,2.0,1.0,,,,,,Business Analyst
+scala,,1.0,,,,,,Senior Data Analyst
+scala,,1.0,,,,,,Business Analyst
+pyspark,,1.0,,,,,,Business Analyst
+postgresql,,1.0,,,,,,Business Analyst
+pandas,,1.0,,,,,,Business Analyst
+mysql,,1.0,,,,,,Senior Data Scientist
+mysql,,1.0,,,,,,Data Analyst
+mysql,,1.0,,,,,,Business Analyst
+jira,1.0,1.0,,,,,,Business Analyst
+hadoop,,1.0,,,,,,Business Analyst
+go,,1.0,,,,,,Cloud Engineer
+git,,1.0,,,,,,Business Analyst
+docker,,1.0,,,,,,Senior Data Analyst
+docker,,1.0,,,,,,Business Analyst
+azure,1.0,1.0,,,,,,Business Analyst
+airflow,2.0,1.0,,,,,,Business Analyst
+tensorflow,1.0,,,3.0,,,1.0,Senior Data Scientist
+pandas,1.0,,,,,2.0,,Software Engineer
+looker,,,,,,2.0,,Software Engineer
+tensorflow,,,,,,1.0,,Senior Data Analyst
+tableau,,,,,,1.0,,Software Engineer
+snowflake,,,,,,1.0,,Cloud Engineer
+redshift,1.0,,,,,1.0,,Software Engineer
+pytorch,,,,,,1.0,,Senior Data Analyst
+postgresql,1.0,,,,,1.0,,Software Engineer
+oracle,,,,2.0,,1.0,,Software Engineer
+numpy,1.0,,,,,1.0,,Software Engineer
+looker,1.0,,,,,1.0,,Cloud Engineer
+terraform,,,,1.0,1.0,,,Data Scientist
+tensorflow,,,,,1.0,,,Senior Data Engineer
+redshift,,,,1.0,1.0,,,Machine Learning Engineer
+pytorch,,,,,1.0,,,Senior Data Engineer
+pandas,,,,3.0,1.0,,,Senior Data Engineer
+hadoop,,,,2.0,1.0,,,Senior Data Scientist
+bigquery,,,,,1.0,,,Machine Learning Engineer
+looker,,,,10.0,,,,Senior Data Scientist
+git,,,,8.0,,,,Senior Data Scientist
+scikit-learn,,,,5.0,,,,Senior Data Scientist
+redshift,,,,5.0,,,,Senior Data Scientist
+bigquery,,,,5.0,,,,Senior Data Scientist
+kafka,1.0,,,4.0,,,,Data Scientist
+databricks,,,,4.0,,,,Senior Data Scientist
+scala,,,,3.0,,,,Senior Data Scientist
+mysql,,,,3.0,,,,Senior Data Engineer
+jira,,,,3.0,,,,Senior Data Engineer
+terraform,,,,2.0,,,,Data Analyst
+scikit-learn,,,,2.0,,,,Senior Data Engineer
+oracle,1.0,,,2.0,,,,Machine Learning Engineer
+looker,,,,1.0,,,,Machine Learning Engineer
+jira,,,,1.0,,,,Senior Data Scientist
+java,,,,1.0,,,,Senior Data Analyst
+hadoop,,,,1.0,,,,Senior Data Analyst
+tensorflow,1.0,,,,,,,Cloud Engineer
+pytorch,1.0,,,,,,,Cloud Engineer
+pandas,1.0,,,,,,,Cloud Engineer
+numpy,1.0,,,,,,,Cloud Engineer
+mysql,1.0,,,,,,,Data Scientist
+java,,,,,,,,Business Analyst
+gcp,,,,,,,,Cloud Engineer
+databricks,,,,,,,,Software Engineer
