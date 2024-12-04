@@ -6,6 +6,15 @@ The data sourced from [Luke Barousse](https://github.com/lukebarousse/Python_Dat
 
 Despite my project is based on Luke's data, it differs from his substantially as I'm motivate by other research questions and another slice of the data. I use another type of code and I use another software as well (RStudio + Python). Besides, I am exemplifying here how to find data trends by plotting or tabulating data. I offer here a metodology on how to understand data, not a way of programming or document/plot formatting. Therefore, results might look not properly formatted or graphs might appear unfinished. This is normal as we explore the data, we focus less on the final product and more on finding trends.
 
+# How to Access Data or Outputs
+
+In the top folder structure:
+
+- **data**: there is a folder for data of the project called 'data'. All comma separated files (.csv) are stored. this format opens easily with excel. All outputs and graphs come from this data. 
+- **docs**: contains documents and this folder might not be of interest for this project. 
+- **out**: It contains the tabular outputs presented in PDF and Word.
+- **plot**: this is the output graphs folder. It contains only plots
+
 
 # The Questions
 
