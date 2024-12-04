@@ -1,10 +1,10 @@
 # Overview
 
-Welcome to my analysis of the European job market in (15 european countries) with the most IT Job opportunities in data analyst roles in 2023. This project was created to identifythe job trends to better prepare for a job application in the IT sector as data analyst. It delves into the top-paying and in-demand skills to help find optimal job opportunities for data analysts in Europe.
+Welcome to my analysis of the European job market (in 15 european countries) with the most IT Job opportunities in data analyst roles in 2023. This project was created to identifythe job trends to better prepare for a job application in the IT sector as data analyst. It delves into the top-paying and in-demand skills to help find optimal job opportunities for data analysts in Europe.
 
 The data sourced from Luke Barousse, which provides a foundation for my analysis, containing detailed information on job titles, salaries, locations, and essential skills. Through a series of Python scripts. Luke teaches python through this dataset. 
 
-Despite my project is based on Luke's data, it differs from his substantially as I'm motivated by other research questions and another slice of the data. I use another type of code and I use another software as well (RStudio + Python). Additionally, I do not blend text with code and I present outputs in Word, CSV or PDF. But this is more the approach that I use with my clients. CSV can be normally opened in Excel where the client has the chance to filter and look at the data if needed. Graphs are big format and they are not embed in text. Word files can be easily formatted if needed and can be copied and pasted in the final report. Most important outputs come along with the code that generated them and with the data along with other formats too. Dus outputs and plots have correspondency with data that generated them. This might be simple practice, but you can be amazed how little is done.
+Despite my project is based on Luke's data, it differs from his substantially as I'm motivated by other research questions and another slice of the data. I use another type of code and I use another software as well (RStudio + Python). Additionally, I do not blend text with code and I present outputs in Word, CSV or PDF. This is more the approach that I use with my clients as CSV can be normally opened in Excel where the client has the chance to interact with data by filter and looking at data if needed. Graphs are big format and they are not embed in text. Word files can be easily formatted if needed and can be copied and pasted in the final report. Most important outputs come along with the code that generated them and with the data along with other formats too: all files are named equally. Dus outputs and plots match the name of files that generated them. This might be simple practice, but you can be amazed how little is done on this aspect out there.
 
 This analysis exercise is just an example. I am exemplifying here how to find data trends by plotting or tabulating data. I offer here a metodology on how to present an analysis to a client, not how to make a report. Formatting and grammar are not the main objective of this exercise. This is not an example on how to write a good assay nor a propedeutic piece of material to learn programming in Python. For this reason outputs might look not properly formatted or graphs might appear unfinished. This is normal as we explore the data, we focus less on the final product and more on finding trends. Only the final package is cleand and delivered, but this is not a final package. 
 
@@ -17,7 +17,7 @@ In the top folder structure:
 - **out**: It contains the tabular outputs presented in PDF and Word.
 - **plot**: this is the output graphs folder. It contains only plots.
 
-All documents hereunder can be directly accessed in this folders. Notice that I preffer having a look at data in the .CSVs or Word format, this this reason I added this documents here. PDFs are just for preview purposes and I discourage reading directly from them as rendering might be of low quality.
+All documents hereunder can be directly accessed in this folders. Notice that I preffer having a look at data in the .CSVs or Word format, this this reason I added these documents here. PDFs are just for preview purposes and I discourage reading directly from them as rendering might be of low quality.
 
 # Exploratory Data Analysis (EDA) of IT Jobs in EU in 2023
 
@@ -51,37 +51,35 @@ Origin of the data is unknown. All we know is that it is available online https:
 
 ## Data Imputation and missing data
 
-I do not impute data, thus I'm assumming here missing at random. The dataset for europe is not that big and it has missing data. This can be missing not at random, as companies that require data analysts and pay lower than average might not publish any salary offer. The result might be that the means and medians calculated here are biased upwards, in other words, that the means, and medians might look higher than in reality data analysist are earning in average, for instance. 
+I do not impute data, thus I'm assumming here missing at random. The dataset for europe is not that big and it has missing data. This can be missing not at random, as companies that require data analysts and pay lower than average might not publish any salary offer. The result might be that the means and medians calculated here are biased upwards, or in other words, that salary means and medians might look higher than in reality.
 
-Scarce data for europe makes plots unreliable. You will se very often 'n' in outputs, as we account for the amount of data by category to draw reasonable conclusions. There are outliers that can shift statistics as well. No outliers were removed as it is not clear that this are real outliers or just simple real data. 
+Scarce data from Europe makes plots unreliable. You will se very often 'n' in outputs, as we account for the amount of data by category to draw reasonable conclusions. There are outliers that can shift statistics as well. No outliers were removed as it is not clear that these are real outliers or just simple real data. 
 
 ### Variables
 
 The most important variables are 'Country', 'Job', 'Skills' and 'Salary'. Salary is a numeric variable of yearly salary represented in USD, and can be given in any outputs as a 'mean', 'median', 'std', 'qrt' ... etc. It indicates the statistic of salary for a particular category.
 
-Salary of 100 K is the same as 100.000 USD. Notice that the notation of thousands is '.' instead of european ',' thousands symbol is represented by a point instead of comma.
+Salary of 100 K is the same as 100.000 USD. Notice that the notation of thousands is '.' instead of european ',' thousands symbol is represented by a point instead of a comma.
 
 ## Exploratory Data Analysis
 
-### Filter EU Jobs (N=1488 job vacancies in 2023)
+### EU IT Job posts (N=1488 job vacancies in 2023).
 
 
-To focus my analysis on the EU. job market, I apply filters to the dataset, narrowing down to roles based in the Eurozone, but only 15 countries have enough data.
+To focus my analysis on the EU job market, I apply filters to the dataset, narrowing down to roles based in the Eurozone. Only 15 countries had enough data up to a total of 1488 usable posts with salary information.
 
  [TDESC02](/out/TDESC02_PDF.pdf) 
 
 TDESC02 table shows the total counts of job availabilities by country in 2023. Only these countries are displayed as they were those whose data was available.  
 
-Values are presented in '000s. Table can be accessed in word or HTML format. The table is organized from left to right to show the most important countries and roles in terms of counts of job vacancies. Thus, for instance Germany accounted for about the 17% of total vacancies in europe. Other important countries were France (16%), Poland (13%), Spain (10%). The table is also organize by important Jobs, as it starts from Data Analyst (23%), Data Engineer (22%) and Data Scientist (18%) down to Cloud Engineeer (1%). 
+Values are presented in '000s. Table can be accessed in word, CSV or PDF format. TDESC02 is organized from left to right to show the most important countries and roles in terms of counts of job vacancies. Thus, for instance Germany accounted for about the 17% of total vacancies in europe. Other important countries were France (16%), Poland (13%), Spain (10%). The table is also organize by important Jobs, as it starts from Data Analyst (23%), Data Engineer (22%) and Data Scientist (18%) down to Cloud Engineeer (1%). 
 
 
 ## A 1.000 m high view  
+
 The *first conclussion* can be that the most important jobs are Data Analyst,	Data Engineer,	Data Scientist in terms of jobs available as they acount roughly for the 60% of jobs available.
 
-But before we enter into further detail, lets take a look at overall means. I did not want to give a number at this stage, but just derive those numbers directly from a simple unlabeled plot. 
-
-
-[Min](/plot/EDA1%20Bargraphs%201.0%20MIN.png)
+But before we enter into further detail, lets take a look at overall means. I did not want to give a number at this stage, but just derive those numbers directly from a simple unlabeled plot. [Min](/plot/EDA1%20Bargraphs%201.0%20MIN.png).
 
 This first plot is the result of calculating the Minimum salary by job type regardless the country. We will see that salary offers accross countries may differ, but this is the first approach to have a rough estimate of an overall descriptive statistic. This estimate might not be precise but might be unbiased respect to the one calculated from the data. Let me explain you what I mean by that:
 
