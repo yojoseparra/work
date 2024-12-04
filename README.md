@@ -1,10 +1,12 @@
 # Overview
 
-Welcome to my analysis of the data job market in 15 european countries with the most IT Job opportunities in data analyst roles in 2023. This project was created to identifythe job trends to better prepare for a job application in the IT sector as data analyst. It delves into the top-paying and in-demand skills to help find optimal job opportunities for data analysts in Europe.
+Welcome to my analysis of the European job market in (15 european countries) with the most IT Job opportunities in data analyst roles in 2023. This project was created to identifythe job trends to better prepare for a job application in the IT sector as data analyst. It delves into the top-paying and in-demand skills to help find optimal job opportunities for data analysts in Europe.
 
-The data sourced from [Luke Barousse](https://github.com/lukebarousse/Python_Data_Analytics_Course/tree/main) which provides a foundation for my analysis, containing detailed information on job titles, salaries, locations, and essential skills. Through a series of Python scripts. Luke teaches python through this dataset. 
+The data sourced from Luke Barousse, which provides a foundation for my analysis, containing detailed information on job titles, salaries, locations, and essential skills. Through a series of Python scripts. Luke teaches python through this dataset. 
 
-Despite my project is based on Luke's data, it differs from his substantially as I'm motivate by other research questions and another slice of the data. I use another type of code and I use another software as well (RStudio + Python). Besides, I am exemplifying here how to find data trends by plotting or tabulating data. I offer here a metodology on how to understand data, not a way of programming or document/plot formatting. Therefore, results might look not properly formatted or graphs might appear unfinished. This is normal as we explore the data, we focus less on the final product and more on finding trends.
+Despite my project is based on Luke's data, it differs from his substantially as I'm motivated by other research questions and another slice of the data. I use another type of code and I use another software as well (RStudio + Python). Additionally, I do not blend text with code and I present outputs in Word, CSV or PDF. But this is more the approach that I use with my clients. CSV can be normally opened in Excel where the client has the chance to filter and look at the data if needed. Graphs are big format and they are not embed in text. Word files can be easily formatted if needed and can be copied and pasted in the final report. Most important outputs come along with the code that generated them and with the data along with other formats too. Dus outputs and plots have correspondency with data that generated them. This might be simple practice, but you can be amazed how little is done.
+
+This analysis exercise is just an example. I am exemplifying here how to find data trends by plotting or tabulating data. I offer here a metodology on how to present an analysis to a client, not how to make a report. Formatting and grammar are not the main objective of this exercise. This is not an example on how to write a good assay nor a propedeutic piece of material to learn programming in Python. For this reason outputs might look not properly formatted or graphs might appear unfinished. This is normal as we explore the data, we focus less on the final product and more on finding trends. Only the final package is cleand and delivered, but this is not a final package. 
 
 # How to Access Data or Outputs
 
@@ -17,8 +19,9 @@ In the top folder structure:
 
 All documents hereunder can be directly accessed in this folders. Notice that I preffer having a look at data in the .CSVs or Word format, this this reason I added this documents here. PDFs are just for preview purposes and I discourage reading directly from them as rendering might be of low quality.
 
+# Exploratory Data Analysis (EDA) of IT Jobs in EU in 2023
 
-# The Questions
+## Research Questions Regarding IT Data Jobs
 
 Below are the questions I want to answer in my project:
 
@@ -27,7 +30,7 @@ Below are the questions I want to answer in my project:
 3. How well do jobs and skills pay for Data Analysts in each european country?
 4. What are the optimal skills for data analysts to learn? (High Demand AND High Paying) 
 
-# Tools I Used
+## Tools Used
 
 For my deep dive into the data analyst job market, I harnessed the power of several key tools:
 
@@ -42,7 +45,7 @@ For my deep dive into the data analyst job market, I harnessed the power of seve
 
 Notice that it is not the interest of going through code snippets here, therefore, no code is display. but each output has a code file with the same name.
 
-# Data 
+## Data 
 
 Origin of the data is unknown. All we know is that it is available online https://huggingface.co/datasets/lukebarousse/data_jobs
 
@@ -52,14 +55,15 @@ I do not impute data, thus I'm assumming here missing at random. The dataset for
 
 Scarce data for europe makes plots unreliable. You will se very often 'n' in outputs, as we account for the amount of data by category to draw reasonable conclusions. There are outliers that can shift statistics as well. No outliers were removed as it is not clear that this are real outliers or just simple real data. 
 
-## Variables
+### Variables
 
 The most important variables are 'Country', 'Job', 'Skills' and 'Salary'. Salary is a numeric variable of yearly salary represented in USD, and can be given in any outputs as a 'mean', 'median', 'std', 'qrt' ... etc. It indicates the statistic of salary for a particular category.
 
 Salary of 100 K is the same as 100.000 USD. Notice that the notation of thousands is '.' instead of european ',' thousands symbol is represented by a point instead of comma.
 
-# Exploratory Data Analysis
-## Filter EU Jobs (N=1488 job vacancies in 2023)
+## Exploratory Data Analysis
+
+### Filter EU Jobs (N=1488 job vacancies in 2023)
 
 
 To focus my analysis on the EU. job market, I apply filters to the dataset, narrowing down to roles based in the Eurozone, but only 15 countries have enough data.
@@ -71,7 +75,7 @@ TDESC02 table shows the total counts of job availabilities by country in 2023. O
 Values are presented in '000s. Table can be accessed in word or HTML format. The table is organized from left to right to show the most important countries and roles in terms of counts of job vacancies. Thus, for instance Germany accounted for about the 17% of total vacancies in europe. Other important countries were France (16%), Poland (13%), Spain (10%). The table is also organize by important Jobs, as it starts from Data Analyst (23%), Data Engineer (22%) and Data Scientist (18%) down to Cloud Engineeer (1%). 
 
 
-# A 1.000 m high view  
+## A 1.000 m high view  
 The *first conclussion* can be that the most important jobs are Data Analyst,	Data Engineer,	Data Scientist in terms of jobs available as they acount roughly for the 60% of jobs available.
 
 But before we enter into further detail, lets take a look at overall means. I did not want to give a number at this stage, but just derive those numbers directly from a simple unlabeled plot. 
@@ -102,7 +106,7 @@ In any case, We will see that Job titles are arbitrary as requested skills vary 
 
 
 
-# Analysis by country
+## Analysis by country
 
 Most of analysis will be made by country. As it was already said something about the total jobs available by country, check again [TDESC02](/out/TDESC02_PDF.pdf) to check the counts of jobs available and  [TDESC02](/out/TDESC02_PDF.pdf) to see any of the statistics. 
 
@@ -127,7 +131,7 @@ Should you then become a Data engineer? think twice, not so easy. we will see wh
 
 
 
-# Analysis by Skills
+## Analysis by Skills
 
 Let us recap a bit about the first conclusions reached hereup. Germany (17%), France (16%), Poland (13%), Spain (10%) accounted for about 60% of the total vacancies in Europe. In terms of Jobs, Data Analyst (23%), Data Engineer (22%) and Data Scientist (18%) accounted for roughly the 60% of the total vacancies. It was said that the average salary for IT professionals here analyzes was about 110K/year with an overall Minium salary of 46K and max of 190K. It was said that Data analyst are highly required as well as Data engineers, but Data Analysts are paid less good.
 
@@ -139,18 +143,18 @@ The conclusion here is that Job titles are a set of skills that do not match acr
 
 To conclude, the []  Data Engineers are expected to know a lot more than Data Scientists, and jet, they are paid in average the same. If you want to be very well paid, then become a Data Engineer. If you want to be challenged in your job then become a Data Engineer in Belgium of France. If you want to have a high salary while having a less challenging job then becomming a Data Scientist might be of interest for you. [EDA1 Scaterplots 3.0.5](/plot/EDA1%20Scaterpots%203.0.5.png) Shows salaries averages in the x-axis (in red) bubbles closer to the right indicates higher paid jobs. Notice that Data scientists (red) earn in average more than Data Engineers and they are required mostly Python, SQL and Tableau. Data Engineers require more than 30 skills in contrast. 
 
-## The boomer of the Data Analyst
+### The boomer of the Data Analyst
 
 Another interesting trend to close this chapter is interchangability of a Data Analyst and a Data Scientist in the workplace. To explore this trend only data was taken with counts within categories higher than 15 records see [EDA1 Scaterplots 3.0.13](/plot/EDA1%20Scaterpots%203.0.13.png). this was done to have a higher view of the data for Data Analysts and Data Scientists. Consider this like a sum out the data. By doing this the skill set was reduced to  Excel, Python SQL and Tableau. These 2 IT Job categories clustered nicely in these skills set. Thus, as Data Analyst, better to change the CV to one of Data Scientist, which is more or less the same and it is better paid. Recruiters will prefer posting that job as a Data Analyst job in ordr to save between 30K-40K a year (see [LDESC03](/out/LDESC03.pdf) ).
 
 
-# Analysis by Skills in a selected subset
+## Analysis by Skills in a selected subset
 
 Moving forward. The analysis of salary according type of skill was done without taking into account the type of IT job reported. By doing this clusters of skills can be found  for big earners. With this purpose in mind, table [LDESC05](/out/LDESC05.pdf), [LDESC06](/out/LDESC06.pdf), [LDESC07](/out/LDESC07.pdf) were made, and based on this table a subset of skills was composed. These skills are the highest paid. Lets take a look at the [LDESC07](/out/LDESC07.pdf). This table presents the Skill ranking respect to salary categories as follows. Yearly salary from 60K - 90K  is grouped in one category (T6_9). This is done up to 240K-270K (T24_27), which is the last salary range. Further, skills data is separated in these categories and counted by category. For example the AWS category in the first row. AWS represents the job vacancies that IT professionals must know if they want to be in the highes tier of payment. in the range of a yearly salary between 60K-90K there is not a single job offering, meaning that these professionals may command a better payment. There were 43 vacancies for professionals where AWS was required for a gross salary of 120.000 - 150.000 USD among the 15 countries here analyzed. 
 
 Based on this table, the most popular skills in job availability in the IT data analysis sector are AWS, Spark, Airflow, Snowflake and so forth. The table is arranged descending following the T12_T15 salary category which is the most important category that convines data availability with strong yearly salary. 
 
-## Skills and Jobs
+### Skills and Jobs
 A subset was necesary as there are many skills available, see the [EDA1 Heatmap 2.0.1](/plot/EDA1%20Heatmap%202.0.1.png) in this respect. It is difficult to conclude anything from this plot. Any other plots were rendered for this reason [EDA1 Heatmap 2.0.2](/plot/EDA1%20Heatmap%202.0.2.png) Shows how most of vacancies focus on AWS, Python, Snowflake, Spark, SQL and Tableau. 
 
 [EDA2 Heatmap 2.0.1](/plot/EDA1%20Heatmap%202.0.1.png) was made with the data subset including only the skills that were more relevant for salaries in the upper half. It shows how the skills and top jobs relate. The blue color indicates the average salary for that particular Job and skill. Interpreting for instance the Business analyst Job. It can be seeing that a lot of different skills are asked for this role, but there is none that remains constant accross the job descriptions. Redshift and AWS are skills that are better paid for this role. 
@@ -161,7 +165,7 @@ To wrap up, There is this plot [EDA2 Scaterplots 5.0](/plot/EDA2%20Scaterpots%20
 
 The most important dataset in this research is the [LDESC08](/data/LDESC08.csv). As it presents the job availability count by IT Job. The variable country is not included. The reason is that otherwise the data becomes too detailed, besides, in general it can be said that there are skills that are highly paid regardless the country. The amount of data is not big enough to go in this detail. [LDESC08](/out/LDESC08.pdf) is the output comming from the [LDESC08](/data/LDESC08.csv) data. The same logic applies here as [LDESC07](/out/LDESC07.pdf). Columns represent the same categories, but additionally, the Job type is added. All records are ordered by the count of jobs available by category. The most important column is that one for T15_18 or in the category of 150K-180K USD/year. Best paid job is that of Data Engineer, then it is Data Scientist. Third is Machine Lerning Engineer. 
 
-# Conclusion
+## Conclusion
 
 Summarizing the mean salary for an IT Job was  110K in 2023. With an overall Minium salary of 46K and max of 190K.
 
@@ -174,11 +178,11 @@ Most of job oportunities in 2023 came from Germany (DEE 150K, DSC 130K), Poland 
 Conclusion of the conclusion. Are you recruiter looking for an IT professional? go to Italy to hunt for Data Analysts. Are you looking for a IT job but you do not have the hot title experience? profile yourselve as a Data Scientist and go to Portugal or Poland.   
 
 
-# Further Analysis
+## Further Analysis
 
-  There was not evidence of specialization in jobs like Data Analyst or Business Analyst. These jobs are paid less maybe because of the overall perception of lack of specialization. I do believe that many Business are specialized, but in reality, those specialized Business Analysts may need to rebrand themselves. This is a coplex topic that might prove to be interesting, I suppose recruiters in traditional companies are looking for Data Analysts, Banks and Finance for Business Analysts and IT companies for Data Scientists. In reality I can dare to say that job content may be very similar, but this is feed for further digging.
+  There was not evidence of specialization in jobs like Data Analyst or Business Analyst. These jobs are paid less maybe because of the overall perception of lack of specialization. I do believe that many Business Analyst professionals are specialized, but in reality, those may need to rebrand themselves if higher salary is what they want. This is a coplex topic that might prove to be interesting in further research. I suppose recruiters in traditional companies are looking for Data Analysts, Banks and Finance for Business Analysts and IT companies for Data Scientists. In reality I can dare to say that job content may be very similar, but this is tought for further digging.
 
-  There is not a clear distinction of skills respect to Job title, this may offer oportunities to the new job applicant. Nevertheless, further research need to be done to identify what a particular sector is acostummed to. Business Analyst is a very poorly paid generic title, but heavily used in Banks and insurances. It might be interesting to explore the reception of newcomers by hiring departments after application rebranding. 
+  There is not a clear distinction about skills respect to Job title. This may offer oportunities to the new job applicant. Nevertheless, further research need to be done to identify the 'Job Title' a particular sector is acostummed to. Business Analyst is a very poorly paid generic title, but heavily used in Banks and insurances. It might be interesting to explore the reception of newcomer 'Data Engineers' or 'Data Scientists' by hiring departments after aplicants rebrand themselves and ask for higher payement. 
 
 
 
