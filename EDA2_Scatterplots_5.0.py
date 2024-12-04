@@ -1,16 +1,28 @@
 
-import pandas as pd
-from datetime import datetime
-from plotnine import *
-from plotnine.mapping.evaluation import reorder
-import numpy as np
-import matplotlib.pyplot as plt
+a = pd.read_csv('data/Data_Jobs.csv')
 
-a = pd.read_csv('C:/Users/USUARIO/projects/python/portfolio/work/data/Data_Jobs.csv')
 a.drop([ 'level_0'], axis=1, inplace=True)
-# We want to calculate dataset variables by groups#
-c=a.groupby(['Country', 'Skills']).size().reset_index(name='n')
-e =pd.merge(a, c, on=['Country', 'Skills'], how='left').sort_values(by=['Country', 'Skills'])
+
+# We want to calculate dataset variables by groups
+c=a.groupby(['Country', 'Job', 'Skills']).size().reset_index(name='n')
+
+e =pd.merge(a, c, on=['Country', 'Job', 'Skills'], how='left').sort_values(by=['Country','Job', 'Skills'])
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
 
 def gettots(x):
  out = {}

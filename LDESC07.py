@@ -6,7 +6,7 @@ from plotnine.mapping.evaluation import reorder
 import numpy as np
 import matplotlib.pyplot as plt
 
-a = pd.read_csv('C:/Users/USUARIO/projects/python/portfolio/work/data/Data_Jobs.csv')
+a = pd.read_csv('data/Data_Jobs.csv')
 a.drop([ 'level_0'], axis=1, inplace=True)
 # We want to calculate dataset variables by groups#
 c=a.groupby(['Country', 'Skills']).size().reset_index(name='n')
@@ -95,5 +95,6 @@ v = u[ ['Skills', 'T6_9', 'T9_12', 'T12_15', 'T15_18', 'T18_21', 'T21_24', 'T24_
 w = v.drop_duplicates().sort_values(by=['T12_15', 'T9_12'], ascending=False)
 
 
-w.to_csv('data/LDESC07.csv', sep = ',', index=False)
+#w.to_csv('data/LDESC07.csv', sep = ',', index=False)
+
 

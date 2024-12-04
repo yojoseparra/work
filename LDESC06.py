@@ -100,5 +100,5 @@ u.rename(columns={'Total':'T24_27'}, inplace=True)
 
 
 
-u.to_csv('data/LDESC06.csv', sep = ',', index=False)
+#u.to_csv('data/LDESC06.csv', sep = ',', index=False)
 
