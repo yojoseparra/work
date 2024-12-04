@@ -10,10 +10,12 @@ Despite my project is based on Luke's data, it differs from his substantially as
 
 In the top folder structure:
 
-- **data**: there is a folder for data of the project called 'data'. All comma separated files (.csv) are stored. this format opens easily with excel. All outputs and graphs come from this data. 
+- **data**: this is a data folder. All comma separated files (.csv) are stored. this format opens easily with excel. All outputs and graphs come from this data. 
 - **docs**: contains documents and this folder might not be of interest for this project. 
 - **out**: It contains the tabular outputs presented in PDF and Word.
-- **plot**: this is the output graphs folder. It contains only plots
+- **plot**: this is the output graphs folder. It contains only plots.
+
+All documents hereunder can be directly accessed in this folders. Notice that I preffer having a look at data in the .CSVs or Word format, this this reason I added this documents here. PDFs are just for preview purposes and I discourage reading directly from them as rendering might be of low quality.
 
 
 # The Questions
