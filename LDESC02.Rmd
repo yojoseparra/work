@@ -40,31 +40,33 @@ z <- read_excel("data/titles.xls")
 titlecd = toString(z[3,1])
 title = toString(z[3,2])
 docname = paste0(titlecd,'.docx')
+
+sink(file = paste0(titlecd, '.txt' ))
 footnote_jose= toString(z[3,3])
 use_df_printer()
 a = read.csv("data/EDA1_Bargraphs_3.2.csv")
 
 b=a[a$paramtyp =='',c('param', 'job','paramcd', 'aval', 'avalu')]
 names(b) = c('Country', 'IT Job','Statistic', 'Value', 'Currency')
-
+b
  flextable(b)%>% 
   add_footer_lines( paste('Note:',footnote_jose) )%>% 
      add_header_lines(paste('Complete Cases Set') )%>% 
   add_header_lines(paste(titlecd, title) )%>% 
    line_spacing( space = 0.7, part = "all")
 
-
+sink()
  
  
   
 ```
 
-____________________________________________________________
 
-```{r, echo=FALSE}
+
+```{r, echo=FALSE, verbose =FALSE, warning=FALSE, message=FALSE}
+
 
 
 ```
 
-____________________________________________________________
 

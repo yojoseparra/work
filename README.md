@@ -10,7 +10,9 @@ This analysis exercise is just an example. I am exemplifying here how to find da
 
 # How to Access Data or Outputs
 
-In the top folder structure:
+Tables are better displayed in Microsoft Word ( /out folder) and graphs are made in big format (/plot folder). 
+
+This is the top folder structure:
 
 - **data**: this is a data folder. All comma separated files (.csv) are stored. this format opens easily with excel. All outputs and graphs come from this data. 
 - **docs**: contains documents and this folder might not be of interest for this project. 
@@ -174,6 +176,9 @@ In the IT Jobs market Training is very relevant for a high salary. One skill alo
 Most of job oportunities in 2023 came from Germany (DEE 150K, DSC 130K), Poland (DEE 140K, DSC140K) and Portugal (DEE 130K, DSC 160K). Being a senior has just advantages as the skill set required is smaller and the pay is higher, but there were no many vacancies for Senior Data Analysts or Senior Data Engineers. Business Analysts (82K) and Data analyst(90K) are highly required as well. They are not required to dominate particular skills like other IT professionals, but it comes with a lower wage. Data Analyst and Business Analyst job descriptions involve such a very wide group of disparate skills that at the end, they do not look like to be specialized. 
 
 Conclusion of the conclusion. Are you recruiter looking for an IT professional? go to Italy to hunt for Data Analysts. Are you looking for a IT job but you do not have the hot title experience? profile yourselve as a Data Scientist and go to Portugal or Poland.   
+
+
+[Testing](out/LDESC02.txt)
 
 
 ## Further Analysis

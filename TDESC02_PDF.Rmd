@@ -98,5 +98,3 @@ y = x[ match( c(row.names(d),'Total') ,  x$Country) , c('Country',colnames(j),'T
 
   
 ```
-
-
