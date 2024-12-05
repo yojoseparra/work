@@ -2,7 +2,6 @@
 author: "Jose Parra"
 date: "11NOV2024"
 output:
-  pdf_document: default
   word_document:
     reference_docx: doc_styles_vert.docx
 ---
@@ -48,7 +47,7 @@ a = read.csv("data/EDA1_Bargraphs_3.2.csv")
 
 b=a[a$paramtyp =='',c('param', 'job','paramcd', 'aval', 'avalu')]
 names(b) = c('Country', 'IT Job','Statistic', 'Value', 'Currency')
-b
+
  flextable(b)%>% 
   add_footer_lines( paste('Note:',footnote_jose) )%>% 
      add_header_lines(paste('Complete Cases Set') )%>% 
@@ -59,12 +58,5 @@ b
   
 ```
 
-
-
-```{r, echo=FALSE, verbose =FALSE, warning=FALSE, message=FALSE}
-
-
-
-```
 
 

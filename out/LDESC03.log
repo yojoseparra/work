@@ -1,0 +1,67 @@
+
+
+|    |Country |IT Job                    |Statistic |  Value|
+|:---|:-------|:-------------------------|:---------|------:|
+|12  |        |Business Analyst          |MIN       |  57647|
+|24  |        |Business Analyst          |MEDIAN    |  82297|
+|36  |        |Business Analyst          |MEAN      |  81579|
+|48  |        |Business Analyst          |MAX       | 109683|
+|58  |        |Business Analyst          |STD       |  25270|
+|70  |        |Business Analyst          |N         |     50|
+|77  |        |Cloud Engineer            |MIN       |  76566|
+|84  |        |Cloud Engineer            |MEDIAN    |  88256|
+|91  |        |Cloud Engineer            |MEAN      |  96658|
+|98  |        |Cloud Engineer            |MAX       | 136993|
+|102 |        |Cloud Engineer            |STD       |  51206|
+|109 |        |Cloud Engineer            |N         |     19|
+|125 |        |Data Analyst              |MIN       |  51975|
+|141 |        |Data Analyst              |MEDIAN    |  90645|
+|157 |        |Data Analyst              |MEAN      |  95269|
+|173 |        |Data Analyst              |MAX       | 162693|
+|189 |        |Data Analyst              |STD       |  32540|
+|205 |        |Data Analyst              |N         |    343|
+|221 |        |Data Engineer             |MIN       |  71461|
+|237 |        |Data Engineer             |MEDIAN    | 121793|
+|253 |        |Data Engineer             |MEAN      | 119526|
+|269 |        |Data Engineer             |MAX       | 171206|
+|285 |        |Data Engineer             |STD       |  31952|
+|301 |        |Data Engineer             |N         |    325|
+|317 |        |Data Scientist            |MIN       |  62891|
+|333 |        |Data Scientist            |MEDIAN    | 119886|
+|349 |        |Data Scientist            |MEAN      | 116333|
+|365 |        |Data Scientist            |MAX       | 170726|
+|381 |        |Data Scientist            |STD       |  37901|
+|397 |        |Data Scientist            |N         |    262|
+|413 |        |Machine Learning Engineer |MIN       |  72482|
+|429 |        |Machine Learning Engineer |MEDIAN    | 121616|
+|445 |        |Machine Learning Engineer |MEAN      | 122271|
+|461 |        |Machine Learning Engineer |MAX       | 180866|
+|477 |        |Machine Learning Engineer |STD       |  42295|
+|493 |        |Machine Learning Engineer |N         |    167|
+|506 |        |Senior Data Analyst       |MIN       |  84964|
+|519 |        |Senior Data Analyst       |MEDIAN    | 113097|
+|532 |        |Senior Data Analyst       |MEAN      | 110348|
+|545 |        |Senior Data Analyst       |MAX       | 132226|
+|557 |        |Senior Data Analyst       |STD       |  21426|
+|570 |        |Senior Data Analyst       |N         |     68|
+|585 |        |Senior Data Engineer      |MIN       |  93242|
+|600 |        |Senior Data Engineer      |MEDIAN    | 130213|
+|615 |        |Senior Data Engineer      |MEAN      | 123426|
+|630 |        |Senior Data Engineer      |MAX       | 141448|
+|643 |        |Senior Data Engineer      |STD       |  23489|
+|658 |        |Senior Data Engineer      |N         |     94|
+|672 |        |Senior Data Scientist     |MIN       |  87273|
+|686 |        |Senior Data Scientist     |MEDIAN    | 136304|
+|700 |        |Senior Data Scientist     |MEAN      | 130944|
+|714 |        |Senior Data Scientist     |MAX       | 169062|
+|728 |        |Senior Data Scientist     |STD       |  35780|
+|742 |        |Senior Data Scientist     |N         |     87|
+|757 |        |Software Engineer         |MIN       |  71622|
+|772 |        |Software Engineer         |MEDIAN    |  98680|
+|787 |        |Software Engineer         |MEAN      | 103529|
+|802 |        |Software Engineer         |MAX       | 148616|
+|814 |        |Software Engineer         |STD       |  42684|
+|829 |        |Software Engineer         |N         |     73|
+##------ Thu Dec  5 17:48:11 2024 ------##
+[1] "Europe/Paris"
+[1] "YoJoseParra"

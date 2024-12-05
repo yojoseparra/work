@@ -4,8 +4,6 @@ date: "07NOV2024"
 output:
   word_document:
     reference_docx: doc_styles.docx
-editor_options:
-  chunk_output_type: console
 ---
 
 
@@ -28,9 +26,6 @@ set_flextable_defaults(
   font.size = 6, padding = 2, line_spacing = 1.5
 )
 
-```
-
-```{r, echo=FALSE, verbose =FALSE, warning=FALSE, message=FALSE}
 
 z <- read_excel("data/titles.xls")
 titlecd = toString(z[1,1])

@@ -70,7 +70,7 @@ Salary of 100 K is the same as 100.000 USD. Notice that the notation of thousand
 
 To focus my analysis on the EU job market, I apply filters to the dataset, narrowing down to roles based in the Eurozone. Only 15 countries had enough data up to a total of 1488 usable posts with salary information.
 
- [TDESC02](/out/TDESC02_PDF.pdf) 
+[TDESC02](/out/TDESC02.log)
 
 TDESC02 table shows the total counts of job availabilities by country in 2023. Only these countries are displayed as they were those whose data was available.  
 
@@ -93,7 +93,16 @@ Notice these statistics can change for Senior Data engineers and Senior Data Sci
 
 The second conclusion can the be summarized in two fold. First, Seniority has advantages in terms of salary. Second of all , that salaries for data analysts are averaging regardless the country, about 110K USD/year. This is an important conclusion, as we see that there is not such a big difference of salary respect to the job title.
 
-Basic statistics of salary by IT role are presented in [LDESC03](/out/LDESC03.pdf). The table is organized ascending according to the statistic values. For instance, means and medians are increasing in magnitude. The conclusion is then that the Jobs at the bottom are better paid. Business analyst jobs offer a mean of 80K whereas a Machine Learning Engineer may be paid 120K in average [EDA1 Scaterplots 4.0](/plot/EDA1%20Scaterpots%204.0.png) shows a plot of the mean yearly salary respect to the 'n' number of job vacancies by job category. 
+
+
+
+
+
+
+
+
+
+Basic statistics of salary by IT role are presented in [LDESC03](/out/ldesc0) [LDESC03](/out/LDESC03.pdf). The table is organized ascending according to the statistic values. For instance, means and medians are increasing in magnitude. The conclusion is then that the Jobs at the bottom are better paid. Business analyst jobs offer a mean of 80K whereas a Machine Learning Engineer may be paid 120K in average [EDA1 Scaterplots 4.0](/plot/EDA1%20Scaterpots%204.0.png) shows a plot of the mean yearly salary respect to the 'n' number of job vacancies by job category. 
 
 I want to talk a bit about this scaterplot. It is very interesting, open it in a big forma, as the trends can be subtile and hidden in colors or scattered in the plot. Let us see. The vertical axis represents the counts of available vacancies by job ('n'), and the x axis indicates the yearly salary axis going from 46K up to about 250K. The size of the bubbles indicate the size of the salary. The bigger the salary, the bigger the bubble. Colors represent the types of Jobs. For instance, Data Analysts are in green color. Notice how Data analysts (green) are diametrally oposed to the Data engineers (black) and Data Scientists (dark red). This is an interesting insight. It looks like Data analyst are highly required as well as Data engineers, but Data Analysts are paid less good.
 

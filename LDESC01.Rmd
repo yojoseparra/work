@@ -2,7 +2,6 @@
 author: "Jose Parra"
 date: "11NOV2024"
 output:
-  pdf_document: default
   word_document:
     reference_docx: doc_styles_vert.docx
 ---
@@ -31,9 +30,7 @@ set_flextable_defaults(
   
 )
 
-```
 
-```{r, echo=FALSE, verbose =FALSE, warning=FALSE, message=FALSE}
 
 z <- read_excel("data/titles.xls")
 titlecd = toString(z[2,1])
@@ -58,12 +55,5 @@ names(b) = c('Country', 'IT Job','Statistic', 'Value', 'Currency')
   
 ```
 
-____________________________________________________________
 
-```{r, echo=FALSE}
-
-
-```
-
-____________________________________________________________
 
