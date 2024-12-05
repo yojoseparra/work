@@ -1,0 +1,646 @@
+
+
+|    |Country     |IT Job                    |Statistic |  Value|Currency |
+|:---|:-----------|:-------------------------|:---------|------:|:--------|
+|51  |Belgium     |Business Analyst          |MAX       |  91773|USD      |
+|52  |Belgium     |Business Analyst          |MEAN      |  85098|USD      |
+|53  |Belgium     |Business Analyst          |MEDIAN    |  91773|USD      |
+|54  |Belgium     |Business Analyst          |MIN       |  75087|USD      |
+|55  |Belgium     |Business Analyst          |STD       |   9139|USD      |
+|56  |Belgium     |Data Analyst              |MAX       | 169950|USD      |
+|57  |Belgium     |Data Analyst              |MEAN      |  99287|USD      |
+|58  |Belgium     |Data Analyst              |MEDIAN    |  80297|USD      |
+|59  |Belgium     |Data Analyst              |MIN       |  56637|USD      |
+|60  |Belgium     |Data Analyst              |STD       |  46066|USD      |
+|61  |Belgium     |Data Engineer             |MAX       | 151925|USD      |
+|62  |Belgium     |Data Engineer             |MEAN      | 110675|USD      |
+|63  |Belgium     |Data Engineer             |MEDIAN    | 101250|USD      |
+|64  |Belgium     |Data Engineer             |MIN       |  58401|USD      |
+|65  |Belgium     |Data Engineer             |STD       |  30231|USD      |
+|66  |Belgium     |Data Scientist            |MAX       | 162225|USD      |
+|67  |Belgium     |Data Scientist            |MEAN      | 122577|USD      |
+|68  |Belgium     |Data Scientist            |MEDIAN    | 126999|USD      |
+|69  |Belgium     |Data Scientist            |MIN       |  58401|USD      |
+|70  |Belgium     |Data Scientist            |STD       |  43717|USD      |
+|71  |Belgium     |Machine Learning Engineer |MAX       | 104059|USD      |
+|72  |Belgium     |Machine Learning Engineer |MEAN      |  86377|USD      |
+|73  |Belgium     |Machine Learning Engineer |MEDIAN    |  91773|USD      |
+|74  |Belgium     |Machine Learning Engineer |MIN       |  75087|USD      |
+|75  |Belgium     |Machine Learning Engineer |STD       |  11419|USD      |
+|76  |Belgium     |Senior Data Engineer      |MAX       |  91773|USD      |
+|77  |Belgium     |Senior Data Engineer      |MEAN      |  91773|USD      |
+|78  |Belgium     |Senior Data Engineer      |MEDIAN    |  91773|USD      |
+|79  |Belgium     |Senior Data Engineer      |MIN       |  91773|USD      |
+|80  |Belgium     |Senior Data Scientist     |MAX       |  91773|USD      |
+|81  |Belgium     |Senior Data Scientist     |MEAN      |  80649|USD      |
+|82  |Belgium     |Senior Data Scientist     |MEDIAN    |  91773|USD      |
+|83  |Belgium     |Senior Data Scientist     |MIN       |  58401|USD      |
+|84  |Belgium     |Senior Data Scientist     |STD       |  19267|USD      |
+|85  |Belgium     |Software Engineer         |MAX       |  75087|USD      |
+|86  |Belgium     |Software Engineer         |MEAN      |  60419|USD      |
+|87  |Belgium     |Software Engineer         |MEDIAN    |  60419|USD      |
+|88  |Belgium     |Software Engineer         |MIN       |  45751|USD      |
+|89  |Belgium     |Software Engineer         |STD       |  20743|USD      |
+|90  |Denmark     |Data Analyst              |MAX       |  91773|USD      |
+|91  |Denmark     |Data Analyst              |MEAN      |  81761|USD      |
+|92  |Denmark     |Data Analyst              |MEDIAN    |  91773|USD      |
+|93  |Denmark     |Data Analyst              |MIN       |  58401|USD      |
+|94  |Denmark     |Data Analyst              |STD       |  14924|USD      |
+|95  |Denmark     |Data Engineer             |MAX       | 151925|USD      |
+|96  |Denmark     |Data Engineer             |MEAN      | 125800|USD      |
+|97  |Denmark     |Data Engineer             |MEDIAN    | 125800|USD      |
+|98  |Denmark     |Data Engineer             |MIN       |  99676|USD      |
+|99  |Denmark     |Data Engineer             |STD       |  36945|USD      |
+|100 |Denmark     |Data Scientist            |MAX       | 171412|USD      |
+|101 |Denmark     |Data Scientist            |MEAN      | 116342|USD      |
+|102 |Denmark     |Data Scientist            |MEDIAN    | 112785|USD      |
+|103 |Denmark     |Data Scientist            |MIN       |  58401|USD      |
+|104 |Denmark     |Data Scientist            |STD       |  38069|USD      |
+|105 |Denmark     |Machine Learning Engineer |MAX       | 170980|USD      |
+|106 |Denmark     |Machine Learning Engineer |MEAN      | 139719|USD      |
+|107 |Denmark     |Machine Learning Engineer |MEDIAN    | 139719|USD      |
+|108 |Denmark     |Machine Learning Engineer |MIN       | 108459|USD      |
+|109 |Denmark     |Machine Learning Engineer |STD       |  44209|USD      |
+|110 |Denmark     |Senior Data Engineer      |MAX       | 151925|USD      |
+|111 |Denmark     |Senior Data Engineer      |MEAN      | 151925|USD      |
+|112 |Denmark     |Senior Data Engineer      |MEDIAN    | 151925|USD      |
+|113 |Denmark     |Senior Data Engineer      |MIN       | 151925|USD      |
+|114 |Denmark     |Senior Data Engineer      |STD       |      0|USD      |
+|115 |Finland     |Data Analyst              |MAX       | 169950|USD      |
+|116 |Finland     |Data Analyst              |MEAN      | 111353|USD      |
+|117 |Finland     |Data Analyst              |MEDIAN    | 108819|USD      |
+|118 |Finland     |Data Analyst              |MIN       |  74160|USD      |
+|119 |Finland     |Data Analyst              |STD       |  40128|USD      |
+|120 |Finland     |Data Engineer             |MAX       | 101250|USD      |
+|121 |Finland     |Data Engineer             |MEAN      |  96829|USD      |
+|122 |Finland     |Data Engineer             |MEDIAN    |  99676|USD      |
+|123 |Finland     |Data Engineer             |MIN       |  91773|USD      |
+|124 |Finland     |Data Engineer             |STD       |   4660|USD      |
+|125 |Finland     |Data Scientist            |MAX       | 162225|USD      |
+|126 |Finland     |Data Scientist            |MEAN      | 120745|USD      |
+|127 |Finland     |Data Scientist            |MEDIAN    | 118740|USD      |
+|128 |Finland     |Data Scientist            |MIN       |  83275|USD      |
+|129 |Finland     |Data Scientist            |STD       |  32677|USD      |
+|130 |Finland     |Machine Learning Engineer |MAX       | 191065|USD      |
+|131 |Finland     |Machine Learning Engineer |MEAN      | 149762|USD      |
+|132 |Finland     |Machine Learning Engineer |MEDIAN    | 158105|USD      |
+|133 |Finland     |Machine Learning Engineer |MIN       |  91773|USD      |
+|134 |Finland     |Machine Learning Engineer |STD       |  42970|USD      |
+|135 |Finland     |Senior Data Analyst       |MAX       | 114538|USD      |
+|136 |Finland     |Senior Data Analyst       |MEAN      | 110854|USD      |
+|137 |Finland     |Senior Data Analyst       |MEDIAN    | 114510|USD      |
+|138 |Finland     |Senior Data Analyst       |MIN       | 103515|USD      |
+|139 |Finland     |Senior Data Analyst       |STD       |   6356|USD      |
+|140 |Finland     |Senior Data Engineer      |MAX       | 108150|USD      |
+|141 |Finland     |Senior Data Engineer      |MEAN      | 103913|USD      |
+|142 |Finland     |Senior Data Engineer      |MEDIAN    | 103913|USD      |
+|143 |Finland     |Senior Data Engineer      |MIN       |  99676|USD      |
+|144 |Finland     |Senior Data Engineer      |STD       |   5991|USD      |
+|145 |Finland     |Senior Data Scientist     |MAX       | 162225|USD      |
+|146 |Finland     |Senior Data Scientist     |MEAN      | 126498|USD      |
+|147 |Finland     |Senior Data Scientist     |MEDIAN    | 126498|USD      |
+|148 |Finland     |Senior Data Scientist     |MIN       |  90771|USD      |
+|149 |Finland     |Senior Data Scientist     |STD       |  50525|USD      |
+|150 |Finland     |Software Engineer         |MAX       |  77250|USD      |
+|151 |Finland     |Software Engineer         |MEAN      |  77250|USD      |
+|152 |Finland     |Software Engineer         |MEDIAN    |  77250|USD      |
+|153 |Finland     |Software Engineer         |MIN       |  77250|USD      |
+|154 |France      |Business Analyst          |MAX       | 114510|USD      |
+|155 |France      |Business Analyst          |MEAN      |  83593|USD      |
+|156 |France      |Business Analyst          |MEDIAN    |  91773|USD      |
+|157 |France      |Business Analyst          |MIN       |  44496|USD      |
+|158 |France      |Business Analyst          |STD       |  35716|USD      |
+|159 |France      |Cloud Engineer            |MAX       | 109147|USD      |
+|160 |France      |Cloud Engineer            |MEAN      | 109147|USD      |
+|161 |France      |Cloud Engineer            |MEDIAN    | 109147|USD      |
+|162 |France      |Cloud Engineer            |MIN       | 109147|USD      |
+|163 |France      |Data Analyst              |MAX       | 206000|USD      |
+|164 |France      |Data Analyst              |MEAN      |  84022|USD      |
+|165 |France      |Data Analyst              |MEDIAN    |  71250|USD      |
+|166 |France      |Data Analyst              |MIN       |  46350|USD      |
+|167 |France      |Data Analyst              |STD       |  34161|USD      |
+|168 |France      |Data Engineer             |MAX       | 256470|USD      |
+|169 |France      |Data Engineer             |MEAN      | 119210|USD      |
+|170 |France      |Data Engineer             |MEDIAN    | 101250|USD      |
+|171 |France      |Data Engineer             |MIN       |  46350|USD      |
+|172 |France      |Data Engineer             |STD       |  34718|USD      |
+|173 |France      |Data Scientist            |MAX       | 171412|USD      |
+|174 |France      |Data Scientist            |MEAN      | 102076|USD      |
+|175 |France      |Data Scientist            |MEDIAN    |  90771|USD      |
+|176 |France      |Data Scientist            |MIN       |  51912|USD      |
+|177 |France      |Data Scientist            |STD       |  40991|USD      |
+|178 |France      |Machine Learning Engineer |MAX       | 170980|USD      |
+|179 |France      |Machine Learning Engineer |MEAN      |  93857|USD      |
+|180 |France      |Machine Learning Engineer |MEDIAN    |  83275|USD      |
+|181 |France      |Machine Learning Engineer |MIN       |  58401|USD      |
+|182 |France      |Machine Learning Engineer |STD       |  37705|USD      |
+|183 |France      |Senior Data Analyst       |MAX       | 161195|USD      |
+|184 |France      |Senior Data Analyst       |MEAN      | 107428|USD      |
+|185 |France      |Senior Data Analyst       |MEDIAN    | 114510|USD      |
+|186 |France      |Senior Data Analyst       |MIN       |  51053|USD      |
+|187 |France      |Senior Data Analyst       |STD       |  25504|USD      |
+|188 |France      |Senior Data Engineer      |MAX       | 151925|USD      |
+|189 |France      |Senior Data Engineer      |MEAN      | 139741|USD      |
+|190 |France      |Senior Data Engineer      |MEDIAN    | 151925|USD      |
+|191 |France      |Senior Data Engineer      |MIN       |  81576|USD      |
+|192 |France      |Senior Data Engineer      |STD       |  25453|USD      |
+|193 |France      |Senior Data Scientist     |MAX       | 162225|USD      |
+|194 |France      |Senior Data Scientist     |MEAN      | 146569|USD      |
+|195 |France      |Senior Data Scientist     |MEDIAN    | 162225|USD      |
+|196 |France      |Senior Data Scientist     |MIN       |  91773|USD      |
+|197 |France      |Senior Data Scientist     |STD       |  31066|USD      |
+|198 |France      |Software Engineer         |MAX       | 202395|USD      |
+|199 |France      |Software Engineer         |MEAN      | 131083|USD      |
+|200 |France      |Software Engineer         |MEDIAN    | 146775|USD      |
+|201 |France      |Software Engineer         |MIN       |  45751|USD      |
+|202 |France      |Software Engineer         |STD       |  62859|USD      |
+|203 |Germany     |Business Analyst          |MAX       | 129780|USD      |
+|204 |Germany     |Business Analyst          |MEAN      |  81917|USD      |
+|205 |Germany     |Business Analyst          |MEDIAN    |  91773|USD      |
+|206 |Germany     |Business Analyst          |MIN       |  30797|USD      |
+|207 |Germany     |Business Analyst          |STD       |  27193|USD      |
+|208 |Germany     |Cloud Engineer            |MAX       | 206000|USD      |
+|209 |Germany     |Cloud Engineer            |MEAN      | 123195|USD      |
+|210 |Germany     |Cloud Engineer            |MEDIAN    |  91773|USD      |
+|211 |Germany     |Cloud Engineer            |MIN       |  83275|USD      |
+|212 |Germany     |Cloud Engineer            |STD       |  56651|USD      |
+|213 |Germany     |Data Analyst              |MAX       | 206000|USD      |
+|214 |Germany     |Data Analyst              |MEAN      | 104609|USD      |
+|215 |Germany     |Data Analyst              |MEDIAN    | 106862|USD      |
+|216 |Germany     |Data Analyst              |MIN       |  52544|USD      |
+|217 |Germany     |Data Analyst              |STD       |  41485|USD      |
+|218 |Germany     |Data Engineer             |MAX       | 206000|USD      |
+|219 |Germany     |Data Engineer             |MEAN      | 134184|USD      |
+|220 |Germany     |Data Engineer             |MEDIAN    | 151925|USD      |
+|221 |Germany     |Data Engineer             |MIN       |  58401|USD      |
+|222 |Germany     |Data Engineer             |STD       |  39982|USD      |
+|223 |Germany     |Data Scientist            |MAX       | 197760|USD      |
+|224 |Germany     |Data Scientist            |MEAN      | 120778|USD      |
+|225 |Germany     |Data Scientist            |MEDIAN    | 135506|USD      |
+|226 |Germany     |Data Scientist            |MIN       |  58401|USD      |
+|227 |Germany     |Data Scientist            |STD       |  47769|USD      |
+|228 |Germany     |Machine Learning Engineer |MAX       | 231235|USD      |
+|229 |Germany     |Machine Learning Engineer |MEAN      | 117299|USD      |
+|230 |Germany     |Machine Learning Engineer |MEDIAN    |  91773|USD      |
+|231 |Germany     |Machine Learning Engineer |MIN       |  45751|USD      |
+|232 |Germany     |Machine Learning Engineer |STD       |  53358|USD      |
+|233 |Germany     |Senior Data Analyst       |MAX       | 122982|USD      |
+|234 |Germany     |Senior Data Analyst       |MEAN      | 102543|USD      |
+|235 |Germany     |Senior Data Analyst       |MEDIAN    | 114510|USD      |
+|236 |Germany     |Senior Data Analyst       |MIN       |  59328|USD      |
+|237 |Germany     |Senior Data Analyst       |STD       |  19945|USD      |
+|238 |Germany     |Senior Data Engineer      |MAX       | 160165|USD      |
+|239 |Germany     |Senior Data Engineer      |MEAN      | 131379|USD      |
+|240 |Germany     |Senior Data Engineer      |MEDIAN    | 151925|USD      |
+|241 |Germany     |Senior Data Engineer      |MIN       |  75087|USD      |
+|242 |Germany     |Senior Data Engineer      |STD       |  30406|USD      |
+|243 |Germany     |Senior Data Scientist     |MAX       | 231235|USD      |
+|244 |Germany     |Senior Data Scientist     |MEAN      | 153190|USD      |
+|245 |Germany     |Senior Data Scientist     |MEDIAN    | 162225|USD      |
+|246 |Germany     |Senior Data Scientist     |MIN       |  83275|USD      |
+|247 |Germany     |Senior Data Scientist     |STD       |  34645|USD      |
+|248 |Germany     |Software Engineer         |MAX       | 182601|USD      |
+|249 |Germany     |Software Engineer         |MEAN      |  93805|USD      |
+|250 |Germany     |Software Engineer         |MEDIAN    |  87524|USD      |
+|251 |Germany     |Software Engineer         |MIN       |  58401|USD      |
+|252 |Germany     |Software Engineer         |STD       |  44528|USD      |
+|253 |Greece      |Business Analyst          |MAX       |  75087|USD      |
+|254 |Greece      |Business Analyst          |MEAN      |  68289|USD      |
+|255 |Greece      |Business Analyst          |MEDIAN    |  64890|USD      |
+|256 |Greece      |Business Analyst          |MIN       |  64890|USD      |
+|257 |Greece      |Business Analyst          |STD       |   5887|USD      |
+|258 |Greece      |Data Analyst              |MAX       | 206000|USD      |
+|259 |Greece      |Data Analyst              |MEAN      | 115033|USD      |
+|260 |Greece      |Data Analyst              |MEDIAN    | 102485|USD      |
+|261 |Greece      |Data Analyst              |MIN       |  54604|USD      |
+|262 |Greece      |Data Analyst              |STD       |  41499|USD      |
+|263 |Greece      |Data Engineer             |MAX       | 151925|USD      |
+|264 |Greece      |Data Engineer             |MEAN      | 100228|USD      |
+|265 |Greece      |Data Engineer             |MEDIAN    |  99676|USD      |
+|266 |Greece      |Data Engineer             |MIN       |  46350|USD      |
+|267 |Greece      |Data Engineer             |STD       |  33161|USD      |
+|268 |Greece      |Data Scientist            |MAX       | 176254|USD      |
+|269 |Greece      |Data Scientist            |MEAN      | 100451|USD      |
+|270 |Greece      |Data Scientist            |MEDIAN    |  92581|USD      |
+|271 |Greece      |Data Scientist            |MIN       |  52600|USD      |
+|272 |Greece      |Data Scientist            |STD       |  31728|USD      |
+|273 |Greece      |Machine Learning Engineer |MAX       | 182601|USD      |
+|274 |Greece      |Machine Learning Engineer |MEAN      | 118965|USD      |
+|275 |Greece      |Machine Learning Engineer |MEDIAN    | 104059|USD      |
+|276 |Greece      |Machine Learning Engineer |MIN       |  75087|USD      |
+|277 |Greece      |Machine Learning Engineer |STD       |  37173|USD      |
+|278 |Greece      |Senior Data Engineer      |MAX       |  46350|USD      |
+|279 |Greece      |Senior Data Engineer      |MEAN      |  46350|USD      |
+|280 |Greece      |Senior Data Engineer      |MEDIAN    |  46350|USD      |
+|281 |Greece      |Senior Data Engineer      |MIN       |  46350|USD      |
+|282 |Greece      |Senior Data Scientist     |MAX       | 206000|USD      |
+|283 |Greece      |Senior Data Scientist     |MEAN      | 117020|USD      |
+|284 |Greece      |Senior Data Scientist     |MEDIAN    |  91863|USD      |
+|285 |Greece      |Senior Data Scientist     |MIN       |  75087|USD      |
+|286 |Greece      |Senior Data Scientist     |STD       |  54310|USD      |
+|287 |Greece      |Software Engineer         |MAX       | 161195|USD      |
+|288 |Greece      |Software Engineer         |MEAN      |  93755|USD      |
+|289 |Greece      |Software Engineer         |MEDIAN    |  83430|USD      |
+|290 |Greece      |Software Engineer         |MIN       |  58401|USD      |
+|291 |Greece      |Software Engineer         |STD       |  39931|USD      |
+|292 |Hungary     |Cloud Engineer            |MAX       |  91773|USD      |
+|293 |Hungary     |Cloud Engineer            |MEAN      |  91773|USD      |
+|294 |Hungary     |Cloud Engineer            |MEDIAN    |  91773|USD      |
+|295 |Hungary     |Cloud Engineer            |MIN       |  91773|USD      |
+|296 |Hungary     |Data Analyst              |MAX       | 159650|USD      |
+|297 |Hungary     |Data Analyst              |MEAN      |  90438|USD      |
+|298 |Hungary     |Data Analyst              |MEDIAN    |  83275|USD      |
+|299 |Hungary     |Data Analyst              |MIN       |  51053|USD      |
+|300 |Hungary     |Data Analyst              |STD       |  32702|USD      |
+|301 |Hungary     |Data Engineer             |MAX       | 151925|USD      |
+|302 |Hungary     |Data Engineer             |MEAN      | 136830|USD      |
+|303 |Hungary     |Data Engineer             |MEDIAN    | 151925|USD      |
+|304 |Hungary     |Data Engineer             |MIN       |  99676|USD      |
+|305 |Hungary     |Data Engineer             |STD       |  21557|USD      |
+|306 |Hungary     |Data Scientist            |MAX       | 162225|USD      |
+|307 |Hungary     |Data Scientist            |MEAN      | 100688|USD      |
+|308 |Hungary     |Data Scientist            |MEDIAN    |  91773|USD      |
+|309 |Hungary     |Data Scientist            |MIN       |  58401|USD      |
+|310 |Hungary     |Data Scientist            |STD       |  38032|USD      |
+|311 |Hungary     |Machine Learning Engineer |MAX       | 191065|USD      |
+|312 |Hungary     |Machine Learning Engineer |MEAN      | 112424|USD      |
+|313 |Hungary     |Machine Learning Engineer |MEDIAN    |  83275|USD      |
+|314 |Hungary     |Machine Learning Engineer |MIN       |  58401|USD      |
+|315 |Hungary     |Machine Learning Engineer |STD       |  63835|USD      |
+|316 |Hungary     |Senior Data Analyst       |MAX       |  91773|USD      |
+|317 |Hungary     |Senior Data Analyst       |MEAN      |  90382|USD      |
+|318 |Hungary     |Senior Data Analyst       |MEDIAN    |  90382|USD      |
+|319 |Hungary     |Senior Data Analyst       |MIN       |  88992|USD      |
+|320 |Hungary     |Senior Data Analyst       |STD       |   1966|USD      |
+|321 |Hungary     |Senior Data Engineer      |MAX       | 151925|USD      |
+|322 |Hungary     |Senior Data Engineer      |MEAN      | 151925|USD      |
+|323 |Hungary     |Senior Data Engineer      |MEDIAN    | 151925|USD      |
+|324 |Hungary     |Senior Data Engineer      |MIN       | 151925|USD      |
+|325 |Hungary     |Senior Data Engineer      |STD       |      0|USD      |
+|326 |Hungary     |Senior Data Scientist     |MAX       | 162225|USD      |
+|327 |Hungary     |Senior Data Scientist     |MEAN      | 115257|USD      |
+|328 |Hungary     |Senior Data Scientist     |MEDIAN    |  91773|USD      |
+|329 |Hungary     |Senior Data Scientist     |MIN       |  91773|USD      |
+|330 |Hungary     |Senior Data Scientist     |STD       |  40675|USD      |
+|331 |Hungary     |Software Engineer         |MAX       |  91773|USD      |
+|332 |Hungary     |Software Engineer         |MEAN      |  72962|USD      |
+|333 |Hungary     |Software Engineer         |MEDIAN    |  70838|USD      |
+|334 |Hungary     |Software Engineer         |MIN       |  58401|USD      |
+|335 |Hungary     |Software Engineer         |STD       |  17168|USD      |
+|336 |Ireland     |Data Analyst              |MAX       | 200335|USD      |
+|337 |Ireland     |Data Analyst              |MEAN      | 106422|USD      |
+|338 |Ireland     |Data Analyst              |MEDIAN    | 101455|USD      |
+|339 |Ireland     |Data Analyst              |MIN       |  44496|USD      |
+|340 |Ireland     |Data Analyst              |STD       |  40409|USD      |
+|341 |Ireland     |Data Engineer             |MAX       | 151925|USD      |
+|342 |Ireland     |Data Engineer             |MEAN      | 133707|USD      |
+|343 |Ireland     |Data Engineer             |MEDIAN    | 151925|USD      |
+|344 |Ireland     |Data Engineer             |MIN       |  91773|USD      |
+|345 |Ireland     |Data Engineer             |STD       |  27430|USD      |
+|346 |Ireland     |Data Scientist            |MAX       | 171412|USD      |
+|347 |Ireland     |Data Scientist            |MEAN      | 114941|USD      |
+|348 |Ireland     |Data Scientist            |MEDIAN    | 105111|USD      |
+|349 |Ireland     |Data Scientist            |MIN       |  55018|USD      |
+|350 |Ireland     |Data Scientist            |STD       |  45052|USD      |
+|351 |Ireland     |Machine Learning Engineer |MAX       | 170980|USD      |
+|352 |Ireland     |Machine Learning Engineer |MEAN      | 139441|USD      |
+|353 |Ireland     |Machine Learning Engineer |MEDIAN    | 170980|USD      |
+|354 |Ireland     |Machine Learning Engineer |MIN       |  75087|USD      |
+|355 |Ireland     |Machine Learning Engineer |STD       |  44836|USD      |
+|356 |Ireland     |Senior Data Analyst       |MAX       | 200335|USD      |
+|357 |Ireland     |Senior Data Analyst       |MEAN      | 132368|USD      |
+|358 |Ireland     |Senior Data Analyst       |MEDIAN    | 121684|USD      |
+|359 |Ireland     |Senior Data Analyst       |MIN       |  75087|USD      |
+|360 |Ireland     |Senior Data Analyst       |STD       |  63303|USD      |
+|361 |Ireland     |Senior Data Engineer      |MAX       | 160680|USD      |
+|362 |Ireland     |Senior Data Engineer      |MEAN      | 143358|USD      |
+|363 |Ireland     |Senior Data Engineer      |MEDIAN    | 151925|USD      |
+|364 |Ireland     |Senior Data Engineer      |MIN       |  91773|USD      |
+|365 |Ireland     |Senior Data Engineer      |STD       |  25513|USD      |
+|366 |Ireland     |Senior Data Scientist     |MAX       | 171412|USD      |
+|367 |Ireland     |Senior Data Scientist     |MEAN      | 162848|USD      |
+|368 |Ireland     |Senior Data Scientist     |MEDIAN    | 166602|USD      |
+|369 |Ireland     |Senior Data Scientist     |MIN       | 146775|USD      |
+|370 |Ireland     |Senior Data Scientist     |STD       |  11521|USD      |
+|371 |Ireland     |Software Engineer         |MAX       |  91773|USD      |
+|372 |Ireland     |Software Engineer         |MEAN      |  91773|USD      |
+|373 |Ireland     |Software Engineer         |MEDIAN    |  91773|USD      |
+|374 |Ireland     |Software Engineer         |MIN       |  91773|USD      |
+|375 |Italy       |Business Analyst          |MAX       |  44496|USD      |
+|376 |Italy       |Business Analyst          |MEAN      |  44496|USD      |
+|377 |Italy       |Business Analyst          |MEDIAN    |  44496|USD      |
+|378 |Italy       |Business Analyst          |MIN       |  44496|USD      |
+|379 |Italy       |Data Analyst              |MAX       | 114510|USD      |
+|380 |Italy       |Data Analyst              |MEAN      |  76018|USD      |
+|381 |Italy       |Data Analyst              |MEDIAN    |  54604|USD      |
+|382 |Italy       |Data Analyst              |MIN       |  46350|USD      |
+|383 |Italy       |Data Analyst              |STD       |  27551|USD      |
+|384 |Italy       |Data Engineer             |MAX       | 158620|USD      |
+|385 |Italy       |Data Engineer             |MEAN      | 114987|USD      |
+|386 |Italy       |Data Engineer             |MEDIAN    | 100367|USD      |
+|387 |Italy       |Data Engineer             |MIN       |  91773|USD      |
+|388 |Italy       |Data Engineer             |STD       |  26174|USD      |
+|389 |Italy       |Data Scientist            |MAX       | 162225|USD      |
+|390 |Italy       |Data Scientist            |MEAN      |  99787|USD      |
+|391 |Italy       |Data Scientist            |MEDIAN    |  91272|USD      |
+|392 |Italy       |Data Scientist            |MIN       |  58401|USD      |
+|393 |Italy       |Data Scientist            |STD       |  38450|USD      |
+|394 |Italy       |Machine Learning Engineer |MAX       | 107808|USD      |
+|395 |Italy       |Machine Learning Engineer |MEAN      |  91556|USD      |
+|396 |Italy       |Machine Learning Engineer |MEDIAN    |  91773|USD      |
+|397 |Italy       |Machine Learning Engineer |MIN       |  75087|USD      |
+|398 |Italy       |Machine Learning Engineer |STD       |  16361|USD      |
+|399 |Italy       |Senior Data Analyst       |MAX       | 114510|USD      |
+|400 |Italy       |Senior Data Analyst       |MEAN      | 106931|USD      |
+|401 |Italy       |Senior Data Analyst       |MEDIAN    | 114510|USD      |
+|402 |Italy       |Senior Data Analyst       |MIN       |  91773|USD      |
+|403 |Italy       |Senior Data Analyst       |STD       |  13127|USD      |
+|404 |Italy       |Senior Data Scientist     |MAX       | 108459|USD      |
+|405 |Italy       |Senior Data Scientist     |MEAN      |  85902|USD      |
+|406 |Italy       |Senior Data Scientist     |MEDIAN    |  75087|USD      |
+|407 |Italy       |Senior Data Scientist     |MIN       |  74160|USD      |
+|408 |Italy       |Senior Data Scientist     |STD       |  19540|USD      |
+|409 |Italy       |Software Engineer         |MAX       | 108819|USD      |
+|410 |Italy       |Software Engineer         |MEAN      |  96897|USD      |
+|411 |Italy       |Software Engineer         |MEDIAN    |  96897|USD      |
+|412 |Italy       |Software Engineer         |MIN       |  84975|USD      |
+|413 |Italy       |Software Engineer         |STD       |  16860|USD      |
+|414 |Netherlands |Business Analyst          |MAX       | 108459|USD      |
+|415 |Netherlands |Business Analyst          |MEAN      |  88374|USD      |
+|416 |Netherlands |Business Analyst          |MEDIAN    |  91773|USD      |
+|417 |Netherlands |Business Analyst          |MIN       |  64890|USD      |
+|418 |Netherlands |Business Analyst          |STD       |  21982|USD      |
+|419 |Netherlands |Data Analyst              |MAX       | 182601|USD      |
+|420 |Netherlands |Data Analyst              |MEAN      | 101226|USD      |
+|421 |Netherlands |Data Analyst              |MEDIAN    |  96667|USD      |
+|422 |Netherlands |Data Analyst              |MIN       |  54604|USD      |
+|423 |Netherlands |Data Analyst              |STD       |  34295|USD      |
+|424 |Netherlands |Data Engineer             |MAX       | 180250|USD      |
+|425 |Netherlands |Data Engineer             |MEAN      | 110828|USD      |
+|426 |Netherlands |Data Engineer             |MEDIAN    | 100367|USD      |
+|427 |Netherlands |Data Engineer             |MIN       |  91773|USD      |
+|428 |Netherlands |Data Engineer             |STD       |  25754|USD      |
+|429 |Netherlands |Data Scientist            |MAX       | 175692|USD      |
+|430 |Netherlands |Data Scientist            |MEAN      | 139444|USD      |
+|431 |Netherlands |Data Scientist            |MEDIAN    | 162225|USD      |
+|432 |Netherlands |Data Scientist            |MIN       |  91773|USD      |
+|433 |Netherlands |Data Scientist            |STD       |  32089|USD      |
+|434 |Netherlands |Machine Learning Engineer |MAX       | 231750|USD      |
+|435 |Netherlands |Machine Learning Engineer |MEAN      | 130333|USD      |
+|436 |Netherlands |Machine Learning Engineer |MEDIAN    | 126484|USD      |
+|437 |Netherlands |Machine Learning Engineer |MIN       |  71070|USD      |
+|438 |Netherlands |Machine Learning Engineer |STD       |  54568|USD      |
+|439 |Netherlands |Senior Data Analyst       |MAX       | 114510|USD      |
+|440 |Netherlands |Senior Data Analyst       |MEAN      | 114510|USD      |
+|441 |Netherlands |Senior Data Analyst       |MEDIAN    | 114510|USD      |
+|442 |Netherlands |Senior Data Analyst       |MIN       | 114510|USD      |
+|443 |Netherlands |Senior Data Engineer      |MAX       | 160165|USD      |
+|444 |Netherlands |Senior Data Engineer      |MEAN      | 141542|USD      |
+|445 |Netherlands |Senior Data Engineer      |MEDIAN    | 151925|USD      |
+|446 |Netherlands |Senior Data Engineer      |MIN       |  91773|USD      |
+|447 |Netherlands |Senior Data Engineer      |STD       |  28049|USD      |
+|448 |Netherlands |Senior Data Scientist     |MAX       | 162225|USD      |
+|449 |Netherlands |Senior Data Scientist     |MEAN      | 129745|USD      |
+|450 |Netherlands |Senior Data Scientist     |MEDIAN    | 151925|USD      |
+|451 |Netherlands |Senior Data Scientist     |MIN       |  75087|USD      |
+|452 |Netherlands |Senior Data Scientist     |STD       |  47615|USD      |
+|453 |Netherlands |Software Engineer         |MAX       | 191065|USD      |
+|454 |Netherlands |Software Engineer         |MEAN      | 113746|USD      |
+|455 |Netherlands |Software Engineer         |MEDIAN    |  91773|USD      |
+|456 |Netherlands |Software Engineer         |MIN       |  58401|USD      |
+|457 |Netherlands |Software Engineer         |STD       |  69007|USD      |
+|458 |Poland      |Business Analyst          |MAX       | 158105|USD      |
+|459 |Poland      |Business Analyst          |MEAN      |  90131|USD      |
+|460 |Poland      |Business Analyst          |MEDIAN    |  89661|USD      |
+|461 |Poland      |Business Analyst          |MIN       |  58401|USD      |
+|462 |Poland      |Business Analyst          |STD       |  30928|USD      |
+|463 |Poland      |Cloud Engineer            |MAX       | 227630|USD      |
+|464 |Poland      |Cloud Engineer            |MEAN      | 104373|USD      |
+|465 |Poland      |Cloud Engineer            |MEDIAN    |  86674|USD      |
+|466 |Poland      |Cloud Engineer            |MIN       |  58401|USD      |
+|467 |Poland      |Cloud Engineer            |STD       |  61645|USD      |
+|468 |Poland      |Data Analyst              |MAX       | 169950|USD      |
+|469 |Poland      |Data Analyst              |MEAN      |  90130|USD      |
+|470 |Poland      |Data Analyst              |MEDIAN    |  91773|USD      |
+|471 |Poland      |Data Analyst              |MIN       |  44496|USD      |
+|472 |Poland      |Data Analyst              |STD       |  30773|USD      |
+|473 |Poland      |Data Engineer             |MAX       | 169435|USD      |
+|474 |Poland      |Data Engineer             |MEAN      | 121340|USD      |
+|475 |Poland      |Data Engineer             |MEDIAN    | 137505|USD      |
+|476 |Poland      |Data Engineer             |MIN       |  46350|USD      |
+|477 |Poland      |Data Engineer             |STD       |  40993|USD      |
+|478 |Poland      |Data Scientist            |MAX       | 192535|USD      |
+|479 |Poland      |Data Scientist            |MEAN      | 124071|USD      |
+|480 |Poland      |Data Scientist            |MEDIAN    | 135823|USD      |
+|481 |Poland      |Data Scientist            |MIN       |  44496|USD      |
+|482 |Poland      |Data Scientist            |STD       |  40280|USD      |
+|483 |Poland      |Machine Learning Engineer |MAX       | 191580|USD      |
+|484 |Poland      |Machine Learning Engineer |MEAN      | 115062|USD      |
+|485 |Poland      |Machine Learning Engineer |MEDIAN    |  91773|USD      |
+|486 |Poland      |Machine Learning Engineer |MIN       |  58401|USD      |
+|487 |Poland      |Machine Learning Engineer |STD       |  38974|USD      |
+|488 |Poland      |Senior Data Analyst       |MAX       | 122982|USD      |
+|489 |Poland      |Senior Data Analyst       |MEAN      | 110944|USD      |
+|490 |Poland      |Senior Data Analyst       |MEDIAN    | 114510|USD      |
+|491 |Poland      |Senior Data Analyst       |MIN       |  88992|USD      |
+|492 |Poland      |Senior Data Analyst       |STD       |  12168|USD      |
+|493 |Poland      |Senior Data Engineer      |MAX       | 151925|USD      |
+|494 |Poland      |Senior Data Engineer      |MEAN      | 102298|USD      |
+|495 |Poland      |Senior Data Engineer      |MEDIAN    |  91773|USD      |
+|496 |Poland      |Senior Data Engineer      |MIN       |  46350|USD      |
+|497 |Poland      |Senior Data Engineer      |STD       |  41914|USD      |
+|498 |Poland      |Senior Data Scientist     |MAX       | 162225|USD      |
+|499 |Poland      |Senior Data Scientist     |MEAN      | 136524|USD      |
+|500 |Poland      |Senior Data Scientist     |MEDIAN    | 162225|USD      |
+|501 |Poland      |Senior Data Scientist     |MIN       |  90771|USD      |
+|502 |Poland      |Senior Data Scientist     |STD       |  33703|USD      |
+|503 |Poland      |Software Engineer         |MAX       | 161195|USD      |
+|504 |Poland      |Software Engineer         |MEAN      |  94958|USD      |
+|505 |Poland      |Software Engineer         |MEDIAN    |  91773|USD      |
+|506 |Poland      |Software Engineer         |MIN       |  67742|USD      |
+|507 |Poland      |Software Engineer         |STD       |  22541|USD      |
+|508 |Portugal    |Business Analyst          |MAX       |  83275|USD      |
+|509 |Portugal    |Business Analyst          |MEAN      |  72254|USD      |
+|510 |Portugal    |Business Analyst          |MEDIAN    |  75087|USD      |
+|511 |Portugal    |Business Analyst          |MIN       |  58401|USD      |
+|512 |Portugal    |Business Analyst          |STD       |  12676|USD      |
+|513 |Portugal    |Data Analyst              |MAX       | 169950|USD      |
+|514 |Portugal    |Data Analyst              |MEAN      |  96831|USD      |
+|515 |Portugal    |Data Analyst              |MEDIAN    |  91773|USD      |
+|516 |Portugal    |Data Analyst              |MIN       |  52544|USD      |
+|517 |Portugal    |Data Analyst              |STD       |  31436|USD      |
+|518 |Portugal    |Data Engineer             |MAX       | 158105|USD      |
+|519 |Portugal    |Data Engineer             |MEAN      | 125328|USD      |
+|520 |Portugal    |Data Engineer             |MEDIAN    | 129563|USD      |
+|521 |Portugal    |Data Engineer             |MIN       |  83275|USD      |
+|522 |Portugal    |Data Engineer             |STD       |  27454|USD      |
+|523 |Portugal    |Data Scientist            |MAX       | 171412|USD      |
+|524 |Portugal    |Data Scientist            |MEAN      | 136835|USD      |
+|525 |Portugal    |Data Scientist            |MEDIAN    | 157075|USD      |
+|526 |Portugal    |Data Scientist            |MIN       |  72061|USD      |
+|527 |Portugal    |Data Scientist            |STD       |  34230|USD      |
+|528 |Portugal    |Machine Learning Engineer |MAX       | 195185|USD      |
+|529 |Portugal    |Machine Learning Engineer |MEAN      | 145196|USD      |
+|530 |Portugal    |Machine Learning Engineer |MEDIAN    | 170980|USD      |
+|531 |Portugal    |Machine Learning Engineer |MIN       |  75087|USD      |
+|532 |Portugal    |Machine Learning Engineer |STD       |  46622|USD      |
+|533 |Portugal    |Senior Data Analyst       |MAX       | 114538|USD      |
+|534 |Portugal    |Senior Data Analyst       |MEAN      | 114517|USD      |
+|535 |Portugal    |Senior Data Analyst       |MEDIAN    | 114510|USD      |
+|536 |Portugal    |Senior Data Analyst       |MIN       | 114510|USD      |
+|537 |Portugal    |Senior Data Analyst       |STD       |     13|USD      |
+|538 |Portugal    |Senior Data Engineer      |MAX       | 159650|USD      |
+|539 |Portugal    |Senior Data Engineer      |MEAN      | 122734|USD      |
+|540 |Portugal    |Senior Data Engineer      |MEDIAN    | 151925|USD      |
+|541 |Portugal    |Senior Data Engineer      |MIN       |  58401|USD      |
+|542 |Portugal    |Senior Data Engineer      |STD       |  45178|USD      |
+|543 |Portugal    |Senior Data Scientist     |MAX       | 162225|USD      |
+|544 |Portugal    |Senior Data Scientist     |MEAN      | 129937|USD      |
+|545 |Portugal    |Senior Data Scientist     |MEDIAN    | 151925|USD      |
+|546 |Portugal    |Senior Data Scientist     |MIN       |  58401|USD      |
+|547 |Portugal    |Senior Data Scientist     |STD       |  39096|USD      |
+|548 |Portugal    |Software Engineer         |MAX       | 164800|USD      |
+|549 |Portugal    |Software Engineer         |MEAN      | 121478|USD      |
+|550 |Portugal    |Software Engineer         |MEDIAN    |  97850|USD      |
+|551 |Portugal    |Software Engineer         |MIN       |  91773|USD      |
+|552 |Portugal    |Software Engineer         |STD       |  38004|USD      |
+|553 |Romania     |Business Analyst          |MAX       |  83275|USD      |
+|554 |Romania     |Business Analyst          |MEAN      |  83275|USD      |
+|555 |Romania     |Business Analyst          |MEDIAN    |  83275|USD      |
+|556 |Romania     |Business Analyst          |MIN       |  83275|USD      |
+|557 |Romania     |Cloud Engineer            |MAX       |  58401|USD      |
+|558 |Romania     |Cloud Engineer            |MEAN      |  58401|USD      |
+|559 |Romania     |Cloud Engineer            |MEDIAN    |  58401|USD      |
+|560 |Romania     |Cloud Engineer            |MIN       |  58401|USD      |
+|561 |Romania     |Data Analyst              |MAX       | 112393|USD      |
+|562 |Romania     |Data Analyst              |MEAN      |  76552|USD      |
+|563 |Romania     |Data Analyst              |MEDIAN    |  75087|USD      |
+|564 |Romania     |Data Analyst              |MIN       |  44496|USD      |
+|565 |Romania     |Data Analyst              |STD       |  25376|USD      |
+|566 |Romania     |Data Engineer             |MAX       | 151925|USD      |
+|567 |Romania     |Data Engineer             |MEAN      | 106303|USD      |
+|568 |Romania     |Data Engineer             |MEDIAN    | 100799|USD      |
+|569 |Romania     |Data Engineer             |MIN       |  46350|USD      |
+|570 |Romania     |Data Engineer             |STD       |  36884|USD      |
+|571 |Romania     |Data Scientist            |MAX       | 151925|USD      |
+|572 |Romania     |Data Scientist            |MEAN      | 112843|USD      |
+|573 |Romania     |Data Scientist            |MEDIAN    | 124630|USD      |
+|574 |Romania     |Data Scientist            |MIN       |  58401|USD      |
+|575 |Romania     |Data Scientist            |STD       |  37560|USD      |
+|576 |Romania     |Machine Learning Engineer |MAX       | 170980|USD      |
+|577 |Romania     |Machine Learning Engineer |MEAN      | 144577|USD      |
+|578 |Romania     |Machine Learning Engineer |MEDIAN    | 170980|USD      |
+|579 |Romania     |Machine Learning Engineer |MIN       |  91773|USD      |
+|580 |Romania     |Machine Learning Engineer |STD       |  45730|USD      |
+|581 |Romania     |Senior Data Analyst       |MAX       | 200335|USD      |
+|582 |Romania     |Senior Data Analyst       |MEAN      | 129586|USD      |
+|583 |Romania     |Senior Data Analyst       |MEDIAN    | 114510|USD      |
+|584 |Romania     |Senior Data Analyst       |MIN       |  88992|USD      |
+|585 |Romania     |Senior Data Analyst       |STD       |  48675|USD      |
+|586 |Romania     |Senior Data Engineer      |MAX       | 151925|USD      |
+|587 |Romania     |Senior Data Engineer      |MEAN      | 121849|USD      |
+|588 |Romania     |Senior Data Engineer      |MEDIAN    | 121849|USD      |
+|589 |Romania     |Senior Data Engineer      |MIN       |  91773|USD      |
+|590 |Romania     |Senior Data Engineer      |STD       |  42533|USD      |
+|591 |Romania     |Software Engineer         |MAX       | 200335|USD      |
+|592 |Romania     |Software Engineer         |MEAN      | 133539|USD      |
+|593 |Romania     |Software Engineer         |MEDIAN    | 144663|USD      |
+|594 |Romania     |Software Engineer         |MIN       |  44496|USD      |
+|595 |Romania     |Software Engineer         |STD       |  79239|USD      |
+|596 |Spain       |Business Analyst          |MAX       | 190550|USD      |
+|597 |Spain       |Business Analyst          |MEAN      | 114103|USD      |
+|598 |Spain       |Business Analyst          |MEDIAN    |  88992|USD      |
+|599 |Spain       |Business Analyst          |MIN       |  64890|USD      |
+|600 |Spain       |Business Analyst          |STD       |  58172|USD      |
+|601 |Spain       |Cloud Engineer            |MAX       | 129010|USD      |
+|602 |Spain       |Cloud Engineer            |MEAN      |  93061|USD      |
+|603 |Spain       |Cloud Engineer            |MEDIAN    |  91773|USD      |
+|604 |Spain       |Cloud Engineer            |MIN       |  58401|USD      |
+|605 |Spain       |Cloud Engineer            |STD       |  35322|USD      |
+|606 |Spain       |Data Analyst              |MAX       | 159650|USD      |
+|607 |Spain       |Data Analyst              |MEAN      |  94422|USD      |
+|608 |Spain       |Data Analyst              |MEDIAN    |  94736|USD      |
+|609 |Spain       |Data Analyst              |MIN       |  52544|USD      |
+|610 |Spain       |Data Analyst              |STD       |  24423|USD      |
+|611 |Spain       |Data Engineer             |MAX       | 169950|USD      |
+|612 |Spain       |Data Engineer             |MEAN      | 120279|USD      |
+|613 |Spain       |Data Engineer             |MEDIAN    | 136990|USD      |
+|614 |Spain       |Data Engineer             |MIN       |  58195|USD      |
+|615 |Spain       |Data Engineer             |STD       |  35158|USD      |
+|616 |Spain       |Data Scientist            |MAX       | 169950|USD      |
+|617 |Spain       |Data Scientist            |MEAN      |  95965|USD      |
+|618 |Spain       |Data Scientist            |MEDIAN    |  90771|USD      |
+|619 |Spain       |Data Scientist            |MIN       |  58401|USD      |
+|620 |Spain       |Data Scientist            |STD       |  32956|USD      |
+|621 |Spain       |Machine Learning Engineer |MAX       | 231750|USD      |
+|622 |Spain       |Machine Learning Engineer |MEAN      | 116342|USD      |
+|623 |Spain       |Machine Learning Engineer |MEDIAN    | 104059|USD      |
+|624 |Spain       |Machine Learning Engineer |MIN       |  44496|USD      |
+|625 |Spain       |Machine Learning Engineer |STD       |  51591|USD      |
+|626 |Spain       |Senior Data Analyst       |MAX       | 114510|USD      |
+|627 |Spain       |Senior Data Analyst       |MEAN      | 110762|USD      |
+|628 |Spain       |Senior Data Analyst       |MEDIAN    | 114510|USD      |
+|629 |Spain       |Senior Data Analyst       |MIN       |  91773|USD      |
+|630 |Spain       |Senior Data Analyst       |STD       |   7995|USD      |
+|631 |Spain       |Senior Data Engineer      |MAX       | 181795|USD      |
+|632 |Spain       |Senior Data Engineer      |MEAN      | 127250|USD      |
+|633 |Spain       |Senior Data Engineer      |MEDIAN    | 151925|USD      |
+|634 |Spain       |Senior Data Engineer      |MIN       |  75087|USD      |
+|635 |Spain       |Senior Data Engineer      |STD       |  36835|USD      |
+|636 |Spain       |Senior Data Scientist     |MAX       | 217819|USD      |
+|637 |Spain       |Senior Data Scientist     |MEAN      | 143030|USD      |
+|638 |Spain       |Senior Data Scientist     |MEDIAN    | 162225|USD      |
+|639 |Spain       |Senior Data Scientist     |MIN       |  46350|USD      |
+|640 |Spain       |Senior Data Scientist     |STD       |  60255|USD      |
+|641 |Spain       |Software Engineer         |MAX       | 211150|USD      |
+|642 |Spain       |Software Engineer         |MEAN      | 106553|USD      |
+|643 |Spain       |Software Engineer         |MEDIAN    |  79361|USD      |
+|644 |Spain       |Software Engineer         |MIN       |  58401|USD      |
+|645 |Spain       |Software Engineer         |STD       |  58647|USD      |
+|646 |Sweden      |Business Analyst          |MAX       | 127205|USD      |
+|647 |Sweden      |Business Analyst          |MEAN      |  85843|USD      |
+|648 |Sweden      |Business Analyst          |MEDIAN    |  91773|USD      |
+|649 |Sweden      |Business Analyst          |MIN       |  44496|USD      |
+|650 |Sweden      |Business Analyst          |STD       |  25738|USD      |
+|651 |Sweden      |Data Analyst              |MAX       | 121684|USD      |
+|652 |Sweden      |Data Analyst              |MEAN      | 100933|USD      |
+|653 |Sweden      |Data Analyst              |MEDIAN    | 108819|USD      |
+|654 |Sweden      |Data Analyst              |MIN       |  46350|USD      |
+|655 |Sweden      |Data Analyst              |STD       |  22869|USD      |
+|656 |Sweden      |Data Engineer             |MAX       | 256470|USD      |
+|657 |Sweden      |Data Engineer             |MEAN      | 136364|USD      |
+|658 |Sweden      |Data Engineer             |MEDIAN    | 137886|USD      |
+|659 |Sweden      |Data Engineer             |MIN       |  61800|USD      |
+|660 |Sweden      |Data Engineer             |STD       |  58181|USD      |
+|661 |Sweden      |Data Scientist            |MAX       | 162225|USD      |
+|662 |Sweden      |Data Scientist            |MEAN      | 137456|USD      |
+|663 |Sweden      |Data Scientist            |MEDIAN    | 162225|USD      |
+|664 |Sweden      |Data Scientist            |MIN       |  83430|USD      |
+|665 |Sweden      |Data Scientist            |STD       |  34917|USD      |
+|666 |Sweden      |Machine Learning Engineer |MAX       | 170980|USD      |
+|667 |Sweden      |Machine Learning Engineer |MEAN      | 133161|USD      |
+|668 |Sweden      |Machine Learning Engineer |MEDIAN    | 145230|USD      |
+|669 |Sweden      |Machine Learning Engineer |MIN       |  83275|USD      |
+|670 |Sweden      |Machine Learning Engineer |STD       |  45080|USD      |
+|671 |Sweden      |Senior Data Analyst       |MAX       | 114510|USD      |
+|672 |Sweden      |Senior Data Analyst       |MEAN      |  93357|USD      |
+|673 |Sweden      |Senior Data Analyst       |MEDIAN    | 114510|USD      |
+|674 |Sweden      |Senior Data Analyst       |MIN       |  51053|USD      |
+|675 |Sweden      |Senior Data Analyst       |STD       |  36636|USD      |
+|676 |Sweden      |Senior Data Engineer      |MAX       | 151925|USD      |
+|677 |Sweden      |Senior Data Engineer      |MEAN      | 151925|USD      |
+|678 |Sweden      |Senior Data Engineer      |MEDIAN    | 151925|USD      |
+|679 |Sweden      |Senior Data Engineer      |MIN       | 151925|USD      |
+|680 |Sweden      |Senior Data Engineer      |STD       |      0|USD      |
+|681 |Sweden      |Senior Data Scientist     |MAX       | 197760|USD      |
+|682 |Sweden      |Senior Data Scientist     |MEAN      | 175100|USD      |
+|683 |Sweden      |Senior Data Scientist     |MEDIAN    | 175615|USD      |
+|684 |Sweden      |Senior Data Scientist     |MIN       | 151925|USD      |
+|685 |Sweden      |Senior Data Scientist     |STD       |  22921|USD      |
+|686 |Sweden      |Software Engineer         |MAX       | 161195|USD      |
+|687 |Sweden      |Software Engineer         |MEAN      | 161195|USD      |
+|688 |Sweden      |Software Engineer         |MEDIAN    | 161195|USD      |
+|689 |Sweden      |Software Engineer         |MIN       | 161195|USD      |
+##------ Thu Dec  5 17:17:18 2024 ------##
+[1] "Europe/Paris"
+[1] "YoJoseParra"

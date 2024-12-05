@@ -27,10 +27,6 @@ a = read.csv('data/Data_Jobs.csv')
 
 
 
-```
-
-
-```{python, echo=FALSE}
 
 a = r.a
 import pandas as pd
@@ -46,14 +42,5 @@ c=a.pivot_table(values='Salary', columns='Job', index='Country', aggfunc='min')
 
 ```
 
-____________________________________________________________
 
-```{r, echo=FALSE}
-c = py$c
-kable(c)
-
-path = "C:\\Users\\USUARIO\\Documents\\project\\Mieloma\\out\\metadata.txt"
-```
-
-____________________________________________________________
 

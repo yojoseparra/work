@@ -41,7 +41,7 @@ titlecd = toString(z[3,1])
 title = toString(z[3,2])
 docname = paste0(titlecd,'.docx')
 
-sink(file = paste0(titlecd, '.txt' ))
+
 footnote_jose= toString(z[3,3])
 use_df_printer()
 a = read.csv("data/EDA1_Bargraphs_3.2.csv")
@@ -55,8 +55,6 @@ b
   add_header_lines(paste(titlecd, title) )%>% 
    line_spacing( space = 0.7, part = "all")
 
-sink()
- 
  
   
 ```

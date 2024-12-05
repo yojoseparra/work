@@ -1,0 +1,49 @@
+##################################################################################################################
+##HERE THE RMD DOC STARTS. Unquote to make a markdown file after code completion #################################
+# ---
+# author: "Jose Parra"
+# date: ""
+# output:
+#   pdf_document: default
+# word_document:
+#   reference_docx: doc_styles_vert.docx
+# ---
+#
+# ```{r, message=FALSE, warning=FALSE, echo=FALSE}
+library(officer)
+#library(ggplot2)
+library(crosstable)
+library(readxl)
+library(flextable)
+library(officer)
+library(dplyr)
+library(knitr)
+use_df_printer()
+set_flextable_defaults(
+border.color = "#AAAAAA", font.family = "Arial",
+font.size = 6, padding = 2,
+line_spacing=0.7,
+text.align='center',
+table.layout = 'autofit'
+)
+i = 8
+z <- read_excel("data/titles.xls")
+titlecd = toString(z[i,1])
+title = toString(z[i,2])
+docname = paste0(titlecd,'.docx')
+footnote_jose= toString(z[i,3])
+use_df_printer()
+a = read.csv("data/LDESC06.csv")
+flextable(a)%>%
+add_footer_lines( paste('Note:',footnote_jose) )%>%
+add_header_lines(paste('Complete Cases Set') )%>%
+add_header_lines(paste(titlecd, title) )%>%
+line_spacing( space = 0.7, part = "all")
+#```
+################################ HERE THE RMD DOC ENDS                 ##########################################
+################################ This is done to have an output in txt ##########################################
+options(max.print=1000000)
+#getwd()
+sink(file = paste0('out/', titlecd, '.log' ) , append = TRUE)
+kable(a)
+savehistory(file = paste0('out/', titlecd, '_verbose.log' ) )

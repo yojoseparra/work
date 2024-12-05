@@ -1,0 +1,288 @@
+
+
+|Skills       | T6_9| T9_12| T12_15| T15_18| T18_21| T21_24| T24_27|Job                       |
+|:------------|----:|-----:|------:|------:|------:|------:|------:|:-------------------------|
+|sql          |    9|    78|     27|     71|      1|     NA|     NA|Data Engineer             |
+|python       |    7|    88|     21|     68|      1|      1|      1|Data Engineer             |
+|aws          |    3|    55|     21|     39|     NA|     NA|      1|Data Engineer             |
+|python       |   26|    34|     21|     58|      7|     NA|     NA|Data Scientist            |
+|spark        |    6|    50|     19|     57|     NA|      3|      2|Data Engineer             |
+|airflow      |    1|    19|     14|     24|      1|     NA|      1|Data Engineer             |
+|sql          |   17|    27|     12|     40|      6|     NA|     NA|Data Scientist            |
+|azure        |    5|    46|     11|     26|      1|     NA|      1|Data Engineer             |
+|git          |    2|    25|      9|      8|     NA|     NA|     NA|Data Engineer             |
+|snowflake    |   NA|     9|      9|     15|     NA|     NA|      1|Data Engineer             |
+|bigquery     |   NA|     8|      9|     12|     NA|     NA|     NA|Data Engineer             |
+|scala        |    1|    27|      8|     24|     NA|     NA|     NA|Data Engineer             |
+|gcp          |    3|    23|      8|     17|     NA|     NA|     NA|Data Engineer             |
+|docker       |    2|    23|      8|     12|     NA|     NA|     NA|Data Engineer             |
+|kubernetes   |    1|    18|      7|      7|      1|     NA|      1|Data Engineer             |
+|pyspark      |   NA|     8|      7|      9|      1|     NA|     NA|Data Engineer             |
+|azure        |    6|     5|      7|     14|      1|     NA|     NA|Data Scientist            |
+|aws          |    4|     3|      6|     17|      3|     NA|     NA|Data Scientist            |
+|sql          |   28|    98|      5|     12|     NA|     NA|     NA|Data Analyst              |
+|java         |    3|    35|      5|     31|     NA|     NA|     NA|Data Engineer             |
+|hadoop       |    3|    19|      5|     19|     NA|     NA|      1|Data Engineer             |
+|tableau      |    6|     8|      5|     18|      2|     NA|     NA|Data Scientist            |
+|spark        |    6|     6|      5|     20|      2|     NA|     NA|Data Scientist            |
+|pandas       |    6|     1|      5|     12|      1|     NA|     NA|Data Scientist            |
+|databricks   |   NA|    24|      4|     10|      1|     NA|     NA|Data Engineer             |
+|tableau      |    4|     8|      4|     12|     NA|     NA|     NA|Data Engineer             |
+|oracle       |   NA|     8|      4|      7|     NA|     NA|     NA|Data Engineer             |
+|go           |    1|     6|      4|      7|     NA|     NA|      1|Data Engineer             |
+|scikit-learn |    5|     5|      4|     10|      1|     NA|     NA|Data Scientist            |
+|gcp          |    1|     1|      4|      4|      1|     NA|     NA|Data Scientist            |
+|python       |   20|    70|      3|     11|     NA|      2|     NA|Data Analyst              |
+|kafka        |    3|    25|      3|     27|     NA|     NA|     NA|Data Engineer             |
+|looker       |    2|    20|      3|      1|     NA|     NA|     NA|Data Analyst              |
+|tableau      |   NA|    18|      3|     NA|     NA|     NA|     NA|Senior Data Analyst       |
+|terraform    |    3|    12|      3|     16|     NA|     NA|     NA|Data Engineer             |
+|mysql        |   NA|     6|      3|      8|     NA|     NA|     NA|Data Engineer             |
+|jira         |   NA|     4|      3|      4|     NA|     NA|     NA|Data Engineer             |
+|numpy        |    3|     2|      3|      8|      1|     NA|     NA|Data Scientist            |
+|databricks   |    3|     2|      3|      3|      1|     NA|     NA|Data Scientist            |
+|docker       |    2|     2|      3|      7|     NA|     NA|     NA|Data Scientist            |
+|pandas       |   NA|     2|      3|     NA|     NA|     NA|     NA|Data Engineer             |
+|postgresql   |   NA|    11|      2|      8|     NA|     NA|     NA|Data Engineer             |
+|python       |    6|    10|      2|      5|     NA|      3|     NA|Software Engineer         |
+|redshift     |    1|    10|      2|     10|     NA|     NA|     NA|Data Engineer             |
+|go           |   NA|     8|      2|     NA|     NA|     NA|     NA|Senior Data Analyst       |
+|tensorflow   |    7|     6|      2|     13|      1|     NA|     NA|Data Scientist            |
+|looker       |   NA|     6|      2|      4|     NA|     NA|     NA|Data Engineer             |
+|bigquery     |   NA|     6|      2|      2|     NA|     NA|     NA|Data Analyst              |
+|pytorch      |    7|     5|      2|     10|      1|     NA|     NA|Data Scientist            |
+|looker       |    2|     4|      2|      6|     NA|     NA|     NA|Data Scientist            |
+|go           |    1|     4|      2|      5|     NA|     NA|     NA|Data Scientist            |
+|git          |    5|     3|      2|      8|      2|     NA|     NA|Data Scientist            |
+|hadoop       |    1|     3|      2|     11|      1|     NA|     NA|Data Scientist            |
+|java         |    4|     2|      2|      4|      2|     NA|     NA|Data Scientist            |
+|snowflake    |    3|     2|      2|      6|      1|     NA|     NA|Data Scientist            |
+|scala        |    4|     2|      2|      4|     NA|     NA|     NA|Data Scientist            |
+|bigquery     |    2|     1|      2|      2|      1|     NA|     NA|Data Scientist            |
+|airflow      |    2|     1|      2|      7|     NA|     NA|     NA|Data Scientist            |
+|kubernetes   |    1|     1|      2|      6|     NA|     NA|     NA|Data Scientist            |
+|tableau      |   15|    55|      1|      3|     NA|     NA|     NA|Data Analyst              |
+|python       |   14|    42|      1|     41|     10|      1|      3|Machine Learning Engineer |
+|sql          |   NA|    38|      1|      1|     NA|     NA|     NA|Senior Data Analyst       |
+|aws          |    8|    20|      1|     18|      2|      1|      2|Machine Learning Engineer |
+|python       |   NA|    18|      1|      1|     NA|      1|     NA|Senior Data Analyst       |
+|tensorflow   |    7|    16|      1|     16|      6|     NA|     NA|Machine Learning Engineer |
+|azure        |    6|    12|      1|      7|      1|     NA|      1|Machine Learning Engineer |
+|scikit-learn |    2|    11|      1|      3|      3|     NA|     NA|Machine Learning Engineer |
+|python       |    4|    10|      1|     38|      3|     NA|      1|Senior Data Scientist     |
+|kubernetes   |    6|    10|      1|     10|      3|     NA|     NA|Machine Learning Engineer |
+|sql          |    3|     6|      1|     35|      2|     NA|     NA|Senior Data Scientist     |
+|go           |    2|     6|      1|      2|     NA|     NA|     NA|Data Analyst              |
+|snowflake    |   NA|     6|      1|     NA|     NA|     NA|     NA|Senior Data Analyst       |
+|bigquery     |   NA|     6|      1|     NA|     NA|     NA|     NA|Senior Data Analyst       |
+|java         |    5|     5|      1|      1|     NA|      1|     NA|Software Engineer         |
+|azure        |   NA|     5|      1|     NA|     NA|      1|     NA|Cloud Engineer            |
+|sql          |    3|     4|      1|      4|     NA|      3|     NA|Software Engineer         |
+|hadoop       |    4|     4|      1|      1|      1|     NA|     NA|Data Analyst              |
+|gcp          |    2|     4|      1|      5|      1|     NA|     NA|Machine Learning Engineer |
+|aws          |    1|     3|      1|     NA|     NA|      1|     NA|Cloud Engineer            |
+|go           |   NA|     3|      1|     NA|     NA|     NA|     NA|Business Analyst          |
+|postgresql   |   NA|     2|      1|      2|     NA|     NA|     NA|Data Scientist            |
+|redshift     |   NA|     2|      1|     NA|     NA|     NA|     NA|Senior Data Analyst       |
+|jira         |   NA|     1|      1|      2|     NA|      1|     NA|Software Engineer         |
+|oracle       |   NA|     1|      1|     NA|     NA|     NA|     NA|Senior Data Analyst       |
+|kubernetes   |    1|     1|      1|     NA|     NA|     NA|     NA|Cloud Engineer            |
+|docker       |    1|     1|      1|     NA|     NA|     NA|     NA|Cloud Engineer            |
+|numpy        |   NA|    NA|      1|     NA|     NA|     NA|     NA|Data Engineer             |
+|mysql        |   NA|    NA|      1|     NA|     NA|     NA|     NA|Senior Data Analyst       |
+|pytorch      |    7|    19|     NA|     14|      5|     NA|     NA|Machine Learning Engineer |
+|spark        |    4|    18|     NA|      8|      7|     NA|      1|Machine Learning Engineer |
+|spark        |    6|    16|     NA|      5|      1|      3|     NA|Data Analyst              |
+|azure        |    5|    16|     NA|     13|      1|     NA|     NA|Data Analyst              |
+|looker       |   NA|    16|     NA|     NA|     NA|     NA|     NA|Senior Data Analyst       |
+|aws          |   NA|    15|     NA|     31|      1|     NA|     NA|Senior Data Engineer      |
+|docker       |    5|    14|     NA|     13|      1|     NA|     NA|Machine Learning Engineer |
+|sql          |    9|    12|     NA|      1|      1|     NA|     NA|Business Analyst          |
+|python       |    1|    12|     NA|     41|      1|     NA|     NA|Senior Data Engineer      |
+|sql          |    2|    10|     NA|     39|     NA|     NA|     NA|Senior Data Engineer      |
+|git          |    1|     9|     NA|      5|      1|     NA|     NA|Machine Learning Engineer |
+|spark        |   NA|     9|     NA|     26|     NA|     NA|     NA|Senior Data Engineer      |
+|airflow      |    2|     9|     NA|      2|     NA|     NA|     NA|Data Analyst              |
+|tableau      |    5|     9|     NA|      1|     NA|     NA|     NA|Business Analyst          |
+|pandas       |    2|     9|     NA|     NA|     NA|     NA|     NA|Data Analyst              |
+|airflow      |    2|     8|     NA|      4|      2|     NA|      1|Machine Learning Engineer |
+|git          |    3|     8|     NA|      1|     NA|      1|     NA|Data Analyst              |
+|snowflake    |   NA|     8|     NA|     18|     NA|     NA|     NA|Senior Data Engineer      |
+|java         |    1|     8|     NA|     10|     NA|     NA|     NA|Senior Data Engineer      |
+|kubernetes   |   NA|     8|     NA|      8|     NA|     NA|     NA|Senior Data Engineer      |
+|gcp          |    3|     8|     NA|      6|     NA|     NA|     NA|Data Analyst              |
+|snowflake    |    2|     8|     NA|      4|     NA|     NA|     NA|Data Analyst              |
+|databricks   |    3|     8|     NA|      4|     NA|     NA|     NA|Data Analyst              |
+|python       |    2|     7|     NA|     NA|     NA|      1|     NA|Cloud Engineer            |
+|python       |    4|     7|     NA|      1|      1|     NA|     NA|Business Analyst          |
+|azure        |   NA|     7|     NA|     25|      1|     NA|     NA|Senior Data Engineer      |
+|aws          |    4|     7|     NA|      7|      1|     NA|     NA|Data Analyst              |
+|terraform    |   NA|     7|     NA|      6|     NA|     NA|     NA|Senior Data Engineer      |
+|java         |    4|     6|     NA|      7|      1|     NA|      2|Machine Learning Engineer |
+|sql          |    4|     6|     NA|     14|      5|     NA|      1|Machine Learning Engineer |
+|kubernetes   |    4|     6|     NA|     NA|     NA|      1|     NA|Software Engineer         |
+|kafka        |   NA|     6|     NA|     17|     NA|     NA|     NA|Senior Data Engineer      |
+|go           |   NA|     6|     NA|     10|     NA|     NA|     NA|Senior Data Engineer      |
+|docker       |   NA|     6|     NA|      8|     NA|     NA|     NA|Senior Data Engineer      |
+|oracle       |    2|     6|     NA|      5|     NA|     NA|     NA|Data Scientist            |
+|jira         |    1|     6|     NA|      1|     NA|     NA|     NA|Data Analyst              |
+|docker       |    2|     5|     NA|      1|     NA|      2|     NA|Software Engineer         |
+|spark        |    2|     5|     NA|      1|      1|      1|     NA|Software Engineer         |
+|java         |    4|     5|     NA|      2|     NA|      1|     NA|Data Analyst              |
+|pandas       |    2|     5|     NA|      5|      4|     NA|     NA|Machine Learning Engineer |
+|terraform    |    4|     5|     NA|      6|     NA|     NA|     NA|Machine Learning Engineer |
+|numpy        |    1|     5|     NA|     NA|     NA|     NA|     NA|Data Analyst              |
+|scala        |    2|     4|     NA|      5|      1|      1|      1|Machine Learning Engineer |
+|go           |   NA|     4|     NA|      1|      1|      2|     NA|Software Engineer         |
+|azure        |   NA|     4|     NA|      1|     NA|      1|     NA|Senior Data Analyst       |
+|numpy        |   NA|     4|     NA|      5|      3|     NA|     NA|Machine Learning Engineer |
+|pyspark      |    1|     4|     NA|      2|      2|     NA|     NA|Data Scientist            |
+|kafka        |   NA|     4|     NA|      4|      2|     NA|     NA|Machine Learning Engineer |
+|airflow      |   NA|     4|     NA|     24|     NA|     NA|     NA|Senior Data Engineer      |
+|gcp          |   NA|     4|     NA|     14|     NA|     NA|     NA|Senior Data Engineer      |
+|databricks   |   NA|     4|     NA|     11|     NA|     NA|     NA|Senior Data Engineer      |
+|scala        |   NA|     4|     NA|     10|     NA|     NA|     NA|Senior Data Engineer      |
+|go           |    1|     4|     NA|      6|     NA|     NA|     NA|Machine Learning Engineer |
+|azure        |    2|     4|     NA|      3|     NA|     NA|     NA|Software Engineer         |
+|spark        |   NA|     4|     NA|      1|     NA|     NA|     NA|Senior Data Analyst       |
+|scala        |    2|     4|     NA|      1|     NA|     NA|     NA|Software Engineer         |
+|pyspark      |    1|     4|     NA|     NA|     NA|     NA|     NA|Data Analyst              |
+|gcp          |   NA|     4|     NA|     NA|     NA|     NA|     NA|Software Engineer         |
+|spark        |   NA|     3|     NA|     NA|     NA|      2|     NA|Cloud Engineer            |
+|aws          |    4|     3|     NA|      2|     NA|      1|     NA|Software Engineer         |
+|databricks   |    2|     3|     NA|      3|      3|     NA|     NA|Machine Learning Engineer |
+|hadoop       |    1|     3|     NA|     NA|      2|     NA|     NA|Machine Learning Engineer |
+|aws          |    1|     3|     NA|      1|      1|     NA|     NA|Business Analyst          |
+|hadoop       |   NA|     3|     NA|      4|     NA|     NA|     NA|Senior Data Engineer      |
+|oracle       |   NA|     3|     NA|      1|     NA|     NA|     NA|Data Analyst              |
+|kubernetes   |   NA|     3|     NA|      1|     NA|     NA|     NA|Senior Data Scientist     |
+|git          |   NA|     3|     NA|     NA|     NA|     NA|     NA|Senior Data Analyst       |
+|git          |   NA|     3|     NA|     NA|     NA|     NA|     NA|Cloud Engineer            |
+|databricks   |   NA|     3|     NA|     NA|     NA|     NA|     NA|Senior Data Analyst       |
+|airflow      |   NA|     3|     NA|     NA|     NA|     NA|     NA|Senior Data Analyst       |
+|azure        |    2|     2|     NA|      7|     NA|     NA|      1|Senior Data Scientist     |
+|aws          |    2|     2|     NA|     14|     NA|     NA|      1|Senior Data Scientist     |
+|kafka        |    2|     2|     NA|     NA|     NA|      1|     NA|Software Engineer         |
+|hadoop       |    1|     2|     NA|     NA|     NA|      1|     NA|Software Engineer         |
+|gcp          |   NA|     2|     NA|     NA|     NA|      1|     NA|Senior Data Analyst       |
+|databricks   |   NA|     2|     NA|     NA|     NA|      1|     NA|Cloud Engineer            |
+|bigquery     |   NA|     2|     NA|     NA|     NA|      1|     NA|Software Engineer         |
+|aws          |   NA|     2|     NA|      1|     NA|      1|     NA|Senior Data Analyst       |
+|spark        |   NA|     2|     NA|     17|      2|     NA|     NA|Senior Data Scientist     |
+|airflow      |    1|     2|     NA|     15|     NA|     NA|     NA|Senior Data Scientist     |
+|snowflake    |   NA|     2|     NA|     12|     NA|     NA|     NA|Senior Data Scientist     |
+|git          |   NA|     2|     NA|      8|     NA|     NA|     NA|Senior Data Engineer      |
+|tableau      |   NA|     2|     NA|      7|     NA|     NA|     NA|Senior Data Engineer      |
+|looker       |   NA|     2|     NA|      7|     NA|     NA|     NA|Senior Data Engineer      |
+|kafka        |   NA|     2|     NA|      7|     NA|     NA|     NA|Senior Data Scientist     |
+|docker       |   NA|     2|     NA|      6|     NA|     NA|     NA|Senior Data Scientist     |
+|pyspark      |   NA|     2|     NA|      5|     NA|     NA|     NA|Senior Data Scientist     |
+|go           |   NA|     2|     NA|      3|     NA|     NA|     NA|Senior Data Scientist     |
+|docker       |    1|     2|     NA|      2|     NA|     NA|     NA|Data Analyst              |
+|terraform    |   NA|     2|     NA|      1|     NA|     NA|     NA|Software Engineer         |
+|tableau      |   NA|     2|     NA|      1|     NA|     NA|     NA|Machine Learning Engineer |
+|redshift     |   NA|     2|     NA|      1|     NA|     NA|     NA|Business Analyst          |
+|kubernetes   |    1|     2|     NA|      1|     NA|     NA|     NA|Data Analyst              |
+|jira         |   NA|     2|     NA|      1|     NA|     NA|     NA|Machine Learning Engineer |
+|terraform    |   NA|     2|     NA|     NA|     NA|     NA|     NA|Cloud Engineer            |
+|tensorflow   |    1|     2|     NA|     NA|     NA|     NA|     NA|Data Engineer             |
+|spark        |    1|     2|     NA|     NA|     NA|     NA|     NA|Business Analyst          |
+|scikit-learn |    2|     2|     NA|     NA|     NA|     NA|     NA|Data Analyst              |
+|scala        |   NA|     2|     NA|     NA|     NA|     NA|     NA|Cloud Engineer            |
+|oracle       |    2|     2|     NA|     NA|     NA|     NA|     NA|Business Analyst          |
+|kafka        |   NA|     2|     NA|     NA|     NA|     NA|     NA|Business Analyst          |
+|jira         |   NA|     2|     NA|     NA|     NA|     NA|     NA|Senior Data Analyst       |
+|postgresql   |    1|     1|     NA|      2|     NA|     NA|      2|Machine Learning Engineer |
+|pytorch      |    1|     1|     NA|      1|     NA|     NA|      1|Senior Data Scientist     |
+|mysql        |    1|     1|     NA|     NA|     NA|     NA|      1|Machine Learning Engineer |
+|gcp          |    1|     1|     NA|      4|     NA|     NA|      1|Senior Data Scientist     |
+|pytorch      |    1|     1|     NA|     NA|     NA|      2|     NA|Software Engineer         |
+|git          |    1|     1|     NA|     NA|      1|      2|     NA|Software Engineer         |
+|tensorflow   |    1|     1|     NA|     NA|     NA|      1|     NA|Software Engineer         |
+|mysql        |   NA|     1|     NA|     NA|     NA|      1|     NA|Software Engineer         |
+|snowflake    |   NA|     1|     NA|      2|      1|     NA|     NA|Machine Learning Engineer |
+|redshift     |    1|     1|     NA|      3|      1|     NA|     NA|Data Scientist            |
+|pyspark      |   NA|     1|     NA|      2|      1|     NA|     NA|Machine Learning Engineer |
+|jira         |    2|     1|     NA|     NA|      1|     NA|     NA|Data Scientist            |
+|redshift     |   NA|     1|     NA|     12|     NA|     NA|     NA|Senior Data Engineer      |
+|bigquery     |   NA|     1|     NA|     12|     NA|     NA|     NA|Senior Data Engineer      |
+|tableau      |    1|     1|     NA|     11|     NA|     NA|     NA|Senior Data Scientist     |
+|pandas       |   NA|     1|     NA|      7|     NA|     NA|     NA|Senior Data Scientist     |
+|numpy        |   NA|     1|     NA|      5|     NA|     NA|     NA|Senior Data Scientist     |
+|pyspark      |   NA|     1|     NA|      4|     NA|     NA|     NA|Senior Data Engineer      |
+|postgresql   |   NA|     1|     NA|      3|     NA|     NA|     NA|Senior Data Engineer      |
+|java         |   NA|     1|     NA|      3|     NA|     NA|     NA|Senior Data Scientist     |
+|scala        |    4|     1|     NA|      2|     NA|     NA|     NA|Data Analyst              |
+|pytorch      |   NA|     1|     NA|      2|     NA|     NA|     NA|Data Engineer             |
+|kafka        |    2|     1|     NA|      2|     NA|     NA|     NA|Data Analyst              |
+|terraform    |   NA|     1|     NA|      1|     NA|     NA|     NA|Senior Data Scientist     |
+|redshift     |    2|     1|     NA|      1|     NA|     NA|     NA|Data Analyst              |
+|postgresql   |   NA|     1|     NA|      1|     NA|     NA|     NA|Senior Data Scientist     |
+|oracle       |   NA|     1|     NA|      1|     NA|     NA|     NA|Senior Data Scientist     |
+|oracle       |   NA|     1|     NA|      1|     NA|     NA|     NA|Senior Data Engineer      |
+|terraform    |   NA|     1|     NA|     NA|     NA|     NA|     NA|Senior Data Analyst       |
+|sql          |   NA|     1|     NA|     NA|     NA|     NA|     NA|Cloud Engineer            |
+|snowflake    |    2|     1|     NA|     NA|     NA|     NA|     NA|Business Analyst          |
+|scala        |   NA|     1|     NA|     NA|     NA|     NA|     NA|Senior Data Analyst       |
+|scala        |   NA|     1|     NA|     NA|     NA|     NA|     NA|Business Analyst          |
+|pyspark      |   NA|     1|     NA|     NA|     NA|     NA|     NA|Business Analyst          |
+|postgresql   |   NA|     1|     NA|     NA|     NA|     NA|     NA|Business Analyst          |
+|pandas       |   NA|     1|     NA|     NA|     NA|     NA|     NA|Business Analyst          |
+|mysql        |   NA|     1|     NA|     NA|     NA|     NA|     NA|Senior Data Scientist     |
+|mysql        |   NA|     1|     NA|     NA|     NA|     NA|     NA|Data Analyst              |
+|mysql        |   NA|     1|     NA|     NA|     NA|     NA|     NA|Business Analyst          |
+|jira         |    1|     1|     NA|     NA|     NA|     NA|     NA|Business Analyst          |
+|hadoop       |   NA|     1|     NA|     NA|     NA|     NA|     NA|Business Analyst          |
+|go           |   NA|     1|     NA|     NA|     NA|     NA|     NA|Cloud Engineer            |
+|git          |   NA|     1|     NA|     NA|     NA|     NA|     NA|Business Analyst          |
+|docker       |   NA|     1|     NA|     NA|     NA|     NA|     NA|Senior Data Analyst       |
+|docker       |   NA|     1|     NA|     NA|     NA|     NA|     NA|Business Analyst          |
+|azure        |    1|     1|     NA|     NA|     NA|     NA|     NA|Business Analyst          |
+|airflow      |    2|     1|     NA|     NA|     NA|     NA|     NA|Business Analyst          |
+|tensorflow   |    1|    NA|     NA|      3|     NA|     NA|      1|Senior Data Scientist     |
+|pandas       |    1|    NA|     NA|     NA|     NA|      2|     NA|Software Engineer         |
+|looker       |   NA|    NA|     NA|     NA|     NA|      2|     NA|Software Engineer         |
+|tensorflow   |   NA|    NA|     NA|     NA|     NA|      1|     NA|Senior Data Analyst       |
+|tableau      |   NA|    NA|     NA|     NA|     NA|      1|     NA|Software Engineer         |
+|snowflake    |   NA|    NA|     NA|     NA|     NA|      1|     NA|Cloud Engineer            |
+|redshift     |    1|    NA|     NA|     NA|     NA|      1|     NA|Software Engineer         |
+|pytorch      |   NA|    NA|     NA|     NA|     NA|      1|     NA|Senior Data Analyst       |
+|postgresql   |    1|    NA|     NA|     NA|     NA|      1|     NA|Software Engineer         |
+|oracle       |   NA|    NA|     NA|      2|     NA|      1|     NA|Software Engineer         |
+|numpy        |    1|    NA|     NA|     NA|     NA|      1|     NA|Software Engineer         |
+|looker       |    1|    NA|     NA|     NA|     NA|      1|     NA|Cloud Engineer            |
+|terraform    |   NA|    NA|     NA|      1|      1|     NA|     NA|Data Scientist            |
+|tensorflow   |   NA|    NA|     NA|     NA|      1|     NA|     NA|Senior Data Engineer      |
+|redshift     |   NA|    NA|     NA|      1|      1|     NA|     NA|Machine Learning Engineer |
+|pytorch      |   NA|    NA|     NA|     NA|      1|     NA|     NA|Senior Data Engineer      |
+|pandas       |   NA|    NA|     NA|      3|      1|     NA|     NA|Senior Data Engineer      |
+|hadoop       |   NA|    NA|     NA|      2|      1|     NA|     NA|Senior Data Scientist     |
+|bigquery     |   NA|    NA|     NA|     NA|      1|     NA|     NA|Machine Learning Engineer |
+|looker       |   NA|    NA|     NA|     10|     NA|     NA|     NA|Senior Data Scientist     |
+|git          |   NA|    NA|     NA|      8|     NA|     NA|     NA|Senior Data Scientist     |
+|scikit-learn |   NA|    NA|     NA|      5|     NA|     NA|     NA|Senior Data Scientist     |
+|redshift     |   NA|    NA|     NA|      5|     NA|     NA|     NA|Senior Data Scientist     |
+|bigquery     |   NA|    NA|     NA|      5|     NA|     NA|     NA|Senior Data Scientist     |
+|kafka        |    1|    NA|     NA|      4|     NA|     NA|     NA|Data Scientist            |
+|databricks   |   NA|    NA|     NA|      4|     NA|     NA|     NA|Senior Data Scientist     |
+|scala        |   NA|    NA|     NA|      3|     NA|     NA|     NA|Senior Data Scientist     |
+|mysql        |   NA|    NA|     NA|      3|     NA|     NA|     NA|Senior Data Engineer      |
+|jira         |   NA|    NA|     NA|      3|     NA|     NA|     NA|Senior Data Engineer      |
+|terraform    |   NA|    NA|     NA|      2|     NA|     NA|     NA|Data Analyst              |
+|scikit-learn |   NA|    NA|     NA|      2|     NA|     NA|     NA|Senior Data Engineer      |
+|oracle       |    1|    NA|     NA|      2|     NA|     NA|     NA|Machine Learning Engineer |
+|looker       |   NA|    NA|     NA|      1|     NA|     NA|     NA|Machine Learning Engineer |
+|jira         |   NA|    NA|     NA|      1|     NA|     NA|     NA|Senior Data Scientist     |
+|java         |   NA|    NA|     NA|      1|     NA|     NA|     NA|Senior Data Analyst       |
+|hadoop       |   NA|    NA|     NA|      1|     NA|     NA|     NA|Senior Data Analyst       |
+|tensorflow   |    1|    NA|     NA|     NA|     NA|     NA|     NA|Cloud Engineer            |
+|pytorch      |    1|    NA|     NA|     NA|     NA|     NA|     NA|Cloud Engineer            |
+|pandas       |    1|    NA|     NA|     NA|     NA|     NA|     NA|Cloud Engineer            |
+|numpy        |    1|    NA|     NA|     NA|     NA|     NA|     NA|Cloud Engineer            |
+|mysql        |    1|    NA|     NA|     NA|     NA|     NA|     NA|Data Scientist            |
+|java         |   NA|    NA|     NA|     NA|     NA|     NA|     NA|Business Analyst          |
+|gcp          |   NA|    NA|     NA|     NA|     NA|     NA|     NA|Cloud Engineer            |
+|databricks   |   NA|    NA|     NA|     NA|     NA|     NA|     NA|Software Engineer         |
+##------ Thu Dec  5 17:29:09 2024 ------##
+[1] "Europe/Paris"
+[1] "YoJoseParra"

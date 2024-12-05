@@ -1,0 +1,775 @@
+
+
+|    |Country     |IT Job                    |Statistic |  Value|Currency |
+|:---|:-----------|:-------------------------|:---------|------:|:--------|
+|1   |Belgium     |Business Analyst          |MIN       |  75087|NA       |
+|2   |France      |Business Analyst          |MIN       |  44496|NA       |
+|3   |Germany     |Business Analyst          |MIN       |  30797|NA       |
+|4   |Greece      |Business Analyst          |MIN       |  64890|NA       |
+|5   |Italy       |Business Analyst          |MIN       |  44496|NA       |
+|6   |Netherlands |Business Analyst          |MIN       |  64890|NA       |
+|7   |Poland      |Business Analyst          |MIN       |  58401|NA       |
+|8   |Portugal    |Business Analyst          |MIN       |  58401|NA       |
+|9   |Romania     |Business Analyst          |MIN       |  83275|NA       |
+|10  |Spain       |Business Analyst          |MIN       |  64890|NA       |
+|11  |Sweden      |Business Analyst          |MIN       |  44496|NA       |
+|13  |Belgium     |Business Analyst          |MEDIAN    |  91773|NA       |
+|14  |France      |Business Analyst          |MEDIAN    |  91773|NA       |
+|15  |Germany     |Business Analyst          |MEDIAN    |  91773|NA       |
+|16  |Greece      |Business Analyst          |MEDIAN    |  64890|NA       |
+|17  |Italy       |Business Analyst          |MEDIAN    |  44496|NA       |
+|18  |Netherlands |Business Analyst          |MEDIAN    |  91773|NA       |
+|19  |Poland      |Business Analyst          |MEDIAN    |  89661|NA       |
+|20  |Portugal    |Business Analyst          |MEDIAN    |  75087|NA       |
+|21  |Romania     |Business Analyst          |MEDIAN    |  83275|NA       |
+|22  |Spain       |Business Analyst          |MEDIAN    |  88992|NA       |
+|23  |Sweden      |Business Analyst          |MEDIAN    |  91773|NA       |
+|25  |Belgium     |Business Analyst          |MEAN      |  85098|NA       |
+|26  |France      |Business Analyst          |MEAN      |  83593|NA       |
+|27  |Germany     |Business Analyst          |MEAN      |  81917|NA       |
+|28  |Greece      |Business Analyst          |MEAN      |  68289|NA       |
+|29  |Italy       |Business Analyst          |MEAN      |  44496|NA       |
+|30  |Netherlands |Business Analyst          |MEAN      |  88374|NA       |
+|31  |Poland      |Business Analyst          |MEAN      |  90131|NA       |
+|32  |Portugal    |Business Analyst          |MEAN      |  72254|NA       |
+|33  |Romania     |Business Analyst          |MEAN      |  83275|NA       |
+|34  |Spain       |Business Analyst          |MEAN      | 114103|NA       |
+|35  |Sweden      |Business Analyst          |MEAN      |  85843|NA       |
+|37  |Belgium     |Business Analyst          |MAX       |  91773|NA       |
+|38  |France      |Business Analyst          |MAX       | 114510|NA       |
+|39  |Germany     |Business Analyst          |MAX       | 129780|NA       |
+|40  |Greece      |Business Analyst          |MAX       |  75087|NA       |
+|41  |Italy       |Business Analyst          |MAX       |  44496|NA       |
+|42  |Netherlands |Business Analyst          |MAX       | 108459|NA       |
+|43  |Poland      |Business Analyst          |MAX       | 158105|NA       |
+|44  |Portugal    |Business Analyst          |MAX       |  83275|NA       |
+|45  |Romania     |Business Analyst          |MAX       |  83275|NA       |
+|46  |Spain       |Business Analyst          |MAX       | 190550|NA       |
+|47  |Sweden      |Business Analyst          |MAX       | 127205|NA       |
+|49  |Belgium     |Business Analyst          |STD       |   9139|NA       |
+|50  |France      |Business Analyst          |STD       |  35716|NA       |
+|51  |Germany     |Business Analyst          |STD       |  27193|NA       |
+|52  |Greece      |Business Analyst          |STD       |   5887|NA       |
+|53  |Netherlands |Business Analyst          |STD       |  21982|NA       |
+|54  |Poland      |Business Analyst          |STD       |  30928|NA       |
+|55  |Portugal    |Business Analyst          |STD       |  12676|NA       |
+|56  |Spain       |Business Analyst          |STD       |  58172|NA       |
+|57  |Sweden      |Business Analyst          |STD       |  25738|NA       |
+|59  |Belgium     |Business Analyst          |N         |      5|NA       |
+|60  |France      |Business Analyst          |N         |      3|NA       |
+|61  |Germany     |Business Analyst          |N         |     11|NA       |
+|62  |Greece      |Business Analyst          |N         |      3|NA       |
+|63  |Italy       |Business Analyst          |N         |      1|NA       |
+|64  |Netherlands |Business Analyst          |N         |      3|NA       |
+|65  |Poland      |Business Analyst          |N         |      8|NA       |
+|66  |Portugal    |Business Analyst          |N         |      3|NA       |
+|67  |Romania     |Business Analyst          |N         |      1|NA       |
+|68  |Spain       |Business Analyst          |N         |      5|NA       |
+|69  |Sweden      |Business Analyst          |N         |      7|NA       |
+|71  |France      |Cloud Engineer            |MIN       | 109147|NA       |
+|72  |Germany     |Cloud Engineer            |MIN       |  83275|NA       |
+|73  |Hungary     |Cloud Engineer            |MIN       |  91773|NA       |
+|74  |Poland      |Cloud Engineer            |MIN       |  58401|NA       |
+|75  |Romania     |Cloud Engineer            |MIN       |  58401|NA       |
+|76  |Spain       |Cloud Engineer            |MIN       |  58401|NA       |
+|78  |France      |Cloud Engineer            |MEDIAN    | 109147|NA       |
+|79  |Germany     |Cloud Engineer            |MEDIAN    |  91773|NA       |
+|80  |Hungary     |Cloud Engineer            |MEDIAN    |  91773|NA       |
+|81  |Poland      |Cloud Engineer            |MEDIAN    |  86674|NA       |
+|82  |Romania     |Cloud Engineer            |MEDIAN    |  58401|NA       |
+|83  |Spain       |Cloud Engineer            |MEDIAN    |  91773|NA       |
+|85  |France      |Cloud Engineer            |MEAN      | 109147|NA       |
+|86  |Germany     |Cloud Engineer            |MEAN      | 123195|NA       |
+|87  |Hungary     |Cloud Engineer            |MEAN      |  91773|NA       |
+|88  |Poland      |Cloud Engineer            |MEAN      | 104373|NA       |
+|89  |Romania     |Cloud Engineer            |MEAN      |  58401|NA       |
+|90  |Spain       |Cloud Engineer            |MEAN      |  93061|NA       |
+|92  |France      |Cloud Engineer            |MAX       | 109147|NA       |
+|93  |Germany     |Cloud Engineer            |MAX       | 206000|NA       |
+|94  |Hungary     |Cloud Engineer            |MAX       |  91773|NA       |
+|95  |Poland      |Cloud Engineer            |MAX       | 227630|NA       |
+|96  |Romania     |Cloud Engineer            |MAX       |  58401|NA       |
+|97  |Spain       |Cloud Engineer            |MAX       | 129010|NA       |
+|99  |Germany     |Cloud Engineer            |STD       |  56651|NA       |
+|100 |Poland      |Cloud Engineer            |STD       |  61645|NA       |
+|101 |Spain       |Cloud Engineer            |STD       |  35322|NA       |
+|103 |France      |Cloud Engineer            |N         |      1|NA       |
+|104 |Germany     |Cloud Engineer            |N         |      7|NA       |
+|105 |Hungary     |Cloud Engineer            |N         |      1|NA       |
+|106 |Poland      |Cloud Engineer            |N         |      6|NA       |
+|107 |Romania     |Cloud Engineer            |N         |      1|NA       |
+|108 |Spain       |Cloud Engineer            |N         |      3|NA       |
+|110 |Belgium     |Data Analyst              |MIN       |  56637|NA       |
+|111 |Denmark     |Data Analyst              |MIN       |  58401|NA       |
+|112 |Finland     |Data Analyst              |MIN       |  74160|NA       |
+|113 |France      |Data Analyst              |MIN       |  46350|NA       |
+|114 |Germany     |Data Analyst              |MIN       |  52544|NA       |
+|115 |Greece      |Data Analyst              |MIN       |  54604|NA       |
+|116 |Hungary     |Data Analyst              |MIN       |  51053|NA       |
+|117 |Ireland     |Data Analyst              |MIN       |  44496|NA       |
+|118 |Italy       |Data Analyst              |MIN       |  46350|NA       |
+|119 |Netherlands |Data Analyst              |MIN       |  54604|NA       |
+|120 |Poland      |Data Analyst              |MIN       |  44496|NA       |
+|121 |Portugal    |Data Analyst              |MIN       |  52544|NA       |
+|122 |Romania     |Data Analyst              |MIN       |  44496|NA       |
+|123 |Spain       |Data Analyst              |MIN       |  52544|NA       |
+|124 |Sweden      |Data Analyst              |MIN       |  46350|NA       |
+|126 |Belgium     |Data Analyst              |MEDIAN    |  80297|NA       |
+|127 |Denmark     |Data Analyst              |MEDIAN    |  91773|NA       |
+|128 |Finland     |Data Analyst              |MEDIAN    | 108819|NA       |
+|129 |France      |Data Analyst              |MEDIAN    |  71250|NA       |
+|130 |Germany     |Data Analyst              |MEDIAN    | 106862|NA       |
+|131 |Greece      |Data Analyst              |MEDIAN    | 102485|NA       |
+|132 |Hungary     |Data Analyst              |MEDIAN    |  83275|NA       |
+|133 |Ireland     |Data Analyst              |MEDIAN    | 101455|NA       |
+|134 |Italy       |Data Analyst              |MEDIAN    |  54604|NA       |
+|135 |Netherlands |Data Analyst              |MEDIAN    |  96667|NA       |
+|136 |Poland      |Data Analyst              |MEDIAN    |  91773|NA       |
+|137 |Portugal    |Data Analyst              |MEDIAN    |  91773|NA       |
+|138 |Romania     |Data Analyst              |MEDIAN    |  75087|NA       |
+|139 |Spain       |Data Analyst              |MEDIAN    |  94736|NA       |
+|140 |Sweden      |Data Analyst              |MEDIAN    | 108819|NA       |
+|142 |Belgium     |Data Analyst              |MEAN      |  99287|NA       |
+|143 |Denmark     |Data Analyst              |MEAN      |  81761|NA       |
+|144 |Finland     |Data Analyst              |MEAN      | 111353|NA       |
+|145 |France      |Data Analyst              |MEAN      |  84022|NA       |
+|146 |Germany     |Data Analyst              |MEAN      | 104609|NA       |
+|147 |Greece      |Data Analyst              |MEAN      | 115033|NA       |
+|148 |Hungary     |Data Analyst              |MEAN      |  90438|NA       |
+|149 |Ireland     |Data Analyst              |MEAN      | 106422|NA       |
+|150 |Italy       |Data Analyst              |MEAN      |  76018|NA       |
+|151 |Netherlands |Data Analyst              |MEAN      | 101226|NA       |
+|152 |Poland      |Data Analyst              |MEAN      |  90130|NA       |
+|153 |Portugal    |Data Analyst              |MEAN      |  96831|NA       |
+|154 |Romania     |Data Analyst              |MEAN      |  76552|NA       |
+|155 |Spain       |Data Analyst              |MEAN      |  94422|NA       |
+|156 |Sweden      |Data Analyst              |MEAN      | 100933|NA       |
+|158 |Belgium     |Data Analyst              |MAX       | 169950|NA       |
+|159 |Denmark     |Data Analyst              |MAX       |  91773|NA       |
+|160 |Finland     |Data Analyst              |MAX       | 169950|NA       |
+|161 |France      |Data Analyst              |MAX       | 206000|NA       |
+|162 |Germany     |Data Analyst              |MAX       | 206000|NA       |
+|163 |Greece      |Data Analyst              |MAX       | 206000|NA       |
+|164 |Hungary     |Data Analyst              |MAX       | 159650|NA       |
+|165 |Ireland     |Data Analyst              |MAX       | 200335|NA       |
+|166 |Italy       |Data Analyst              |MAX       | 114510|NA       |
+|167 |Netherlands |Data Analyst              |MAX       | 182601|NA       |
+|168 |Poland      |Data Analyst              |MAX       | 169950|NA       |
+|169 |Portugal    |Data Analyst              |MAX       | 169950|NA       |
+|170 |Romania     |Data Analyst              |MAX       | 112393|NA       |
+|171 |Spain       |Data Analyst              |MAX       | 159650|NA       |
+|172 |Sweden      |Data Analyst              |MAX       | 121684|NA       |
+|174 |Belgium     |Data Analyst              |STD       |  46066|NA       |
+|175 |Denmark     |Data Analyst              |STD       |  14924|NA       |
+|176 |Finland     |Data Analyst              |STD       |  40128|NA       |
+|177 |France      |Data Analyst              |STD       |  34161|NA       |
+|178 |Germany     |Data Analyst              |STD       |  41485|NA       |
+|179 |Greece      |Data Analyst              |STD       |  41499|NA       |
+|180 |Hungary     |Data Analyst              |STD       |  32702|NA       |
+|181 |Ireland     |Data Analyst              |STD       |  40409|NA       |
+|182 |Italy       |Data Analyst              |STD       |  27551|NA       |
+|183 |Netherlands |Data Analyst              |STD       |  34295|NA       |
+|184 |Poland      |Data Analyst              |STD       |  30773|NA       |
+|185 |Portugal    |Data Analyst              |STD       |  31436|NA       |
+|186 |Romania     |Data Analyst              |STD       |  25376|NA       |
+|187 |Spain       |Data Analyst              |STD       |  24423|NA       |
+|188 |Sweden      |Data Analyst              |STD       |  22869|NA       |
+|190 |Belgium     |Data Analyst              |N         |     20|NA       |
+|191 |Denmark     |Data Analyst              |N         |      5|NA       |
+|192 |Finland     |Data Analyst              |N         |      5|NA       |
+|193 |France      |Data Analyst              |N         |     50|NA       |
+|194 |Germany     |Data Analyst              |N         |     48|NA       |
+|195 |Greece      |Data Analyst              |N         |     16|NA       |
+|196 |Hungary     |Data Analyst              |N         |     18|NA       |
+|197 |Ireland     |Data Analyst              |N         |     19|NA       |
+|198 |Italy       |Data Analyst              |N         |     11|NA       |
+|199 |Netherlands |Data Analyst              |N         |     20|NA       |
+|200 |Poland      |Data Analyst              |N         |     43|NA       |
+|201 |Portugal    |Data Analyst              |N         |     37|NA       |
+|202 |Romania     |Data Analyst              |N         |     12|NA       |
+|203 |Spain       |Data Analyst              |N         |     30|NA       |
+|204 |Sweden      |Data Analyst              |N         |      9|NA       |
+|206 |Belgium     |Data Engineer             |MIN       |  58401|NA       |
+|207 |Denmark     |Data Engineer             |MIN       |  99676|NA       |
+|208 |Finland     |Data Engineer             |MIN       |  91773|NA       |
+|209 |France      |Data Engineer             |MIN       |  46350|NA       |
+|210 |Germany     |Data Engineer             |MIN       |  58401|NA       |
+|211 |Greece      |Data Engineer             |MIN       |  46350|NA       |
+|212 |Hungary     |Data Engineer             |MIN       |  99676|NA       |
+|213 |Ireland     |Data Engineer             |MIN       |  91773|NA       |
+|214 |Italy       |Data Engineer             |MIN       |  91773|NA       |
+|215 |Netherlands |Data Engineer             |MIN       |  91773|NA       |
+|216 |Poland      |Data Engineer             |MIN       |  46350|NA       |
+|217 |Portugal    |Data Engineer             |MIN       |  83275|NA       |
+|218 |Romania     |Data Engineer             |MIN       |  46350|NA       |
+|219 |Spain       |Data Engineer             |MIN       |  58195|NA       |
+|220 |Sweden      |Data Engineer             |MIN       |  61800|NA       |
+|222 |Belgium     |Data Engineer             |MEDIAN    | 101250|NA       |
+|223 |Denmark     |Data Engineer             |MEDIAN    | 125800|NA       |
+|224 |Finland     |Data Engineer             |MEDIAN    |  99676|NA       |
+|225 |France      |Data Engineer             |MEDIAN    | 101250|NA       |
+|226 |Germany     |Data Engineer             |MEDIAN    | 151925|NA       |
+|227 |Greece      |Data Engineer             |MEDIAN    |  99676|NA       |
+|228 |Hungary     |Data Engineer             |MEDIAN    | 151925|NA       |
+|229 |Ireland     |Data Engineer             |MEDIAN    | 151925|NA       |
+|230 |Italy       |Data Engineer             |MEDIAN    | 100367|NA       |
+|231 |Netherlands |Data Engineer             |MEDIAN    | 100367|NA       |
+|232 |Poland      |Data Engineer             |MEDIAN    | 137505|NA       |
+|233 |Portugal    |Data Engineer             |MEDIAN    | 129563|NA       |
+|234 |Romania     |Data Engineer             |MEDIAN    | 100799|NA       |
+|235 |Spain       |Data Engineer             |MEDIAN    | 136990|NA       |
+|236 |Sweden      |Data Engineer             |MEDIAN    | 137886|NA       |
+|238 |Belgium     |Data Engineer             |MEAN      | 110675|NA       |
+|239 |Denmark     |Data Engineer             |MEAN      | 125800|NA       |
+|240 |Finland     |Data Engineer             |MEAN      |  96829|NA       |
+|241 |France      |Data Engineer             |MEAN      | 119210|NA       |
+|242 |Germany     |Data Engineer             |MEAN      | 134184|NA       |
+|243 |Greece      |Data Engineer             |MEAN      | 100228|NA       |
+|244 |Hungary     |Data Engineer             |MEAN      | 136830|NA       |
+|245 |Ireland     |Data Engineer             |MEAN      | 133707|NA       |
+|246 |Italy       |Data Engineer             |MEAN      | 114987|NA       |
+|247 |Netherlands |Data Engineer             |MEAN      | 110828|NA       |
+|248 |Poland      |Data Engineer             |MEAN      | 121340|NA       |
+|249 |Portugal    |Data Engineer             |MEAN      | 125328|NA       |
+|250 |Romania     |Data Engineer             |MEAN      | 106303|NA       |
+|251 |Spain       |Data Engineer             |MEAN      | 120279|NA       |
+|252 |Sweden      |Data Engineer             |MEAN      | 136364|NA       |
+|254 |Belgium     |Data Engineer             |MAX       | 151925|NA       |
+|255 |Denmark     |Data Engineer             |MAX       | 151925|NA       |
+|256 |Finland     |Data Engineer             |MAX       | 101250|NA       |
+|257 |France      |Data Engineer             |MAX       | 256470|NA       |
+|258 |Germany     |Data Engineer             |MAX       | 206000|NA       |
+|259 |Greece      |Data Engineer             |MAX       | 151925|NA       |
+|260 |Hungary     |Data Engineer             |MAX       | 151925|NA       |
+|261 |Ireland     |Data Engineer             |MAX       | 151925|NA       |
+|262 |Italy       |Data Engineer             |MAX       | 158620|NA       |
+|263 |Netherlands |Data Engineer             |MAX       | 180250|NA       |
+|264 |Poland      |Data Engineer             |MAX       | 169435|NA       |
+|265 |Portugal    |Data Engineer             |MAX       | 158105|NA       |
+|266 |Romania     |Data Engineer             |MAX       | 151925|NA       |
+|267 |Spain       |Data Engineer             |MAX       | 169950|NA       |
+|268 |Sweden      |Data Engineer             |MAX       | 256470|NA       |
+|270 |Belgium     |Data Engineer             |STD       |  30231|NA       |
+|271 |Denmark     |Data Engineer             |STD       |  36945|NA       |
+|272 |Finland     |Data Engineer             |STD       |   4660|NA       |
+|273 |France      |Data Engineer             |STD       |  34718|NA       |
+|274 |Germany     |Data Engineer             |STD       |  39982|NA       |
+|275 |Greece      |Data Engineer             |STD       |  33161|NA       |
+|276 |Hungary     |Data Engineer             |STD       |  21557|NA       |
+|277 |Ireland     |Data Engineer             |STD       |  27430|NA       |
+|278 |Italy       |Data Engineer             |STD       |  26174|NA       |
+|279 |Netherlands |Data Engineer             |STD       |  25754|NA       |
+|280 |Poland      |Data Engineer             |STD       |  40993|NA       |
+|281 |Portugal    |Data Engineer             |STD       |  27454|NA       |
+|282 |Romania     |Data Engineer             |STD       |  36884|NA       |
+|283 |Spain       |Data Engineer             |STD       |  35158|NA       |
+|284 |Sweden      |Data Engineer             |STD       |  58181|NA       |
+|286 |Belgium     |Data Engineer             |N         |     11|NA       |
+|287 |Denmark     |Data Engineer             |N         |      2|NA       |
+|288 |Finland     |Data Engineer             |N         |      5|NA       |
+|289 |France      |Data Engineer             |N         |     62|NA       |
+|290 |Germany     |Data Engineer             |N         |     39|NA       |
+|291 |Greece      |Data Engineer             |N         |     24|NA       |
+|292 |Hungary     |Data Engineer             |N         |     13|NA       |
+|293 |Ireland     |Data Engineer             |N         |      9|NA       |
+|294 |Italy       |Data Engineer             |N         |     12|NA       |
+|295 |Netherlands |Data Engineer             |N         |     23|NA       |
+|296 |Poland      |Data Engineer             |N         |     46|NA       |
+|297 |Portugal    |Data Engineer             |N         |     30|NA       |
+|298 |Romania     |Data Engineer             |N         |      6|NA       |
+|299 |Spain       |Data Engineer             |N         |     35|NA       |
+|300 |Sweden      |Data Engineer             |N         |      8|NA       |
+|302 |Belgium     |Data Scientist            |MIN       |  58401|NA       |
+|303 |Denmark     |Data Scientist            |MIN       |  58401|NA       |
+|304 |Finland     |Data Scientist            |MIN       |  83275|NA       |
+|305 |France      |Data Scientist            |MIN       |  51912|NA       |
+|306 |Germany     |Data Scientist            |MIN       |  58401|NA       |
+|307 |Greece      |Data Scientist            |MIN       |  52600|NA       |
+|308 |Hungary     |Data Scientist            |MIN       |  58401|NA       |
+|309 |Ireland     |Data Scientist            |MIN       |  55018|NA       |
+|310 |Italy       |Data Scientist            |MIN       |  58401|NA       |
+|311 |Netherlands |Data Scientist            |MIN       |  91773|NA       |
+|312 |Poland      |Data Scientist            |MIN       |  44496|NA       |
+|313 |Portugal    |Data Scientist            |MIN       |  72061|NA       |
+|314 |Romania     |Data Scientist            |MIN       |  58401|NA       |
+|315 |Spain       |Data Scientist            |MIN       |  58401|NA       |
+|316 |Sweden      |Data Scientist            |MIN       |  83430|NA       |
+|318 |Belgium     |Data Scientist            |MEDIAN    | 126999|NA       |
+|319 |Denmark     |Data Scientist            |MEDIAN    | 112785|NA       |
+|320 |Finland     |Data Scientist            |MEDIAN    | 118740|NA       |
+|321 |France      |Data Scientist            |MEDIAN    |  90771|NA       |
+|322 |Germany     |Data Scientist            |MEDIAN    | 135506|NA       |
+|323 |Greece      |Data Scientist            |MEDIAN    |  92581|NA       |
+|324 |Hungary     |Data Scientist            |MEDIAN    |  91773|NA       |
+|325 |Ireland     |Data Scientist            |MEDIAN    | 105111|NA       |
+|326 |Italy       |Data Scientist            |MEDIAN    |  91272|NA       |
+|327 |Netherlands |Data Scientist            |MEDIAN    | 162225|NA       |
+|328 |Poland      |Data Scientist            |MEDIAN    | 135823|NA       |
+|329 |Portugal    |Data Scientist            |MEDIAN    | 157075|NA       |
+|330 |Romania     |Data Scientist            |MEDIAN    | 124630|NA       |
+|331 |Spain       |Data Scientist            |MEDIAN    |  90771|NA       |
+|332 |Sweden      |Data Scientist            |MEDIAN    | 162225|NA       |
+|334 |Belgium     |Data Scientist            |MEAN      | 122577|NA       |
+|335 |Denmark     |Data Scientist            |MEAN      | 116342|NA       |
+|336 |Finland     |Data Scientist            |MEAN      | 120745|NA       |
+|337 |France      |Data Scientist            |MEAN      | 102076|NA       |
+|338 |Germany     |Data Scientist            |MEAN      | 120778|NA       |
+|339 |Greece      |Data Scientist            |MEAN      | 100451|NA       |
+|340 |Hungary     |Data Scientist            |MEAN      | 100688|NA       |
+|341 |Ireland     |Data Scientist            |MEAN      | 114941|NA       |
+|342 |Italy       |Data Scientist            |MEAN      |  99787|NA       |
+|343 |Netherlands |Data Scientist            |MEAN      | 139444|NA       |
+|344 |Poland      |Data Scientist            |MEAN      | 124071|NA       |
+|345 |Portugal    |Data Scientist            |MEAN      | 136835|NA       |
+|346 |Romania     |Data Scientist            |MEAN      | 112843|NA       |
+|347 |Spain       |Data Scientist            |MEAN      |  95965|NA       |
+|348 |Sweden      |Data Scientist            |MEAN      | 137456|NA       |
+|350 |Belgium     |Data Scientist            |MAX       | 162225|NA       |
+|351 |Denmark     |Data Scientist            |MAX       | 171412|NA       |
+|352 |Finland     |Data Scientist            |MAX       | 162225|NA       |
+|353 |France      |Data Scientist            |MAX       | 171412|NA       |
+|354 |Germany     |Data Scientist            |MAX       | 197760|NA       |
+|355 |Greece      |Data Scientist            |MAX       | 176254|NA       |
+|356 |Hungary     |Data Scientist            |MAX       | 162225|NA       |
+|357 |Ireland     |Data Scientist            |MAX       | 171412|NA       |
+|358 |Italy       |Data Scientist            |MAX       | 162225|NA       |
+|359 |Netherlands |Data Scientist            |MAX       | 175692|NA       |
+|360 |Poland      |Data Scientist            |MAX       | 192535|NA       |
+|361 |Portugal    |Data Scientist            |MAX       | 171412|NA       |
+|362 |Romania     |Data Scientist            |MAX       | 151925|NA       |
+|363 |Spain       |Data Scientist            |MAX       | 169950|NA       |
+|364 |Sweden      |Data Scientist            |MAX       | 162225|NA       |
+|366 |Belgium     |Data Scientist            |STD       |  43717|NA       |
+|367 |Denmark     |Data Scientist            |STD       |  38069|NA       |
+|368 |Finland     |Data Scientist            |STD       |  32677|NA       |
+|369 |France      |Data Scientist            |STD       |  40991|NA       |
+|370 |Germany     |Data Scientist            |STD       |  47769|NA       |
+|371 |Greece      |Data Scientist            |STD       |  31728|NA       |
+|372 |Hungary     |Data Scientist            |STD       |  38032|NA       |
+|373 |Ireland     |Data Scientist            |STD       |  45052|NA       |
+|374 |Italy       |Data Scientist            |STD       |  38450|NA       |
+|375 |Netherlands |Data Scientist            |STD       |  32089|NA       |
+|376 |Poland      |Data Scientist            |STD       |  40280|NA       |
+|377 |Portugal    |Data Scientist            |STD       |  34230|NA       |
+|378 |Romania     |Data Scientist            |STD       |  37560|NA       |
+|379 |Spain       |Data Scientist            |STD       |  32956|NA       |
+|380 |Sweden      |Data Scientist            |STD       |  34917|NA       |
+|382 |Belgium     |Data Scientist            |N         |      8|NA       |
+|383 |Denmark     |Data Scientist            |N         |      7|NA       |
+|384 |Finland     |Data Scientist            |N         |      4|NA       |
+|385 |France      |Data Scientist            |N         |     57|NA       |
+|386 |Germany     |Data Scientist            |N         |     41|NA       |
+|387 |Greece      |Data Scientist            |N         |     12|NA       |
+|388 |Hungary     |Data Scientist            |N         |     13|NA       |
+|389 |Ireland     |Data Scientist            |N         |      6|NA       |
+|390 |Italy       |Data Scientist            |N         |     12|NA       |
+|391 |Netherlands |Data Scientist            |N         |     17|NA       |
+|392 |Poland      |Data Scientist            |N         |     29|NA       |
+|393 |Portugal    |Data Scientist            |N         |     22|NA       |
+|394 |Romania     |Data Scientist            |N         |      7|NA       |
+|395 |Spain       |Data Scientist            |N         |     20|NA       |
+|396 |Sweden      |Data Scientist            |N         |      7|NA       |
+|398 |Belgium     |Machine Learning Engineer |MIN       |  75087|NA       |
+|399 |Denmark     |Machine Learning Engineer |MIN       | 108459|NA       |
+|400 |Finland     |Machine Learning Engineer |MIN       |  91773|NA       |
+|401 |France      |Machine Learning Engineer |MIN       |  58401|NA       |
+|402 |Germany     |Machine Learning Engineer |MIN       |  45751|NA       |
+|403 |Greece      |Machine Learning Engineer |MIN       |  75087|NA       |
+|404 |Hungary     |Machine Learning Engineer |MIN       |  58401|NA       |
+|405 |Ireland     |Machine Learning Engineer |MIN       |  75087|NA       |
+|406 |Italy       |Machine Learning Engineer |MIN       |  75087|NA       |
+|407 |Netherlands |Machine Learning Engineer |MIN       |  71070|NA       |
+|408 |Poland      |Machine Learning Engineer |MIN       |  58401|NA       |
+|409 |Portugal    |Machine Learning Engineer |MIN       |  75087|NA       |
+|410 |Romania     |Machine Learning Engineer |MIN       |  91773|NA       |
+|411 |Spain       |Machine Learning Engineer |MIN       |  44496|NA       |
+|412 |Sweden      |Machine Learning Engineer |MIN       |  83275|NA       |
+|414 |Belgium     |Machine Learning Engineer |MEDIAN    |  91773|NA       |
+|415 |Denmark     |Machine Learning Engineer |MEDIAN    | 139719|NA       |
+|416 |Finland     |Machine Learning Engineer |MEDIAN    | 158105|NA       |
+|417 |France      |Machine Learning Engineer |MEDIAN    |  83275|NA       |
+|418 |Germany     |Machine Learning Engineer |MEDIAN    |  91773|NA       |
+|419 |Greece      |Machine Learning Engineer |MEDIAN    | 104059|NA       |
+|420 |Hungary     |Machine Learning Engineer |MEDIAN    |  83275|NA       |
+|421 |Ireland     |Machine Learning Engineer |MEDIAN    | 170980|NA       |
+|422 |Italy       |Machine Learning Engineer |MEDIAN    |  91773|NA       |
+|423 |Netherlands |Machine Learning Engineer |MEDIAN    | 126484|NA       |
+|424 |Poland      |Machine Learning Engineer |MEDIAN    |  91773|NA       |
+|425 |Portugal    |Machine Learning Engineer |MEDIAN    | 170980|NA       |
+|426 |Romania     |Machine Learning Engineer |MEDIAN    | 170980|NA       |
+|427 |Spain       |Machine Learning Engineer |MEDIAN    | 104059|NA       |
+|428 |Sweden      |Machine Learning Engineer |MEDIAN    | 145230|NA       |
+|430 |Belgium     |Machine Learning Engineer |MEAN      |  86377|NA       |
+|431 |Denmark     |Machine Learning Engineer |MEAN      | 139719|NA       |
+|432 |Finland     |Machine Learning Engineer |MEAN      | 149762|NA       |
+|433 |France      |Machine Learning Engineer |MEAN      |  93857|NA       |
+|434 |Germany     |Machine Learning Engineer |MEAN      | 117299|NA       |
+|435 |Greece      |Machine Learning Engineer |MEAN      | 118965|NA       |
+|436 |Hungary     |Machine Learning Engineer |MEAN      | 112424|NA       |
+|437 |Ireland     |Machine Learning Engineer |MEAN      | 139441|NA       |
+|438 |Italy       |Machine Learning Engineer |MEAN      |  91556|NA       |
+|439 |Netherlands |Machine Learning Engineer |MEAN      | 130333|NA       |
+|440 |Poland      |Machine Learning Engineer |MEAN      | 115062|NA       |
+|441 |Portugal    |Machine Learning Engineer |MEAN      | 145196|NA       |
+|442 |Romania     |Machine Learning Engineer |MEAN      | 144577|NA       |
+|443 |Spain       |Machine Learning Engineer |MEAN      | 116342|NA       |
+|444 |Sweden      |Machine Learning Engineer |MEAN      | 133161|NA       |
+|446 |Belgium     |Machine Learning Engineer |MAX       | 104059|NA       |
+|447 |Denmark     |Machine Learning Engineer |MAX       | 170980|NA       |
+|448 |Finland     |Machine Learning Engineer |MAX       | 191065|NA       |
+|449 |France      |Machine Learning Engineer |MAX       | 170980|NA       |
+|450 |Germany     |Machine Learning Engineer |MAX       | 231235|NA       |
+|451 |Greece      |Machine Learning Engineer |MAX       | 182601|NA       |
+|452 |Hungary     |Machine Learning Engineer |MAX       | 191065|NA       |
+|453 |Ireland     |Machine Learning Engineer |MAX       | 170980|NA       |
+|454 |Italy       |Machine Learning Engineer |MAX       | 107808|NA       |
+|455 |Netherlands |Machine Learning Engineer |MAX       | 231750|NA       |
+|456 |Poland      |Machine Learning Engineer |MAX       | 191580|NA       |
+|457 |Portugal    |Machine Learning Engineer |MAX       | 195185|NA       |
+|458 |Romania     |Machine Learning Engineer |MAX       | 170980|NA       |
+|459 |Spain       |Machine Learning Engineer |MAX       | 231750|NA       |
+|460 |Sweden      |Machine Learning Engineer |MAX       | 170980|NA       |
+|462 |Belgium     |Machine Learning Engineer |STD       |  11419|NA       |
+|463 |Denmark     |Machine Learning Engineer |STD       |  44209|NA       |
+|464 |Finland     |Machine Learning Engineer |STD       |  42970|NA       |
+|465 |France      |Machine Learning Engineer |STD       |  37705|NA       |
+|466 |Germany     |Machine Learning Engineer |STD       |  53358|NA       |
+|467 |Greece      |Machine Learning Engineer |STD       |  37173|NA       |
+|468 |Hungary     |Machine Learning Engineer |STD       |  63835|NA       |
+|469 |Ireland     |Machine Learning Engineer |STD       |  44836|NA       |
+|470 |Italy       |Machine Learning Engineer |STD       |  16361|NA       |
+|471 |Netherlands |Machine Learning Engineer |STD       |  54568|NA       |
+|472 |Poland      |Machine Learning Engineer |STD       |  38974|NA       |
+|473 |Portugal    |Machine Learning Engineer |STD       |  46622|NA       |
+|474 |Romania     |Machine Learning Engineer |STD       |  45730|NA       |
+|475 |Spain       |Machine Learning Engineer |STD       |  51591|NA       |
+|476 |Sweden      |Machine Learning Engineer |STD       |  45080|NA       |
+|478 |Belgium     |Machine Learning Engineer |N         |      7|NA       |
+|479 |Denmark     |Machine Learning Engineer |N         |      2|NA       |
+|480 |Finland     |Machine Learning Engineer |N         |      4|NA       |
+|481 |France      |Machine Learning Engineer |N         |     17|NA       |
+|482 |Germany     |Machine Learning Engineer |N         |     39|NA       |
+|483 |Greece      |Machine Learning Engineer |N         |     14|NA       |
+|484 |Hungary     |Machine Learning Engineer |N         |      5|NA       |
+|485 |Ireland     |Machine Learning Engineer |N         |      5|NA       |
+|486 |Italy       |Machine Learning Engineer |N         |      3|NA       |
+|487 |Netherlands |Machine Learning Engineer |N         |     12|NA       |
+|488 |Poland      |Machine Learning Engineer |N         |     23|NA       |
+|489 |Portugal    |Machine Learning Engineer |N         |     14|NA       |
+|490 |Romania     |Machine Learning Engineer |N         |      3|NA       |
+|491 |Spain       |Machine Learning Engineer |N         |     16|NA       |
+|492 |Sweden      |Machine Learning Engineer |N         |      3|NA       |
+|494 |Finland     |Senior Data Analyst       |MIN       | 103515|NA       |
+|495 |France      |Senior Data Analyst       |MIN       |  51053|NA       |
+|496 |Germany     |Senior Data Analyst       |MIN       |  59328|NA       |
+|497 |Hungary     |Senior Data Analyst       |MIN       |  88992|NA       |
+|498 |Ireland     |Senior Data Analyst       |MIN       |  75087|NA       |
+|499 |Italy       |Senior Data Analyst       |MIN       |  91773|NA       |
+|500 |Netherlands |Senior Data Analyst       |MIN       | 114510|NA       |
+|501 |Poland      |Senior Data Analyst       |MIN       |  88992|NA       |
+|502 |Portugal    |Senior Data Analyst       |MIN       | 114510|NA       |
+|503 |Romania     |Senior Data Analyst       |MIN       |  88992|NA       |
+|504 |Spain       |Senior Data Analyst       |MIN       |  91773|NA       |
+|505 |Sweden      |Senior Data Analyst       |MIN       |  51053|NA       |
+|507 |Finland     |Senior Data Analyst       |MEDIAN    | 114510|NA       |
+|508 |France      |Senior Data Analyst       |MEDIAN    | 114510|NA       |
+|509 |Germany     |Senior Data Analyst       |MEDIAN    | 114510|NA       |
+|510 |Hungary     |Senior Data Analyst       |MEDIAN    |  90382|NA       |
+|511 |Ireland     |Senior Data Analyst       |MEDIAN    | 121684|NA       |
+|512 |Italy       |Senior Data Analyst       |MEDIAN    | 114510|NA       |
+|513 |Netherlands |Senior Data Analyst       |MEDIAN    | 114510|NA       |
+|514 |Poland      |Senior Data Analyst       |MEDIAN    | 114510|NA       |
+|515 |Portugal    |Senior Data Analyst       |MEDIAN    | 114510|NA       |
+|516 |Romania     |Senior Data Analyst       |MEDIAN    | 114510|NA       |
+|517 |Spain       |Senior Data Analyst       |MEDIAN    | 114510|NA       |
+|518 |Sweden      |Senior Data Analyst       |MEDIAN    | 114510|NA       |
+|520 |Finland     |Senior Data Analyst       |MEAN      | 110854|NA       |
+|521 |France      |Senior Data Analyst       |MEAN      | 107428|NA       |
+|522 |Germany     |Senior Data Analyst       |MEAN      | 102543|NA       |
+|523 |Hungary     |Senior Data Analyst       |MEAN      |  90382|NA       |
+|524 |Ireland     |Senior Data Analyst       |MEAN      | 132368|NA       |
+|525 |Italy       |Senior Data Analyst       |MEAN      | 106931|NA       |
+|526 |Netherlands |Senior Data Analyst       |MEAN      | 114510|NA       |
+|527 |Poland      |Senior Data Analyst       |MEAN      | 110944|NA       |
+|528 |Portugal    |Senior Data Analyst       |MEAN      | 114517|NA       |
+|529 |Romania     |Senior Data Analyst       |MEAN      | 129586|NA       |
+|530 |Spain       |Senior Data Analyst       |MEAN      | 110762|NA       |
+|531 |Sweden      |Senior Data Analyst       |MEAN      |  93357|NA       |
+|533 |Finland     |Senior Data Analyst       |MAX       | 114538|NA       |
+|534 |France      |Senior Data Analyst       |MAX       | 161195|NA       |
+|535 |Germany     |Senior Data Analyst       |MAX       | 122982|NA       |
+|536 |Hungary     |Senior Data Analyst       |MAX       |  91773|NA       |
+|537 |Ireland     |Senior Data Analyst       |MAX       | 200335|NA       |
+|538 |Italy       |Senior Data Analyst       |MAX       | 114510|NA       |
+|539 |Netherlands |Senior Data Analyst       |MAX       | 114510|NA       |
+|540 |Poland      |Senior Data Analyst       |MAX       | 122982|NA       |
+|541 |Portugal    |Senior Data Analyst       |MAX       | 114538|NA       |
+|542 |Romania     |Senior Data Analyst       |MAX       | 200335|NA       |
+|543 |Spain       |Senior Data Analyst       |MAX       | 114510|NA       |
+|544 |Sweden      |Senior Data Analyst       |MAX       | 114510|NA       |
+|546 |Finland     |Senior Data Analyst       |STD       |   6356|NA       |
+|547 |France      |Senior Data Analyst       |STD       |  25504|NA       |
+|548 |Germany     |Senior Data Analyst       |STD       |  19945|NA       |
+|549 |Hungary     |Senior Data Analyst       |STD       |   1966|NA       |
+|550 |Ireland     |Senior Data Analyst       |STD       |  63303|NA       |
+|551 |Italy       |Senior Data Analyst       |STD       |  13127|NA       |
+|552 |Poland      |Senior Data Analyst       |STD       |  12168|NA       |
+|553 |Portugal    |Senior Data Analyst       |STD       |     13|NA       |
+|554 |Romania     |Senior Data Analyst       |STD       |  48675|NA       |
+|555 |Spain       |Senior Data Analyst       |STD       |   7995|NA       |
+|556 |Sweden      |Senior Data Analyst       |STD       |  36636|NA       |
+|558 |Finland     |Senior Data Analyst       |N         |      3|NA       |
+|559 |France      |Senior Data Analyst       |N         |     12|NA       |
+|560 |Germany     |Senior Data Analyst       |N         |     15|NA       |
+|561 |Hungary     |Senior Data Analyst       |N         |      2|NA       |
+|562 |Ireland     |Senior Data Analyst       |N         |      3|NA       |
+|563 |Italy       |Senior Data Analyst       |N         |      3|NA       |
+|564 |Netherlands |Senior Data Analyst       |N         |      1|NA       |
+|565 |Poland      |Senior Data Analyst       |N         |      9|NA       |
+|566 |Portugal    |Senior Data Analyst       |N         |      4|NA       |
+|567 |Romania     |Senior Data Analyst       |N         |      4|NA       |
+|568 |Spain       |Senior Data Analyst       |N         |      9|NA       |
+|569 |Sweden      |Senior Data Analyst       |N         |      3|NA       |
+|571 |Belgium     |Senior Data Engineer      |MIN       |  91773|NA       |
+|572 |Denmark     |Senior Data Engineer      |MIN       | 151925|NA       |
+|573 |Finland     |Senior Data Engineer      |MIN       |  99676|NA       |
+|574 |France      |Senior Data Engineer      |MIN       |  81576|NA       |
+|575 |Germany     |Senior Data Engineer      |MIN       |  75087|NA       |
+|576 |Greece      |Senior Data Engineer      |MIN       |  46350|NA       |
+|577 |Hungary     |Senior Data Engineer      |MIN       | 151925|NA       |
+|578 |Ireland     |Senior Data Engineer      |MIN       |  91773|NA       |
+|579 |Netherlands |Senior Data Engineer      |MIN       |  91773|NA       |
+|580 |Poland      |Senior Data Engineer      |MIN       |  46350|NA       |
+|581 |Portugal    |Senior Data Engineer      |MIN       |  58401|NA       |
+|582 |Romania     |Senior Data Engineer      |MIN       |  91773|NA       |
+|583 |Spain       |Senior Data Engineer      |MIN       |  75087|NA       |
+|584 |Sweden      |Senior Data Engineer      |MIN       | 151925|NA       |
+|586 |Belgium     |Senior Data Engineer      |MEDIAN    |  91773|NA       |
+|587 |Denmark     |Senior Data Engineer      |MEDIAN    | 151925|NA       |
+|588 |Finland     |Senior Data Engineer      |MEDIAN    | 103913|NA       |
+|589 |France      |Senior Data Engineer      |MEDIAN    | 151925|NA       |
+|590 |Germany     |Senior Data Engineer      |MEDIAN    | 151925|NA       |
+|591 |Greece      |Senior Data Engineer      |MEDIAN    |  46350|NA       |
+|592 |Hungary     |Senior Data Engineer      |MEDIAN    | 151925|NA       |
+|593 |Ireland     |Senior Data Engineer      |MEDIAN    | 151925|NA       |
+|594 |Netherlands |Senior Data Engineer      |MEDIAN    | 151925|NA       |
+|595 |Poland      |Senior Data Engineer      |MEDIAN    |  91773|NA       |
+|596 |Portugal    |Senior Data Engineer      |MEDIAN    | 151925|NA       |
+|597 |Romania     |Senior Data Engineer      |MEDIAN    | 121849|NA       |
+|598 |Spain       |Senior Data Engineer      |MEDIAN    | 151925|NA       |
+|599 |Sweden      |Senior Data Engineer      |MEDIAN    | 151925|NA       |
+|601 |Belgium     |Senior Data Engineer      |MEAN      |  91773|NA       |
+|602 |Denmark     |Senior Data Engineer      |MEAN      | 151925|NA       |
+|603 |Finland     |Senior Data Engineer      |MEAN      | 103913|NA       |
+|604 |France      |Senior Data Engineer      |MEAN      | 139741|NA       |
+|605 |Germany     |Senior Data Engineer      |MEAN      | 131379|NA       |
+|606 |Greece      |Senior Data Engineer      |MEAN      |  46350|NA       |
+|607 |Hungary     |Senior Data Engineer      |MEAN      | 151925|NA       |
+|608 |Ireland     |Senior Data Engineer      |MEAN      | 143358|NA       |
+|609 |Netherlands |Senior Data Engineer      |MEAN      | 141542|NA       |
+|610 |Poland      |Senior Data Engineer      |MEAN      | 102298|NA       |
+|611 |Portugal    |Senior Data Engineer      |MEAN      | 122734|NA       |
+|612 |Romania     |Senior Data Engineer      |MEAN      | 121849|NA       |
+|613 |Spain       |Senior Data Engineer      |MEAN      | 127250|NA       |
+|614 |Sweden      |Senior Data Engineer      |MEAN      | 151925|NA       |
+|616 |Belgium     |Senior Data Engineer      |MAX       |  91773|NA       |
+|617 |Denmark     |Senior Data Engineer      |MAX       | 151925|NA       |
+|618 |Finland     |Senior Data Engineer      |MAX       | 108150|NA       |
+|619 |France      |Senior Data Engineer      |MAX       | 151925|NA       |
+|620 |Germany     |Senior Data Engineer      |MAX       | 160165|NA       |
+|621 |Greece      |Senior Data Engineer      |MAX       |  46350|NA       |
+|622 |Hungary     |Senior Data Engineer      |MAX       | 151925|NA       |
+|623 |Ireland     |Senior Data Engineer      |MAX       | 160680|NA       |
+|624 |Netherlands |Senior Data Engineer      |MAX       | 160165|NA       |
+|625 |Poland      |Senior Data Engineer      |MAX       | 151925|NA       |
+|626 |Portugal    |Senior Data Engineer      |MAX       | 159650|NA       |
+|627 |Romania     |Senior Data Engineer      |MAX       | 151925|NA       |
+|628 |Spain       |Senior Data Engineer      |MAX       | 181795|NA       |
+|629 |Sweden      |Senior Data Engineer      |MAX       | 151925|NA       |
+|631 |Denmark     |Senior Data Engineer      |STD       |      0|NA       |
+|632 |Finland     |Senior Data Engineer      |STD       |   5991|NA       |
+|633 |France      |Senior Data Engineer      |STD       |  25453|NA       |
+|634 |Germany     |Senior Data Engineer      |STD       |  30406|NA       |
+|635 |Hungary     |Senior Data Engineer      |STD       |      0|NA       |
+|636 |Ireland     |Senior Data Engineer      |STD       |  25513|NA       |
+|637 |Netherlands |Senior Data Engineer      |STD       |  28049|NA       |
+|638 |Poland      |Senior Data Engineer      |STD       |  41914|NA       |
+|639 |Portugal    |Senior Data Engineer      |STD       |  45178|NA       |
+|640 |Romania     |Senior Data Engineer      |STD       |  42533|NA       |
+|641 |Spain       |Senior Data Engineer      |STD       |  36835|NA       |
+|642 |Sweden      |Senior Data Engineer      |STD       |      0|NA       |
+|644 |Belgium     |Senior Data Engineer      |N         |      1|NA       |
+|645 |Denmark     |Senior Data Engineer      |N         |      2|NA       |
+|646 |Finland     |Senior Data Engineer      |N         |      2|NA       |
+|647 |France      |Senior Data Engineer      |N         |     15|NA       |
+|648 |Germany     |Senior Data Engineer      |N         |     26|NA       |
+|649 |Greece      |Senior Data Engineer      |N         |      1|NA       |
+|650 |Hungary     |Senior Data Engineer      |N         |      3|NA       |
+|651 |Ireland     |Senior Data Engineer      |N         |      6|NA       |
+|652 |Netherlands |Senior Data Engineer      |N         |      5|NA       |
+|653 |Poland      |Senior Data Engineer      |N         |      9|NA       |
+|654 |Portugal    |Senior Data Engineer      |N         |      5|NA       |
+|655 |Romania     |Senior Data Engineer      |N         |      2|NA       |
+|656 |Spain       |Senior Data Engineer      |N         |     11|NA       |
+|657 |Sweden      |Senior Data Engineer      |N         |      6|NA       |
+|659 |Belgium     |Senior Data Scientist     |MIN       |  58401|NA       |
+|660 |Finland     |Senior Data Scientist     |MIN       |  90771|NA       |
+|661 |France      |Senior Data Scientist     |MIN       |  91773|NA       |
+|662 |Germany     |Senior Data Scientist     |MIN       |  83275|NA       |
+|663 |Greece      |Senior Data Scientist     |MIN       |  75087|NA       |
+|664 |Hungary     |Senior Data Scientist     |MIN       |  91773|NA       |
+|665 |Ireland     |Senior Data Scientist     |MIN       | 146775|NA       |
+|666 |Italy       |Senior Data Scientist     |MIN       |  74160|NA       |
+|667 |Netherlands |Senior Data Scientist     |MIN       |  75087|NA       |
+|668 |Poland      |Senior Data Scientist     |MIN       |  90771|NA       |
+|669 |Portugal    |Senior Data Scientist     |MIN       |  58401|NA       |
+|670 |Spain       |Senior Data Scientist     |MIN       |  46350|NA       |
+|671 |Sweden      |Senior Data Scientist     |MIN       | 151925|NA       |
+|673 |Belgium     |Senior Data Scientist     |MEDIAN    |  91773|NA       |
+|674 |Finland     |Senior Data Scientist     |MEDIAN    | 126498|NA       |
+|675 |France      |Senior Data Scientist     |MEDIAN    | 162225|NA       |
+|676 |Germany     |Senior Data Scientist     |MEDIAN    | 162225|NA       |
+|677 |Greece      |Senior Data Scientist     |MEDIAN    |  91863|NA       |
+|678 |Hungary     |Senior Data Scientist     |MEDIAN    |  91773|NA       |
+|679 |Ireland     |Senior Data Scientist     |MEDIAN    | 166602|NA       |
+|680 |Italy       |Senior Data Scientist     |MEDIAN    |  75087|NA       |
+|681 |Netherlands |Senior Data Scientist     |MEDIAN    | 151925|NA       |
+|682 |Poland      |Senior Data Scientist     |MEDIAN    | 162225|NA       |
+|683 |Portugal    |Senior Data Scientist     |MEDIAN    | 151925|NA       |
+|684 |Spain       |Senior Data Scientist     |MEDIAN    | 162225|NA       |
+|685 |Sweden      |Senior Data Scientist     |MEDIAN    | 175615|NA       |
+|687 |Belgium     |Senior Data Scientist     |MEAN      |  80649|NA       |
+|688 |Finland     |Senior Data Scientist     |MEAN      | 126498|NA       |
+|689 |France      |Senior Data Scientist     |MEAN      | 146569|NA       |
+|690 |Germany     |Senior Data Scientist     |MEAN      | 153190|NA       |
+|691 |Greece      |Senior Data Scientist     |MEAN      | 117020|NA       |
+|692 |Hungary     |Senior Data Scientist     |MEAN      | 115257|NA       |
+|693 |Ireland     |Senior Data Scientist     |MEAN      | 162848|NA       |
+|694 |Italy       |Senior Data Scientist     |MEAN      |  85902|NA       |
+|695 |Netherlands |Senior Data Scientist     |MEAN      | 129745|NA       |
+|696 |Poland      |Senior Data Scientist     |MEAN      | 136524|NA       |
+|697 |Portugal    |Senior Data Scientist     |MEAN      | 129937|NA       |
+|698 |Spain       |Senior Data Scientist     |MEAN      | 143030|NA       |
+|699 |Sweden      |Senior Data Scientist     |MEAN      | 175100|NA       |
+|701 |Belgium     |Senior Data Scientist     |MAX       |  91773|NA       |
+|702 |Finland     |Senior Data Scientist     |MAX       | 162225|NA       |
+|703 |France      |Senior Data Scientist     |MAX       | 162225|NA       |
+|704 |Germany     |Senior Data Scientist     |MAX       | 231235|NA       |
+|705 |Greece      |Senior Data Scientist     |MAX       | 206000|NA       |
+|706 |Hungary     |Senior Data Scientist     |MAX       | 162225|NA       |
+|707 |Ireland     |Senior Data Scientist     |MAX       | 171412|NA       |
+|708 |Italy       |Senior Data Scientist     |MAX       | 108459|NA       |
+|709 |Netherlands |Senior Data Scientist     |MAX       | 162225|NA       |
+|710 |Poland      |Senior Data Scientist     |MAX       | 162225|NA       |
+|711 |Portugal    |Senior Data Scientist     |MAX       | 162225|NA       |
+|712 |Spain       |Senior Data Scientist     |MAX       | 217819|NA       |
+|713 |Sweden      |Senior Data Scientist     |MAX       | 197760|NA       |
+|715 |Belgium     |Senior Data Scientist     |STD       |  19267|NA       |
+|716 |Finland     |Senior Data Scientist     |STD       |  50525|NA       |
+|717 |France      |Senior Data Scientist     |STD       |  31066|NA       |
+|718 |Germany     |Senior Data Scientist     |STD       |  34645|NA       |
+|719 |Greece      |Senior Data Scientist     |STD       |  54310|NA       |
+|720 |Hungary     |Senior Data Scientist     |STD       |  40675|NA       |
+|721 |Ireland     |Senior Data Scientist     |STD       |  11521|NA       |
+|722 |Italy       |Senior Data Scientist     |STD       |  19540|NA       |
+|723 |Netherlands |Senior Data Scientist     |STD       |  47615|NA       |
+|724 |Poland      |Senior Data Scientist     |STD       |  33703|NA       |
+|725 |Portugal    |Senior Data Scientist     |STD       |  39096|NA       |
+|726 |Spain       |Senior Data Scientist     |STD       |  60255|NA       |
+|727 |Sweden      |Senior Data Scientist     |STD       |  22921|NA       |
+|729 |Belgium     |Senior Data Scientist     |N         |      3|NA       |
+|730 |Finland     |Senior Data Scientist     |N         |      2|NA       |
+|731 |France      |Senior Data Scientist     |N         |      9|NA       |
+|732 |Germany     |Senior Data Scientist     |N         |     21|NA       |
+|733 |Greece      |Senior Data Scientist     |N         |      6|NA       |
+|734 |Hungary     |Senior Data Scientist     |N         |      3|NA       |
+|735 |Ireland     |Senior Data Scientist     |N         |      4|NA       |
+|736 |Italy       |Senior Data Scientist     |N         |      3|NA       |
+|737 |Netherlands |Senior Data Scientist     |N         |      3|NA       |
+|738 |Poland      |Senior Data Scientist     |N         |     12|NA       |
+|739 |Portugal    |Senior Data Scientist     |N         |     11|NA       |
+|740 |Spain       |Senior Data Scientist     |N         |      7|NA       |
+|741 |Sweden      |Senior Data Scientist     |N         |      3|NA       |
+|743 |Belgium     |Software Engineer         |MIN       |  45751|NA       |
+|744 |Finland     |Software Engineer         |MIN       |  77250|NA       |
+|745 |France      |Software Engineer         |MIN       |  45751|NA       |
+|746 |Germany     |Software Engineer         |MIN       |  58401|NA       |
+|747 |Greece      |Software Engineer         |MIN       |  58401|NA       |
+|748 |Hungary     |Software Engineer         |MIN       |  58401|NA       |
+|749 |Ireland     |Software Engineer         |MIN       |  91773|NA       |
+|750 |Italy       |Software Engineer         |MIN       |  84975|NA       |
+|751 |Netherlands |Software Engineer         |MIN       |  58401|NA       |
+|752 |Poland      |Software Engineer         |MIN       |  67742|NA       |
+|753 |Portugal    |Software Engineer         |MIN       |  91773|NA       |
+|754 |Romania     |Software Engineer         |MIN       |  44496|NA       |
+|755 |Spain       |Software Engineer         |MIN       |  58401|NA       |
+|756 |Sweden      |Software Engineer         |MIN       | 161195|NA       |
+|758 |Belgium     |Software Engineer         |MEDIAN    |  60419|NA       |
+|759 |Finland     |Software Engineer         |MEDIAN    |  77250|NA       |
+|760 |France      |Software Engineer         |MEDIAN    | 146775|NA       |
+|761 |Germany     |Software Engineer         |MEDIAN    |  87524|NA       |
+|762 |Greece      |Software Engineer         |MEDIAN    |  83430|NA       |
+|763 |Hungary     |Software Engineer         |MEDIAN    |  70838|NA       |
+|764 |Ireland     |Software Engineer         |MEDIAN    |  91773|NA       |
+|765 |Italy       |Software Engineer         |MEDIAN    |  96897|NA       |
+|766 |Netherlands |Software Engineer         |MEDIAN    |  91773|NA       |
+|767 |Poland      |Software Engineer         |MEDIAN    |  91773|NA       |
+|768 |Portugal    |Software Engineer         |MEDIAN    |  97850|NA       |
+|769 |Romania     |Software Engineer         |MEDIAN    | 144663|NA       |
+|770 |Spain       |Software Engineer         |MEDIAN    |  79361|NA       |
+|771 |Sweden      |Software Engineer         |MEDIAN    | 161195|NA       |
+|773 |Belgium     |Software Engineer         |MEAN      |  60419|NA       |
+|774 |Finland     |Software Engineer         |MEAN      |  77250|NA       |
+|775 |France      |Software Engineer         |MEAN      | 131083|NA       |
+|776 |Germany     |Software Engineer         |MEAN      |  93805|NA       |
+|777 |Greece      |Software Engineer         |MEAN      |  93755|NA       |
+|778 |Hungary     |Software Engineer         |MEAN      |  72962|NA       |
+|779 |Ireland     |Software Engineer         |MEAN      |  91773|NA       |
+|780 |Italy       |Software Engineer         |MEAN      |  96897|NA       |
+|781 |Netherlands |Software Engineer         |MEAN      | 113746|NA       |
+|782 |Poland      |Software Engineer         |MEAN      |  94958|NA       |
+|783 |Portugal    |Software Engineer         |MEAN      | 121478|NA       |
+|784 |Romania     |Software Engineer         |MEAN      | 133539|NA       |
+|785 |Spain       |Software Engineer         |MEAN      | 106553|NA       |
+|786 |Sweden      |Software Engineer         |MEAN      | 161195|NA       |
+|788 |Belgium     |Software Engineer         |MAX       |  75087|NA       |
+|789 |Finland     |Software Engineer         |MAX       |  77250|NA       |
+|790 |France      |Software Engineer         |MAX       | 202395|NA       |
+|791 |Germany     |Software Engineer         |MAX       | 182601|NA       |
+|792 |Greece      |Software Engineer         |MAX       | 161195|NA       |
+|793 |Hungary     |Software Engineer         |MAX       |  91773|NA       |
+|794 |Ireland     |Software Engineer         |MAX       |  91773|NA       |
+|795 |Italy       |Software Engineer         |MAX       | 108819|NA       |
+|796 |Netherlands |Software Engineer         |MAX       | 191065|NA       |
+|797 |Poland      |Software Engineer         |MAX       | 161195|NA       |
+|798 |Portugal    |Software Engineer         |MAX       | 164800|NA       |
+|799 |Romania     |Software Engineer         |MAX       | 200335|NA       |
+|800 |Spain       |Software Engineer         |MAX       | 211150|NA       |
+|801 |Sweden      |Software Engineer         |MAX       | 161195|NA       |
+|803 |Belgium     |Software Engineer         |STD       |  20743|NA       |
+|804 |France      |Software Engineer         |STD       |  62859|NA       |
+|805 |Germany     |Software Engineer         |STD       |  44528|NA       |
+|806 |Greece      |Software Engineer         |STD       |  39931|NA       |
+|807 |Hungary     |Software Engineer         |STD       |  17168|NA       |
+|808 |Italy       |Software Engineer         |STD       |  16860|NA       |
+|809 |Netherlands |Software Engineer         |STD       |  69007|NA       |
+|810 |Poland      |Software Engineer         |STD       |  22541|NA       |
+|811 |Portugal    |Software Engineer         |STD       |  38004|NA       |
+|812 |Romania     |Software Engineer         |STD       |  79239|NA       |
+|813 |Spain       |Software Engineer         |STD       |  58647|NA       |
+|815 |Belgium     |Software Engineer         |N         |      2|NA       |
+|816 |Finland     |Software Engineer         |N         |      1|NA       |
+|817 |France      |Software Engineer         |N         |     11|NA       |
+|818 |Germany     |Software Engineer         |N         |     10|NA       |
+|819 |Greece      |Software Engineer         |N         |      6|NA       |
+|820 |Hungary     |Software Engineer         |N         |      4|NA       |
+|821 |Ireland     |Software Engineer         |N         |      1|NA       |
+|822 |Italy       |Software Engineer         |N         |      2|NA       |
+|823 |Netherlands |Software Engineer         |N         |      3|NA       |
+|824 |Poland      |Software Engineer         |N         |     15|NA       |
+|825 |Portugal    |Software Engineer         |N         |      5|NA       |
+|826 |Romania     |Software Engineer         |N         |      4|NA       |
+|827 |Spain       |Software Engineer         |N         |      8|NA       |
+|828 |Sweden      |Software Engineer         |N         |      1|NA       |
+##------ Thu Dec  5 17:18:08 2024 ------##
+[1] "Europe/Paris"
