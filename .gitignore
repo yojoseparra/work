@@ -1,3 +1,6 @@
 /.Rprofile
 /.Rproj.user
 /work.Rproj
+/CSV2SQL
+/workDBlocal.session.sql
+/workDBremote.session.sql
