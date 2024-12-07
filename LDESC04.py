@@ -39,3 +39,4 @@ j['mean']= j['mean'].round(0)
 
 
 j.to_csv('data/LDESC04.csv', sep = ',', index=False)
+

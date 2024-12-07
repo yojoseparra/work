@@ -49,7 +49,7 @@ Notice that it is not the interest of going through code snippets here, therefor
 
 ## Data 
 
-Origin of the data is unknown. All we know is that it is available online https://huggingface.co/datasets/lukebarousse/data_jobs
+Origin of the data comes from datanerd.tech[datanerd.tech](https://datanerd.tech/), and it is available online [data](https://huggingface.co/datasets/lukebarousse/data_jobs). Datanerd app is an application that searches jobs posting dayly comming from google search results.
 
 ## Data Imputation and missing data
 
@@ -92,14 +92,6 @@ Following the same logic it can be said that for other statistics we have the me
 Notice these statistics can change for Senior Data engineers and Senior Data Scientists. 
 
 The second conclusion can the be summarized in two fold. First, Seniority has advantages in terms of salary. Second of all , that salaries for data analysts are averaging regardless the country, about 110K USD/year. This is an important conclusion, as we see that there is not such a big difference of salary respect to the job title.
-
-
-
-
-
-
-
-
 
 
 Basic statistics of salary by IT role are presented in [LDESC03](/out/LDESC03.log). The table is organized ascending according to the statistic values. For instance, means and medians are increasing in magnitude. The conclusion is then that the Jobs at the bottom are better paid. Business analyst jobs offer a mean of 80K whereas a Machine Learning Engineer may be paid 120K in average [EDA1 Scaterplots 4.0](/plot/EDA1%20Scaterpots%204.0.png) shows a plot of the mean yearly salary respect to the 'n' number of job vacancies by job category. 
@@ -185,9 +177,6 @@ In the IT Jobs market Training is very relevant for a high salary. One skill alo
 Most of job oportunities in 2023 came from Germany (DEE 150K, DSC 130K), Poland (DEE 140K, DSC140K) and Portugal (DEE 130K, DSC 160K). Being a senior has just advantages as the skill set required is smaller and the pay is higher, but there were no many vacancies for Senior Data Analysts or Senior Data Engineers. Business Analysts (82K) and Data analyst(90K) are highly required as well. They are not required to dominate particular skills like other IT professionals, but it comes with a lower wage. Data Analyst and Business Analyst job descriptions involve such a very wide group of disparate skills that at the end, they do not look like to be specialized. 
 
 Conclusion of the conclusion. Are you recruiter looking for an IT professional? go to Italy to hunt for Data Analysts. Are you looking for a IT job but you do not have the hot title experience? profile yourselve as a Data Scientist and go to Portugal or Poland.   
-
-
-[Testing](out/LDESC02.txt)
 
 
 ## Further Analysis
