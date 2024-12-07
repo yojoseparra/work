@@ -6,5 +6,4 @@
 /workDBremote.session.sql
 /portfolio.session.sql
 /R2PY.py
-/.vscode
-/.vscode/*
+vscode/
