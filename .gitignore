@@ -10,3 +10,9 @@
 **/.Rproj.user/
 **/.Rprofile/
 **/.gitignore/
+.Rprofile
+CSV2SQL.py
+portfolio.session.sql
+work.Rproj
+workDBlocal.session.sql
+workDBremote.session.sql
