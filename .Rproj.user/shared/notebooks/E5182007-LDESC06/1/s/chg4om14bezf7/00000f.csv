@@ -1,0 +1,11 @@
+"0","i = 9
+z <- read_excel(""data/titles.xls"")
+titlecd = toString(z[i,1])
+title = toString(z[i,2])
+docname = paste0(titlecd,'.docx')
+footnote_jose= toString(z[i,3])
+use_df_printer()
+a = read.csv(""data/LDESC06.csv"")
+"
+"2","Error in file(file, ""rt"") : cannot open the connection
+"

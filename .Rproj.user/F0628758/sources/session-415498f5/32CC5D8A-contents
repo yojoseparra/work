@@ -1,0 +1,138 @@
+# -------------------------------------
+# Script: 
+  Author= "YoJoseParra" 
+# Purpose: 
+# Notes:
+# -------------------------------------
+#################################### These next 8 lines delete history,  #########################################
+clearhistory <- function() {write("", file=".blank"); loadhistory(".blank");unlink(".blank")}; clearhistory()
+##################################################################################################################
+
+##HERE THE RMD DOC STARTS. Unquote to make a markdown file after code completion #################################
+# ---
+# author: "Jose Parra"
+# date: ""
+# output:
+#   pdf_document: default
+# word_document:
+#   reference_docx: doc_styles_vert.docx
+# ---
+# 
+# ```{r, message=FALSE, warning=FALSE, echo=FALSE}
+
+
+
+library(officer)
+#library(ggplot2)
+library(crosstable)
+library(readxl)
+library(flextable)
+library(officer)
+library(dplyr)
+library(knitr)
+
+
+use_df_printer()
+
+set_flextable_defaults(
+  border.color = "#AAAAAA", font.family = "Arial",
+  font.size = 6, padding = 2, line_spacing = 1.5
+)
+
+
+
+z <- read_excel("data/titles.xls")
+titlecd = toString(z[1,1])
+title = toString(z[1,2])
+docname = paste0(titlecd,'.docx')
+footnote_jose= toString(z[1,3])
+use_df_printer()
+a = read.csv('data/Data_Jobs.csv')
+
+# there are many reps in this dataset caused by reps in the original data i
+a=a[, setdiff(names(a), c('Skills', 'level_0') ) ]
+
+
+
+a= a[!duplicated(a), ]
+
+
+x=crosstable(data=a, c(Country), by=c(Job ), test=FALSE, total ='both', percent_pattern= "{n}( {p_row} )" , percent_digits=0)
+
+x=as.data.frame(x)
+x=x[, colnames(x)[3:length(colnames(x))]  ]
+names(x)[1] ='Country'
+
+
+
+
+
+#order cols
+b=crosstable(data=a, c(Country), by=c(Job ), test=FALSE, total =FALSE, percent_pattern= "{n}" , percent_digits=0)
+g = as.data.frame(b)
+g=g[, colnames(g)[4:length(colnames(g))]  ]
+g= sapply(g, as.numeric)
+row.names(g) = b$variable
+
+h = sort(apply(g,2,sum), decreasing=TRUE)
+
+i=names(h)
+j = g[,i]
+
+
+
+#order rows
+b=crosstable(data=a, c(Country), by=c(Job ), test=FALSE, total =FALSE, percent_pattern= "{n}" , percent_digits=0)
+c=as.data.frame(b)
+c=c[, colnames(c)[4:length(colnames(c))]  ]
+c= sapply(c, as.numeric)
+row.names(c) = b$variable
+
+t = sort(apply(c,1,sum), decreasing=TRUE)
+
+n=names(t)
+d = c[n,   ]
+
+
+
+#oder rows and columns
+
+y = x[ match( c(row.names(d),'Total') ,  x$Country) , c('Country',colnames(j),'Total') ]
+
+#row.names(y) = c(row.names(d),'Total')
+
+flextable(y)%>% 
+  add_footer_lines( paste('Note:',footnote_jose) )%>% 
+  add_header_lines(paste('Complete Cases Set') )%>% 
+  add_header_lines(paste(titlecd, title) )
+
+
+
+
+
+
+
+#```
+
+################################ HERE THE RMD DOC ENDS                 ##########################################
+################################ This is done to have an output in txt ##########################################
+options(max.print=1000000)
+#getwd()
+
+
+sink(file = paste0('out/', titlecd, '.log' ) , append = TRUE)
+
+kable(y)
+
+
+savehistory(file = paste0('out/', titlecd, '_verbose.log' ) )
+
+timestamp(stamp = date(),
+          prefix = "##------ ", suffix = " ------##",
+          quiet = FALSE)
+Sys.timezone()
+Author
+
+sink()
+#################################################################
+

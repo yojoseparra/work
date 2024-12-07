@@ -1,0 +1,1 @@
+Sys.setenv(RETICULATE_PYTHON = "C:/Users/USUARIO/joseconda/envs/portfolio/python.exe")
