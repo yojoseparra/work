@@ -14,7 +14,6 @@
 CSV2SQL.py
 portfolio.session.sql
 work.Rproj
-workDBlocal.session.sql
 workDBremote.session.sql
 data/Data_Jobs_1.csv
 Data_Jobs_SQL.py
