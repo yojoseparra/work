@@ -19,9 +19,10 @@ This is the top folder structure:
 - **out**: It contains the tabular outputs presented in PDF and Word.
 - **plot**: this is the output graphs folder. It contains only plots.
 
-All documents hereunder can be directly accessed in this folders. Notice that I preffer having a look at data in the .CSVs or Word format, this this reason I added these documents here. PDFs are just for preview purposes and I discourage reading directly from them as rendering might be of low quality.
+All documents hereunder can be directly accessed in this folders. Notice that I preffer having a look at data in the .CSVs or Word format, this this reason I added these documents here.
 
 # Exploratory Data Analysis (EDA) of IT Jobs in EU in 2023
+
 
 ## Research Questions Regarding IT Data Jobs
 
@@ -65,16 +66,76 @@ Salary of 100 K is the same as 100.000 USD. Notice that the notation of thousand
 
 ## Exploratory Data Analysis
 
+In total we have 1488 not missing records. The following table presents the results after using Postgres SQL to query basic statistics in '000s:
+
+*Table 1. Descriptive statistics by Job type for a total of 1488 no missing records*
+
+| job                       | n   | mean  | stddev | min  | max   |
+|---------------------------|-----|-------|--------|------|-------|
+| Software Engineer         | 73  | $105  | $47    | $44  | $211  |
+| Cloud Engineer            | 19  | $107  | $50    | $58  | $228  |
+| Senior Data Analyst       | 68  | $109  | $24    | $51  | $200  |
+| Data Scientist            | 262 | $115  | $41    | $44  | $198  |
+| Machine Learning Engineer | 167 | $119  | $47    | $44  | $232  |
+| Data Engineer             | 325 | $121  | $35    | $46  | $256  |
+| Senior Data Engineer      | 94  | $131  | $33    | $46  | $182  |
+| Senior Data Scientist     | 87  | $138  | $41    | $46  | $231  |
+| Business Analyst          | 50  | $86   | $30    | $31  | $191  |
+| Data Analyst              | 343 | $95   | $35    | $44  | $206  |
+
+Table 1. Shows the distribution of salaries accross different jobs in a decreasing manner from highly paid to lower paid. Data analysts are the lowest paid among the group. the total Job count is important as job categories with less counts may be less representative. 
+
+  *Table 2. Descriptive statistics by country*
+| country     | n   | mean  | stddev | min  | max   |
+|-------------|-----|-------|--------|------|-------|
+| Greece      | 82  | $105  | $38    | $46  | $206  |
+| Romania     | 40  | $105  | $45    | $44  | $200  |
+| Hungary     | 62  | $107  | $39    | $51  | $191  |
+| France      | 237 | $108  | $41    | $44  | $256  |
+| Poland      | 200 | $110  | $39    | $44  | $228  |
+| Spain       | 144 | $111  | $40    | $44  | $232  |
+| Denmark     | 18  | $114  | $36    | $58  | $171  |
+| Finland     | 26  | $115  | $33    | $74  | $191  |
+| Germany     | 257 | $119  | $45    | $31  | $231  |
+| Netherlands | 87  | $119  | $38    | $55  | $232  |
+| Portugal    | 131 | $120  | $38    | $53  | $195  |
+| Sweden      | 47  | $124  | $42    | $44  | $256  |
+| Ireland     | 53  | $125  | $40    | $44  | $200  |
+| Italy       | 47  | $96   | $31    | $44  | $162  |
+| Belgium     | 57  | $99   | $37    | $46  | $170  |
+
+Table 2. Presents descriptive statistics by country. Italy pays among the lowest with a mean of about 100.000 USD/year.  Among the highest country average payers are Ireland, Germany and Portugal. 
+
 ### EU IT Job posts (N=1488 job vacancies in 2023).
 
 
-To focus my analysis on the EU job market, I apply filters to the dataset, narrowing down to roles based in the Eurozone. Only 15 countries had enough data up to a total of 1488 usable posts with salary information.
+To focus this analysis on the EU job market, I apply filters to the dataset, narrowing down to roles based in the Eurozone. Only 15 countries had enough data up to a total of 1488 usable posts with salary information. Table [TDESC02](/out/TDESC02.log) shows the distribution of job vacancies for different jobs and by country.
 
-[TDESC02](/out/TDESC02.log)
+*Table TDESC02. Total counts of job availabilities by country in 2023 in '000s*
+|   |Country     |Data Analyst |Data Engineer |Data Scientist |Machine Learning Engineer |Senior Data Engineer |Senior Data Scientist |Software Engineer |Senior Data Analyst |Business Analyst |Cloud Engineer |Total       |
+|:--|:-----------|:------------|:-------------|:--------------|:-------------------------|:--------------------|:---------------------|:-----------------|:-------------------|:----------------|:--------------|:-----------|
+|5  |Germany     |48( 19% )    |39( 15% )     |41( 16% )      |39( 15% )                 |26( 10% )            |21( 8% )              |10( 4% )          |15( 6% )            |11( 4% )         |7( 3% )        |257 (17%)   |
+|4  |France      |50( 21% )    |62( 26% )     |57( 24% )      |17( 7% )                  |15( 6% )             |9( 4% )               |11( 5% )          |12( 5% )            |3( 1% )          |1( 0.4% )      |237 (16%)   |
+|11 |Poland      |43( 22% )    |46( 23% )     |29( 14% )      |23( 12% )                 |9( 4% )              |12( 6% )              |15( 8% )          |9( 4% )             |8( 4% )          |6( 3% )        |200 (13%)   |
+|14 |Spain       |30( 21% )    |35( 24% )     |20( 14% )      |16( 11% )                 |11( 8% )             |7( 5% )               |8( 6% )           |9( 6% )             |5( 3% )          |3( 2% )        |144 (10%)   |
+|12 |Portugal    |37( 28% )    |30( 23% )     |22( 17% )      |14( 11% )                 |5( 4% )              |11( 8% )              |5( 4% )           |4( 3% )             |3( 2% )          |0( 0% )        |131 (9%)    |
+|10 |Netherlands |20( 23% )    |23( 26% )     |17( 20% )      |12( 14% )                 |5( 6% )              |3( 3% )               |3( 3% )           |1( 1% )             |3( 3% )          |0( 0% )        |87 (6%)     |
+|6  |Greece      |16( 20% )    |24( 29% )     |12( 15% )      |14( 17% )                 |1( 1% )              |6( 7% )               |6( 7% )           |0( 0% )             |3( 4% )          |0( 0% )        |82 (6%)     |
+|7  |Hungary     |18( 29% )    |13( 21% )     |13( 21% )      |5( 8% )                   |3( 5% )              |3( 5% )               |4( 6% )           |2( 3% )             |0( 0% )          |1( 2% )        |62 (4%)     |
+|1  |Belgium     |20( 35% )    |11( 19% )     |8( 14% )       |7( 12% )                  |1( 2% )              |3( 5% )               |2( 4% )           |0( 0% )             |5( 9% )          |0( 0% )        |57 (4%)     |
+|8  |Ireland     |19( 36% )    |9( 17% )      |6( 11% )       |5( 9% )                   |6( 11% )             |4( 8% )               |1( 2% )           |3( 6% )             |0( 0% )          |0( 0% )        |53 (4%)     |
+|9  |Italy       |11( 23% )    |12( 26% )     |12( 26% )      |3( 6% )                   |0( 0% )              |3( 6% )               |2( 4% )           |3( 6% )             |1( 2% )          |0( 0% )        |47 (3%)     |
+|15 |Sweden      |9( 19% )     |8( 17% )      |7( 15% )       |3( 6% )                   |6( 13% )             |3( 6% )               |1( 2% )           |3( 6% )             |7( 15% )         |0( 0% )        |47 (3%)     |
+|13 |Romania     |12( 30% )    |6( 15% )      |7( 18% )       |3( 8% )                   |2( 5% )              |0( 0% )               |4( 10% )          |4( 10% )            |1( 2% )          |1( 2% )        |40 (3%)     |
+|3  |Finland     |5( 19% )     |5( 19% )      |4( 15% )       |4( 15% )                  |2( 8% )              |2( 8% )               |1( 4% )           |3( 12% )            |0( 0% )          |0( 0% )        |26 (2%)     |
+|2  |Denmark     |5( 28% )     |2( 11% )      |7( 39% )       |2( 11% )                  |2( 11% )             |0( 0% )               |0( 0% )           |0( 0% )             |0( 0% )          |0( 0% )        |18 (1%)     |
+|16 |Total       |343 (23%)    |325 (22%)     |262 (18%)      |167 (11%)                 |94 (6%)              |87 (6%)               |73 (5%)           |68 (5%)             |50 (3%)          |19 (1%)        |1488 (100%) |
+##------ Thu Dec  5 17:33:05 2024 ------##
+[1] "Europe/Paris"
+[1] "YoJoseParra"
 
-TDESC02 table shows the total counts of job availabilities by country in 2023. Only these countries are displayed as they were those whose data was available.  
 
-Values are presented in '000s. Table can be accessed in word, CSV or PDF format. TDESC02 is organized from left to right to show the most important countries and roles in terms of counts of job vacancies. Thus, for instance Germany accounted for about the 17% of total vacancies in europe. Other important countries were France (16%), Poland (13%), Spain (10%). The table is also organize by important Jobs, as it starts from Data Analyst (23%), Data Engineer (22%) and Data Scientist (18%) down to Cloud Engineeer (1%). 
+This Table can be accessed in word, CSV or Word format. TDESC02 is organized from left to right to show the most important countries and roles in terms of counts of job vacancies. Thus, for instance Germany accounted for about the 17% of total vacancies in europe. Other important countries were France (16%), Poland (13%), Spain (10%). The table is also organize by important Jobs, as it starts from Data Analyst (23%), Data Engineer (22%) and Data Scientist (18%) down to Cloud Engineeer (1%). 
 
 
 ## A 1.000 m high view  

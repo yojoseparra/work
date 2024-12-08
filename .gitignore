@@ -16,3 +16,8 @@ portfolio.session.sql
 work.Rproj
 workDBlocal.session.sql
 workDBremote.session.sql
+data/Data_Jobs_1.csv
+Data_Jobs_SQL.py
+postgres local.session.sql
+postgresDBlocal.session.sql
+data/Data_Jobs.csv
