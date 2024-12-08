@@ -85,26 +85,6 @@ In total we have 1488 not missing records. The following table presents the resu
 
 Table 1. Shows the distribution of salaries accross different jobs in a decreasing manner from highly paid to lower paid. Data analysts are the lowest paid among the group. the total Job count is important as job categories with less counts may be less representative. 
 
-  *Table 2. Descriptive statistics by country*
-| country     | n   | mean  | stddev | min  | max   |
-|-------------|-----|-------|--------|------|-------|
-| Greece      | 82  | $105  | $38    | $46  | $206  |
-| Romania     | 40  | $105  | $45    | $44  | $200  |
-| Hungary     | 62  | $107  | $39    | $51  | $191  |
-| France      | 237 | $108  | $41    | $44  | $256  |
-| Poland      | 200 | $110  | $39    | $44  | $228  |
-| Spain       | 144 | $111  | $40    | $44  | $232  |
-| Denmark     | 18  | $114  | $36    | $58  | $171  |
-| Finland     | 26  | $115  | $33    | $74  | $191  |
-| Germany     | 257 | $119  | $45    | $31  | $231  |
-| Netherlands | 87  | $119  | $38    | $55  | $232  |
-| Portugal    | 131 | $120  | $38    | $53  | $195  |
-| Sweden      | 47  | $124  | $42    | $44  | $256  |
-| Ireland     | 53  | $125  | $40    | $44  | $200  |
-| Italy       | 47  | $96   | $31    | $44  | $162  |
-| Belgium     | 57  | $99   | $37    | $46  | $170  |
-
-Table 2. Presents descriptive statistics by country. Italy pays among the lowest with a mean of about 100.000 USD/year.  Among the highest country average payers are Ireland, Germany and Portugal. 
 
 ### EU IT Job posts (N=1488 job vacancies in 2023).
 
@@ -112,7 +92,7 @@ Table 2. Presents descriptive statistics by country. Italy pays among the lowest
 To focus this analysis on the EU job market, I apply filters to the dataset, narrowing down to roles based in the Eurozone. Only 15 countries had enough data up to a total of 1488 usable posts with salary information. Table [TDESC02](/out/TDESC02.log) shows the distribution of job vacancies for different jobs and by country.
 
 *Table TDESC02. Total counts of job availabilities by country in 2023 in '000s*
-|   |Country     |Data Analyst |Data Engineer |Data Scientist |Machine Learning Engineer |Senior Data Engineer |Senior Data Scientist |Software Engineer |Senior Data Analyst |Business Analyst |Cloud Engineer |Total       |
+|Row   |Country     |Data Analyst |Data Engineer |Data Scientist |Machine Learning Engineer |Senior Data Engineer |Senior Data Scientist |Software Engineer |Senior Data Analyst |Business Analyst |Cloud Engineer |Total       |
 |:--|:-----------|:------------|:-------------|:--------------|:-------------------------|:--------------------|:---------------------|:-----------------|:-------------------|:----------------|:--------------|:-----------|
 |5  |Germany     |48( 19% )    |39( 15% )     |41( 16% )      |39( 15% )                 |26( 10% )            |21( 8% )              |10( 4% )          |15( 6% )            |11( 4% )         |7( 3% )        |257 (17%)   |
 |4  |France      |50( 21% )    |62( 26% )     |57( 24% )      |17( 7% )                  |15( 6% )             |9( 4% )               |11( 5% )          |12( 5% )            |3( 1% )          |1( 0.4% )      |237 (16%)   |
@@ -130,12 +110,9 @@ To focus this analysis on the EU job market, I apply filters to the dataset, nar
 |3  |Finland     |5( 19% )     |5( 19% )      |4( 15% )       |4( 15% )                  |2( 8% )              |2( 8% )               |1( 4% )           |3( 12% )            |0( 0% )          |0( 0% )        |26 (2%)     |
 |2  |Denmark     |5( 28% )     |2( 11% )      |7( 39% )       |2( 11% )                  |2( 11% )             |0( 0% )               |0( 0% )           |0( 0% )             |0( 0% )          |0( 0% )        |18 (1%)     |
 |16 |Total       |343 (23%)    |325 (22%)     |262 (18%)      |167 (11%)                 |94 (6%)              |87 (6%)               |73 (5%)           |68 (5%)             |50 (3%)          |19 (1%)        |1488 (100%) |
-##------ Thu Dec  5 17:33:05 2024 ------##
-[1] "Europe/Paris"
-[1] "YoJoseParra"
 
 
-This Table can be accessed in word, CSV or Word format. TDESC02 is organized from left to right to show the most important countries and roles in terms of counts of job vacancies. Thus, for instance Germany accounted for about the 17% of total vacancies in europe. Other important countries were France (16%), Poland (13%), Spain (10%). The table is also organize by important Jobs, as it starts from Data Analyst (23%), Data Engineer (22%) and Data Scientist (18%) down to Cloud Engineeer (1%). 
+This table can be accessed in word, CSV or Word format. TDESC02 is organized from left to right to show the most important countries and roles in terms of counts of job vacancies. Thus, for instance Germany accounted for about the 17% of total vacancies in europe. Other important countries were France (16%), Poland (13%), Spain (10%). The table is also organize by important Jobs, as it starts from Data Analyst (23%), Data Engineer (22%) and Data Scientist (18%) down to Cloud Engineeer (1%). 
 
 
 ## A 1.000 m high view  
@@ -149,6 +126,11 @@ This first plot is the result of calculating the Minimum salary by job type rega
 the plot of the 'Min' shows that an horizontal line can be safely done on top of the bars and that an overall average can be 46K dollars (46.000 USD).
 
 Following the same logic it can be said that for other statistics we have the median of 110K, mean of  110K and max of 190K. This can be seeing in [Median](plot/EDA1%20Bargraphs%201.1%20Median.png), [Max](plot/EDA1%20Bargraphs%201.3%20Max.png). 
+
+*Figure 1. Median of Jobs by Country*
+![Median](/plot/EDA1%20Bargraphs%203.2%20MEDIAN.png)
+
+
 
 Notice these statistics can change for Senior Data engineers and Senior Data Scientists. 
 
@@ -170,21 +152,94 @@ In any case, We will see that Job titles are arbitrary as requested skills vary 
 
 ## Analysis by country
 
-Most of analysis will be made by country. As it was already said something about the total jobs available by country, check again [TDESC02](/out/TDESC02.log) to check the counts of jobs available and [TDESC02](/out/TDESC02.log) to see any of the statistics. 
+Most of analysis will be made by country. As it was already said something about the total jobs available by country, check again [TDESC02](/out/TDESC02.log) to check the counts of jobs available and [TDESC02](/out/TDESC02.log) to see any of the statistics. Hereunder a quick summary.
 
-TDESC02 Shows the most important countries (Germany, France, Poland, Spain and Portugal) that acount for about the 60% of the total data. the same can be said about Data Analyst, Data Engineer, Data Scientist and Machine learning Jobs, that account roughly for the 75% of the total data. 
+  *Table 2. Descriptive statistics by country*
+| country     | n   | mean  | stddev | min  | max   |
+|-------------|-----|-------|--------|------|-------|
+| Greece      | 82  | $105  | $38    | $46  | $206  |
+| Romania     | 40  | $105  | $45    | $44  | $200  |
+| Hungary     | 62  | $107  | $39    | $51  | $191  |
+| France      | 237 | $108  | $41    | $44  | $256  |
+| Poland      | 200 | $110  | $39    | $44  | $228  |
+| Spain       | 144 | $111  | $40    | $44  | $232  |
+| Denmark     | 18  | $114  | $36    | $58  | $171  |
+| Finland     | 26  | $115  | $33    | $74  | $191  |
+| Germany     | 257 | $119  | $45    | $31  | $231  |
+| Netherlands | 87  | $119  | $38    | $55  | $232  |
+| Portugal    | 131 | $120  | $38    | $53  | $195  |
+| Sweden      | 47  | $124  | $42    | $44  | $256  |
+| Ireland     | 53  | $125  | $40    | $44  | $200  |
+| Italy       | 47  | $96   | $31    | $44  | $162  |
+| Belgium     | 57  | $99   | $37    | $46  | $170  |
 
-This table is very important as it shows the representativeness of each country in the overall estimations. 
+Table 2. Presents descriptive statistics by country. Italy pays among the lowest with a mean of about 100.000 USD/year.  Among the highest country average payers are Ireland, Germany and Portugal. In the same fashion, TDESC02 Shows the most important countries (Germany, France, Poland, Spain and Portugal) that acount for about the 60% of the total data. the same can be said about Data Analyst, Data Engineer, Data Scientist and Machine learning Jobs, that account roughly for the 75% of the total data. TDESC02 shows the representativeness of each country in the overall estimations. 
 
 Since the estimates of means among others are now being calculated by job type and by country, we might en up in confusion. Let'us have an overall sense by plotting a bit. 
 
 For now let us say that countries pay very differently. One example can be Germany compared to Italy in terms of yearly salary. In this respect [EDA1 Scaterplots 2.0.3](/plot/EDA1%20Scaterpots%202.0.3.png) shows both countries one next to the other. Italy pays less to data analysts in general and the job availability is scarce. The plot presents in color the country salary against the overall mean. Yellow tones are more desired as it means that the country pays higher than the average. This is the case for Germany for instance, This is not the case fo Italy. A plot with all countries can be seeing at [EDA 1 Scatterplots 2.0.2](/plot/EDA1%20Scaterpots%202.0.2.png). Germany, France, Poland, Portugal and Spain pay better in general.
+
+*Figure 2.EDA1 Scatterplots 2.0.2 sample selected countries. X-axis in USD/year*
+
+![EDA1 Scaterpots 2.0.2 sample](/plot/EDA1%20Scaterpots%202.0.2%20sample.PNG)
 
 The complete summary is presented in [TDESC02](/out/TDESC02.log)  and data is available in the data folder see [EDA1_Bargraphs_3.2](/data/EDA1_Bargraphs_3.2.csv). This data file can be opened in excel. It is a comma separated file. Once opened in excel, filtering is possible. this way more insights can be derived. 
 
 An important conclusion from this data is that countries like Spain and Portugal, once laggards and economically in shock, now show signs of economic recovery, at least for data analysts in general.
 
 To make a more deep analysis about salary by countries and types of IT Jobs, use the [TDESC04](/out/LDESC04.log) output as this table has a complette overview by country and by Job type. Units are in '000 to fit in the canvas. The data of this table is also available in a CSV file here [TDESC04.csv](/data/TDESC04.csv). Drawing here a high level conclusion excluding Machine Learning Jobs, Software Engieneers and Senior Job positions that are very well paid, we have: Data Engineers (DEE) and Data scientists (DSC) that follow in the ranking. Most of job oportunities in 2023 came from Germany (DEE 150K, DSC 130K), Poland (DEE 140K, DSC140K) and Portugal (DEE 130K, DSC 160K). Data Analysts are the lowest paid with an average easily around 90K accross countries. Italy pays around 50K/year to these professionals.
+
+
+*Table 3. TDESC04 output of the descriptive statistics by country and Job. Units in '000s*
+
+|Country     |Parameter    |Business Analyst |Cloud Engineer |Data Analyst |Data Engineer |Data Scientist |Machine Learning Engineer |Senior Data Analyst |Senior Data Engineer |Senior Data Scientist |Software Engineer |
+|:-----------|:------------|:----------------|:--------------|:------------|:-------------|:--------------|:-------------------------|:-------------------|:--------------------|:---------------------|:-----------------|
+|Belgium     |Mean (SD)    |85 (9)           |NA             |99 (46)      |110 (30)      |122 (43)       |86 (11)                   |NA                  |91 (0)               |80 (19)               |60 (20)           |
+|Belgium     |Median (IQR) |91 (16)          |NA             |80 (69)      |101 (34)      |127 (71)       |91 (16)                   |NA                  |91 (0)               |91 (16)               |60 (14)           |
+|Belgium     |N            |5.0              |               |20.0         |11.0          |8.0            |7.0                       |                    |1.0                  |3.0                   |2.0               |
+|Denmark     |Mean (SD)    |NA               |NA             |81 (14)      |125 (36)      |116 (38)       |139 (44)                  |NA                  |151 (0)              |NA                    |NA                |
+|Denmark     |Median (IQR) |NA               |NA             |91 (16)      |125 (26)      |112 (43)       |139 (31)                  |NA                  |151 (0)              |NA                    |NA                |
+|Denmark     |N            |                 |               |5.0          |2.0           |7.0            |2.0                       |                    |2.0                  |                      |                  |
+|Finland     |Mean (SD)    |NA               |NA             |111 (40)     |96 (4)        |120 (32)       |149 (43)                  |110 (6)             |103 (6)              |126 (50)              |77 (0)            |
+|Finland     |Median (IQR) |NA               |NA             |108 (53)     |99 (7)        |118 (28)       |158 (44)                  |114 (5)             |103 (4)              |126 (35)              |77 (0)            |
+|Finland     |N            |                 |               |5.0          |5.0           |4.0            |4.0                       |3.0                 |2.0                  |2.0                   |1.0               |
+|France      |Mean (SD)    |83 (35)          |109 (0)        |84 (34)      |119 (34)      |102 (41)       |93 (37)                   |107 (25)            |139 (25)             |146 (31)              |131 (62)          |
+|France      |Median (IQR) |91 (35)          |109 (0)        |71 (59)      |101 (52)      |90 (72)        |83 (49)                   |114 (22)            |151 (0)              |162 (0)               |146 (105)         |
+|France      |N            |3.0              |1.0            |50.0         |62.0          |57.0           |17.0                      |12.0                |15.0                 |9.0                   |11.0              |
+|Germany     |Mean (SD)    |81 (27)          |123 (56)       |104 (41)     |134 (40)      |120 (47)       |117 (53)                  |102 (19)            |131 (30)             |153 (34)              |93 (44)           |
+|Germany     |Median (IQR) |91 (30)          |91 (57)        |106 (38)     |151 (51)      |135 (90)       |91 (81)                   |114 (27)            |151 (60)             |162 (10)              |87 (33)           |
+|Germany     |N            |11.0             |7.0            |48.0         |39.0          |41.0           |39.0                      |15.0                |26.0                 |21.0                  |10.0              |
+|Greece      |Mean (SD)    |68 (5)           |NA             |115 (41)     |100 (33)      |100 (31)       |119 (37)                  |NA                  |46 (0)               |117 (54)              |93 (39)           |
+|Greece      |Median (IQR) |64 (5)           |NA             |102 (51)     |99 (31)       |92 (19)        |104 (63)                  |NA                  |46 (0)               |91 (66)               |83 (48)           |
+|Greece      |N            |3.0              |               |16.0         |24.0          |12.0           |14.0                      |                    |1.0                  |6.0                   |6.0               |
+|Hungary     |Mean (SD)    |NA               |91 (0)         |90 (32)      |136 (21)      |100 (38)       |112 (63)                  |90 (2)              |151 (0)              |115 (40)              |73 (17)           |
+|Hungary     |Median (IQR) |NA               |91 (0)         |83 (44)      |151 (14)      |91 (36)        |83 (112)                  |90 (1)              |151 (0)              |91 (35)               |70 (27)           |
+|Hungary     |N            |                 |1.0            |18.0         |13.0          |13.0           |5.0                       |2.0                 |3.0                  |3.0                   |4.0               |
+|Ireland     |Mean (SD)    |NA               |NA             |106 (40)     |133 (27)      |114 (45)       |139 (44)                  |132 (63)            |143 (25)             |162 (11)              |91 (0)            |
+|Ireland     |Median (IQR) |NA               |NA             |101 (31)     |151 (51)      |105 (60)       |171 (61)                  |121 (62)            |151 (0)              |166 (12)              |91 (0)            |
+|Ireland     |N            |                 |               |19.0         |9.0           |6.0            |5.0                       |3.0                 |6.0                  |4.0                   |1.0               |
+|Italy       |Mean (SD)    |44 (0)           |NA             |76 (27)      |115 (26)      |99 (38)        |91 (16)                   |106 (13)            |NA                   |85 (19)               |96 (16)           |
+|Italy       |Median (IQR) |44 (0)           |NA             |54 (51)      |100 (40)      |91 (56)        |91 (16)                   |114 (11)            |NA                   |75 (17)               |96 (11)           |
+|Italy       |N            |1.0              |               |11.0         |12.0          |12.0           |3.0                       |3.0                 |                     |3.0                   |2.0               |
+|Netherlands |Mean (SD)    |88 (22)          |NA             |101 (34)     |110 (25)      |139 (32)       |130 (54)                  |114 (0)             |141 (28)             |129 (47)              |113 (69)          |
+|Netherlands |Median (IQR) |91 (21)          |NA             |96 (38)      |100 (18)      |162 (53)       |126 (89)                  |114 (0)             |151 (0)              |151 (43)              |91 (66)           |
+|Netherlands |N            |3.0              |               |20.0         |23.0          |17.0           |12.0                      |1.0                 |5.0                  |3.0                   |3.0               |
+|Poland      |Mean (SD)    |90 (30)          |104 (61)       |90 (30)      |121 (41)      |124 (40)       |115 (39)                  |110 (12)            |102 (41)             |136 (33)              |95 (22)           |
+|Poland      |Median (IQR) |89 (14)          |86 (15)        |91 (55)      |137 (58)      |135 (70)       |91 (53)                   |114 (0)             |91 (62)              |162 (68)              |91 (0)            |
+|Poland      |N            |8.0              |6.0            |43.0         |46.0          |29.0           |23.0                      |9.0                 |9.0                  |12.0                  |15.0              |
+|Portugal    |Mean (SD)    |72 (12)          |NA             |96 (31)      |125 (27)      |136 (34)       |145 (46)                  |114 (0)             |122 (45)             |129 (39)              |121 (38)          |
+|Portugal    |Median (IQR) |75 (12)          |NA             |91 (39)      |129 (52)      |157 (49)       |171 (82)                  |114 (0)             |151 (60)             |151 (58)              |97 (69)           |
+|Portugal    |N            |3.0              |               |37.0         |30.0          |22.0           |14.0                      |4.0                 |5.0                  |11.0                  |5.0               |
+|Romania     |Mean (SD)    |83 (0)           |58 (0)         |76 (25)      |106 (36)      |112 (37)       |144 (45)                  |129 (48)            |121 (42)             |NA                    |133 (79)          |
+|Romania     |Median (IQR) |83 (0)           |58 (0)         |75 (40)      |100 (29)      |124 (60)       |171 (39)                  |114 (27)            |121 (30)             |NA                    |144 (122)         |
+|Romania     |N            |1.0              |1.0            |12.0         |6.0           |7.0            |3.0                       |4.0                 |2.0                  |                      |4.0               |
+|Spain       |Mean (SD)    |114 (58)         |93 (35)        |94 (24)      |120 (35)      |96 (33)        |116 (51)                  |110 (8)             |127 (36)             |143 (60)              |106 (58)          |
+|Spain       |Median (IQR) |89 (96)          |91 (35)        |94 (31)      |137 (60)      |90 (23)        |104 (72)                  |114 (0)             |151 (60)             |162 (50)              |79 (90)           |
+|Spain       |N            |5.0              |3.0            |30.0         |35.0          |20.0           |16.0                      |9.0                 |11.0                 |7.0                   |8.0               |
+|Sweden      |Mean (SD)    |85 (25)          |NA             |100 (22)     |136 (58)      |137 (34)       |133 (45)                  |93 (36)             |151 (0)              |175 (22)              |161 (0)           |
+|Sweden      |Median (IQR) |91 (14)          |NA             |108 (21)     |137 (53)      |162 (47)       |145 (43)                  |114 (31)            |151 (0)              |175 (22)              |161 (0)           |
+|Sweden      |N            |7.0              |               |9.0          |8.0           |7.0            |3.0                       |3.0                 |6.0                  |3.0                   |1.0               |
+
 
 A quick overview of the TDESC04 can be done by looking at the [EDA1 Scaterplot 4.0.1 ](/plot/EDA1%20Scaterpots%204.0.1.png), as it displays data by country and by IT Job oportunity. 'n' represents the total of jobs available within the country. Notice that the number of jobs available are the biggest in France, Germany, Poland, Portugal and Spain. These are casually the countries where DEEs and DSCs are better paid. In all of them  Data Analysts are less paid compared to any other professional. Data scientists (DSC) are in diametral oposition to Data Analysts as they receive higher salaries in average. Table [TDESC04.csv](/data/TDESC04.csv) contains all specific data. Additional Plot [here](/plot/EDA1%20Scaterpots%204.0.1.png), or [here](/plot/EDA1%20Scaterpots%204.0.2.png)
 
@@ -209,10 +264,74 @@ To conclude, the []  Data Engineers are expected to know a lot more than Data Sc
 
 Another interesting trend to close this chapter is interchangability of a Data Analyst and a Data Scientist in the workplace. To explore this trend only data was taken with counts within categories higher than 15 records see [EDA1 Scaterplots 3.0.13](/plot/EDA1%20Scaterpots%203.0.13.png). this was done to have a higher view of the data for Data Analysts and Data Scientists. Consider this like a sum out the data. By doing this the skill set was reduced to  Excel, Python SQL and Tableau. These 2 IT Job categories clustered nicely in these skills set. Thus, as Data Analyst, better to change the CV to one of Data Scientist, which is more or less the same and it is better paid. Recruiters will prefer posting that job as a Data Analyst job in ordr to save between 30K-40K a year (see [LDESC03](/out/LDESC03.log)).
 
+*Figure 3.EDA1 Scatterplots 3.0.13 sample selected countries. X-axis in USD/year. Data Analysts in blue and Data Scientists in red*
+
+![EDA1 Scatterplots 3.0.13](/plot/EDA1%20Scaterpots%203.0.13%20sample.PNG)
 
 ## Analysis by Skills in a selected subset
 
-Moving forward. The analysis of salary according type of skill was done without taking into account the type of IT job reported. By doing this clusters of skills can be found  for big earners. With this purpose in mind, tables [LDESC05 - LDESC07](/out/) were made, and based on this table a subset of skills was composed ([LDESC08](/out/LDESC08.log) is the shortest). These skills are the highest paid. Lets take a look at the [LDESC07](/out/LDESC07.log). This table presents the Skill ranking respect to salary categories as follows. Yearly salary from 60K - 90K  is grouped in one category (T6_9). This is done up to 240K-270K (T24_27), which is the last salary range. Further, skills data is separated in these categories and counted by category. For example the AWS category in the first row. AWS represents the job vacancies that IT professionals must know if they want to be in the highes tier of payment. in the range of a yearly salary between 60K-90K there is not a single job offering, meaning that these professionals may command a better payment. There were 43 vacancies for professionals where AWS was required for a gross salary of 120.000 - 150.000 USD among the 15 countries here analyzed. 
+Moving forward. The analysis of salary according type of skill was done without taking into account the type of IT job reported. By doing this clusters of skills can be found  for big earners. With this purpose in mind, tables [LDESC05 - LDESC07](/out/) were made, and based on this table a subset of skills was composed ([LDESC08](/out/LDESC08.log) is the shortest). These skills are the highest paid. Lets take a look at the [LDESC07](/out/LDESC07.log). 
+
+*Table 4. LDESC08 output with selected rows of the original output with descriptive statistics by country and Job. Units in '000s*
+
+|Skills        | T6_9| T9_12| T12_15| T15_18| T18_21| T21_24| T24_27|
+|:-------------|----:|-----:|------:|------:|------:|------:|------:|
+|aws           |   NA|    41|     43|      7|     NA|     NA|     NA|
+|spark         |   NA|    38|     38|      4|     NA|     NA|     NA|
+|airflow       |   NA|    17|     36|      2|     NA|     NA|     NA|
+|snowflake     |    1|    15|     34|      1|     NA|     NA|     NA|
+|python        |   NA|    82|     33|     NA|     NA|     NA|     NA|
+|looker        |    1|    18|     29|      1|     NA|     NA|     NA|
+|databricks    |    7|    19|     28|     NA|     NA|     NA|     NA|
+|sql           |   NA|    83|     26|     NA|     NA|     NA|     NA|
+|go            |    8|    31|     26|     NA|     NA|     NA|     NA|
+|pandas        |    1|    15|     25|      1|     NA|     NA|     NA|
+|azure         |   NA|    64|     24|     NA|     NA|     NA|     NA|
+|gcp           |   NA|    25|     23|      6|     NA|     NA|     NA|
+|redshift      |    1|    10|     20|      5|     NA|     NA|     NA|
+|java          |   NA|    43|     19|      1|     NA|     NA|     NA|
+|bigquery      |    2|    15|     19|      1|      1|     NA|     NA|
+|kafka         |   12|    12|     18|      7|     NA|     NA|     NA|
+|pyspark       |   NA|    10|     18|      2|     NA|     NA|     NA|
+|oracle        |   14|    14|     17|      1|     NA|     NA|     NA|
+|docker        |    1|    39|     16|      2|     NA|     NA|     NA|
+|scala         |   NA|    33|     16|     NA|     NA|     NA|     NA|
+|git           |    5|    29|     16|      3|     NA|     NA|     NA|
+|pytorch       |   NA|    21|     16|      3|     NA|     NA|     NA|
+|tensorflow    |   NA|    17|     15|      5|      1|     NA|     NA|
+|kubernetes    |    9|    24|     14|      3|     NA|     NA|     NA|
+|numpy         |   NA|    11|     14|      7|     NA|     NA|     NA|
+|terraform     |    5|    19|     13|      1|     NA|     NA|     NA|
+|postgresql    |    3|     5|     13|      4|     NA|     NA|     NA|
+|hadoop        |    4|    20|     12|      5|     NA|     NA|     NA|
+|scikit-learn  |    6|     6|     12|      4|     NA|     NA|     NA|
+|mysql         |    5|     2|     12|      2|     NA|     NA|     NA|
+|tableau       |    4|    54|     11|     NA|     NA|     NA|     NA|
+|jira          |    5|    15|     11|      1|     NA|     NA|     NA|
+|sql server    |    4|    13|     10|      2|     NA|     NA|     NA|
+|gdpr          |    4|    13|     10|      2|     NA|     NA|     NA|
+|c++           |   NA|    17|      9|     NA|      1|      1|     NA|
+|power bi      |   18|    36|      8|     NA|     NA|     NA|     NA|
+|elasticsearch |    4|     6|      8|     NA|     NA|     NA|     NA|
+|matlab        |   10|     2|      8|     NA|     NA|     NA|     NA|
+|flow          |    4|    19|      7|      2|     NA|     NA|     NA|
+|jenkins       |    9|    10|      7|      5|     NA|     NA|     NA|
+|matplotlib    |    2|     9|      7|      2|      1|     NA|     NA|
+|nosql         |    5|    26|      6|      8|     NA|     NA|     NA|
+|jupyter       |    6|     7|      6|      2|     NA|     NA|     NA|
+|sap           |   11|    24|      5|     NA|     NA|     NA|     NA|
+|github        |    2|    18|      5|      5|      1|     NA|     NA|
+|qlik          |    6|    17|      5|     NA|     NA|     NA|     NA|
+|c#            |    4|    16|      5|      1|     NA|     NA|     NA|
+|mongodb       |    3|    14|      4|     NA|      2|     NA|     NA|
+|ssis          |    5|     6|      4|      2|     NA|     NA|     NA|
+|confluence    |    5|     2|      4|      2|     NA|     NA|     NA|
+|shell         |    8|     2|      4|      1|     NA|     NA|     NA|
+|redis         |    2|     1|      4|     NA|     NA|     NA|     NA|
+|r             |    2|    57|      3|     NA|     NA|     NA|     NA|
+|excel         |   38|    16|      3|     NA|     NA|     NA|     NA|
+
+This table presents the Skill ranking respect to salary categories as follows. Yearly salary from 60K - 90K  is grouped in one category (T6_9). This is done up to 240K-270K (T24_27), which is the last salary range. Further, skills data is separated in these categories and counted by category. For example the AWS category in the first row. AWS represents the job vacancies that IT professionals must know if they want to be in the highes tier of payment. in the range of a yearly salary between 60K-90K there is not a single job offering, meaning that these professionals may command a better payment. There were 43 vacancies for professionals where AWS was required for a gross salary of 120.000 - 150.000 USD among the 15 countries here analyzed. 
 
 Based on this table, the most popular skills in job availability in the IT data analysis sector are AWS, Spark, Airflow, Snowflake and so forth. The table is arranged descending following the T12_T15 salary category which is the most important category that convines data availability with strong yearly salary. 
 
@@ -224,6 +343,129 @@ A subset was necesary as there are many skills available, see the [EDA1 Heatmap 
 The top row is for Software engineer. Notice that this is very open category with very different skills requirement. Notice that Cloud Engineer is a very exclusive type of IT professional. Most of job descriptions reauest Databricks; Looker and Snowflake mainly. The cheapest category looks to be that of data analyst. different skills required but none well paid. 
 
 To wrap up, There is this plot [EDA2 Scaterplots 5.0](/plot/EDA2%20Scaterpots%205.0.png) that can be seing along with the dataset [EDA2 Scaterplots 5.0](/data/EDA2_Scaterplots_5.0.csv). It presents the highest paid skills by different countries. a letter is assigned to each skill and letters are plot over the country canvas. In the data it can be seeing that Tensorflow (A), Bigquery (B), Git (C) and so forth are plotted onto the plot canvas. AWS (X) was one of these skills that paid well and appeared in many vacancies. If 'X' is followed accross the countries it can be seeing that It lays normally in the upper level. Despite this graph is interesting to see the distribution of skills across salary values, it is not interesting to define skill clusters by job type. 
+
+*Table 5. LDESC08 output with selected rows of the original output with descriptive statistics by country and Job. Units in '000s*
+
+|Skills       | T6_9| T9_12| T12_15| T15_18| T18_21| T21_24| T24_27|Job                       |
+|:------------|----:|-----:|------:|------:|------:|------:|------:|:-------------------------|
+|sql          |    9|    78|     27|     71|      1|     NA|     NA|Data Engineer             |
+|python       |    7|    88|     21|     68|      1|      1|      1|Data Engineer             |
+|aws          |    3|    55|     21|     39|     NA|     NA|      1|Data Engineer             |
+|python       |   26|    34|     21|     58|      7|     NA|     NA|Data Scientist            |
+|spark        |    6|    50|     19|     57|     NA|      3|      2|Data Engineer             |
+|airflow      |    1|    19|     14|     24|      1|     NA|      1|Data Engineer             |
+|sql          |   17|    27|     12|     40|      6|     NA|     NA|Data Scientist            |
+|azure        |    5|    46|     11|     26|      1|     NA|      1|Data Engineer             |
+|git          |    2|    25|      9|      8|     NA|     NA|     NA|Data Engineer             |
+|snowflake    |   NA|     9|      9|     15|     NA|     NA|      1|Data Engineer             |
+|bigquery     |   NA|     8|      9|     12|     NA|     NA|     NA|Data Engineer             |
+|scala        |    1|    27|      8|     24|     NA|     NA|     NA|Data Engineer             |
+|gcp          |    3|    23|      8|     17|     NA|     NA|     NA|Data Engineer             |
+|docker       |    2|    23|      8|     12|     NA|     NA|     NA|Data Engineer             |
+|kubernetes   |    1|    18|      7|      7|      1|     NA|      1|Data Engineer             |
+|pyspark      |   NA|     8|      7|      9|      1|     NA|     NA|Data Engineer             |
+|azure        |    6|     5|      7|     14|      1|     NA|     NA|Data Scientist            |
+|aws          |    4|     3|      6|     17|      3|     NA|     NA|Data Scientist            |
+|sql          |   28|    98|      5|     12|     NA|     NA|     NA|Data Analyst              |
+|java         |    3|    35|      5|     31|     NA|     NA|     NA|Data Engineer             |
+|hadoop       |    3|    19|      5|     19|     NA|     NA|      1|Data Engineer             |
+|tableau      |    6|     8|      5|     18|      2|     NA|     NA|Data Scientist            |
+|spark        |    6|     6|      5|     20|      2|     NA|     NA|Data Scientist            |
+|pandas       |    6|     1|      5|     12|      1|     NA|     NA|Data Scientist            |
+|databricks   |   NA|    24|      4|     10|      1|     NA|     NA|Data Engineer             |
+|tableau      |    4|     8|      4|     12|     NA|     NA|     NA|Data Engineer             |
+|oracle       |   NA|     8|      4|      7|     NA|     NA|     NA|Data Engineer             |
+|go           |    1|     6|      4|      7|     NA|     NA|      1|Data Engineer             |
+|scikit-learn |    5|     5|      4|     10|      1|     NA|     NA|Data Scientist            |
+|gcp          |    1|     1|      4|      4|      1|     NA|     NA|Data Scientist            |
+|python       |   20|    70|      3|     11|     NA|      2|     NA|Data Analyst              |
+|kafka        |    3|    25|      3|     27|     NA|     NA|     NA|Data Engineer             |
+|looker       |    2|    20|      3|      1|     NA|     NA|     NA|Data Analyst              |
+|tableau      |   NA|    18|      3|     NA|     NA|     NA|     NA|Senior Data Analyst       |
+|terraform    |    3|    12|      3|     16|     NA|     NA|     NA|Data Engineer             |
+|mysql        |   NA|     6|      3|      8|     NA|     NA|     NA|Data Engineer             |
+|jira         |   NA|     4|      3|      4|     NA|     NA|     NA|Data Engineer             |
+|numpy        |    3|     2|      3|      8|      1|     NA|     NA|Data Scientist            |
+|databricks   |    3|     2|      3|      3|      1|     NA|     NA|Data Scientist            |
+|docker       |    2|     2|      3|      7|     NA|     NA|     NA|Data Scientist            |
+|pandas       |   NA|     2|      3|     NA|     NA|     NA|     NA|Data Engineer             |
+|postgresql   |   NA|    11|      2|      8|     NA|     NA|     NA|Data Engineer             |
+|python       |    6|    10|      2|      5|     NA|      3|     NA|Software Engineer         |
+|redshift     |    1|    10|      2|     10|     NA|     NA|     NA|Data Engineer             |
+|go           |   NA|     8|      2|     NA|     NA|     NA|     NA|Senior Data Analyst       |
+|tensorflow   |    7|     6|      2|     13|      1|     NA|     NA|Data Scientist            |
+|looker       |   NA|     6|      2|      4|     NA|     NA|     NA|Data Engineer             |
+|bigquery     |   NA|     6|      2|      2|     NA|     NA|     NA|Data Analyst              |
+|pytorch      |    7|     5|      2|     10|      1|     NA|     NA|Data Scientist            |
+|git          |    5|     3|      2|      8|      2|     NA|     NA|Data Scientist            |
+|hadoop       |    1|     3|      2|     11|      1|     NA|     NA|Data Scientist            |
+|tableau      |   15|    55|      1|      3|     NA|     NA|     NA|Data Analyst              |
+|python       |   14|    42|      1|     41|     10|      1|      3|Machine Learning Engineer |
+|sql          |   NA|    38|      1|      1|     NA|     NA|     NA|Senior Data Analyst       |
+|aws          |    8|    20|      1|     18|      2|      1|      2|Machine Learning Engineer |
+|python       |   NA|    18|      1|      1|     NA|      1|     NA|Senior Data Analyst       |
+|tensorflow   |    7|    16|      1|     16|      6|     NA|     NA|Machine Learning Engineer |
+|azure        |    6|    12|      1|      7|      1|     NA|      1|Machine Learning Engineer |
+|scikit-learn |    2|    11|      1|      3|      3|     NA|     NA|Machine Learning Engineer |
+|python       |    4|    10|      1|     38|      3|     NA|      1|Senior Data Scientist     |
+|kubernetes   |    6|    10|      1|     10|      3|     NA|     NA|Machine Learning Engineer |
+|sql          |    3|     6|      1|     35|      2|     NA|     NA|Senior Data Scientist     |
+|pytorch      |    7|    19|     NA|     14|      5|     NA|     NA|Machine Learning Engineer |
+|spark        |    4|    18|     NA|      8|      7|     NA|      1|Machine Learning Engineer |
+|spark        |    6|    16|     NA|      5|      1|      3|     NA|Data Analyst              |
+|azure        |    5|    16|     NA|     13|      1|     NA|     NA|Data Analyst              |
+|looker       |   NA|    16|     NA|     NA|     NA|     NA|     NA|Senior Data Analyst       |
+|aws          |   NA|    15|     NA|     31|      1|     NA|     NA|Senior Data Engineer      |
+|docker       |    5|    14|     NA|     13|      1|     NA|     NA|Machine Learning Engineer |
+|sql          |    9|    12|     NA|      1|      1|     NA|     NA|Business Analyst          |
+|python       |    1|    12|     NA|     41|      1|     NA|     NA|Senior Data Engineer      |
+|sql          |    2|    10|     NA|     39|     NA|     NA|     NA|Senior Data Engineer      |
+|git          |    1|     9|     NA|      5|      1|     NA|     NA|Machine Learning Engineer |
+|spark        |   NA|     9|     NA|     26|     NA|     NA|     NA|Senior Data Engineer      |
+|airflow      |    2|     9|     NA|      2|     NA|     NA|     NA|Data Analyst              |
+|tableau      |    5|     9|     NA|      1|     NA|     NA|     NA|Business Analyst          |
+|pandas       |    2|     9|     NA|     NA|     NA|     NA|     NA|Data Analyst              |
+|airflow      |    2|     8|     NA|      4|      2|     NA|      1|Machine Learning Engineer |
+|git          |    3|     8|     NA|      1|     NA|      1|     NA|Data Analyst              |
+|snowflake    |   NA|     8|     NA|     18|     NA|     NA|     NA|Senior Data Engineer      |
+|java         |    1|     8|     NA|     10|     NA|     NA|     NA|Senior Data Engineer      |
+|kubernetes   |   NA|     8|     NA|      8|     NA|     NA|     NA|Senior Data Engineer      |
+|gcp          |    3|     8|     NA|      6|     NA|     NA|     NA|Data Analyst              |
+|snowflake    |    2|     8|     NA|      4|     NA|     NA|     NA|Data Analyst              |
+|databricks   |    3|     8|     NA|      4|     NA|     NA|     NA|Data Analyst              |
+|python       |    2|     7|     NA|     NA|     NA|      1|     NA|Cloud Engineer            |
+|python       |    4|     7|     NA|      1|      1|     NA|     NA|Business Analyst          |
+|azure        |   NA|     7|     NA|     25|      1|     NA|     NA|Senior Data Engineer      |
+|aws          |    4|     7|     NA|      7|      1|     NA|     NA|Data Analyst              |
+|terraform    |   NA|     7|     NA|      6|     NA|     NA|     NA|Senior Data Engineer      |
+|java         |    4|     6|     NA|      7|      1|     NA|      2|Machine Learning Engineer |
+|sql          |    4|     6|     NA|     14|      5|     NA|      1|Machine Learning Engineer |
+|kubernetes   |    4|     6|     NA|     NA|     NA|      1|     NA|Software Engineer         |
+|kafka        |   NA|     6|     NA|     17|     NA|     NA|     NA|Senior Data Engineer      |
+|go           |   NA|     6|     NA|     10|     NA|     NA|     NA|Senior Data Engineer      |
+|docker       |   NA|     6|     NA|      8|     NA|     NA|     NA|Senior Data Engineer      |
+|pyspark      |    1|     4|     NA|      2|      2|     NA|     NA|Data Scientist            |
+|kafka        |   NA|     4|     NA|      4|      2|     NA|     NA|Machine Learning Engineer |
+|airflow      |   NA|     4|     NA|     24|     NA|     NA|     NA|Senior Data Engineer      |
+|gcp          |   NA|     4|     NA|     14|     NA|     NA|     NA|Senior Data Engineer      |
+|databricks   |   NA|     4|     NA|     11|     NA|     NA|     NA|Senior Data Engineer      |
+|scala        |   NA|     4|     NA|     10|     NA|     NA|     NA|Senior Data Engineer      |
+|azure        |    2|     2|     NA|      7|     NA|     NA|      1|Senior Data Scientist     |
+|aws          |    2|     2|     NA|     14|     NA|     NA|      1|Senior Data Scientist     |
+|spark        |   NA|     2|     NA|     17|      2|     NA|     NA|Senior Data Scientist     |
+|airflow      |    1|     2|     NA|     15|     NA|     NA|     NA|Senior Data Scientist     |
+|snowflake    |   NA|     2|     NA|     12|     NA|     NA|     NA|Senior Data Scientist     |
+|git          |   NA|     2|     NA|      8|     NA|     NA|     NA|Senior Data Engineer      |
+|tableau      |   NA|     2|     NA|      7|     NA|     NA|     NA|Senior Data Engineer      |
+|snowflake    |   NA|     1|     NA|      2|      1|     NA|     NA|Machine Learning Engineer |
+|redshift     |    1|     1|     NA|      3|      1|     NA|     NA|Data Scientist            |
+|pyspark      |   NA|     1|     NA|      2|      1|     NA|     NA|Machine Learning Engineer |
+|jira         |    2|     1|     NA|     NA|      1|     NA|     NA|Data Scientist            |
+|redshift     |   NA|     1|     NA|     12|     NA|     NA|     NA|Senior Data Engineer      |
+|bigquery     |   NA|     1|     NA|     12|     NA|     NA|     NA|Senior Data Engineer      |
+|tableau      |    1|     1|     NA|     11|     NA|     NA|     NA|Senior Data Scientist     |
+|looker       |   NA|    NA|     NA|     10|     NA|     NA|     NA|Senior Data Scientist     |
+|git          |   NA|    NA|     NA|      8|     NA|     NA|     NA|Senior Data Scientist  
 
 The most important dataset in this research is the [LDESC08](/data/LDESC08.csv). As it presents the job availability count by IT Job. The variable country is not included. The reason is that otherwise the data becomes too detailed, besides, in general it can be said that there are skills that are highly paid regardless the country. The amount of data is not big enough to go in this detail. [LDESC08](/out/LDESC08.log) is the output comming from the [LDESC08](/data/LDESC08.csv) data. The same logic applies here as [LDESC07](/out/LDESC07.log). Columns represent the same categories, but additionally, the Job type is added. All records are ordered by the count of jobs available by category. The most important column is that one for T15_18 or in the category of 150K-180K USD/year. Best paid job is that of Data Engineer, then it is Data Scientist. Third is Machine Lerning Engineer. 
 
